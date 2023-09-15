@@ -1,4 +1,6 @@
-# Documentation example
+# Climate primer for water availability assessments
 
-We use this example in one [CodeRefinery](https://coderefinery.org/) lesson:
-- https://coderefinery.github.io/documentation/
+
+[https://ncar.github.io/climate-primer-water/](https://ncar.github.io/climate-primer-water/)
+
+
