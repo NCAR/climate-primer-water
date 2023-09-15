@@ -94,6 +94,9 @@ html_show_sourcelink = True
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+}
+
+html_context = {
     'display_github': True,
     'github_user': 'NCAR',
     'github_repo': 'climate-primer-water',
