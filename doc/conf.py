@@ -95,6 +95,8 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False,
     'display_github': True,
+    'github_user': 'NCAR',
+    'github_repo': 'climate-primer-water',
     'github_version': 'main/doc/',
 }
 
