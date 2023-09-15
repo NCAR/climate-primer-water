@@ -94,6 +94,8 @@ html_show_sourcelink = True
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'display_github': True,
+    'github_version': 'main/doc/',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
