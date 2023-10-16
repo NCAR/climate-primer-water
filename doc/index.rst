@@ -7,7 +7,7 @@
 Climate Primer for Water Availability Assessments
 ===========================================================
 ----------------------------------------------------------------------------------------------
-A joint project of the National Center for Atmospheric Research and the U.S. Geological Survey
+A project of the National Center for Atmospheric Research
 ----------------------------------------------------------------------------------------------
 
 .. toctree::
