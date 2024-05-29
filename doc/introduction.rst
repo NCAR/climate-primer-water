@@ -10,6 +10,10 @@ Motivation
 - Why does climate information matter?
 - Who is the target audience?
 
+.. collapse:: Details
+
+    Something small enough to escape casual notice.
+
 
 Empathy Interviews
 ------------------
