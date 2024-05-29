@@ -11,6 +11,17 @@ Baseline natural variability
 
 Write me.
 
+::::{admonition} Here is an admonition with a dropdown
+
+Admonition content
+
+:::{dropdown} Dropdown inside admonition
+:icon: quote
+
+{{ loremipsum }}
+:::
+::::
+
 
 Observational datasets and their uncertainties
 ----------------------------------------------
