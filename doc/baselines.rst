@@ -11,13 +11,13 @@ Baseline natural variability
 
 Write me.
 
-.. admonition:: Admonition
+.. admonition:: Generic admonitions has a title
 
-Admonition content
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 .. dropdown:: Dropdown title
 
-    Dropdown content
+   Dropdown content
 
 
 Observational datasets and their uncertainties
