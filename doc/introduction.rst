@@ -196,9 +196,9 @@ specifics of the study goals and needs, and can vary from study to
 study. You will need to balance the relevancy of the data and its
 reliability with the practicality of implementing the study.
 
-.. dropdown:: What is relevant?
+:::{dropdown} What is relevant?
     
-    {{Simply stated, the “\ **what is relevant**\ ” question asks you to identify which climate impacts and climate-derived data are important. The answer will likely vary depending on the mission area and specific decisions that need to be made.        
+    Simply stated, the “\ **what is relevant**\ ” question asks you to identify which climate impacts and climate-derived data are important. The answer will likely vary depending on the mission area and specific decisions that need to be made.        
 When determining what data are relevant to a study, you should consider:
 
 1. Climate data that describe potential future climate conditions
@@ -281,7 +281,7 @@ and precipitation projections:
 |    sediment)                                                          |
 +=======================================================================+
 +-----------------------------------------------------------------------+
-}}
+
 :::
 ::::
 
