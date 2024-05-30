@@ -196,12 +196,9 @@ specifics of the study goals and needs, and can vary from study to
 study. You will need to balance the relevancy of the data and its
 reliability with the practicality of implementing the study.
 
-.. admonition:: What is relevant?
 
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 .. dropdown:: **What is relevant?**
-
 
 Simply stated, the “\ **what is relevant**\ ” question asks you to
 identify which climate impacts and climate-derived data are important.
