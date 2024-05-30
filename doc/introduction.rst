@@ -199,7 +199,6 @@ reliability with the practicality of implementing the study.
 
 
 .. dropdown:: **What is relevant?**
-
 Simply stated, the “\ **what is relevant**\ ” question asks you to
 identify which climate impacts and climate-derived data are important.
 The answer will likely vary depending on the mission area and specific
