@@ -182,24 +182,28 @@ integration of climate change information:
 2. What is reliable?
 
    a. There is a varying degree of confidence in projected climate and
-      climate-derived data. :mark:`We must consider which set of climate
+      climate-derived data. We must consider which set of climate
       projection data to rely on and which potential climate futures to
-      consider.`
+      consider
 
 3. What is practical?
 
    a. The realities of the project, such as the availability of
       resources, time, and personnel.
 
-:mark:`The answer to these questions are closely related to the
+The answer to these questions are closely related to the
 specifics of the study goals and needs, and can vary from study to
 study. You will need to balance the relevancy of the data and its
-reliability with the practicality of implementing the study.`
+reliability with the practicality of implementing the study.
 
-**What is relevant?**
-'''''''''''''''''''''
+.. admonition:: What is relevant?
 
-Simply stated, the “\ **what is relevan**\ t” question asks you to
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+.. dropdown:: **What is relevant?**
+
+
+Simply stated, the “\ **what is relevant**\ ” question asks you to
 identify which climate impacts and climate-derived data are important.
 The answer will likely vary depending on the mission area and specific
 decisions that need to be made.
