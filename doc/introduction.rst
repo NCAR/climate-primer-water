@@ -199,12 +199,11 @@ reliability with the practicality of implementing the study.
 .. dropdown:: What is relevant?
     
     Simply stated, the “\ **what is relevant**\ ” question asks you to identify which climate impacts and climate-derived data are important. The answer will likely vary depending on the mission area and specific decisions that need to be made.        
-When determining what data are relevant to a study, you should consider
+    When determining what data are relevant to a study, you should consider
 
-1. Climate data that describe potential future climate conditions
-   relevant to the study goals
+    1. Climate data that describe potential future climate conditions relevant to the study goals
 
-2. System performance measures that are relevant
+    2. System performance measures that are relevant
 
 For a specific watershed, snowmelt may be more relevant to seasonal
 streamflow and groundwater recharge than rainfall. Therefore,
