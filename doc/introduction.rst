@@ -168,6 +168,7 @@ a system performance measure. Here are the measures for the questions.
 
 2.2.1.1 What is relevant, reliable and practical
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
 
 Once you’ve defined your study questions and objectives, there are three
 primary questions to answer when scoping a study that involves the
@@ -276,102 +277,45 @@ reliability with the practicality of implementing the study.
      -  Water quality issues (water temperature, water chemistry,          
         sediment)                                                          
 
+.. dropdown:: What is reliable?
+    
+    The “\ **what is reliable”** question recognizes that there is a varying degree of confidence in projected climate and climate-derived data. In understanding what is reliable we should think about the following:
 
+    -  Balance reliability with relevancy
 
-**What is reliable?**
-'''''''''''''''''''''
+    -  Consider time horizons for the study
 
-The “\ **what is reliable”** question recognizes that there is a varying
-degree of confidence in projected climate and climate-derived data. In
-understanding what is reliable we should think about the following:
+    -  Use historical observations to help determine reliability
 
--  Balance reliability with relevancy
+    We must consider which set of climate projection data to rely on and which potential climate futures to consider.The issues of reliability and uncertainty and how they depend on time-horizon, spatial-scale, and means or extremes of a climate variable is also discussed in Chapter III of this primer.
 
--  Consider time horizons for the study
+    Given the inherent uncertainty in climate projections, when considering climate futures, you may need to strike a balance between using climate data that is relevant and using data that is reliable enough for the purpose and particulars of your study. For example, highly uncertain data may be fine for a study exploring system vulnerabilities to potential climate change scenarios but may be far too unreliable to underpin an infrastructure investment.
 
--  Use historical observations to help determine reliability
+    Balancing Reliability With Relevancy
 
-We must consider which set of climate projection data to rely on and
-which potential climate futures to consider.The issues of reliability
-and uncertainty and how they depend on time-horizon, spatial-scale, and
-means or extremes of a climate variable is also discussed in Chapter III
-of this primer.
+    |image1|
 
-Given the inherent uncertainty in climate projections, when considering
-climate futures, you may need to strike a balance between using climate
-data that is relevant and using data that is reliable enough for the
-purpose and particulars of your study. For example, highly uncertain
-data may be fine for a study exploring system vulnerabilities to
-potential climate change scenarios but may be far too unreliable to
-underpin an infrastructure investment.
+    How do you determine which data are reliable enough to be trusted with answering the questions posed by the scoping study? Here the challenge is to determine how reliable data needs to be for us to consider it “reliable enough” for inclusion as potential future climate data.
 
-Figure X Balancing Reliability With Relevancy
+    On a relative scale of reliability, average long-term temperature trends are the most reliable. In addition, many mission areas require future temperature-derived information, such as frequency of heat waves, seasonal snow, and potential evaporation. These are less reliable but still considered relatively reliable at representing potential future climate. The slightly lower rating is due to the need for more time- and space-specific information, and the influence of less reliably projected phenomena such as precipitation, wind, and cloudiness.
 
-|image1|
+    Precipitation projections are more uncertain but may still be relatively reliable on larger regional scales and for long-term averages. Depending on your study questions, mission areas such as Long-term Planning, Reservoir Operations, and Adaptive Management may still benefit from precipitation data that are only moderately reliable at describing potential future climates.
 
-How do you determine which data are reliable enough to be trusted with
-answering the questions posed by the scoping study? Here the challenge
-is to determine how reliable data needs to be for us to consider it
-“reliable enough” for inclusion as potential future climate data.
+    Once we are considering specific short-duration, local-area precipitation and precipitation-derived variables, reliability is much lower. Yet, these data are highly relevant to study questions related to extreme precipitation and runoff thresholds. Since extremes, by definition, occur rarely, we need to represent low-probability, high consequence events in a potential future climate.
 
-On a relative scale of reliability, average long-term temperature trends
-are the most reliable. In addition, many mission areas require future
-temperature-derived information, such as frequency of heat waves,
-seasonal snow, and potential evaporation. These are less reliable but
-still considered relatively reliable at representing potential future
-climate. The slightly lower rating is due to the need for more time- and
-space-specific information, and the influence of less reliably projected
-phenomena such as precipitation, wind, and cloudiness.
+    Other approaches may help with extracting the most reliable possible information about local extremes, such as those related to the study time period and/or the use of historic observations.
 
-Precipitation projections are more uncertain but may still be relatively
-reliable on larger regional scales and for long-term averages. Depending
-on your study questions, mission areas such as Long-term Planning,
-Reservoir Operations, and Adaptive Management may still benefit from
-precipitation data that are only moderately reliable at describing
-potential future climates.
+    A study’s time horizon may help minimize some of the reliability issues when dealing with highly uncertain climate variables. Consider the cone below, where the lines and colored circles represent the hypothetical futures for five climate projections. The left side represents the current time, the right side 2100.
 
-Once we are considering specific short-duration, local-area
-precipitation and precipitation-derived variables, reliability is much
-lower. Yet, these data are highly relevant to study questions related to
-extreme precipitation and runoff thresholds. Since extremes, by
-definition, occur rarely, we need to represent low-probability, high
-consequence events in a potential future climate.
+    |image2|
 
-Other approaches may help with extracting the most reliable possible
-information about local extremes, such as those related to the study
-time period and/or the use of historic observations.
+    Historical observations may be used to increase our confidence in using variables with high uncertainty by providing context about the range of future conditions. This issue is also discussed in Chapter III of this primer. Historic observations fall into two categories:
 
-A study’s time horizon may help minimize some of the reliability issues
-when dealing with highly uncertain climate variables. Consider the cone
-below, where the lines and colored circles represent the hypothetical
-futures for five climate projections. The left side represents the
-current time, the right side 2100.
+    -  Those from the period of instrumentation, which contains directly measured amounts and timing as well as trends
 
-|image2|
+    -  Paleo observations from ice cores, tree rings, alluvial deposits, or other proxy data, which provide estimates from before the period of instrumentation
 
-Historical observations may be used to increase our confidence in using
-variables with high uncertainty by providing context about the range of
-future conditions. This issue is also discussed in Chapter III of this
-primer. Historic observations fall into two categories:
-
--  Those from the period of instrumentation, which contains directly
-   measured amounts and timing as well as trends
-
--  Paleo observations from ice cores, tree rings, alluvial deposits, or
-   other proxy data, which provide estimates from before the period of
-   instrumentation
-
-The historical record of temperature, precipitation, snowfall, and other
-variables can be merged with projected trends to provide an estimate of
-the time sequencing of events, such as drought and flood, in potential
-future climates. Although the past is not a perfect predictor of the
-future sequencing of climate events, it may be the most reliable
-guidance for informing study questions that need that kind of
-information. An example of how this sequencing is carried out is
-provided in Chapter V .This can be very important for mission areas such
-as Reservoir Operations, Long-term Planning, and Species Recovery, where
-the regularity and frequency of events, like severe drought, are
-relevant and need the most reliable guidance.
+    The historical record of temperature, precipitation, snowfall, and other variables can be merged with projected trends to provide an estimate of the time sequencing of events, such as drought and flood, in potential future climates. Although the past is not a perfect predictor of the future sequencing of climate events, it may be the most reliable guidance for informing study questions that need that kind of information. An example of how this sequencing is carried out is provided in Chapter V .This can be very important for mission areas such as Reservoir Operations, Long-term Planning, and Species Recovery, where the regularity and frequency of events, like severe drought, are relevant and need the most reliable guidance.
 
 **What is practical?**
 ''''''''''''''''''''''
