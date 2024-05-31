@@ -156,9 +156,9 @@ a system performance measure. Here are the measures for the questions.
 |                                                 | Performance        |
 |                                                 | Measures**         |
 +=================================================+====================+
-| How often might water temperatures in streams   | Threshold maximum  |
-| be too dangerous for aquatic life in the        | water temperature  |
-| 2050-2080 period?                               |                    |
+| How often might water temperatures              | Threshold maximum  |
+| in streams be too dangerous for aquatic life    | water temperature  |
+| in the 2050-2080 period?                        |                    |           
 +-------------------------------------------------+--------------------+
 | Why might we fail to reach water delivery       | Annual water       |
 | targets in the 2070-2100 period?                | delivery targets   |
