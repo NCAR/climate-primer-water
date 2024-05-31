@@ -126,10 +126,11 @@ guidance on how to understand and use climate and climate change data..
 
 2.2 What is needed for “science and research” support
 -----------------------------------------------------
+(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
 
 2.2.1 Define the problem/objective.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
+
 
 With any scientific research tasked to consider climate change, the
 starting point is to simply ask what is the central aim of the study..
