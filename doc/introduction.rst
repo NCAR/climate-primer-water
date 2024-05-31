@@ -129,6 +129,7 @@ guidance on how to understand and use climate and climate change data..
 
 2.2.1 Define the problem/objective.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
 
 With any scientific research tasked to consider climate change, the
 starting point is to simply ask what is the central aim of the study..
@@ -168,7 +169,6 @@ a system performance measure. Here are the measures for the questions.
 
 2.2.1.1 What is relevant, reliable and practical
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
 
 Once you’ve defined your study questions and objectives, there are three
 primary questions to answer when scoping a study that involves the
@@ -317,59 +317,38 @@ reliability with the practicality of implementing the study.
 
     The historical record of temperature, precipitation, snowfall, and other variables can be merged with projected trends to provide an estimate of the time sequencing of events, such as drought and flood, in potential future climates. Although the past is not a perfect predictor of the future sequencing of climate events, it may be the most reliable guidance for informing study questions that need that kind of information. An example of how this sequencing is carried out is provided in Chapter V .This can be very important for mission areas such as Reservoir Operations, Long-term Planning, and Species Recovery, where the regularity and frequency of events, like severe drought, are relevant and need the most reliable guidance.
 
-**What is practical?**
-''''''''''''''''''''''
+.. dropdown:: What is practical?
+    
+    The “\ **what is practical**\ ” question is related to the realities of the project, such as the availability of resources, time, and personnel.
+    Questions to think about include the following:
 
-The “\ **what is practical**\ ” question is related to the realities of
-the project, such as the availability of resources, time, and personnel.
-Questions to think about include the following:
+    -  Do you have the necessary resources and modeling capabilities?
 
--  Do you have the necessary resources and modeling capabilities?
+    -  How might climate change affect your modeling approach?
 
--  How might climate change affect your modeling approach?
+    -  What climate change influences are practical to represent?
 
--  What climate change influences are practical to represent?
+    Is it practical to expect that your study will sufficiently model system metrics? You may need to consider the following questions to answer that:
 
-Is it practical to expect that your study will sufficiently model system
-metrics? You may need to consider the following questions to answer
-that:
+    -  Are the models needed to incorporate climate change readily available?
 
--  Are the models needed to incorporate climate change readily
-   available?
+    -  How easy are they to run and how long do they take to run?
 
--  How easy are they to run and how long do they take to run?
+    -  What are the implications of having to link multiple models, for example, a hydrological model that produces water temperature with a reservoir operations model?
 
--  What are the implications of having to link multiple models, for
-   example, a hydrological model that produces water temperature with a
-   reservoir operations model?
+    The answers may determine whether the study has a good chance for successful completion.
 
-The answers may determine whether the study has a good chance for
-successful completion.
+    Climate change itself may influence the choices you make for modeling and analyzing data for your study. For example, water temperature in a stream that has been controlled by groundwater input historically may need to be controlled by reservoir releases in the future. Such a study may require detailed information about the time evolution of variables as the climate changes. Model issues may pose constraints, making certain approaches impractical given your project resources.
 
-Climate change itself may influence the choices you make for modeling
-and analyzing data for your study. For example, water temperature in a
-stream that has been controlled by groundwater input historically may
-need to be controlled by reservoir releases in the future. Such a study
-may require detailed information about the time evolution of variables
-as the climate changes. Model issues may pose constraints, making
-certain approaches impractical given your project resources.
+    Is it practical to consider multiple futures given the following:
 
-Is it practical to consider multiple futures given the following:
+    -  Resources and personnel available
 
--  Resources and personnel available
+    -  Desire for study partners to explore the range of possibilities
 
--  Desire for study partners to explore the range of possibilities
+    -  Complexity and particular requirements for modeling the relevant influences
 
--  Complexity and particular requirements for modeling the relevant
-   influences
-
-In some cases, using a small set of climate change scenarios (such as a
-wet scenario and a dry scenario for long term planning for water
-availability) may be the most practical approach for balancing multiple
-futures with limited resources. In this way, the study can explore a
-range of potential future climates with relatively low impacts on its
-resources. Chapter V of this primer will explore this issue further by
-providing an example of how this process is carried out.
+    In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. Chapter V of this primer will explore this issue further by providing an example of how this process is carried out.
 
 2.2.2. Water Availability Assessments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
