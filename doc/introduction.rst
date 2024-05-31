@@ -157,15 +157,19 @@ a system performance measure. Here are the measures for the questions.
 |                                                 | Measures**         |
 +=================================================+====================+
 | How often might water temperatures              | Threshold maximum  |
-|                                                 | water temperature  |
-| in streams be too dangerous for aquatic life    |                    |
+|                                                 |                    |
+| in streams be too dangerous for aquatic life    | water temperature  |
+|                                                 |                    |
 | in the 2050-2080 period?                        |                    |           
 +-------------------------------------------------+--------------------+
 | Why might we fail to reach water delivery       | Annual water       |
+|                                                 |                    |
 | targets in the 2070-2100 period?                | delivery targets   |
 +-------------------------------------------------+--------------------+
 | What are the chances of dropping below          | Reservoir low pool |
+|                                                 |                    |   
 | reservoir low pool levels for more than one     | threshold          |
+|                                                 |                    |
 | consecutive year in the 2040-2070 period?       |                    |
 +-------------------------------------------------+--------------------+
 
