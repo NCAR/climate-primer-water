@@ -227,56 +227,55 @@ reliability with the practicality of implementing the study.
 
     -  Water chemistry
 
-    +-----------------------------------------------------------------------+
-    | **Examples of relevant data for different studies**                   |
-    |                                                                       |
-    | Relevant data for *Reservoir Operations* focused on the frequency of  |
-    | dropping below a particular reservoir pool elevation may include:     |
-    |                                                                       |
-    | -  Precipitation                                                      |
-    |                                                                       |
-    | -  Temperature                                                        |
-    |                                                                       |
-    | -  Evaporation                                                        |
-    |                                                                       |
-    | -  Snow water equivalent                                              |
-    |                                                                       |
-    | -  Streamflow                                                         |
-    |                                                                       |
-    | Relevant data for *long-term planning* may include:                   |
-    |                                                                       |
-    | -  Temperature trends and the potential future range                  |
-    |                                                                       |
-    | -  Precipitation trends and the potential future range                |
-    |                                                                       |
-    | -  Drought                                                            |
-    |                                                                       |
-    | -  Flood (both common and extreme)                                    |
-    |                                                                       |
-    | Relevant data for *species recovery and adaptive management* may      |
-    | include:                                                              |
-    |                                                                       |
-    | -  Water quality issues (water temperature, water chemistry,          |
-    |    sediment)                                                          |
-    |                                                                       |
-    | -  Temperature trends and the potential future range                  |
-    |                                                                       |
-    | -  Precipitation trends and the potential future range                |
-    |                                                                       |
-    | -  Drought                                                            |
-    |                                                                       |
-    | -  Flood                                                              |
-    |                                                                       |
-    | Relevant data for i\ *nfrastructur*\ e may include:                   |
-    |                                                                       |
-    | -  Flood (those that are rare)                                        |
-    |                                                                       |
-    | -  Drought                                                            |
-    |                                                                       |
-    | -  Water quality issues (water temperature, water chemistry,          |
-    |    sediment)                                                          |
-    +=======================================================================+
-+-----------------------------------------------------------------------+
+  
+    **Examples of relevant data for different studies**                   
+                                                                           
+     Relevant data for *Reservoir Operations* focused on the frequency of  
+     dropping below a particular reservoir pool elevation may include:     
+                                                                           
+     -  Precipitation                                                      
+                                                                           
+     -  Temperature                                                        
+                                                                           
+     -  Evaporation                                                        
+                                                                           
+     -  Snow water equivalent                                              
+                                                                           
+     -  Streamflow                                                         
+                                                                           
+     Relevant data for *long-term planning* may include:                   
+                                                                           
+     -  Temperature trends and the potential future range                  
+                                                                           
+     -  Precipitation trends and the potential future range                
+                                                                           
+     -  Drought                                                            
+                                                                           
+     -  Flood (both common and extreme)                                    
+                                                                           
+     Relevant data for *species recovery and adaptive management* may      
+     include:                                                              
+                                                                           
+     -  Water quality issues (water temperature, water chemistry,          
+        sediment)                                                          
+                                                                           
+     -  Temperature trends and the potential future range                  
+                                                                           
+     -  Precipitation trends and the potential future range                
+                                                                           
+     -  Drought                                                            
+                                                                           
+     -  Flood                                                              
+                                                                           
+     Relevant data for i\ *nfrastructur*\ e may include:                   
+                                                                           
+     -  Flood (those that are rare)                                        
+                                                                           
+     -  Drought                                                            
+                                                                           
+     -  Water quality issues (water temperature, water chemistry,          
+        sediment)                                                          
+
 
 
 **What is reliable?**
