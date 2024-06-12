@@ -1,8 +1,8 @@
 Chapter 5: Place-Based Climate Projections
 ==========================================
 
-Introduction
-============
+5.1 Introduction
+----------------
 
 Despite continuing improvements in Global Climate Models (GCMs) and
 computational capabilities of high-performance computers, the spatial
@@ -60,8 +60,8 @@ Mountains of Colorado, while the bottom two panel are the high
 resolution topography and associated precipitation pattern over the same
 region for the high resolution model.
 
-Approaches to downscaling
-=========================
+5.2 Approaches to downscaling
+-----------------------------
 
 There are a multitude of techniques for translating coarse resolution
 GCM into fine-scale, local meteorological data that is useful in
@@ -100,8 +100,8 @@ likely other approaches that are represented by this figure.
 Figure 1. A summary of the various downscaling methods and their
 general. The
 
-Statistical Downscaling
------------------------
+5.2.1 Statistical Downscaling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Statistical downscaling techniques can be employed to enhance both the
 temporal and spatial resolution of data, making it more applicable for
@@ -131,7 +131,6 @@ whereby the assumption that the historical relationships will hold into
 the future.
 
 Delta Change Methods
-~~~~~~~~~~~~~~~~~~~~
 
 A simple, but informative method to explore climate change sensitivity
 of hydrologic systems is referred to as the “Delta Change” approach. It
@@ -152,7 +151,6 @@ create adjusted datasets. For example, if the delta for temperature is a
 records to generate a "future" dataset.
 
 Non-Parametric Methods
-~~~~~~~~~~~~~~~~~~~~~~
 
 In the context of downscaling global climate models (GCMs),
 "non-parametric" downscaling refers to statistical approaches that do
@@ -351,8 +349,8 @@ Table 1. Statistical downscaling approaches
 |                 | variables       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
-Dynamical Downscaling
----------------------
+5.2.2 Dynamical Downscaling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dynamical downscaling involves the combined use of both global and
 regional climate models (RCMs) to achieve higher spatial resolution and
@@ -391,7 +389,6 @@ applications, where spatial gradients and their influence on weather and
 climate are critical to represent..
 
 Intermediate Complexity Models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Fully dynamical Global and Regional Climate models are expensive to run,
 as they have a substantial computation requirement for simulating both
@@ -408,7 +405,6 @@ models and climate models, and in dynamical downscaling
 (https://github.com/NCAR/icar).
 
 Pseudo Global Warming
-~~~~~~~~~~~~~~~~~~~~~
 
 :mark:`The PGW approach involves modifying historical weather data with
 future climate change signals derived from global climate models (GCMs)
@@ -418,18 +414,17 @@ on weather events by comparing the outcomes of the modified
 (pseudo-warmed) simulations against the original historical data. The
 steps typically involved in the PGW approach are:`
 
-Variable Resolution GCM
------------------------
+5.2.3 Variable Resolution GCM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image3|
 
 .. _section-1:
 
-Pre and Post- Processing of Climate Models
-------------------------------------------
+5.2.4 Pre and Post- Processing of Climate Models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Bias Correction
-~~~~~~~~~~~~~~~
 
 A reality of both GCMs and RCMs is the fact that both are prone to
 biases due to our limited ability to represent the true state of the
@@ -481,7 +476,8 @@ correction, or a combination of both, depends on the specific
 requirements of the study and the characteristics of the region and
 models being used.
 
-References
+5.3 References
+--------------
 
 :mark:`He, X., Chaney, N. W., Schleiss, M., & Sheffield, J. (2016).
 Spatial downscaling of precipitation using adaptable random forests.
