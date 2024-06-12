@@ -336,7 +336,7 @@ utilized.
     In this section we will discuss the reality of the term “ground truth”. In doing so we will discuss the impact on gauge measurement, or “gauge catch,” from wind, the physical characteristics and location of the gauge, and the characteristics of the precipitation. We will offer some perspective on these issues with respect to whether the gauge is automated or manual.
 
     **Rain Gauge QPE » Are they really ground truth?**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
     Often referred to as “ground truth”, rain gauges are subject to errors from a variety of sources. Although gauges do often provide excellent point measurements, at times the error in those measurements can become quite large. Sources of error include the construction and exposure of the gauge itself, the character of the precipitation, and the weather conditions.
 
@@ -345,7 +345,7 @@ utilized.
     |Gauge locations on radar precip accumulation image|
 
     **Rain Gauge QPE » Exercise: Gauges, Wind, and Fall Angle**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 
     In still air the hydrometeors that make up precipitation fall vertically downward to the gauge.
 
@@ -394,7 +394,7 @@ utilized.
     *Download Video*
 
     **Rain Gauge QPE » Gauges, Wind, and Turbulence**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
     The exercise that you just completed showed a simplified look at the impact of wind on gauge catch. The fall angle considerations represent a worst-case scenario. But in addition to fall angle considerations, turbulence in the flow may influence the trajectory of hydrometeors. This may partially offset errors caused by the wind. Spacing between hydrometeors may also change due to wind effects, possibly offsetting some of the wind-induced errors.
 
@@ -427,8 +427,7 @@ utilized.
     |image12|
 
     **Rain Gauge QPE » Rain, Gauge Catch, and Wind**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+  
     In summary, gauge catch of rain is influenced by both the fall angle and the turbulence in the vicinity of the gauge.
 
     |Effects of wind turbulence near the ground on precipitation and gauge catch - tree blockage and elevated gauge|
@@ -446,8 +445,7 @@ utilized.
     There is a large envelope of uncertainty due to the variability in drop sizes, the steadiness of the wind, and the gauge location. Here are a few main points to remember. The best measurements in windy conditions will be in situations with large raindrops, gauges near ground level, and shielded gauges. The poorest measurements will be with small raindrops and drizzle drops, and when gauges are directly exposed to the wind.
 
     **Rain Gauge QPE » Snow, Gauge Catch, and Wind**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+ 
     As demonstrated in the exercise, snow is more severely impacted by wind.
 
     |Photo of snow blowing around rain gauge|
@@ -473,8 +471,7 @@ utilized.
     More information can be found at the United States Department of Agriculture, Natural Resources Conservation Service (NRCS) site: http://www.wcc.nrcs.usda.gov/snow/.
 
     **Rain Gauge QPE » Effects from Gauge Characteristics**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+  
     A gauge aperture of at least 102 mm (4 in) in diameter is desirable. These NOAA-approved clear plastic gauges have 4-inch diameter apertures. Smaller openings will increase the likelihood of under catch.
 
     |4 inch rain gauge|
@@ -490,8 +487,7 @@ utilized.
     The reason to elevate gauges or place them on rooftops is often driven by security concerns rather than science. This increases the likelihood of wind-induced errors.
 
     **Rain Gauge QPE » Measurements from Automated Gauges**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+   
     Automated rain gauges are preferred by many professional users such as the NWS. Automation allows for the assimilation of numerous reports from remote regions.
 
     A widely used type of automated gauge in the United States is the tipping bucket style. These allow for high temporal resolution.
@@ -526,8 +522,7 @@ utilized.
     As mentioned earlier, “snow pillow” estimates at SNOTEL sites are often used instead of gauges where they are available.
 
     **Rain Gauge QPE » Measurements from Manual Gauges**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+   
     Manual gauge reports suffer from the lack of high temporal resolution. This makes manual reports less suitable for software programs that need fast access to high resolution gauge reports.
 
     However, manual gauges are visited routinely and therefore problems that affect gauge measurement may be identified more quickly. These problems can include insect or bird nests, leakage, overflow, blockage from rapidly growing vegetation, and vandalism.
@@ -551,8 +546,7 @@ utilized.
     The CoCoRaHS network is nationwide in the United States: http://www.cocorahs.org/.
 
     **Rain Gauge QPE » Rain Gauge QPE Key Points**
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+  
     -  Rain gauges can provide excellent information if they are well-maintained, optimally located, and the wind is light.
 
     -  Rain gauges are point estimates and will not necessarily provide good spatial resolution.
@@ -564,10 +558,8 @@ utilized.
     -  In situations where good radar coverage exists, it is possible that high wind situations may cause greater uncertainties in the accuracy of the gauges than that of the radar. A user of multiple precipitation sensors may want to consider the possibility that under such conditions it may not be wise to adjust the radar with the rain gauge data.
 
     **Reference**
-    ~~~~~~~~~~~~~
-
     https://www.meted.ucar.edu/hydro/precip_est/part1_measurement/
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 
 .. |Automated tipping bucket gauge| image:: media/ch3/image_obs_popout_gaugeqpe1.jpg
    :width: 6.04167in
