@@ -760,7 +760,7 @@ Below we provide a brief overview of some of the changes in radar
 estimates since their operational use by the National Weather Service in
 1957.
 
-.. dropdown:: **Radar technology changes
+.. dropdown:: **Radar technology changes**
 
     Radar technology and coverage used for precipitation observations has evolved significantly since its inception. Here are key milestones and changes in radar’s use for weather observation:
 
