@@ -129,7 +129,8 @@ influence our climate over time.
 
     Climate models do predict specific weather events many years into the future, but not with the intention for use as time and site-specific forecasts. Rather, the intended use of climate model output is to generate statistics of weather phenomena, such as means and variability of precipitation or temperature, and thus to characterize the collective impact of weather events. These climate predictions are typically referred to as projections, or simulations, and lack the short-term specificity of weather predictions.`
 
-.. dropdown:: *Natural factors impacting climate variability**
+.. dropdown:: **Natural factors impacting climate variability**
+
     Earth's climate shifts over time because so many different land, ocean, and space phenomena have a hand in it. The sun is the main driver of Earth's climate, as it provides most of the energy. The sun's energy output increased about a tenth of a percent from 1750 to 1950, which contributed about 0.2°F (0.1°C) warming in the first part of the 20th century. But since 1979, when we began taking measurements from space, the data show no long-term change in total solar energy, even though Earth has been warming.
 
 |Graphic showing Milankovitch cycles|
