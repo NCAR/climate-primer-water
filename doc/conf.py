@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Climate Primer'
-copyright = '2023, NCAR'
+copyright = '2024, NCAR'
 author = 'Thomas Hopson, Alyssa McCluskey, David Yates, Aubrey Dugger'
 
 # The version info for the project you're documenting, acts as replacement for
