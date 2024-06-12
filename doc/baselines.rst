@@ -103,9 +103,6 @@ scales of interest”) and a description of the natural factors that
 influence our climate over time.
 
 
-
-— popout Weather versus climate
-
 .. dropdown:: **Weather vs Climate**
 
     Most of us know that climate and weather are not the same. It is sometimes said, "Climate is what you expect, weather is what you get."
@@ -132,14 +129,11 @@ influence our climate over time.
 
     Climate models do predict specific weather events many years into the future, but not with the intention for use as time and site-specific forecasts. Rather, the intended use of climate model output is to generate statistics of weather phenomena, such as means and variability of precipitation or temperature, and thus to characterize the collective impact of weather events. These climate predictions are typically referred to as projections, or simulations, and lack the short-term specificity of weather predictions.`
 
-.. |image3| image:: media/ch3/image_intro_popout_weather2.png
-   :width: 6.25in
-   :height: 4.58333in
-.. |image4| image:: media/ch3/image_intro_popout_weather1.png
-   :width: 6.25in
-   :height: 4.58333in
+.. dropdown:: *Natural factors impacting climate variability**
 
-— popout Natural factors impacting climate variability
+
+
+
 
 .. |image1| image:: media/ch3/image_intro1.jpg
    :width: 5.20833in
@@ -147,3 +141,9 @@ influence our climate over time.
 .. |image2| image:: media/ch3/image_intro2.png
    :width: 6.5in
    :height: 3.40278in
+.. |image3| image:: media/ch3/image_intro_popout_weather2.png
+   :width: 6.25in
+   :height: 4.58333in
+.. |image4| image:: media/ch3/image_intro_popout_weather1.png
+   :width: 6.25in
+   :height: 4.58333in
