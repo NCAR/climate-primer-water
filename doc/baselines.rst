@@ -344,6 +344,7 @@ utilized.
 
     |Gauge locations on radar precip accumulation image|
 
+
     **Rain Gauge QPE » Exercise: Gauges, Wind, and Fall Angle**
  
 
@@ -426,6 +427,7 @@ utilized.
 
     |image12|
 
+
     **Rain Gauge QPE » Rain, Gauge Catch, and Wind**
   
     In summary, gauge catch of rain is influenced by both the fall angle and the turbulence in the vicinity of the gauge.
@@ -443,6 +445,7 @@ utilized.
     Therefore, a 9 m/s (20 mph) wind speed may be expected to result in an underestimation factor of 0.80, or a 20% underestimation of the rainfall.
 
     There is a large envelope of uncertainty due to the variability in drop sizes, the steadiness of the wind, and the gauge location. Here are a few main points to remember. The best measurements in windy conditions will be in situations with large raindrops, gauges near ground level, and shielded gauges. The poorest measurements will be with small raindrops and drizzle drops, and when gauges are directly exposed to the wind.
+
 
     **Rain Gauge QPE » Snow, Gauge Catch, and Wind**
  
@@ -470,6 +473,7 @@ utilized.
 
     More information can be found at the United States Department of Agriculture, Natural Resources Conservation Service (NRCS) site: http://www.wcc.nrcs.usda.gov/snow/.
 
+
     **Rain Gauge QPE » Effects from Gauge Characteristics**
   
     A gauge aperture of at least 102 mm (4 in) in diameter is desirable. These NOAA-approved clear plastic gauges have 4-inch diameter apertures. Smaller openings will increase the likelihood of under catch.
@@ -485,6 +489,7 @@ utilized.
     |Elevated gauge in a forest clearing|
 
     The reason to elevate gauges or place them on rooftops is often driven by security concerns rather than science. This increases the likelihood of wind-induced errors.
+
 
     **Rain Gauge QPE » Measurements from Automated Gauges**
    
@@ -520,6 +525,7 @@ utilized.
     double-structure wind shield|
 
     As mentioned earlier, “snow pillow” estimates at SNOTEL sites are often used instead of gauges where they are available.
+
 
     **Rain Gauge QPE » Measurements from Manual Gauges**
    
@@ -670,9 +676,9 @@ utilized.
    :width: 6.5in
    :height: 4.34722in
 
-— popout Ch 3.1 Rain gauge QPE
 
-**Beyond gauges - alternative precipitation data sets**
+3.2.2 **Beyond gauges - alternative precipitation data sets**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Given the limitations of rain gauge networks in their spatial coverage
 (including wind-speed sampling error, etc., see popout above for
