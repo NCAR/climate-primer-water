@@ -1480,8 +1480,6 @@ see:
    is no formal name, the name of the responsible institution or lead
    author.
 
-— pop out Table Ch3.1 Observational datasets
-
 .. dropdown:: **Observational datasets**
 
    **Table Observational datasets**
