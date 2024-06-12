@@ -101,9 +101,9 @@ Further below we provide introductory information on the distinction of
 weather and climate (i.e. differences in what are often termed “time
 scales of interest”) and a description of the natural factors that
 influence our climate over time.
-
+.. dropdown:: What is relevant?
 — popout Weather versus climate
-.. dropdown:**Weather vs Climate**
+.. dropdown:: **Weather vs Climate**
 
     Most of us know that climate and weather are not the same. It is sometimes said, "Climate is what you expect, weather is what you get."
 
