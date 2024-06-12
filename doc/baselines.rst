@@ -177,6 +177,8 @@ influence our climate over time.
    :width: 6.25in
    :height: 4.58333in
 
+
+
 3.2 Observational datasets and their uncertainties
 --------------------------------------------------
 
@@ -225,7 +227,8 @@ combination of different data sources and meteorological tools and
 approaches to ensure a comprehensive understanding of the weather and
 climatological conditions of interest, which we talk about next.
 
-**Ideal local data sets**
+3.1.1 **Ideal local data sets**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguably the ideal data for researchers who are interested in obtaining
 variables and datasets that can then provide or force detailed and
@@ -259,18 +262,18 @@ weather patterns, and long-term trends. **Sufficient for
 climatologies**: even if sparsely-located gauges may be insufficient to
 represent a time-series of weather across a region, they may be
 sufficient to represent the long-term climatology if the region is
-sufficiently homogenous in its weather patterns (note: a :mark:`weather
+sufficiently homogenous in its weather patterns (note: a weather
 climatology refers to the statistical representation of the long-term
 weather conditions at a particular location or over a specific region,
 typically involving the analysis of weather data over extended periods,
 typically 30 years or more, to understand the typical weather patterns
-and variations of an area`).
+and variations of an area).
 
 However, weather gauges also come with certain drawbacks.
-**Representativeness:** :mark:`Point observations are rarely sufficient
+**Representativeness:** Point observations are rarely sufficient
 to represent spatial patterns of precipitation; this is especially true
 in regions with sharp changes in elevation and/or nearby large bodies of
-water.` **Wind and turbulence-dependent errors for precipitation
+water. **Wind and turbulence-dependent errors for precipitation
 gauges:** The wind over and around raised gauges can distort the
 measurement of the flux of hydrometeors falling to the ground, with
 typically the higher the wind speed, the higher the distortion.
