@@ -1149,7 +1149,7 @@ Below we provide additional introductory details on the derivation, strengths, a
    :width: 6.04167in
    :height: 4.58333in
 
-3.2.2 **Weather climatologies**
+3.2.3 **Weather climatologies**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A weather climatology is sometimes used to augment weather variable
@@ -1308,7 +1308,8 @@ approach.
    :height: 4.13889in
 
 
-**Reanalysis**
+3.2.4 **Reanalysis**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Climate reanalysis is a method used to reconstruct past climate
 conditions by combining historical observational data with modern
@@ -1389,7 +1390,8 @@ NCAR Climate Data Guide)*
 -  ECMWF Reanalysis fact sheet:
    https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis
 
-**Blending multiple sensors and data products**
+3.2.5 **Blending multiple sensors and data products**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Multiple sensors and data products are often employed, especially in the
 case of producing time-series of data, to compensate for deficiencies in
@@ -1426,7 +1428,8 @@ observations.
 Version 1.1, Sources, Methods, and Verification, National Weather
 Service, Office of Water Prediction, Oct. 2021.
 
-**Broader climate variable observation resources**
+3.2.6 **Broader climate variable observation resources**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There continues to be a broad range of remotely sensed
 hydrologically-relevant data sources that continue to be made available
@@ -1441,7 +1444,8 @@ hydrometeorological data needs. Examples:
 -  Surface Water and Ocean Topography Mission:
    https://swot.jpl.nasa.gov/
 
-**Further Resources**
+3.2.7 **Further Resources**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For further resources and guidance on observational data sets, please
 see:
