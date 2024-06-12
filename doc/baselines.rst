@@ -28,7 +28,8 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
-**Introduction**
+3.1 Introduction
+-------------------------------------------------
 
 In any study on future impacts of climate change, it is essential to
 first characterize and quantify the baseline or starting point of the
