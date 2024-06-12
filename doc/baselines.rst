@@ -1197,6 +1197,7 @@ Below we provide more introductory information on the PRISM
 approach.
 
 — popout Ch 3.1 PRISM
+
 .. dropdown:: **PRISM**
     **Precipitation Climatology/PRISM**
 
