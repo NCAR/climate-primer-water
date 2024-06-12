@@ -114,36 +114,23 @@ influence our climate over time.
 
     |image3|
 
-    `**Climate** is the statistical representation of weather over days, months, seasons, years, decades and longer`
+    **Climate** is the statistical representation of weather over days, months, seasons, years, decades and longer
 
-|image4|
+    |image4|
 
-:mark:`**A weather prediction, or forecast,** describes the near-term
-likelihood of a weather event such as a specific occurrence of rain or
-snow and/or the expected change in temperature. A weather forecast, for
-example, might read, "colder with a 70% chance of snow this afternoon."`
+    **A weather prediction, or forecast,** describes the near-term likelihood of a weather event such as a specific occurrence of rain or snow and/or the expected change in temperature. A weather forecast, for example, might read, "colder with a 70% chance of snow this afternoon."
 
-:mark:`**A climate prediction**, on the other hand, might call for below
-average precipitation and near average temperature over the next 30
-days.`
+    **A climate prediction**, on the other hand, might call for below average precipitation and near average temperature over the next 30 days.`
 
-:mark:`**Climate model output:** used to generate statistics of weather
-phenomena`
+    **Climate model output:** used to generate statistics of weather phenomena`
 
--  :mark:`Mean and variability of precipitation and temperature`
+      -Mean and variability of precipitation and temperature
 
--  :mark:`Collective impact of weather events`
+      -Collective impact of weather events
 
-:mark:`**Projections:** Lack specificity and predictability`
+    **Projections:** Lack specificity and predictability
 
-:mark:`Climate models do predict specific weather events many years into
-the future, but not with the intention for use as time and site-specific
-forecasts. Rather, the intended use of climate model output is to
-generate statistics of weather phenomena, such as means and variability
-of precipitation or temperature, and thus to characterize the collective
-impact of weather events. These climate predictions are typically
-referred to as projections, or simulations, and lack the short-term
-specificity of weather predictions.`
+    Climate models do predict specific weather events many years into the future, but not with the intention for use as time and site-specific forecasts. Rather, the intended use of climate model output is to generate statistics of weather phenomena, such as means and variability of precipitation or temperature, and thus to characterize the collective impact of weather events. These climate predictions are typically referred to as projections, or simulations, and lack the short-term specificity of weather predictions.`
 
 .. |image3| image:: media/ch3/image_intro_popout_weather2.png
    :width: 6.25in
