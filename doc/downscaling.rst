@@ -353,6 +353,74 @@ Table 1. Statistical downscaling approaches
 |                 | variables       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
+.. csv-table:: Table 1. Statistical Downscaling Methods
+   :header: "Downscaling Method", "Pros", "Cons", "Tools/Data Available?"
+   :widths: 25, 25, 25, 25
+
+   "Delta Change", "Simple to implement. Insightful in terms of sensitivity.", "Not 
+   physically consistent. Unrealistic physical change.", "Generally method is simple 
+   enough to be directly used in a hydrologic model."
+   "MACA- Multivariate Adaptive Constructed Analogs (MACA)", "Considers multiple 
+   climate variables simultaneously.", "Relies on quality of observational record. 
+   Needs a long obs record. More sophisticated due to multi-variate aspect.", "A 
+   github R code is available: https://github.com/earthlab/cft"
+   "LOCA- Locally Constructed Analogs", "Simpler in terms of handling single 
+   variables.", "Relies on a high quality observational historical dataset (similar 
+   to MACA).", "https://loca.ucsd.edu/"
+   "Bias-Correction Spatial Disaggregation (BCSD)", "Maintains the statistical properties 
+   of historical observations (also a pro).", "The spatially interpolated data can not 
+   represent spatial heterogeneity. Extremes are under-sampled.", "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html"
+   "K-Nearest Neighbor (K-NN)", "Simple and robust methods. Varying ways to implement to 
+   generate future climate projections.", "Relies on a high quality observational 
+   historical dataset (similar to MACA).", "Both R and Python offer extensive KNN packages 
+   for generating downscaled data"
+   "AI and Machine Learning", "Robust and efficient. Powerful in finding relationships among 
+   variables. Computationally efficient.", "Assumes historical relationships will hold into 
+   the future. Can be difficult to implement and somewhat of a ‘black-box’.", "Both R and 
+   Python offer extensive machine learning."
+   "Parametric Statistical Downscaling", "Statistically rigorous. Autocorrelation and 
+   cross-correlations between large-scale variables.", "More effort to implement. Need to 
+   develop statistical relationships. Selection of predictors should be explored.", "https://www.sdsm.org.uk/sdsmmain.html; https://climate-scenarios.canada.ca/?page=pred-cmip6"
+
+
+.. list-table:: Table 1. Statistical Downscaling Methods
+   :widths: 25 25 25 25
+   :header-rows: 1
+
+   * - Downscaling Method
+     - Pros
+     - Cons
+     - Tools/Data Available?
+   * - Delta Change
+     - Simple to implement. Insightful in terms of sensitivity.
+     - Not physically consistent. Unrealistic physical change.
+     - Generally method is simple enough to be directly used in a hydrologic model.
+   * - MACA- Multivariate Adaptive Constructed Analogs (MACA)
+     - Considers multiple climate variables simultaneously.
+     - Relies on quality of observational record. Needs a long obs record. More sophisticated due to multi-variate aspect.
+     - A github R code is available: https://github.com/earthlab/cft
+   * - LOCA- Locally Constructed Analogs
+     - Simpler in terms of handling single variables.
+     - Relies on a high quality observational historical dataset (similar to MACA).
+     - https://loca.ucsd.edu/
+   * - Bias-Correction Spatial Disaggregation (BCSD)
+     - Maintains the statistical properties of historical observations (also a pro).
+     - The spatially interpolated data can not represent spatial heterogeneity. Extremes are under-sampled.
+     - https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html
+   * - K-Nearest Neighbor (K-NN)
+     - Simple and robust methods. Varying ways to implement to generate future climate projections.
+     - Relies on a high quality observational historical dataset (similar to MACA).
+     - Both R and Python offer extensive KNN packages for generating downscaled data
+   * - AI and Machine Learning
+     - Robust and efficient. Powerful in finding relationships among variables. Computationally efficient.
+     - Assumes historical relationships will hold into the future. Can be difficult to implement and somewhat of a ‘black-box’.
+     - Both R and Python offer extensive machine learning.
+   * - Parametric Statistical Downscaling
+     - Statistically rigorous. Autocorrelation and cross-correlations between large-scale variables.
+     - More effort to implement. Need to develop statistical relationships. Selection of predictors should be explored.
+     - https://www.sdsm.org.uk/sdsmmain.html; https://climate-scenarios.canada.ca/?page=pred-cmip6
+
+
 5.2.2 Dynamical Downscaling
 ---------------------------
 
