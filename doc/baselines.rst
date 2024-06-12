@@ -102,7 +102,7 @@ weather and climate (i.e. differences in what are often termed “time
 scales of interest”) and a description of the natural factors that
 influence our climate over time.
 
-.. dropdown:: What is relevant?
+
 
 — popout Weather versus climate
 
@@ -112,11 +112,11 @@ influence our climate over time.
 
     **Weather** describes the details of what we experience over the course of hours and days.
 
-    |image1|
+    |image3|
 
-    :mark:`**Climate** is the statistical representation of weather over days, months, seasons, years, decades and longer`
+    `**Climate** is the statistical representation of weather over days, months, seasons, years, decades and longer`
 
-|image2|
+|image4|
 
 :mark:`**A weather prediction, or forecast,** describes the near-term
 likelihood of a weather event such as a specific occurrence of rain or
@@ -145,10 +145,10 @@ impact of weather events. These climate predictions are typically
 referred to as projections, or simulations, and lack the short-term
 specificity of weather predictions.`
 
-.. |image1| image:: media/ch3/image_intro_popout_weather2.png
+.. |image3| image:: media/ch3/image_intro_popout_weather2.png
    :width: 6.25in
    :height: 4.58333in
-.. |image2| image:: media/ch3/image_intro_popout_weather1.png
+.. |image4| image:: media/ch3/image_intro_popout_weather1.png
    :width: 6.25in
    :height: 4.58333in
 
