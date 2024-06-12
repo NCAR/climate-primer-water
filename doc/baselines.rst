@@ -143,7 +143,7 @@ influence our climate over time.
 
     Drifting continents make a big difference in climate over millions of years by changing ice caps at the poles and by steering ocean currents, which transport heat and cold throughout the ocean depths. These currents in turn influence atmospheric processes. Snow and ice on Earth also affect climate because they reflect more solar energy than darker land cover or open water.
 
-|Global average surface temperature change with volcanic eruptions|
+    |Global average surface temperature change with volcanic eruptions|
 
     Huge volcanic eruptions can cool Earth by injecting ash and tiny particles into the stratosphere. The resulting haze shades the sun for a year or two after each major blast. Dust and tiny particles thrown into the air by both natural processes and human activities can have a similar effect, although some absorb sunlight and help heat the climate.
 
