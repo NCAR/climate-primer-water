@@ -139,7 +139,7 @@ influence our climate over time.
 
     |Graphic showing continental drift|
 
-    *Click to open a drifting continents & ocean currents animation.*
+    *[Click to open a drifting continents & ocean currents animation.](https://www.meted.ucar.edu/broadcastmet/climate/media/video/continents_currents.mp4)*
 
     Drifting continents make a big difference in climate over millions of years by changing ice caps at the poles and by steering ocean currents, which transport heat and cold throughout the ocean depths. These currents in turn influence atmospheric processes. Snow and ice on Earth also affect climate because they reflect more solar energy than darker land cover or open water.
 
