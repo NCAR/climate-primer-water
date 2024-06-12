@@ -1197,7 +1197,7 @@ Below we provide more introductory information on the PRISM
 approach.
 
 — popout Ch 3.1 PRISM
-.. dropdown:: **PRISM**    
+.. dropdown:: **PRISM**
     **Precipitation Climatology/PRISM**
 
     Precipitation climatology guidance can be used to help fill in the gaps where estimates of observed precipitation are poor. The most widely used precipitation climatology tool in the United States as of 2009 is the Parameter-elevation Regressions on an Independent Slopes Model, or PRISM. Prior to its use in multiple-sensor precipitation estimation (MPE), PRISM was used extensively in several River Forecast Centers in the western United States.
