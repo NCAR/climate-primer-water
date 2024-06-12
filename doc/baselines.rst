@@ -800,7 +800,7 @@ estimates since their operational use by the National Weather Service in
 
     These advancements have greatly enhanced the accuracy, reliability, and detail of precipitation observations, significantly improving weather and precipitation estimation and severe weather warning systems.
 
-    Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality control methods, and a brief discussion of satellite-derived QPE.
+Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality control methods, and a brief discussion of satellite-derived QPE.
 
 
 .. dropdown:: **Radar QPE**
