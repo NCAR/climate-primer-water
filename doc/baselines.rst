@@ -802,7 +802,6 @@ estimates since their operational use by the National Weather Service in
 
     Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality control methods, and a brief discussion of satellite-derived QPE.
 
-— popout Ch 3.1 Radar QPE
 
 .. dropdown:: **Radar QPE**
 
@@ -1156,12 +1155,12 @@ A weather climatology is sometimes used to augment weather variable
 estimates. These climatologies are especially useful in regions with
 limited capacity for measurements or rapidly changing terrain features,
 the latter causing weather variable dependence on this topographic
-variability (e.g. :mark:`sharp changes in elevation and/or nearby large
-bodies of water)` as well as potentially limiting the ability for direct
+variability (e.g. sharp changes in elevation and/or nearby large
+bodies of water) as well as potentially limiting the ability for direct
 observation (such as in cases of radar beam blockage as discussed in the
 previous section). Some of the more commonly used climatologies (which
 can include a variety of weather variables, and may have daily weather
-estimates for some products) are t:mark:`he Parameter-elevation
+estimates for some products) are the Parameter-elevation
 Regressions on an Independent Slopes Model, or PRISM from Oregon State
 (for more information on precipitation climatology guidance from PRISM
 see: http://www.prism.oregonstate.edu/); Daymet daily surface weather
@@ -1180,31 +1179,21 @@ tool. For more information on precipitation climatology guidance from
 Parameter-elevation Regressions on an Independent Slopes Model (PRISM),
 see:* http://www.prism.oregonstate.edu/\ *.*
 
-:mark:`The approach used by PRISM using gauge and terrain data is
+The approach used by PRISM using gauge and terrain data is
 considered the 3-dimensional (3-D) approach. This can be very useful in
 terrain-affected areas – see figures below. The areas that are within
 100 km of the green shading on this map are where PRISM uses the 3-D
 approach for QPE. This would also include all of the Hawaiian Islands
 and most of Alaska. In the white areas on this map, PRISM uses a 2-D
-process. This is basically a distance-weighted gauge analysis.`
+process. This is basically a distance-weighted gauge analysis.
 
 |PRISM effective terrain areas|
 
-*:mark:`Figure: Effective terrain grid for the U.S. Shaded areas denote
-terrain features that are`*
+*Figure: Effective terrain grid for the U.S. Shaded areas denote terrain features that are expected to produce significant terrain-induced (3D) precipitation patterns. Unshaded grid cells as far as 100 km away from the shaded areas may also be considered 3D; see text for discussion. Grid resolution is 2.5 minutes (~ 4 km). (Source:
+https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)*
 
-*:mark:`expected to produce significant terrain-induced (3D)
-precipitation patterns.`*
-
-*:mark:`Unshaded grid cells as far as 100 km away from the shaded areas
-may also be`*
-
-*:mark:`considered 3D; see text for discussion. Grid resolution is 2.5
-minutes (~ 4 km). (Source:
-https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)`*
-
-:mark:`Below we provide more introductory information on the PRISM
-approach.`
+Below we provide more introductory information on the PRISM
+approach.
 
 — popout Ch 3.1 PRISM
 
