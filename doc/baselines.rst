@@ -1485,7 +1485,7 @@ see:
    author.
 
 
-3.2.8 **Table Observational datasets**
+3.2.8 **Table of Observational datasets**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
