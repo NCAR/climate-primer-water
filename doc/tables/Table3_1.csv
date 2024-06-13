@@ -1,0 +1,197 @@
+Name ,Version ,Type ,Resolution  ,Time  ,"Citation, Link and DOI (Where Available)"
+,,,(Time and Space) ,Period ,
+NOAA-CIRES 20th Century  Reanalysis (20CR) ,2c ,Reanalysis,3-hourly  ,1851–2014 ,Compo et al. (2011) 
+,,,"2° × 2°, 24 vertical  levels",,www.esrl.noaa.gov/psd/data/20thC_Rean/
+NOAA-CIRES 20th Century  Reanalysis (20CR) ,3 ,Reanalysis ,3-hourly ,1851–2020 ,Slivinski et al. (2019) 
+,,,0.5° × 0.5°,,www.esrl.noaa.gov/psd/data/20thC_Rean/
+AERONET AOD Level 2.0 ,3,Remote  ,Monthly ,1995–2020,Giles et al. (2019) 
+,,sensing,Point-based,,https://aeronet.gsfc.nasa.gov/data_push/AOT_Level2_ Monthly.tar.gz
+AIRS specific humidity ,RetStd-v5 ,Remote  ,Monthly ,2003–2010 ,Susskind et al. (2006); Tian et al. (2013) 
+,,sensing,1° × 1°,,https://esgf-node.llnl.gov/search/obs4mips/
+AIRS-6 climate data products ,,Remote  ,Various ,2002–2020 ,Susskind et al. (2014) 
+,,sensing ,,,http://disc.sci.gsfc.nasa.gov/AIRS/data-holdings
+AMOC dataset ,,"In situ,  ",Monthly ,2004–2017 ,Smeed et al. (2018)
+,,reanalysis,Regional time series,,
+Advanced Microwave  ,,Remote  ,3-hourly ,2012–2019,Kummerow et al. (2015) 
+Scanning Radiometer 2  ,,sensing ,,,https://lance.nsstc.nasa.gov/amsr2-science/data/level2/ rainocean/
+(AMSR2),,,,,
+Aqua’s Advanced  ,,Remote  ,5.4–56 km ,2002–2011 ,Kawanishi et al. (2003)
+Microwave Scanning  ,,sensing ,,,
+Radiometer for Earth  ,,,,,
+Observing System (AMSR-E),,,,,
+Advanced Scatterometer  (ASCAT),,Remote  ,Daily ,2006–2016 ,Wagner et al. (1999)
+,,sensing,25 km,,
+Cross-calibrated  ,,Remote  ,6-hourly ,1987–2020 ,Atlas et al. (2011) 
+multi-platform wind  ,,"sensing,  ",25 km,,www.remss.com/measurements/ccmp/
+dataset (Atlas),,in situ,,,
+Berkeley Earth surface  ,,In situ,Monthly ,1750–2020 ,Rohde and Hausfather (2020) 
+air temperature ,,,1° × 1°  ,,www.berkeleyearth.org
+,,,(or equivalent  ,,
+,,,equal-area grid),,
+Boulder stratospheric  ,,In situ,Profiles approx.  ,1980–2010 ,Hurst et al. (2011)
+water vapour,,,monthly ,,
+,,,Point-based ,,
+NCEP Climate Forecast  ,,Reanalysis,Hourly ,1979–2010 ,Saha et al. (2010) 
+System Reanalysis (CFSR) ,,,T382  ,,https://cfs.ncep.noaa.gov/cfsr/
+,,,(approx. 38 km),,
+Climate Hazards Group  ,2,Remote  ,"Daily, monthly ",1981–2018 ,Funk et al. (2015) 
+InfraRed Precipitation with  Station data (CHIRPS),,sensing,0.25° × 0.25°,,www.chc.ucsb.edu/data/chirps
+CPC Merged Analysis  ,,Remote  ,Monthly ,1979–2020 ,Xie et al. (2007a) 
+of Precipitation (CMAP),,sensing,2.5° × 2.5°,,www.esrl.noaa.gov/psd/data/gridded/data.cmap.html
+Climate Prediction Center  (CPC) Niño indices ,,In situ ,Monthly ,1950–2020 ,www.cpc.ncep.noaa.gov/data/indices/ 
+,,,Regional time series,,Derived from ERSSTv5
+Climate Prediction Centre  (CPC) Precipitation ,,In situ,Hourly ,1948–2006 ,Higgins et al. (2000); Xie et al. (2007b); Chen et al. (2008)
+,,,2.0° × 2.5° ,,
+,,,Daily  ,,
+,,,0.25° × 0.25°,,
+"CPC teleconnection indices  (AAO, AO, NAO, PNA) ",,In situ ,Daily ,1950–2020  ,www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ ao_index/teleconnections.shtml
+,,,Regional means,(1979–2019  for AAO) ,
+CPC Unified Gauge ,,"In situ,  ",Daily ,1979–2019 ,Xie et al. (2010) 
+Based Analysis of Global  ,,remote  ,0.5° × 0.5°,,https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html
+Daily Precipitation,,sensing,,,
+CloudSat Cloud  ,,Remote  ,"1.5 km horizontal,  ",2006–2019 ,Tanelli et al. (2008)
+Profiling Radar (CPR),,sensing,0.5 km vertical ,,
+CRU TS ,4.04 ,In situ ,Monthly ,1901–2020 ,Harris et al. (2020) 
+,,,0.5° × 0.5°,,https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.04/
+CRUTEM ,5 ,In situ ,Monthly ,1850–2020 ,Osborn et al. (2021) 
+,,,5° × 5°,,https://crudata.uea.ac.uk/cru/data/temperature/
+Mexican climate  ,,In situ ,Monthly ,1910–2009 ,Cuervo-Robayo et al. (2014)
+(Cuervo-Robayo) ,,,30 arcsec,,
+3D-VAR regional  ,,Reanalysis ,6-hourly ,1989–2010 ,Dahlgren et al. (2016)
+reanalysis (Dahlgren) ,,,0.2° × 0.2°,,
+ERA-5 ,,Reanalysis,Hourly ,1979–2020,Hersbach et al. (2020) 
+,,,"30 km, 137 vertical  levels",,www.ecmwf.int/en/forecasts/datasets/reanalysis datasets/era5
+GHCN precipitation ,2 ,In situ ,Monthly  ,1900–2014 ,Jones and Moberg (2003) 
+,,,5° × 5°,,www.esrl.noaa.gov/psd/data/gridded/data.ghcngridded.html
+Global Historical Climatology  Network (GHCN) – Monthly ,4 ,In situ ,Monthly ,1880–2020 ,Menne et al. (2018) 
+,,,Point-based,,www.ncdc.noaa.gov/ghcnm/
+GISTEMP ,4 ,In situ ,Monthly ,1880–2020 ,Lenssen et al. (2019) 
+,,,2° × 2°,,https://data.giss.nasa.gov/gistemp/
+GLDAS ,,Reanalysis ,Monthly ,1951–2010,Rodell et al. (2004) 
+,,,1° × 1°,,https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/ GLDAS_NOAH10_M.2.0/
+Global Precipitation  ,8 ,In situ ,Monthly ,1981–2020,Becker et al. (2013); Schneider et al. (2017) 
+Climatology Centre (GPCC) ,,,0.25° × 0.25°,,ftp://ftp.dwd.de/pub/data/gpcc/html/fulldata-monthly_ v2018_doi_download.html
+Global Precipitation  ,2.3,Remote  ,Monthly ,1979–2020 ,Adler et al. (2018) 
+Climatology Project (GPCP) ,,"sensing,  ",2.5° × 2.5°,,www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html
+,,in situ,,,
+Gravity Recovery and  ,,Remote  ,3 days ,2002–2017 ,Tapley et al. (2004); Wouters et al. (2019) 
+Climate Experiment (GRACE),,sensing,400 m,,https://gracefo.jpl.nasa.gov/data/grace-fo-data/
+GRID-Sat,,Remote  ,15-minute ,1994–2016 ,Inamdar and Knapp (2015)
+,,sensing,4 km,,
+Global Streamflow  ,,In situ ,Daily ,1806–2016 ,Do et al. (2018)
+Indices and Metadata  ,,,Point-based,,
+Archive (GSIM),,,,,
+GSMaP,,Remote  ,Hourly ,2007–2020 ,Kubota et al. (2020)
+,,sensing,0.1°,,
+GEWEX Water Vapour  ,,"Reanalysis,  ",Monthly ,1988–2009 ,Schröder et al. (2018) 
+Assessment (G-VAP),,remote  ,2° × 2°,,http://gewex-vap.org/
+,,sensing,,,
+Hawaii Ocean  ,,In situ ,Point-based ,1988–2018 ,Dore et al. (2009)  
+Time-series Data ,,,,,http://hahana.soest.hawaii.edu/hot/hot-dogs/interface.html
+Boulder stratospheric  ,,In situ ,,1980–2010 ,Hegglin et al. (2014)
+water vapor (Hegglin) ,,,,,
+Integrated Global  ,,In situ ,Point-based ,1900–2019,Durre et al. (2006) 
+Radiosonde Archive (IGRA) ,,,,,https://data.noaa.gov/dataset/dataset/integrated-global radiosonde-archive-igra-version-2
+IPRC subsurface  ,,In situ ,Monthly ,2005–2020 ,http://apdrc.soest.hawaii.edu/projects/Argo/data/gridded/ On_standard_levels/index-1.html
+temperature data ,,,1° × 1°,,
+Landsat Global Land  ,,Remote  ,Daily ,1972–2019 ,Gutman et al. (2013)
+Survey (GLS) database,,sensing,Global images,,
+Combined satellite and  ,,Remote  ,10-day ,1983–2012 ,Maidment et al. (2014)
+station data (Maidment),,"sensing,  ",0.0375° × 0.0375°,,
+,,in situ,,,
+Marshall SAM index ,,In situ ,Monthly ,1957–2020 ,Marshall (2003) 
+,,,Regional means,,www.nerc-bas.ac.uk/icd/gjma/sam.html
+Princeton MEaSUREs,,"Reanalysis,  ",Monthly ,1950–2019 ,Pan et al. (2012) 
+,,remote  ,0.5° × 0.5°,,
+,,"sensing, ",,,
+,,in situ,,,
+Multivariate ENSO  ,,In situ ,Monthly ,1977–2017 ,Wolter and Timlin (1998) 
+Index (MEI) ,,,,,www.esrl.noaa.gov/psd/enso/mei/
+MERRA-2 reanalysis ,2 ,Reanalysis,Hourly ,1980–2020 ,Gelaro et al. (2017) 
+,,,"0.5 × 0.66°,  ",,https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/
+,,,72 vertical levels,,
+MERRA-2 reanalysis – Land ,2 ,Reanalysis,6-hourly ,1980–2020 ,Reichle (2012)  
+,,,"0.5° × 0.66°,  ",,http://gmao.gsfc.nasa.gov/pubs/office_notes
+,,,72 vertical levels,,
+MODIS Aerosol Optical  ,MYD08_M3,Remote  ,Monthly ,2003–2011 ,Platnick et al. (2003) 
+Depth 550nm ,,sensing,1° × 1°,,https://ladsweb.modaps.eosdis.nasa.gov/search/order
+MODIS NDVI/EVI vegetation  greenness index ,6,Remote  ,16-day ,2000–2018 ,Myneni et al. (2015) 
+,,sensing,1 km,,doi:10.5067/MODIS/MCD15A2H.006
+Moderate Resolution Imaging  Spectro-radiometer (MODIS) ,MCD12Q1,Remote  ,Annual ,2001–2019 ,Loveland and Belward (1997)
+,,sensing,500 m,,
+Northern Hemisphere  ,,Remote  ,Monthly ,1980–2018,Mudryk et al. (2020) 
+Blended Snow Cover Extent  and Snow Mass Time Series (Mudryk),,"sensing,  ",Time series,,http://data.ec.gc.ca/data/climate/scientificknowledge/ climate-research-publication-based-data/northern hemisphere-blended-snow-extent-and-snow-mass time-series/
+,,in situ,,,
+NCEP-NCAR Reanalysis ,,Reanalysis ,Daily and monthly ,1980–2020,Kalnay et al. (1996) 
+,,,2.5° × 2.5°,,www.esrl.noaa.gov/psd/data/gridded/data.ncep. reanalysis.html
+NOAA Global Temp ,5 ,In situ ,Monthly ,1880–2020,Huang et al. (2020) 
+,,,5° × 5°,,www.ncdc.noaa.gov/data-access/marineocean-data/ noaa-global-surface-temperature-noaaglobaltemp
+NOAA Global Temp – Interim ,,In situ ,Monthly ,1850–2020 ,Vose et al. (2021)
+,,,5° × 5°,,
+NOAA reconstructed  ,,Remote  ,Monthly ,1915–1997 ,Brown (2002); Brown and Robinson (2011) 
+snow cover dataset,,"sensing,  ",Hemispheric  ,,https://nsidc.org/data/g02131
+,,in situ,time series,,
+NOAA STAR  ,3,Remote  ,Monthly ,1979–2020 ,Zou and Wang (2011) 
+satellite temperature ,,sensing,"2.5° × 2.5°,  ",,www.star.nesdis.noaa.gov/smcd/emb/mscat/
+,,,3 vertical layers,,
+National Oceanography  ,2.0 ,In situ ,Monthly ,1973–2014 ,Berry and Kent (2011) 
+Centre (NOC) surface flux  and meteorological dataset,,,1° × 1°,,http://badc.nerc.ac.uk/data/nocs_flux/
+NASA Water Vapor Project  MEaSUREs (NVAP-M),,Remote  ,Daily ,1988–2008,Vonder Haar et al. (2012) 
+,,sensing,1°,,https://public.satproj.klima.dwd.de/data/GVAP_data_ archive/v1.0/TCWV/long/
+USA temperature (Oyler) ,,In situ ,Daily ,1948–2012 ,Oyler et al. (2015)
+,,,30-arcsec ,,
+PERSIANN-CDR,,Remote  ,Daily ,1982–2020,Ashouri et al. (2015) 
+,,sensing,0.25° × 0.25°,,www.ncdc.noaa.gov/cdr/atmospheric/precipitation persiann-cdr
+Randolph Glacier Inventory ,6,Remote  ,Decametric shape  ,1955–2014 ,Scherler et al. (2018) 
+,,sensing,files of glacier  ,,www.glims.org/RGI/rgi60_dl.html
+,,,"outlines, global  ",,
+,,,0.5° global grid  ,,
+,,,of glacierized area,,
+REGEN global precipitation ,1 ,In situ ,Daily ,1950–2016,Contractor et al. (2020) 
+,,,1° × 1°,,https://researchdata.ands.org.au/rainfall-estimates gridded-v1-2019/1408744 
+,,,,,doi:10.25914/5ca4c380b0d44
+MSG-based gridded  ,,Remote  ,Daily  ,2005–2019 ,Roebeling and Holleman (2009)
+"datasets of clouds,  ",,sensing,0.27° × 0.27°,,
+precipitation and radiation  (Roebeling and Holleman),,,,,
+ROM SAF radio occultation  climate data record,,Remote  ,Monthly ,2001–2020 ,Gleisner et al. (2020) 
+,,sensing,"5° latitude bins,  ",,www.romsaf.org
+,,,200 m vertical  ,,
+,,,resolution,,
+Arctic permafrost layer  ,,In situ,Annual ,1977–2020 ,Romanovsky et al. (2020)
+temperature (Romanovsky) ,,,Site-based,,
+Remote Sensing Systems  (RSS) precipitation and  ,7,Remote  ,2 per day ,1987–2020 ,Wentz (2013) 
+water vapour ,,sensing,0.25° × 0.25°,,www.remss.com/measurements/rain-rate/
+Remote Sensing Systems  RSS satellite temperature ,4,Remote  ,Monthly ,1979–2020 ,Mears and Wentz (2017) 
+,,sensing,"2.5° × 2.5°,  ",,www.remss.com/measurements/upper-air-temperature/
+,,,5 vertical layers,,
+Rutgers University/NOAA  snow cover extent dataset ,V01r01,Remote  ,Weekly ,1966–2020 ,Estilow et al. (2015) 
+,,sensing,100–200 km,,https://climate.rutgers.edu/snowcover/
+Southern Oscillation  ,,In situ ,Monthly ,1876–2020 ,Troup (1965) 
+Index (SOI) ,,,Regional time series,,www.bom.gov.au/climate/current/soihtm1.shtml
+State University of New York  (SUNY) radiosonde dataset ,,In situ ,Monthly ,1958–2020 ,Zhou et al. (2021)
+,,,10° × 10°,,
+TRMM Precipitation  ,7,Remote  ,Monthly ,1997–2014 ,Iguchi et al. (2000)
+Radar 3A25 ,,sensing,0.5°,,
+TRMM GPOF ,GPOF,Remote  ,Daily ,1997–2015 ,Stocker et al. (2018)
+,,sensing,0.25° × 0.25°,,
+TRMM Microwave  ,TMI,Remote  ,3 day ,1997–2015 ,Wentz et al. (2001)
+Imager (TRMM TMI) ,,sensing,0.25° × 0.25°,,
+TRMM Multi-Satellite  ,7,Remote  ,3-hourly ,1997–2018,Huffman et al. (2007); TRMM (2011); Z. Liu et al. (2012) https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/ summary
+Precipitation Analysis ,,sensing,0.25° × 0.25°,,
+Tropical Rainfall Measuring  Mission Precipitation Radar  (TRMM PR),PR,Remote  ,Monthly ,1997–2015 ,Haddad et al. (1997)
+,,sensing,0.5° × 0.5°,,
+University of Alabama  ,6,Remote  ,Monthly ,1979–2020 ,Spencer et al. (2017) 
+at Huntsville (UAH)  ,,sensing,3 vertical layers,,www.nsstc.uah.edu/climate/
+satellite temperature,,,,,
+UCAR/ NOAA radio  ,,Remote  ,Monthly ,2002–2020 ,Steiner et al. (2020)
+occultation data,,sensing,5° latitude bands,,
+Global temperature  ,,In situ ,Monthly ,1850–2020 ,Vaccaro et al. (2021)
+dataset (Vaccaro) ,,,5° × 5°,,
+W5E5 bias-adjusted  ,1.0 ,Reanalysis ,Daily ,1979–2016,Lange (2019) 
+reanalysis ,,,0.5° × 0.5°,,https://dataservices.gfz-potsdam.de/pik/showshort. php?id=escidoc:4855898 
+,,,,,doi:10.5880/pik.2019.023
+Wegener Centre radio  ,,Remote  ,Monthly ,2001–2020 ,Angerer et al. (2017)
+occultation dataset,,sensing,0.1 km vertical  ,,
+,,,resolution,,
+Global Earth Observation for  Integrated Water Resource  Assessment (Earth2Observe)  Water Resources  ,2 ,Reanalysis ,Monthly ,1979–2012 ,Schellekens et al. (2017)
+Reanalysis v2 (WRR2),,,0.5° × 0.5°,,
