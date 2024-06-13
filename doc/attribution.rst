@@ -40,5 +40,6 @@ Applying climate deltas
    :file: tables/Table3_1.txt
    :header-rows: 1
    :delim: tab
+   :widths: 12 12 12 12 12 12 14 14
 
 
