@@ -41,5 +41,6 @@ Applying climate deltas
    :header-rows: 1
    :delim: tab
    :widths: 12 12 12 12 12 12 14 14
+   :class: longtable
 
 
