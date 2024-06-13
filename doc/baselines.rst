@@ -1190,8 +1190,7 @@ process. This is basically a distance-weighted gauge analysis.
 
 |PRISM effective terrain areas|
 
-*Figure: Effective terrain grid for the U.S. Shaded areas denote terrain features that are expected to produce significant terrain-induced (3D) precipitation patterns. Unshaded grid cells as far as 100 km away from the shaded areas may also be considered 3D; see text for discussion. Grid resolution is 2.5 minutes (~ 4 km). (Source:
-https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)*
+*Figure: Effective terrain grid for the U.S. Shaded areas denote terrain features that are expected to produce significant terrain-induced (3D) precipitation patterns. Unshaded grid cells as far as 100 km away from the shaded areas may also be considered 3D; see text for discussion. Grid resolution is 2.5 minutes (~ 4 km). (Source: https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)*
 
 Below we provide more introductory information on the PRISM
 approach.
@@ -1370,8 +1369,8 @@ products over central Africa (but noting this is an analysis from over a
 decade ago)! However, we note that just as reanalysis products continue
 to improve in accuracy and their ability to remove past known
 deficiencies, some products (e.g. ERA5) also are providing information
-about :mark:`uncertainty: data from areas or periods where observations
-are sparser are likely to be less certain.`
+about uncertainty: data from areas or periods where observations
+are sparser are likely to be less certain.
 
 |image9|
 
