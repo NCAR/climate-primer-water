@@ -30,10 +30,16 @@ Applying climate deltas
 (e.g., temperature warming)
 
 
-.. csv-table:: Observational datasets
+.. csv-table:: Test table
    :file: tables/test.csv
    :header-rows: 1
    :widths: 25 25 50
+
+
+.. csv-table:: Observational datasets
+   :file: tables/Table3_1.txt
+   :header-rows: 1
+   :delim: tab
 
 
 
