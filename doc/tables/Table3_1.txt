@@ -1,0 +1,4 @@
+Name 	Version 	Type 	Temporal Resolution	Spatial Resolution	Time  Period	Citation	Link and DOI (Where Available)
+NOAA-CIRES 20th Century  Reanalysis (20CR) 	2c 	Reanalysis	3-hourly	"2° _ 2°, 24 vertical  levels"	1851–2014 	Compo et al. (2011)	www.esrl.noaa.gov/psd/data/20thC_Rean/
+NOAA-CIRES 20th Century  Reanalysis (20CR) 	3	Reanalysis 	3-hourly	0.5° _ 0.5°	1851–2020 	Slivinski et al. (2019)	www.esrl.noaa.gov/psd/data/20thC_Rean/
+AERONET AOD Level 2.0 	3	Remote  sensing	Monthly 	Point-based	1995–2020	Giles et al. (2019)	https://aeronet.gsfc.nasa.gov/data_push/AOT_Level2_ Monthly.tar.gz
