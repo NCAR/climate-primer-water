@@ -1484,6 +1484,13 @@ see:
    is no formal name, the name of the responsible institution or lead
    author.
 
+
+.. csv-table:: Observational datasets
+   :file: tables/Table3_1.csv
+   :widths: 15, 15, 15, 15, 15, 25 
+   :header-rows: 1
+
+
 .. dropdown:: **Observational datasets**
 
    **Table Observational datasets**
@@ -2368,7 +2375,7 @@ see:
 | nalysis v2 |       |      |         |      |                        |
 |    (WRR2)  |       |      |         |      |                        |
 +------------+-------+------+---------+------+------------------------+
-  
+
 
 
 .. |image1| image:: media/ch3/image_obs2.png
