@@ -37,7 +37,6 @@ Applying climate deltas
 
 
 .. csv-table:: Observational datasets
-   :file: _files/Table3_1.txt
+   :file: _files/Table3_1.csv
    :header-rows: 1
-   :delim: tab
    :class: longtable
