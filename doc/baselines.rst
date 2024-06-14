@@ -1490,8 +1490,7 @@ see:
    :file: _files/Table3_1.csv
    :widths: 15 15 15 15 15 15 15 15
    :header-rows: 1
-   :class: longtable
-
+  
 
 .. |image1| image:: media/ch3/image_obs2.png
    :width: 5.38263in
