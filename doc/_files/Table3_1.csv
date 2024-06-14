@@ -1,4 +1,4 @@
-Name,Version,Type,Resolution,Time and Space,TimePeriod,Link,Citation and DOI (Where Available)
+Name,Version,Type,Spatial Resolution,Temporal Resolution,TimePeriod,Link,Citation and DOI (Where Available)
 NOAA-CIRES 20th Century Reanalysis (20CR),2c,Reanalysis,"2deg x2deg, 24 vertical levels",3-hourly,1851-2014,www.esrl.noaa.gov/psd/data/20thC_Rean/,Compo etal. (2011)
 NOAA-CIRES 20th Century Reanalysis (20CR),3,Reanalysis,0.5deg x0.5deg,3-hourly,1851-2020,www.esrl.noaa.gov/psd/data/20thC_Rean/,Slivinski etal. (2019)
 AERONET AOD Level 2.0,3,Remote Sensing,Point-based,Monthly,1995-2020,https://aeronet.gsfc.nasa.gov/data_push/AOT_Level2_ Monthly.tar.gz,Giles etal. (2019)
@@ -6,7 +6,7 @@ AIRS specific humidity,RetStd-v5,Remote Sensing,1deg x1deg,Monthly,2003-2010,htt
 AIRS-6 climate data products,,Remote Sensing,,Various,2002-2020,http://disc.sci.gsfc.nasa.gov/AIRS/data-holdings,Susskind etal. (2014)
 AMOC dataset,,"In situ,reanalysis",Regional,Monthly,2004-2017,,Smeed etal. (2018)
 "Advanced Microwave, Scanning Radiometer 2(AMSR2)",,Remote Sensing,,3-hourly,2012-2019,https://lance.nsstc.nasa.gov/amsr2-science/data/level2/ rainocean/,Kummerow etal. (2015)
-Aqua’s Advanced Microwave Scanning Radiometer for Earth Observing System (AMSR-E),,Remote Sensing,5.4-56km,,2002-2011,,Kawanishi etal. (2003)
+Aquas Advanced Microwave Scanning Radiometer for Earth Observing System (AMSR-E),,Remote Sensing,5.4-56km,,2002-2011,,Kawanishi etal. (2003)
 Advanced Scatterometer (ASCAT),,Remote Sensing,25km,Daily,2006-2016,,Wagner etal. (1999)
 Cross-calibrated multi-platform wind dataset (Atlas),,"Remote Sensing, in situ ",25km,6-hourly,1987-2020,www.remss.com/measurements/ccmp/,Atlas etal. (2011)
 Berkeley Earth surface air temperature,,In situ,1deg x1deg(or equivalent equal-area grid),Monthly,1750-2020,www.berkeleyearth.org,Rohde and Hausfather (2020)
@@ -14,7 +14,7 @@ Boulder stratospheric water vapour,,In situ,Point-based,Profiles approx.monthly,
 NCEP Climate Forecast System Reanalysis (CFSR),,Reanalysis,"T382, approx. 38 km",Hourly,1979-2010,https://cfs.ncep.noaa.gov/cfsr/,Saha etal. (2010)
 Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS),2,Remote Sensing,0.25deg x0.25deg,"Daily, monthly",1981-2018,www.chc.ucsb.edu/data/chirps,Funk etal. (2015)
 CPC Merged Analysis ofPrecipitation (CMAP),,Remote Sensing,2.5deg x2.5deg,Monthly,1979-2020,www.esrl.noaa.gov/psd/data/gridded/data.cmap.html,Xie etal. (2007a)
-Climate Prediction Center (CPC) Niño indices,,In situ,Regional,Monthly,1950-2020,www.cpc.ncep.noaa.gov/data/indices/,Derived from ERSSTv5
+Climate Prediction Center (CPC) Nino indices,,In situ,Regional,Monthly,1950-2020,www.cpc.ncep.noaa.gov/data/indices/,Derived from ERSSTv5
 Climate Prediction Centre (CPC) Precipitation,,In situ,2.0deg x 2.5deg (hourly); 0.25deg x 0.25deg (Daily),Hourly; Daily,1948-2006,,Higgins etal. (2000); Xie etal. (2007b); Chen etal. (2008)
 "CPC teleconnection indices (AAO, AO, NAO, PNA)",,In situ,Regional,Daily,1950-2020; (1979-2019 for AAO),www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ ao_index/teleconnections.shtml,www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ ao_index/teleconnections.shtml
 CPC Unified GaugeBased Analysis of GlobalDaily Precipitation,,RemoteSensing,0.5deg x0.5deg,Daily,1979-2019,https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html,Xie etal. (2010)
@@ -34,7 +34,7 @@ Gravity Recovery andClimate Experiment (GRACE),,Remote Sensing,400 m,3 days,2002
 GRID-Sat,,Remote Sensing,4km,15-minute,1994-2016,,Inamdar and Knapp (2015)
 Global StreamflowIndicesand MetadataArchive (GSIM),,In situ,Point-based,Daily,1806-2016,,Do etal. (2018)
 GSMaP,,Remote Sensing,0.1deg,Hourly,2007-2020,,Kubota etal. (2020)
-GEWEX Water Vapour Assessment (G-VAP),,"Reanalysis,Remote Sensing",2deg x2deg,Monthly,1988-2009,http://gewex-vap.org/,Schröder etal. (2018)
+GEWEX Water Vapour Assessment (G-VAP),,"Reanalysis,Remote Sensing",2deg x2deg,Monthly,1988-2009,http://gewex-vap.org/,Schroder etal. (2018)
 Hawaii OceanTime-seriesData,,In situ,,Point-based,1988-2018,http://hahana.soest.hawaii.edu/hot/hot-dogs/interface.html,Dore etal. (2009)
 Boulder stratosphericwatervapor (Hegglin),,In situ,,,1980-2010,,Hegglin etal. (2014)
 Integrated GlobalRadiosonde Archive (IGRA),,In situ,,Point-based,1900-2019,https://data.noaa.gov/dataset/dataset/integrated-global radiosonde-archive-igra-version-2,Durre etal. (2006)
