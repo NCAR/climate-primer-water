@@ -1489,7 +1489,7 @@ see:
 .. csv-table:: Observational datasets
    :file: _files/Table3_1.csv
    :width: 10
-   :width:`percentage`_ 90
+   :width: percentage_ 90
    :header-rows: 1
    
 
