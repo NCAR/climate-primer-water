@@ -1,38 +1,28 @@
 
 
-How many “X” is enough?
-=======================
+Chapter 6: Uncertainties
+========================
 
 Write me.
 
 
-Discerning signal from the noise
---------------------------------
+Sources of Uncertainty
+----------------------
 
-- Natural variability relative to anthropogenic-induced change
-- Uncertainties dependent on scale
-
-
-GCMs
-----
-
-What do scenarios mean and their assumptions
+Observations - covered in Ch 3
+Models
+Parameters
+Initial conditions
 
 
 Ensembles
 ---------
 
-Understanding what is changing in the ensembles
-
-
-Scenarios
----------
-
 Write me.
 
 
-Uncertainty quantification
---------------------------
+Uncertainty Quantification Techniques
+-------------------------------------
 
 Write me.
 
