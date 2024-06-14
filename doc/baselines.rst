@@ -1486,7 +1486,10 @@ see:
 
 3.2.8 **Table of Observational datasets**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+.. csv-table:: Observational datasets
+   :file: _files/Table3_1.csv
+   :header-rows: 1
+   :class: longtable
 
 
 .. |image1| image:: media/ch3/image_obs2.png
