@@ -1484,9 +1484,7 @@ see:
    author.
 
 .. dropdown:: **Table of Observational datasets**
-
-    **Table of Observational datasets**
-
+ 
     .. csv-table:: Observational datasets
        :file: _files/Table3_1.csv  
        :header-rows: 1
