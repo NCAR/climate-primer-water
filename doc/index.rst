@@ -17,8 +17,8 @@ A project of the National Center for Atmospheric Research
    introduction.rst
    baselines.rst
    gcms.rst
-   ensembles.rst
    downscaling.rst
+   ensembles.rst
    attribution.rst
    casestudies.rst
    cookbook.rst
