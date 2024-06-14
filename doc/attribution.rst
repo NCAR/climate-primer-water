@@ -1,7 +1,14 @@
 
 
-Climate Change Attribution in the Water Sector
-==============================================
+Chapter 7: Bringing it all together
+===================================
+
+Decision Tree
+Discerning signal from the noise
+
+
+OLDER:
+
 
 Methods generating future projections for water availability assessments
 
