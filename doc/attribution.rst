@@ -40,3 +40,4 @@ Applying climate deltas
    :file: _files/Table3_1.csv
    :header-rows: 1
    :class: longtable
+   :widths: 1 1 1 1 1 1 1 1
