@@ -1483,14 +1483,13 @@ see:
    is no formal name, the name of the responsible institution or lead
    author.
 
+.. dropdown:: **Table of Observational datasets**
 
-3.2.8 **Table of Observational datasets**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. csv-table:: Observational datasets
-   :file: _files/Table3_1.csv
-   :width: 10
-   :width: percentage_ 90
-   :header-rows: 1
+    **Table of Observational datasets**
+
+    .. csv-table:: Observational datasets
+       :file: _files/Table3_1.csv  
+       :header-rows: 1
    
 
 .. |image1| image:: media/ch3/image_obs2.png
