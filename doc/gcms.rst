@@ -1,7 +1,7 @@
 
 
-Understanding GCMs
-==================
+Chapter 4: Understanding GCMs
+=============================
 
 Understanding GCM climate change modeling and attributes, strengths, limitations
 
