@@ -1488,7 +1488,7 @@ see:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. csv-table:: Observational datasets
    :file: _files/Table3_1.csv
-   :widths: 15 15 15 15 15 15 15 15
+   :widths: 5 5 5 5 5 5 5 5
    :header-rows: 1
   
 
