@@ -1490,28 +1490,6 @@ see:
        :header-rows: 1
    
 
-.. |image1| image:: media/ch3/image_obs2.png
-   :width: 5.38263in
-   :height: 3.77339in
-.. |image2| image:: media/ch3/image_obs7.png
-   :width: 6.5in
-   :height: 4.40278in
-.. |image3| image:: media/ch3/image_obs6.png
-   :width: 6.5in
-   :height: 4.54167in
-.. |PRISM Precipitation Annual Climatology for the US| image:: media/ch3/image_obs5.jpg
-   :width: 6.04167in
-   :height: 4.58333in
-.. |PRISM effective terrain areas| image:: media/ch3/image_obs3.jpg
-   :width: 6.04167in
-   :height: 4.16667in
-.. |image4| image:: media/ch3/image_obs1.jpg
-   :width: 6.5in
-   :height: 4.33333in
-.. |image5| image:: media/ch3/image_obs4.png
-   :width: 6.5in
-   :height: 7.54167in
-
 .. |image5| image:: media/ch3/image_obs2.png
    :width: 5.38263in
    :height: 3.77339in
