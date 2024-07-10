@@ -39,6 +39,7 @@ This Chapter provides an overview and guidance on the following topics:
 -  References
 
 **Introduction**
+---------------------------------
 
 This chapter provides an overview of General Circulation Models (GCMs),
 also known as Global Climate Models, and how they are employed within
@@ -55,7 +56,6 @@ climate change understanding:
 
 *Projection of Future Climate Conditions and Support for International
 Climate Assessments*
-
 GCMs enable scientists to project future climate conditions under
 various scenarios, such as those outlined in the IPCC SRES, RCP, and SSP
 frameworks (which we discuss further below). By inputting different
@@ -67,7 +67,6 @@ and necessary adaptations.
 
 *Understanding of Climate Processes and Evaluation of Climate Change
 Impacts*
-
 GCMs simulate the complex interactions between different components of
 the Earth's climate system. This helps scientists understand fundamental
 processes such as the water cycle, energy balance, and atmospheric
@@ -82,7 +81,6 @@ planning and mitigation strategies in vulnerable regions.
 
 *Testing Hypotheses and Development of Mitigation and Adaptation
 Strategies*
-
 GCMs are valuable for testing scientific hypotheses about the climate
 system. By altering specific variables or processes within the model,
 researchers can explore how these changes affect climate outcomes,
@@ -111,11 +109,10 @@ process.
 
 — popout Ch4 Intro Introduction to Climate Models
 
-4.A Goals of the IPCC, CMIPs, NCA
----------------------------------
+4.1 Goals of the IPCC, CMIPs, NCA
+------------------------------------
 
 *IPCC*
-
 The Intergovernmental Panel on Climate Change (IPCC) is the United
 Nations body for assessing the science related to climate change, with
 its objective to provide governments at all levels with the scientific
@@ -173,7 +170,6 @@ resources where many of these data, including CMIP6 [discussed below]
 and other data, can be found.
 
 *CMIP*
-
 The Coupled Model Intercomparison Project (CMIP) is a collaborative
 framework designed to utilize climate modeling efforts from a number of
 weather and climate centers to improve knowledge of past, present and
@@ -190,17 +186,15 @@ observations and to one another to characterize model uncertainty and
 scenario uncertainty. The CMIP project started in 1995 and has multiple
 versions of generated datasets, including CMIP3 (2005), CMIP5 (2011)
 (there was no CMIP4), and CMIP6 (2018), with the members of the CMIP
-Core Panel currently working on the design of CMIP7.` :mark:`Important
-goals of CMIP are:`
+Core Panel currently working on the design of CMIP7. Important
+goals of CMIP are:
+-  Standardize global climate model (GCM) experiments and model
+   output
+-  Compare and evaluate GCMs used in the climate studies`
+-  Make the CMIP GCM data publicly available
 
--  :mark:`Standardize global climate model (GCM) experiments and model
-   output.`
-
--  :mark:`Compare and evaluate GCMs used in the climate studies`
-
--  :mark:`Make the CMIP GCM data publicly available.`
-
-*CORDEX*: One notable model intercomparison project under the umbrella
+*CORDEX*: 
+One notable model intercomparison project under the umbrella
 of CMIP is the COordinated Regional Climate Down-scaling Experiment or
 CORDEX (Gutowski et al. 2016), for comparing and evaluating regional
 dynamical and statistical downscaling techniques and their
@@ -211,12 +205,10 @@ the CMIP global models, particularly in complex topography zones,
 coastal areas and small islands, as well as for extremes.
 
 *NCA*
-
 The National Climate Assessment (NCA) is a key initiative of the U.S.
 Global Change Research Program (USGCRP) and is aimed at assessing and
 summarizing the impacts of climate change on the country and involves
-contributions from hundreds of experts across various sectors.
-:mark:`The Global Change Research Act of 1990 mandates that the USGCRP
+contributions from hundreds of experts across various sectors. The Global Change Research Act of 1990 mandates that the USGCRP
 deliver a report to Congress and the President not less frequently than
 every four years that “integrates, evaluates, and interprets the
 findings of the Program and discusses the scientific uncertainties
@@ -225,13 +217,13 @@ the natural environment, agriculture, energy production and use, land
 and water resources, transportation, human health and welfare, human
 social systems, and biological diversity; and analyzes current trends in
 global change, both human-induced and natural, and projects major trends
-for the subsequent 25 to 100 years.”` More specifically (with overlap
+for the subsequent 25 to 100 years.” More specifically (with overlap
 with the IPCC), the main goals of the National Climate Assessment
 include:
 
 -  Inform policy guidance and resource management decision-making by
-   providing :mark:`policy-neutral and policy-relevant information
-   accessible and actionable.`
+   providing policy-neutral and policy-relevant information
+   accessible and actionable.
 
 -  Enhance Public Awareness and Understanding about the causes, impacts,
    and potential solutions to climate change, aiming to make the
@@ -244,15 +236,15 @@ include:
    health, agriculture, water resources, energy, ecosystems, and
    infrastructure.
 
--  Assess Adaptation and Mitigation Strategies; :mark:`assess the
+-  Assess Adaptation and Mitigation Strategies; assess the
    science of adapting to a changing climate, emissions reductions, and
    other efforts that together describe the US’s existing and potential
    response to climate change, including benefits, trade-offs, targets,
    limitations, and best practices (while not evaluating or recommending
-   specific adaptation or mitigation policies).`
+   specific adaptation or mitigation policies).
 
-4.B. What do climate projections and IPCC climate change scenarios mean and their assumptions
----------------------------------------------------------------------------------------------
+4.2. What do climate projections and IPCC climate change scenarios mean and their assumptions
+-------------------------------------------------------------------------------------------------
 
 Since the early iterations of the IPCC process, a suite of coordinated
 experiments under the CMIP framework have been performed to offer a
@@ -276,7 +268,6 @@ assessment of future scenarios regarding greenhouse gas emissions and
 their impacts:
 
 SRES (Special Report on Emissions Scenarios)
-
 -  Developed by: Intergovernmental Panel on Climate Change (IPCC) in
    2000, and used in the IPCC’s Third and Fourth Assessment Reports.
 
@@ -289,12 +280,11 @@ SRES (Special Report on Emissions Scenarios)
    -  Four narrative families (A1, A2, B1, B2) reflecting different
       developmental pathways.
 
-   -  Scenarios :mark:`are "baseline" scenarios, they do not take into
+   -  Scenarios are "baseline" scenarios, they do not take into
       account any current or future measures to limit greenhouse gas
-      emissions (e.g., the Kyoto Protocol)`.
+      emissions (e.g., the Kyoto Protocol).
 
 RCP (Representative Concentration Pathways)
-
 -  Developed by: Introduced in the IPCC’s Fifth Assessment Report
    (2014).
 
@@ -304,7 +294,6 @@ RCP (Representative Concentration Pathways)
    physical science basis of climate projections.
 
 -  Features:
-
    -  Four pathways (RCP2.6, RCP4.5, RCP6, RCP8.5) representing
       different climate futures based on the radiative forcing in watts
       per square meter by 2100 (2.6 W/m\ :sup:`2`, 4.5 W/m\ :sup:`2`,
@@ -314,7 +303,6 @@ RCP (Representative Concentration Pathways)
       different levels of greenhouse gas emissions and concentrations.
 
 SSP (Shared Socioeconomic Pathways)
-
 -  Developed by: First used extensively in the IPCC’s Sixth Assessment
    Report (2021).
 
@@ -323,7 +311,6 @@ SSP (Shared Socioeconomic Pathways)
    emissions.
 
 -  Features:
-
    -  Five pathways (SSP1 through SSP5) integrating RCPs within broader
       narratives about socioeconomic changes, such as demographic,
       economic, and technological developments, intended to span the
@@ -340,7 +327,6 @@ SSP (Shared Socioeconomic Pathways)
       analysis.
 
 Comparison and Contrast
-
 -  Application in Climate Models: SRES scenarios were used primarily
    before the development of RCPs, which are now commonly used in
    climate modeling along with SSPs. SSPs are particularly significant
@@ -359,7 +345,6 @@ built upon the last, providing more detailed tools for understanding and
 addressing the multifaceted challenges of climate change.
 
 *Further details on SSPs*
-
 The figure below presents the simple framing of the different societal
 storylines that form the basis of the new SSPs. At their core, they
 represent different societal development pathways that are describing
@@ -414,8 +399,8 @@ a total of 23 independent intercomparison projects that are part of
 CMIP6, and thus significantly more model output is available to study
 physical systems.
 
-4.C Earth system climate modeling – historical perspective
-----------------------------------------------------------
+4.3 Earth system climate modeling – historical perspective
+-------------------------------------------------------------
 
 **Modeling of the Earth’s climate system has and continues to evolve and
 innovate.** During the mid to late 1990s, the representation of a
@@ -467,7 +452,7 @@ computational resources grows significantly. Thus, the global models
 have generally remained at horizontal resolutions of around 100 km. This
 deficiency in properly representing important local factors, such as
 topography, the land-sea interface, etc. still requires downscaling
-approaches, either in dynamical form (see :mark:`CMIP’s CORDEX` effort
+approaches, either in dynamical form (see CMIP’s CORDEX effort
 in section 4.A.; Giorgi and Gutowski 2015), through statistical means,
 or some hybrid form. Most recently, even Machine Learning (ML) has been
 employed to achieve higher resolutions (Watson-Parris 2021). While ML
@@ -482,16 +467,16 @@ non-linear interactions and evolution of the system will probably remain
 understanding of climate change processes and contribute to reducing
 uncertainty.** They now provide a robust foundation to offer projections
 of possible future changes, with increasing and direct relevance for
-society in planning and decision-making. These projections (:mark:`see
-below: drivers of change`) fit into the current understanding of the
+society in planning and decision-making. These projections (see
+below: drivers of change) fit into the current understanding of the
 evolving climate over past centuries, millennia and back millions of
 years both in magnitude as well as key determined characteristics of
 change, again, confirming the increasingly robust scientific
 “partnership” between observations, theory/modeling, and paleoclimate
 reconstructions (geologic records).
 
-4.D Earth system climate modeling – current strengths and abilities
--------------------------------------------------------------------
+4.4 Earth system climate modeling – current strengths and abilities
+-----------------------------------------------------------------------
 
 **Climate models offer the only practical way to integrate highly
 non-linear systems (or system of systems) and then provide insights into
@@ -618,8 +603,8 @@ so detailed, that they can be used to spot errors in the observational
 record (e.g., Santer et al. 2003; 2011), even as the observational
 record has been used to validate climate models.
 
-4.E Earth system climate modeling – ongoing challenges
-------------------------------------------------------
+4.5 Earth system climate modeling – ongoing challenges
+------------------------------------------------------------
 
 **Despite the progress, uncertainties remain regarding climate models’
 ability to represent the earth-climate system.** Importantly, reducing
@@ -693,8 +678,8 @@ sample of such challenges.
    challenges in estimating critical parameters such as precipitation
    (Song and Bai, 2016, Chen et al. 2019).
 
-4.G GCM future climate datasets
--------------------------------
+4.6 GCM future climate datasets
+-----------------------------------
 
 Note that the IPCC’s goals, as stated above in this chapter, do not
 explicitly include the mandate of providing future change model outputs
