@@ -52,7 +52,6 @@ The figure below illustrates the relative size of these different uncertainty co
 More generally, the relative magnitude of model uncertainty and internal variability depends on the time horizon of the projection, location, spatial and temporal aggregation, variable, and signal strength (Rowell, 2012; Fischer et al., 2013; Deser et al., 2014; Saffioti et al., 2017; Kirchmeier-Young et al., 2019). The relative contribution of internal variability is larger for short than for long projection horizons (Marotzke and Forster, 2015; Lehner et al., 2020; Maher et al., 2021), larger for high latitudes than for low latitudes, larger for land than for ocean variables, larger at station level than for continental or global means, larger for annual maxima/minima than for multi-decadal means, larger for dynamic quantities (and, by implication, precipitation) than for temperature (IPCC, 2021; Fischer et al., 2014).
 
 
-.. |image1| image:: media/ch6/image1.jpg
-   :width: 2009px
-   :height: 1262px
+.. |image1| image:: media/ch6/image1.png
+   :width: 800
 
