@@ -38,7 +38,7 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
-**4.1 Introduction**
+4.1 Introduction
 ---------------------------------
 
 This chapter provides an overview of General Circulation Models (GCMs),
