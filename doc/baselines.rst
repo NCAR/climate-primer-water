@@ -779,9 +779,10 @@ estimates since their operational use by the National Weather Service in
 
     **NEXRAD (WSR-88D) (1990s)** 
 
-    -  **Next Generation Radar (NEXRAD)**: The WSR-88D, implemented in the early 1990s, marked a significant leap forward. It provided Doppler capabilities, allowing for the measurement of precipitation velocity (indicating wind speeds and direction within storms).
+    -  **Next Generation Radar (NEXRAD)**: The WSR-88D, implemented in the early 1990s, marked a significant leap forward. It provided Doppler capabilities, allowing for the measurement of precipitation velocity (indicating wind speeds and direction within storms).  The WSR-88Ds were also double the wavelength (10 cm S-band versus 5 cm C-band) resulting in dramatically reduced attenuation.
 
-    -  **Dual Polarization**: In the 2010s, NEXRAD radars were upgraded with dual-polarization technology, which sends out both horizontal and vertical pulses. This enhancement allowed for better differentiation between types of precipitation (rain, snow, hail) and improved estimates of precipitation rates and quantities.
+
+    -  **Dual Polarization**: In the 2010s, NEXRAD radars were upgraded with dual-polarization technology, which sends out both horizontally and vertically polarized pulses. This enhancement allowed for better differentiation between types of precipitation (rain, snow, hail) and improved estimates of precipitation rates and quantities.
 
     **Phased Array Radar (2000s - Present)**
 
@@ -791,9 +792,10 @@ estimates since their operational use by the National Weather Service in
 
     **Advances in Data Processing and Integration**
 
-    -  **Improved Algorithms**: Advances in data processing algorithms have led to more accurate and detailed precipitation estimates and forecasts.
+    -  **Improved Algorithms**: Advances in data processing algorithms have led to more accurate and detailed precipitation estimates and forecasts. For example the automated detection and removal of ground clutter and transmitting advanced waveforms that are used to extend the unambiguous range. 
 
-    -  **Integration with Other Data Sources**: Modern radar systems integrate data from satellites, weather stations, and other sensors, providing a more comprehensive understanding of weather systems.
+
+    -  **Integration with Other Data Sources**: Modern systems integrate data from radars, satellites, weather stations, and other sensors, providing a more comprehensive understanding of weather systems.
 
     **Future Developments**
 
