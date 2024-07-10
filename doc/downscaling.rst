@@ -356,7 +356,7 @@ be better suited for specific regions and applications. In addition,
 CORDEX data have historically been relatively coarse in spatial
 resolution (> 25 km), and thus not well suited for regional hydrologic
 applications, where spatial gradients and their influence on weather and
-climate are critical to represent..
+climate are critical to represent.
 
 Intermediate Complexity Models
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
