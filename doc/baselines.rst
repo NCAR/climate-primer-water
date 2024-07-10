@@ -906,11 +906,11 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Sample data from dual-polarimetric Radar|
 
-    A network of polarimetric radars promises to alleviate some of the errors associated with the phase, size, and distribution of hydrometeors. Ultimately, this means the problems associated with inappropriate Z-R conversions should be minimized.
+    Since the WSR-88D radar network has been upgraded to dual-polarization capabilities in about 2010 and 2011, many of hte ambiguities associated with the phase, size and distribution of hyrometeors have been greatly reduced. Further, the overall data quality has been improved with the addition of dual-polarization data. For example, ground clutter, bright-band and biological echoes are difficult to reliably identify and remove with traditional radars. But with dual-polarization radars these sources of contamination are readily identified by automated algorithms. Although errors from DSD variations, bright-band contamination and clutter remain ongoing issues for the WSR-88D radar data, the errors associated with them have been substantially reduced with the addition of dual-polarization capability.     
 
     Excellent training on precipitation measurement using polarimetric radar is available from NOAA’s WDTD. We will not repeat those lessons here, but we strongly encourage you to review them: http://www.wdtb.noaa.gov/courses/dualpol/Outreach/.
 
-    The basic premise behind polarimetric radar is that in addition to reflectivity estimates that we are familiar with, it estimates the shapes of hydrometeors. This is accomplished by using both a horizontally and a vertically polarized radar beam. By measuring the different returns from these two polarizations, one can estimate the shape and the effects from different hydrometeor shapes.
+    In addition to reflectivity estimates that we are familiar with, dual-polarization radar allows for estimates of the average shapes of hydrometeors within the resolution volume and whether or not differently shaped hydrometeors are collocated, e.g. mixed phase. This is accomplished by transmitting and receiving both a horizontally and a vertically polarized radar beam. By measuring the different returns from these two polarizations, one can estimate the shape and the effects from different hydrometeor shapes, which increase the accuracy of precipitation estimates and hydrometeor type classification..
 
     For example, we can determine if the prominent reflectors are large raindrops, which tend to be oblate with a large horizontal axis. We can also determine if the hydrometeors are more spherical, consistent with small raindrops. Or we can measure if the hydrometeors are highly reflective and generally spherical, consistent with hail. Other measures can be used to estimate the presence of snow, insects, or ground targets.
 
@@ -985,13 +985,12 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season|
 
-    This is all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite.
-
     |Warm season effective radar coverage for Boise, ID (KCBX)|
+    This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite. 
 
     The choice of frequency threshold is somewhat subjective, based on forecaster experience regarding what produces the most useful guidance.
 
-    Radar climatologies are generated for specific months or seasons. Let’s go back to the summer season radar coverage for the northwestern portion of the contiguous United States. All of the non-black areas are where we can assume good radar coverage. Again, here is the Boise coverage area that we just talked about. So the white shading is where we can assume good coverage.
+    Radar climatologies are generated for specific months or seasons. Let’s go back to the summer season radar coverage for the northwestern portion of the contiguous United States. All of the non-black areas are where we can assume good radar coverage. 
 
     In the cool season, there is more low level precipitation and thus the effects of terrain and distance on radar precipitation estimates are more severe. Note the sharp decrease in good radar coverage in the radar coverage map for the Northwest in the cool season.
 
@@ -1036,7 +1035,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     -  Errors in radar-derived precipitation are associated with variations in drop size distributions, precipitation phase, and lack of low-level information.
 
-    -  Dual-polarized radars estimate hydrometeor shapes, and should assist with developing more accurate precipitation products.
+    -  Dual-polarized radars estimate hydrometeor shapes, and have resulted in more accurate precipitation products.
 
     -  Satellite-derived precipitation is a supplement in regions with poor radar and rain gauge coverage.
 
