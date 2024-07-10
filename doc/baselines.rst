@@ -251,7 +251,7 @@ research purposes where understanding microclimates or specific local
 phenomena is crucial. **Extremes:** As opposed to other measurement
 techniques and approaches that often implicitly represent spatial or
 temporal averages, gauges are point-based in nature, allowing them to
-capture the widest range of temporal and spatial variability.
+capture the widest range of temporal and spatial variability, given sufficient spatial and temporal resolution.
 **Long-term data collection, standardization and calibration:** Many
 gauging approaches have remained consistent for many decades (or can be
 easily cross-compared to modernized techniques), along with
@@ -703,19 +703,20 @@ lead to underestimations of rainfall intensity at greater distances from
 the radar site. **Ground (or other) clutter:** Objects on or near the
 ground (buildings, hills, trees) can reflect radar signals, resulting in
 ground clutter that obscures or mimics precipitation signals, leading to
-inaccuracies; note that above-ground flying insects can also cause
+inaccuracies. Most operational radar systems including the WSR-88D effectively filter out the ground echoes, limiting the impact of stationary clutter. However non-stationary clutter including vehicle and train traffic, sea surface clutter and clutter from wind farms cannot be filtered effectively leading to errors.
+It is important to note that above-ground flying insects, birds and bats can also cause
 similar problems. **Elevation angle limitations:** The radar beam
-travels in a straight line, while the Earth curves away from it. At
+travels in a nearly straight line (it is typically refracted slightly towards the surface by the atmosphere), while the Earth curves away from it. At
 longer distances, this can cause the radar to overshoot lower-altitude
-precipitation, leading to underestimations of rainfall close to the
-ground. **Range degradation:** The quality and accuracy of radar data
+precipitation, leading to errors in estimated rainfall close to the
+ground due to evaporation and the horizontal advection of the measured precipitation. Also at long ranges, part or all of the radar beam may be located above the 0 deg C level, so it is measuring the ice or melting ice above the rain and not the rain itself. **Range degradation:** The quality and accuracy of radar data
 decrease with distance due to the spreading of the radar beam and
 increasing altitude of observation. This makes long-range precipitation
-estimates less reliable. **Dependence on reflectivity:** Radar estimates
+estimates less reliable. **Dependence on reflectivity:** Radar traditionally estimates
 precipitation by measuring the reflectivity of water particles in the
 air. This method assumes a relationship between the size and type of
 particles and the intensity of precipitation, which has its own
-inaccuracies. **Calibration and maintenance:** Radar systems require
+inaccuracies. The introduction of dual-polarization measurements has reduced, but not eliminated, these issues. **Calibration and maintenance:** Radar systems require
 regular calibration and maintenance to ensure their accuracy.
 Calibration must often be localized to account for regional climatic and
 environmental conditions, adding complexity to their operation.
@@ -727,7 +728,7 @@ researcher’s interest. Note that this spatial discretization also
 implicitly dampens extremes that would be captured through point-based
 gauge measurements. **Length of historical record and changes in
 estimation quality through time:** some of the most significant radar
-technologies did not become operational until the 1990s (with
+technologies did not become operational until the 1990s or later (with
 dual-polarization and doppler capabilities), so care should be taken
 when utilizing radar-based precision estimates preceding this time
 period. However, note that over the US it is possible to assess the
