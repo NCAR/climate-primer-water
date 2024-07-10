@@ -982,9 +982,7 @@ Below we provide additional introductory details on the derivation, strengths, a
     So now we want to choose a precipitation frequency threshold to represent effective radar coverage. In other words, we will say, “only when precipitation occurred at least this often, will we trust the radar estimates.”
 
     In this example, a frequency of occurrence of 0.006 was chosen. This means that we will only consider radar bins where greater than 0.0 mm occurred at least 0.006, or 0.6% of the time according to the radar climatology.
-
-    |Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season|
-
+  
     |Warm season effective radar coverage for Boise, ID (KCBX)|
     This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite. 
 
