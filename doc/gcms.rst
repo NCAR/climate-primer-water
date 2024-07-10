@@ -188,8 +188,8 @@ versions of generated datasets, including CMIP3 (2005), CMIP5 (2011)
 (there was no CMIP4), and CMIP6 (2018), with the members of the CMIP
 Core Panel currently working on the design of CMIP7. Important
 goals of CMIP are:
--  Standardize global climate model (GCM) experiments and model
-   output
+
+-  Standardize global climate model (GCM) experiments and model output
 -  Compare and evaluate GCMs used in the climate studies`
 -  Make the CMIP GCM data publicly available
 
@@ -268,12 +268,14 @@ assessment of future scenarios regarding greenhouse gas emissions and
 their impacts:
 
 SRES (Special Report on Emissions Scenarios)
+
 -  Developed by: Intergovernmental Panel on Climate Change (IPCC) in
    2000, and used in the IPCC’s Third and Fourth Assessment Reports.
 
 -  Purpose: To explore different scenarios of future emissions based on
    varying economic, social, and environmental developments without
    assigning likelihood to any scenario.
+
 
 -  Features:
 
@@ -285,6 +287,7 @@ SRES (Special Report on Emissions Scenarios)
       emissions (e.g., the Kyoto Protocol).
 
 RCP (Representative Concentration Pathways)
+
 -  Developed by: Introduced in the IPCC’s Fifth Assessment Report
    (2014).
 
@@ -294,6 +297,7 @@ RCP (Representative Concentration Pathways)
    physical science basis of climate projections.
 
 -  Features:
+
    -  Four pathways (RCP2.6, RCP4.5, RCP6, RCP8.5) representing
       different climate futures based on the radiative forcing in watts
       per square meter by 2100 (2.6 W/m\ :sup:`2`, 4.5 W/m\ :sup:`2`,
@@ -303,6 +307,7 @@ RCP (Representative Concentration Pathways)
       different levels of greenhouse gas emissions and concentrations.
 
 SSP (Shared Socioeconomic Pathways)
+
 -  Developed by: First used extensively in the IPCC’s Sixth Assessment
    Report (2021).
 
@@ -311,6 +316,7 @@ SSP (Shared Socioeconomic Pathways)
    emissions.
 
 -  Features:
+
    -  Five pathways (SSP1 through SSP5) integrating RCPs within broader
       narratives about socioeconomic changes, such as demographic,
       economic, and technological developments, intended to span the
@@ -327,6 +333,7 @@ SSP (Shared Socioeconomic Pathways)
       analysis.
 
 Comparison and Contrast
+
 -  Application in Climate Models: SRES scenarios were used primarily
    before the development of RCPs, which are now commonly used in
    climate modeling along with SSPs. SSPs are particularly significant
@@ -345,6 +352,7 @@ built upon the last, providing more detailed tools for understanding and
 addressing the multifaceted challenges of climate change.
 
 *Further details on SSPs*
+
 The figure below presents the simple framing of the different societal
 storylines that form the basis of the new SSPs. At their core, they
 represent different societal development pathways that are describing
