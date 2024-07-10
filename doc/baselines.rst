@@ -902,7 +902,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     **II. Remote Sensing of QPE » Precipitation Estimates with Dual Polarimetric Radar**
 
-    Advances are made in radar technology every year. As this lesson is being developed the most promising with respect to precipitation is dual polarized radar, or polarimetric radar.
+    Advances are made in radar technology every year. As this lesson is being developed the most impactful with respect to precipitation is dual polarized radar, or polarimetric radar.
 
     |Sample data from dual-polarimetric Radar|
 
