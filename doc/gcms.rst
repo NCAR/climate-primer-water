@@ -38,7 +38,7 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
-**Introduction**
+**4.1 Introduction**
 ---------------------------------
 
 This chapter provides an overview of General Circulation Models (GCMs),
@@ -109,7 +109,7 @@ process.
 
 — popout Ch4 Intro Introduction to Climate Models
 
-4.1 Goals of the IPCC, CMIPs, NCA
+4.2 Goals of the IPCC, CMIPs, NCA
 ------------------------------------
 
 *IPCC*
@@ -243,7 +243,7 @@ include:
    limitations, and best practices (while not evaluating or recommending
    specific adaptation or mitigation policies).
 
-4.2. What do climate projections and IPCC climate change scenarios mean and their assumptions
+4.3 What do climate projections and IPCC climate change scenarios mean and their assumptions
 -------------------------------------------------------------------------------------------------
 
 Since the early iterations of the IPCC process, a suite of coordinated
@@ -407,7 +407,7 @@ a total of 23 independent intercomparison projects that are part of
 CMIP6, and thus significantly more model output is available to study
 physical systems.
 
-4.3 Earth system climate modeling – historical perspective
+4.4 Earth system climate modeling – historical perspective
 -------------------------------------------------------------
 
 **Modeling of the Earth’s climate system has and continues to evolve and
@@ -483,7 +483,7 @@ change, again, confirming the increasingly robust scientific
 “partnership” between observations, theory/modeling, and paleoclimate
 reconstructions (geologic records).
 
-4.4 Earth system climate modeling – current strengths and abilities
+4.5 Earth system climate modeling – current strengths and abilities
 -----------------------------------------------------------------------
 
 **Climate models offer the only practical way to integrate highly
@@ -611,7 +611,7 @@ so detailed, that they can be used to spot errors in the observational
 record (e.g., Santer et al. 2003; 2011), even as the observational
 record has been used to validate climate models.
 
-4.5 Earth system climate modeling – ongoing challenges
+4.6 Earth system climate modeling – ongoing challenges
 ------------------------------------------------------------
 
 **Despite the progress, uncertainties remain regarding climate models’
@@ -686,7 +686,7 @@ sample of such challenges.
    challenges in estimating critical parameters such as precipitation
    (Song and Bai, 2016, Chen et al. 2019).
 
-4.6 GCM future climate datasets
+4.7 GCM future climate datasets
 -----------------------------------
 
 Note that the IPCC’s goals, as stated above in this chapter, do not
