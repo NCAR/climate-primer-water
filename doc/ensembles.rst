@@ -1,12 +1,12 @@
 
 
-Chapter 6: Uncertainties
-========================
+Chapter 6: Uncertainty
+======================
 
 Sources of Uncertainty
 ----------------------
 
-Future simulations of the climate system have multiple sources of uncertainty. Broadly, these sources are:
+Simulations of the climate system have multiple sources of uncertainty. Broadly, these sources are:
 
 Model uncertainties
 ^^^^^^^^^^^^^^^^^^^
@@ -50,6 +50,8 @@ The figure below illustrates the relative size of these different uncertainty co
 *Figure 1: The ‘cascade of uncertainties’ in CMIP6 projections. Changes in: global surface air temperature (left); Northern South America temperature (middle); and East Asia summer (June–July–August, JJA) precipitation (right). These are shown for two time periods: 2041–2060 (top) and 2081–2100 (bottom). The SSP–radiative forcing combination is indicated at the top of each cascade at the value of the multi-model mean for each scenario. This branches downwards to show the ensemble mean for each model, and further branches into the individual ensemble members, although often only a single member is available. These diagrams highlight the relative importance of different sources of uncertainty in climate projections, which varies for different time periods, regions and climate variables. (Figure 1.15 in IPCC, 2021).*
 
 More generally, the relative magnitude of model uncertainty and internal variability depends on the time horizon of the projection, location, spatial and temporal aggregation, variable, and signal strength (Rowell, 2012; Fischer et al., 2013; Deser et al., 2014; Saffioti et al., 2017; Kirchmeier-Young et al., 2019). The relative contribution of internal variability is larger for short than for long projection horizons (Marotzke and Forster, 2015; Lehner et al., 2020; Maher et al., 2021), larger for high latitudes than for low latitudes, larger for land than for ocean variables, larger at station level than for continental or global means, larger for annual maxima/minima than for multi-decadal means, larger for dynamic quantities (and, by implication, precipitation) than for temperature (IPCC, 2021; Fischer et al., 2014).
+
+
 
 
 .. |image1| image:: media/ch6/image1.png
