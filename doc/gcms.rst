@@ -394,18 +394,8 @@ IPCC, 2021)*
 *Figure: Global time-series of land use changes (in million hectares)
 (Source: IPCC, 2021)*
 
-**Modeling groups were also encouraged to perform additional experiments
-beyond Tier 1 scenarios.** These experiments are associated with
-scenarios that contain reductions later in the century (so called
-“overshoot scenarios”) as well as a low-end emission scenario in line
-with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large
-computational demand, most modeling centers only performed the core Tier
-1 experiments. Some centers managed to simulate a large number of
-ensemble members for select experiments. These experiments are the CMIP6
-simulations associated with the ScenarioMIP project. However, there are
-a total of 23 independent intercomparison projects that are part of
-CMIP6, and thus significantly more model output is available to study
-physical systems.
+.. dropdown:: **Modeling groups were also encouraged to perform additional experiments beyond Tier 1 scenarios.** 
+    These experiments are associated with scenarios that contain reductions later in the century (so called “overshoot scenarios”) as well as a low-end emission scenario in line with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large computational demand, most modeling centers only performed the core Tier 1 experiments. Some centers managed to simulate a large number of ensemble members for select experiments. These experiments are the CMIP6 simulations associated with the ScenarioMIP project. However, there are a total of 23 independent intercomparison projects that are part of CMIP6, and thus significantly more model output is available to study physical systems.
 
 4.4 Earth system climate modeling – historical perspective
 -------------------------------------------------------------
