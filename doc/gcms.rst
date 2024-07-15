@@ -467,77 +467,29 @@ IPCC, 2021)*
 4.6 Earth system climate modeling – ongoing challenges
 ------------------------------------------------------------
 
-**Despite the progress, uncertainties remain regarding climate models’
-ability to represent the earth-climate system.** Importantly, reducing
-these uncertainties will not change the fundamental, robust conclusion
-that climate change is largely driven by anthropogenic emissions of
-GHGs. However, improving the predictive capability of climate models at
-the spatial and temporal scales necessary for decision-making will help
-reduce criticism when discussing the uncertainties of climate modeling
-results. There are several scientific challenges that the climate
-modeling community continue to work on, with the following bullets a
-sample of such challenges.
+.. dropdown:: **Despite the progress, uncertainties remain regarding climate models’ ability to represent the earth-climate system.** 
 
-   · *Aerosol-cloud interactions.* One of the largest modeling
-   challenges is associated with the processes of aerosol-cloud
-   interactions (Gettelman and Sherwood, 2016). Even when the
-   composition of aerosols are generally known - and thus one can
-   calculate their “direct radiative effect” (e.g. Osipov et al. 2015) -
-   how these particles interact with clouds and influence cloud
-   structure and evolution, and then how they influence precipitation
-   (the “indirect effect”, see Shine et al. 2015; Anisimov et al., 2018;
-   Francis et al. 2021), is highly uncertain and can depend on numerous,
-   very detailed processes. The large uncertainties in aerosol forcing
-   are associated with these issues. The consequences of these
-   processes, however, are important because they have a substantial
-   influence on the sensitivity of the climate system (Sherwood et al.
-   2020). To make matters worse, potential future change in aerosol
-   composition will continue to challenge the ability to accurately
-   model aerosol-cloud interactions. Improved understanding of
-   cloud-aerosol dynamics will remain a high priority for years to come.
+     Importantly, reducing these uncertainties will not change the fundamental, robust conclusion that climate change is largely driven by anthropogenic emissions of GHGs. However, improving the predictive capability of climate models at the spatial and temporal scales necessary for decision-making will help reduce criticism when discussing the uncertainties of climate modeling results. There are several scientific challenges that the climate modeling community continue to work on, with the following bullets a sample of such challenges.
 
-   · *Ice sheet dynamics.* A newer topic within CMIP is the simulation
-   of the response of polar ice sheets to the changing climate. Earlier
-   generations of models did not contain dynamic ice sheet components
-   and thus were hampered in estimating future changes in global sea
-   level. Several of this latest generation of models include polar ice
-   sheets and thus the model-based estimates of sea level have been
-   corrected upwards. However, the lack of long-term observations in the
-   vicinity of the ice sheets on ice sheet stability and the ocean-ice
-   interface limits the confidence in the results at the present time.
+.. dropdown:: *Aerosol-cloud interactions* 
 
-   · *Carbon cycle feedback loops*. Another focal point of development
-   is centered on the carbon cycle feedback, and how it interacts with
-   vegetation and land use (Friedlingstein et al. 2014). The carbon
-   cycle contains many feedback mechanisms, some of which are positive
-   and speed up warming trends (e.g., an increase of dead trees in a
-   forest reduces gross primary productivity which means less carbon
-   dioxide is being absorbed from the air for photosynthesis) and some
-   of which are negative and serve to slow the warming trend (e.g.,
-   ocean buffering resists changes in ocean pH to some extent). Some
-   feedbacks are highly local and extremely sensitive to environmental
-   conditions. Therefore, even the sign over large areas are difficult
-   to constrain. This topic too will remain as a priority challenge in
-   future CMIP efforts.
+    One of the largest modeling challenges is associated with the processes of aerosol-cloud interactions (Gettelman and Sherwood, 2016). Even when the composition of aerosols are generally known - and thus one can calculate their “direct radiative effect” (e.g. Osipov et al. 2015) - how these particles interact with clouds and influence cloud structure and evolution, and then how they influence precipitation (the “indirect effect”, see Shine et al. 2015; Anisimov et al., 2018; Francis et al. 2021), is highly uncertain and can depend on numerous, very detailed processes. The large uncertainties in aerosol forcing are associated with these issues. The consequences of these processes, however, are important because they have a substantial influence on the sensitivity of the climate system (Sherwood et al. 2020). To make matters worse, potential future change in aerosol composition will continue to challenge the ability to accurately model aerosol-cloud interactions. Improved understanding of cloud-aerosol dynamics will remain a high priority for years to come.
 
-   · *Artificial intelligence.* As mentioned above, the role of ML/AI
-   approaches within models and in the post-processing of outcomes will
-   dramatically change in the years ahead. The opportunities that these
-   computationally efficient techniques offer is difficult to
-   exaggerate. Still, there will be the problems of stationarity, and
-   physics-based non-linear dynamics that will have to be overcome.
-   Nevertheless, a new class of tools is likely to emerge that will
-   increasingly influence how we approach simulations and explore ranges
-   of impacts. The activities towards “Digital Twins” of the Earth will
-   heavily rely on these methods.
+.. dropdown:: *Ice sheet dynamics.* 
 
-   · *Ground truthing.* Finally, the challenge of maintaining continued,
-   high-quality observational networks remains a serious challenge in
-   many parts of the globe despite the increase in capabilities of using
-   remotely sensed information from ever more capable satellite
-   platforms. Still, without ground truthing, there will continue to be
-   challenges in estimating critical parameters such as precipitation
-   (Song and Bai, 2016, Chen et al. 2019).
+    A newer topic within CMIP is the simulation of the response of polar ice sheets to the changing climate. Earlier generations of models did not contain dynamic ice sheet components and thus were hampered in estimating future changes in global sea level. Several of this latest generation of models include polar ice sheets and thus the model-based estimates of sea level have been corrected upwards. However, the lack of long-term observations in the vicinity of the ice sheets on ice sheet stability and the ocean-ice interface limits the confidence in the results at the present time.
+
+.. dropdown:: *Carbon cycle feedback loops*
+
+    Another focal point of development is centered on the carbon cycle feedback, and how it interacts with vegetation and land use (Friedlingstein et al. 2014). The carbon cycle contains many feedback mechanisms, some of which are positive and speed up warming trends (e.g., an increase of dead trees in a forest reduces gross primary productivity which means less carbon dioxide is being absorbed from the air for photosynthesis) and some of which are negative and serve to slow the warming trend (e.g., ocean buffering resists changes in ocean pH to some extent). Some feedbacks are highly local and extremely sensitive to environmental conditions. Therefore, even the sign over large areas are difficult to constrain. This topic too will remain as a priority challenge in future CMIP efforts.
+
+.. dropdown:: *Artificial intelligence* 
+
+    As mentioned above, the role of ML/AI approaches within models and in the post-processing of outcomes will dramatically change in the years ahead. The opportunities that these computationally efficient techniques offer is difficult to exaggerate. Still, there will be the problems of stationarity, and physics-based non-linear dynamics that will have to be overcome. Nevertheless, a new class of tools is likely to emerge that will increasingly influence how we approach simulations and explore ranges of impacts. The activities towards “Digital Twins” of the Earth will heavily rely on these methods.
+
+.. dropdown:: *Ground truthing* 
+
+    Finally, the challenge of maintaining continued, high-quality observational networks remains a serious challenge in many parts of the globe despite the increase in capabilities of using remotely sensed information from ever more capable satellite platforms. Still, without ground truthing, there will continue to be challenges in estimating critical parameters such as precipitation (Song and Bai, 2016, Chen et al. 2019).
 
 4.7 GCM future climate datasets
 -----------------------------------
