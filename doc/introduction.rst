@@ -128,10 +128,6 @@ guidance on how to understand and use climate and climate change data.
 -----------------------------------------------------
 *Note: This following section is summarized from COMET MetEd's* `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_
 
-Warning: |text|_
-.. _text: https://www.meted.ucar.edu/education_training/lesson/1245
-.. |text| replace:: *Climate and Water Resource Management Part 2*
-
 2.2.1 Define the problem/objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -343,7 +339,7 @@ reliability with the practicality of implementation.
 
     -  What are the implications of having to link multiple models, for example, a hydrological model that produces water temperature with a reservoir operations model?
 
-    The answers may determine whether the study has a good chance for successful completion.
+    The answers may determine whether the project has a good chance for successful completion.
 
     Climate change itself may influence the choices you make for modeling and analyzing data for your study. For example, water temperature in a stream that has been controlled by groundwater input historically may need to be controlled by reservoir releases in the future. Such a study may require detailed information about the time evolution of variables as the climate changes. Model issues may pose constraints, making certain approaches impractical given your project resources.
 
@@ -351,11 +347,11 @@ reliability with the practicality of implementation.
 
     -  Resources and personnel available
 
-    -  Desire for study partners to explore the range of possibilities
+    -  Desire for project partners to explore the range of possibilities
 
     -  Complexity and particular requirements for modeling the relevant influences
 
-    In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. Chapter V of this primer will explore this issue further by providing an example of how this process is carried out.
+    In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
 
 2.2.2. Water Availability Assessments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -365,15 +361,15 @@ assessments help us focus our efforts when completing climate change
 impact studies. Climate changes, particularly changes in temperature and
 precipitation, have a direct impact on two key elements of the
 hydrologic cycle: evaporation and precipitation. Other elements of the
-hydrologic cycle—snowmelt, runoff, surface streamflow, and storage—are
+hydrologic cycle—snowmelt, runoff, streamflow, and storage—are
 consequently impacted. It is also important to understand other,
 non-climate related attributes of climate change scenarios (e.g.
 socio-economic projections, land use change assumptions, etc.) that will
 impact water availability. While this climate primer will only cover
 attributes and the use of the climate change scenarios, it is also
 important to mention that projected changes in elements outside climate
-change scenarios such as changes in water management systems (e.g.
-diversions, storage, demand side management) will also impact future
+change scenarios, such as changes in water management systems (e.g.
+diversions, storage, demand side management), will also impact future
 water availability. These are often evaluated in Integrated Assessment
 Models.
 
