@@ -14,14 +14,14 @@ available, and this Primer is meant to help navigate what can be an
 overwhelming amount of information. To help guide the development of the
 Primer, the NCAR team conducted hour-long interviews with 6 members of
 the WMA which included research hydrologists and a data
-scientist/ecologist. The goal of the interviews was to understand how
+scientist/ecologist. The goal of the interviews was to begin to understand how
 USGS scientists are using climate and climate change information in the
 WMA, questions and struggles they have with using the information, and
 what type of support would be most useful to them regarding climate and
 climate change information.
 
 The following is a list of questions that were discussed in the
-interviews.
+interviews:
 
 1) What is the main water concern you are working on (e.g., groundwater
    / surface water interactions, salinity, ecological flows)? Why is it
@@ -30,11 +30,11 @@ interviews.
 2) How do you and/or your organization view climate change (e.g. it’s
    important and we need to include it; we would like to include it but
    not sure of best approach or are resource-constrained; it is not one
-   of our top concerns)
+   of our top concerns)?
 
-3) Have you used climate and climate change information (observations or
-   weather/climate forecasts or climate change model “runs”)? If so, how
-   have you used them ? What was your best/worst experience with using
+3) Have you used climate and climate change information (observations, 
+   weather/climate forecasts, or climate change model simulations)? If so, how
+   have you used them? What was your best/worst experience using
    climate and climate change information?
 
 4) What time horizon do you plan for?
@@ -48,27 +48,27 @@ interviews.
    dangerous?
 
 7) Any final thoughts/feedback on the primer and/or interview
-   process/etc that you’d like to share?
+   process that you would like to share?
 
 The interviews resulted in rich discussions on the focus and goals of
-the USGS Water Mission Area along with where there may be gaps in
+the USGS WMA along with where there may be gaps in
 expertise and what would be most useful from the perspective of those
-interviewed. Below is a summary of areas where the USGS Water Mission
+interviewed. Below is a summary of areas where the USGS WMA
 has focused their work and areas where this group could use more
-guidance on how to understand and use climate and climate change data..
+guidance on how to understand and use climate and climate change data.
 
-**Main water concerns USGS Water Mission Area is working on**\ *:*
+**Selection of water concerns USGS Water Mission Area is working on**\ *:*
 
--  Coordinating broad water availability assessments - historic and
+-  Coordinating broad water availability assessments - historical and
    future
 
-   -  Supply, demand, quality
+   -  Water supply, demand, and quality
 
-   -  Components of water cycle (precip, evap, soil moisture,
+   -  Components of the water cycle (precipitation, evaporation, soil moisture,
       streamflow, surface water, groundwater)
 
--  Water budget components (dissolved solids, groundwater/surface water
-   interactions, water quantity and quality)
+-  Water budget components and connections with groundwater/surface water
+   interactions, dissolved solids, other water quality
 
 -  Land use and management impacts on water
 
@@ -76,102 +76,98 @@ guidance on how to understand and use climate and climate change data..
 
 -  Stream and lake temperatures, salinity, nitrates
 
--  Number of times/days thresholds are exceeded
+-  Frequency thresholds are exceeded
 
 -  Spatial and temporal covariability
 
-**Desired information from a climate primer**
+**Desired information from a climate primer**\ *:*
 
 -  Basics of climate change data
 
    -  How to evaluate datasets
 
-      -  Which are good for past vs future analysis
+      -  Which datasets are good for past vs. future analysis?
 
-      -  Are some ‘better’ than others and if so, why?
+      -  Are some datasets "better" than others and, if so, why?
 
    -  Where to obtain datasets, scripts to help with downloading and
       converting datasets
 
    -  Understanding downscaling
 
-   -  Uncertainties, bias’s, limitations
+   -  Uncertainties, biases, limitations
 
-      -  How to characterize and put a number to uncertainties
+      -  How to characterize and quantify uncertainties
 
-      -  Understand how bias’s impact results
+      -  Understand how biases impact results
 
 -  Recommendations for good observational datasets
 
--  Provide a ‘standardized approach’ for using climate and climate
+-  Provide a "standardized approach" for using climate and climate
    change information
 
    -  How to go from observation to climate change impacts
 
    -  What to do if there are data gaps
 
--  High level overview to understand main issues
+-  High-level overview to understand main issues
 
-   -  How to decipher what is ‘real’ and what to trust in literature
+   -  How to decipher what is "real" and what to trust in the literature
 
    -  Glossary of terms
 
 -  Guidelines on how to present outputs in a reasonable way
 
-   -  Understanding of attribution (what was from climate vs other
-      issues)
+-  Understanding of attribution (what was from climate vs. other
+   drivers)
 
--  How to combine multiple future projections of other variables…i.e.
-   Future land use with future climate change
+-  How to combine multiple future projections of drivers, e.g.,
+   future land use with future climate
 
-2.2 What is needed for “science and research” support
+2.2 What is needed for science and research support
 -----------------------------------------------------
-(Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2)
+*Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2*
+https://www.meted.ucar.edu/education_training/lesson/1245
 
 2.2.1 Define the problem/objective.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 With any scientific research tasked to consider climate change, the
-starting point is to simply ask what is the central aim of the study..
-These can be as simple as:
+starting point is to ask: what is the central aim of the study?
+For example:
 
 -  How often might water temperatures in streams be too dangerous for
    aquatic life in the 2050-2080 period?
 
--  How and why might instream flow targets not be achievable out into
-   the future?
+-  Why might we fail to reach water delivery targets in the 2070-2100 period?
 
--  What is the study’s time horizon of analysis? 2020 to 250? 2020 to
-   2100? Other time periods? in the 2070-2100 period?
-
--  What are the chances of dropping below reservoir low pool levels for
+-  What are the chances of dropping below reservoir low-pool levels for
    more than one consecutive year in the 2040-2070 period?
 
 Each of these questions is examining the impacts of a future climate on
-a system performance measure. Here are the measures for the questions.
+a system performance measure. Below are example measures for these questions. 
+Water managers, scientific experts (e.g., aquatic biologists), and 
+stakeholders are all good resources for defining these performance measures. 
+The problem and performance measures should be defined early in the study to 
+inform selection of datasets and models that are optimal (in terms of resolutions, 
+accuracies, uncertainties) for the problem and target metrics.
 
-+-------------------------------------------------+--------------------+
-| **Study Questions**                             | **System           |
-|                                                 | Performance        |
-|                                                 | Measures**         |
-+=================================================+====================+
-| How often might water temperatures              | Threshold maximum  |
-|                                                 |                    |
-| in streams be too dangerous for aquatic life    | water temperature  |
-|                                                 |                    |
-| in the 2050-2080 period?                        |                    |           
-+-------------------------------------------------+--------------------+
-| Why might we fail to reach water delivery       | Annual water       |
-|                                                 |                    |
-| targets in the 2070-2100 period?                | delivery targets   |
-+-------------------------------------------------+--------------------+
-| What are the chances of dropping below          | Reservoir low pool |
-|                                                 |                    |   
-| reservoir low pool levels for more than one     | threshold          |
-|                                                 |                    |
-| consecutive year in the 2040-2070 period?       |                    |
-+-------------------------------------------------+--------------------+
++-------------------------------------------------+-----------------------+
+| **Research Question**                           | **System Performance  |
+|                                                 | Measures**            |
++=================================================+=======================+
+| How often might water temperatures              | Threshold maximum     |
+| in streams be too dangerous for aquatic life    | water temperature     |
+| in the 2050-2080 period?                        | and exposure duration |           
++-------------------------------------------------+-----------------------+
+| Why might we fail to reach water delivery       | Annual water          |
+| targets in the 2070-2100 period?                | delivery targets      |
++-------------------------------------------------+-----------------------+
+| What are the chances of dropping below          | Reservoir low-pool    |
+| reservoir low-pool levels for more than one     | threshold             |
+| consecutive year in the 2040-2070 period?       |                       |
++-------------------------------------------------+-----------------------+
 
 2.2.1.1 What is relevant, reliable and practical
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
