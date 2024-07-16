@@ -126,12 +126,10 @@ guidance on how to understand and use climate and climate change data.
 
 2.2 What is needed for science and research support
 -----------------------------------------------------
-*Note: This following section is summarized from COMET's Climate and Water Resource Management Part 2*
-https://www.meted.ucar.edu/education_training/lesson/1245
+*Note: This following section is summarized from COMET MetEd's `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_*
 
-2.2.1 Define the problem/objective.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+2.2.1 Define the problem/objective
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 With any scientific research tasked to consider climate change, the
 starting point is to ask: what is the central aim of the study?
@@ -159,7 +157,8 @@ accuracies, uncertainties) for the problem and target metrics.
 +=================================================+=======================+
 | How often might water temperatures              | Threshold maximum     |
 | in streams be too dangerous for aquatic life    | water temperature     |
-| in the 2050-2080 period?                        | and exposure duration |           
+| in the 2050-2080 period?                        | and threshold         |
+|                                                 | exposure duration     |           
 +-------------------------------------------------+-----------------------+
 | Why might we fail to reach water delivery       | Annual water          |
 | targets in the 2070-2100 period?                | delivery targets      |
@@ -169,39 +168,41 @@ accuracies, uncertainties) for the problem and target metrics.
 | consecutive year in the 2040-2070 period?       |                       |
 +-------------------------------------------------+-----------------------+
 
-2.2.1.1 What is relevant, reliable and practical
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2.1.1 What is relevant, reliable, and practical
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once you’ve defined your study questions and objectives, there are three
+Once you’ve defined your research questions and objectives, there are three
 primary questions to answer when scoping a study that involves the
 integration of climate change information:
 
 1. What is relevant?
 
    a. Identify which climate impacts and climate-derived data are
-      important. The answer will likely vary depending on the mission
-      area and specific decisions that need to be made.
+      important. The answer will likely vary depending on the research topic
+      and specific decisions that need to be made.
 
 2. What is reliable?
 
    a. There is a varying degree of confidence in projected climate and
-      climate-derived data. We must consider which set of climate
+      climate-derived data. You must consider which set of climate
       projection data to rely on and which potential climate futures to
-      consider
+      consider.
 
 3. What is practical?
 
    a. The realities of the project, such as the availability of
       resources, time, and personnel.
 
-The answer to these questions are closely related to the
-specifics of the study goals and needs, and can vary from study to
-study. You will need to balance the relevancy of the data and its
-reliability with the practicality of implementing the study.
+The answer to these questions are closely related to the specifics of the 
+project goals, location, and stakeholder needs, and can vary from project to
+project. You will need to balance the relevancy of the data and its
+reliability with the practicality of implementation.
 
 .. dropdown:: What is relevant?
     
-    Simply stated, the “\ **what is relevant**\ ” question asks you to identify which climate impacts and climate-derived data are important. The answer will likely vary depending on the mission area and specific decisions that need to be made.        
+    Simply stated, the “\ **what is relevant**\ ” question asks you to identify which 
+    climate impacts and climate-derived data are important. The answer will likely vary 
+    depending on the research topic and specific decisions that need to be made.        
     When determining what data are relevant to a study, you should consider:
 
     1. Climate data that describe potential future climate conditions relevant to the study goals.
@@ -259,7 +260,7 @@ reliability with the practicality of implementing the study.
      Relevant data for *species recovery and adaptive management* may      
      include:                                                              
                                                                            
-     -  Water quality issues (water temperature, water chemistry,          
+     -  Water quality (water temperature, water chemistry,          
         sediment)                                                          
                                                                            
      -  Temperature trends and the potential future range                  
@@ -270,9 +271,9 @@ reliability with the practicality of implementing the study.
                                                                            
      -  Flood                                                              
                                                                            
-     Relevant data for i\ *nfrastructur*\ e may include:                   
+     Relevant data for *infrastructure* may include:                   
                                                                            
-     -  Flood (those that are rare)                                        
+     -  Flood (extreme)                                        
                                                                            
      -  Drought                                                            
                                                                            
@@ -281,7 +282,7 @@ reliability with the practicality of implementing the study.
 
 .. dropdown:: What is reliable?
     
-    The “\ **what is reliable”** question recognizes that there is a varying degree of confidence in projected climate and climate-derived data. In understanding what is reliable we should think about the following:
+    The “\ **what is reliable”** question recognizes that there are varying degrees of confidence in projected climate and climate-derived data. In understanding what is reliable you should think about the following:
 
     -  Balance reliability with relevancy
 
@@ -289,35 +290,35 @@ reliability with the practicality of implementing the study.
 
     -  Use historical observations to help determine reliability
 
-    We must consider which set of climate projection data to rely on and which potential climate futures to consider.The issues of reliability and uncertainty and how they depend on time-horizon, spatial-scale, and means or extremes of a climate variable is also discussed in Chapter III of this primer.
+    You should consider which set of climate projection data to rely on and which potential climate futures to consider. Issues of reliability and uncertainty, and how they depend on time-horizon, spatial-scale, and means or extremes of a climate variable, are also discussed in `Chapter 3 <https://ncar.github.io/climate-primer-water/baselines.html>`_ of this primer.
 
-    Given the inherent uncertainty in climate projections, when considering climate futures, you may need to strike a balance between using climate data that is relevant and using data that is reliable enough for the purpose and particulars of your study. For example, highly uncertain data may be fine for a study exploring system vulnerabilities to potential climate change scenarios but may be far too unreliable to underpin an infrastructure investment.
+    Given the inherent uncertainty in climate projections, when considering climate futures, you may need to strike a balance between using climate data that is relevant and using data that is reliable enough for the purpose and particulars of your project. For example, highly uncertain data may be fine for a project exploring system vulnerabilities to potential climate change scenarios but may be far too unreliable to underpin an infrastructure investment.
 
     Balancing Reliability With Relevancy
 
     |image1|
 
-    How do you determine which data are reliable enough to be trusted with answering the questions posed by the scoping study? Here the challenge is to determine how reliable data needs to be for us to consider it “reliable enough” for inclusion as potential future climate data.
+    How do you determine which data are reliable enough to be trusted with answering the questions posed by the project? Here the challenge is to determine how reliable data needs to be for you to consider it “reliable enough” for inclusion as potential future climate data.
 
-    On a relative scale of reliability, average long-term temperature trends are the most reliable. In addition, many mission areas require future temperature-derived information, such as frequency of heat waves, seasonal snow, and potential evaporation. These are less reliable but still considered relatively reliable at representing potential future climate. The slightly lower rating is due to the need for more time- and space-specific information, and the influence of less reliably projected phenomena such as precipitation, wind, and cloudiness.
+    On a relative scale of reliability, average long-term temperature trends are the most reliable. In addition, many projects require future temperature-derived information, such as frequency of heat waves, seasonal snow, and potential evaporation. These are less reliable but still considered relatively reliable at representing potential future climate. The slightly lower rating is due to the need for more time- and space-specific information, and the influence of less reliably projected phenomena such as precipitation, wind, and cloudiness.
 
-    Precipitation projections are more uncertain but may still be relatively reliable on larger regional scales and for long-term averages. Depending on your study questions, mission areas such as Long-term Planning, Reservoir Operations, and Adaptive Management may still benefit from precipitation data that are only moderately reliable at describing potential future climates.
+    Precipitation projections are more uncertain, but may still be relatively reliable on larger regional scales and for long-term averages. Depending on your research questions, objectives such as long-term planning, reservoir operations, and adaptive management may still benefit from precipitation data that are only moderately reliable at describing potential future climates.
 
-    Once we are considering specific short-duration, local-area precipitation and precipitation-derived variables, reliability is much lower. Yet, these data are highly relevant to study questions related to extreme precipitation and runoff thresholds. Since extremes, by definition, occur rarely, we need to represent low-probability, high consequence events in a potential future climate.
+    For specific short-duration, local-area precipitation and precipitation-derived variables, reliability is much lower. Yet these data are highly relevant to research questions related to extreme precipitation and runoff thresholds. Since extremes, by definition, occur rarely, you need to represent low-probability, high consequence events in a potential future climate.
 
-    Other approaches may help with extracting the most reliable possible information about local extremes, such as those related to the study time period and/or the use of historic observations.
+    Other approaches may help with extracting the most reliable possible information about local extremes, such as those related to the study time period and/or the use of historical observations.
 
     A study’s time horizon may help minimize some of the reliability issues when dealing with highly uncertain climate variables. Consider the cone below, where the lines and colored circles represent the hypothetical futures for five climate projections. The left side represents the current time, the right side 2100.
 
     |image2|
 
-    Historical observations may be used to increase our confidence in using variables with high uncertainty by providing context about the range of future conditions. This issue is also discussed in Chapter III of this primer. Historic observations fall into two categories:
+    Historical observations may be used to increase our confidence in using variables with high uncertainty by providing context about the range of future conditions. This issue is also discussed in `Chapter 3 <https://ncar.github.io/climate-primer-water/baselines.html>`_ of this primer. Historical observations fall into two categories:
 
     -  Those from the period of instrumentation, which contains directly measured amounts and timing as well as trends
 
     -  Paleo observations from ice cores, tree rings, alluvial deposits, or other proxy data, which provide estimates from before the period of instrumentation
 
-    The historical record of temperature, precipitation, snowfall, and other variables can be merged with projected trends to provide an estimate of the time sequencing of events, such as drought and flood, in potential future climates. Although the past is not a perfect predictor of the future sequencing of climate events, it may be the most reliable guidance for informing study questions that need that kind of information. An example of how this sequencing is carried out is provided in Chapter V .This can be very important for mission areas such as Reservoir Operations, Long-term Planning, and Species Recovery, where the regularity and frequency of events, like severe drought, are relevant and need the most reliable guidance.
+    The historical record of temperature, precipitation, snowfall, and other variables can be merged with projected trends to provide an estimate of the time sequencing of events, such as drought and flood, in potential future climates. Although the past is not a perfect predictor of the future sequencing of climate events, it may be the most reliable guidance for informing research questions that need that kind of information. An example of how this sequencing is carried out is provided in `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_. This can be very important for objectives such as reservoir operations, long-term planning, and species recovery, where the regularity and frequency of events, like severe drought, are relevant and need the most reliable guidance.
 
 .. dropdown:: What is practical?
     
