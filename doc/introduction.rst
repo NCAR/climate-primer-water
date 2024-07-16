@@ -126,7 +126,11 @@ guidance on how to understand and use climate and climate change data.
 
 2.2 What is needed for science and research support
 -----------------------------------------------------
-*Note: This following section is summarized from COMET MetEd's `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_*
+*Note: This following section is summarized from COMET MetEd's* `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_
+
+Warning: |text|_
+.. _text: https://www.meted.ucar.edu/education_training/lesson/1245
+.. |text| replace:: *Climate and Water Resource Management Part 2*
 
 2.2.1 Define the problem/objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
