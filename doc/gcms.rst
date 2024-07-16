@@ -38,7 +38,8 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
-**Introduction**
+4.1 Introduction
+---------------------------------
 
 This chapter provides an overview of General Circulation Models (GCMs),
 also known as Global Climate Models, and how they are employed within
@@ -55,7 +56,6 @@ climate change understanding:
 
 *Projection of Future Climate Conditions and Support for International
 Climate Assessments*
-
 GCMs enable scientists to project future climate conditions under
 various scenarios, such as those outlined in the IPCC SRES, RCP, and SSP
 frameworks (which we discuss further below). By inputting different
@@ -67,7 +67,6 @@ and necessary adaptations.
 
 *Understanding of Climate Processes and Evaluation of Climate Change
 Impacts*
-
 GCMs simulate the complex interactions between different components of
 the Earth's climate system. This helps scientists understand fundamental
 processes such as the water cycle, energy balance, and atmospheric
@@ -82,7 +81,6 @@ planning and mitigation strategies in vulnerable regions.
 
 *Testing Hypotheses and Development of Mitigation and Adaptation
 Strategies*
-
 GCMs are valuable for testing scientific hypotheses about the climate
 system. By altering specific variables or processes within the model,
 researchers can explore how these changes affect climate outcomes,
@@ -111,11 +109,10 @@ process.
 
 — popout Ch4 Intro Introduction to Climate Models
 
-4.A Goals of the IPCC, CMIPs, NCA
----------------------------------
+4.2 Goals of the IPCC, CMIPs, NCA
+------------------------------------
 
 *IPCC*
-
 The Intergovernmental Panel on Climate Change (IPCC) is the United
 Nations body for assessing the science related to climate change, with
 its objective to provide governments at all levels with the scientific
@@ -173,7 +170,6 @@ resources where many of these data, including CMIP6 [discussed below]
 and other data, can be found.
 
 *CMIP*
-
 The Coupled Model Intercomparison Project (CMIP) is a collaborative
 framework designed to utilize climate modeling efforts from a number of
 weather and climate centers to improve knowledge of past, present and
@@ -190,17 +186,15 @@ observations and to one another to characterize model uncertainty and
 scenario uncertainty. The CMIP project started in 1995 and has multiple
 versions of generated datasets, including CMIP3 (2005), CMIP5 (2011)
 (there was no CMIP4), and CMIP6 (2018), with the members of the CMIP
-Core Panel currently working on the design of CMIP7.` :mark:`Important
-goals of CMIP are:`
+Core Panel currently working on the design of CMIP7. Important
+goals of CMIP are:
 
--  :mark:`Standardize global climate model (GCM) experiments and model
-   output.`
+-  Standardize global climate model (GCM) experiments and model output
+-  Compare and evaluate GCMs used in the climate studies`
+-  Make the CMIP GCM data publicly available
 
--  :mark:`Compare and evaluate GCMs used in the climate studies`
-
--  :mark:`Make the CMIP GCM data publicly available.`
-
-*CORDEX*: One notable model intercomparison project under the umbrella
+*CORDEX*: 
+One notable model intercomparison project under the umbrella
 of CMIP is the COordinated Regional Climate Down-scaling Experiment or
 CORDEX (Gutowski et al. 2016), for comparing and evaluating regional
 dynamical and statistical downscaling techniques and their
@@ -211,12 +205,10 @@ the CMIP global models, particularly in complex topography zones,
 coastal areas and small islands, as well as for extremes.
 
 *NCA*
-
 The National Climate Assessment (NCA) is a key initiative of the U.S.
 Global Change Research Program (USGCRP) and is aimed at assessing and
 summarizing the impacts of climate change on the country and involves
-contributions from hundreds of experts across various sectors.
-:mark:`The Global Change Research Act of 1990 mandates that the USGCRP
+contributions from hundreds of experts across various sectors. The Global Change Research Act of 1990 mandates that the USGCRP
 deliver a report to Congress and the President not less frequently than
 every four years that “integrates, evaluates, and interprets the
 findings of the Program and discusses the scientific uncertainties
@@ -225,13 +217,13 @@ the natural environment, agriculture, energy production and use, land
 and water resources, transportation, human health and welfare, human
 social systems, and biological diversity; and analyzes current trends in
 global change, both human-induced and natural, and projects major trends
-for the subsequent 25 to 100 years.”` More specifically (with overlap
+for the subsequent 25 to 100 years.” More specifically (with overlap
 with the IPCC), the main goals of the National Climate Assessment
 include:
 
 -  Inform policy guidance and resource management decision-making by
-   providing :mark:`policy-neutral and policy-relevant information
-   accessible and actionable.`
+   providing policy-neutral and policy-relevant information
+   accessible and actionable.
 
 -  Enhance Public Awareness and Understanding about the causes, impacts,
    and potential solutions to climate change, aiming to make the
@@ -244,15 +236,15 @@ include:
    health, agriculture, water resources, energy, ecosystems, and
    infrastructure.
 
--  Assess Adaptation and Mitigation Strategies; :mark:`assess the
+-  Assess Adaptation and Mitigation Strategies; assess the
    science of adapting to a changing climate, emissions reductions, and
    other efforts that together describe the US’s existing and potential
    response to climate change, including benefits, trade-offs, targets,
    limitations, and best practices (while not evaluating or recommending
-   specific adaptation or mitigation policies).`
+   specific adaptation or mitigation policies).
 
-4.B. What do climate projections and IPCC climate change scenarios mean and their assumptions
----------------------------------------------------------------------------------------------
+4.3 What do climate projections and IPCC climate change scenarios mean and their assumptions
+-------------------------------------------------------------------------------------------------
 
 Since the early iterations of the IPCC process, a suite of coordinated
 experiments under the CMIP framework have been performed to offer a
@@ -284,14 +276,15 @@ SRES (Special Report on Emissions Scenarios)
    varying economic, social, and environmental developments without
    assigning likelihood to any scenario.
 
+
 -  Features:
 
    -  Four narrative families (A1, A2, B1, B2) reflecting different
       developmental pathways.
 
-   -  Scenarios :mark:`are "baseline" scenarios, they do not take into
+   -  Scenarios are "baseline" scenarios, they do not take into
       account any current or future measures to limit greenhouse gas
-      emissions (e.g., the Kyoto Protocol)`.
+      emissions (e.g., the Kyoto Protocol).
 
 RCP (Representative Concentration Pathways)
 
@@ -401,300 +394,105 @@ IPCC, 2021)*
 *Figure: Global time-series of land use changes (in million hectares)
 (Source: IPCC, 2021)*
 
-**Modeling groups were also encouraged to perform additional experiments
-beyond Tier 1 scenarios.** These experiments are associated with
-scenarios that contain reductions later in the century (so called
-“overshoot scenarios”) as well as a low-end emission scenario in line
-with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large
-computational demand, most modeling centers only performed the core Tier
-1 experiments. Some centers managed to simulate a large number of
-ensemble members for select experiments. These experiments are the CMIP6
-simulations associated with the ScenarioMIP project. However, there are
-a total of 23 independent intercomparison projects that are part of
-CMIP6, and thus significantly more model output is available to study
-physical systems.
+.. dropdown:: **Modeling groups were also encouraged to perform additional experiments beyond Tier 1 scenarios.** 
 
-4.C Earth system climate modeling – historical perspective
-----------------------------------------------------------
+    These experiments are associated with scenarios that contain reductions later in the century (so called “overshoot scenarios”) as well as a low-end emission scenario in line with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large computational demand, most modeling centers only performed the core Tier 1 experiments. Some centers managed to simulate a large number of ensemble members for select experiments. These experiments are the CMIP6 simulations associated with the ScenarioMIP project. However, there are a total of 23 independent intercomparison projects that are part of CMIP6, and thus significantly more model output is available to study physical systems.
 
-**Modeling of the Earth’s climate system has and continues to evolve and
-innovate.** During the mid to late 1990s, the representation of a
-coupled atmosphere-ocean system without flux corrections [2]_ was a key
-achievement that could be used to study consequences of evolving
-greenhouse gas concentrations. This was followed by the introduction of
-aerosols (primarily sulfate and later others), allowing for the
-evaluation of the spatial climate footprint imposed by these emissions.
-In the early 2000s, the objectives moved to the proper representation of
-the seasonal cycles, followed by a focus on the power spectrum of
-internal variability [3]_, and especially of El Niño-Southern
-Oscillation fluctuations. More recently, climate modeling efforts have
-focused on processes with more significant regional or local impacts.
-For example, there has been an emphasis on understanding the nature of
-extreme rainfall, as well the processes linking the middle atmosphere to
-the lower atmosphere. These processes affect the variability in storm
-tracks, allowing for the application of these models for more
-time-dependent problems, such as forecasts at sub-seasonal, to seasonal,
-to decadal timescales (Towler and Yates 2021).
+4.4 Earth system climate modeling – historical perspective
+-------------------------------------------------------------
 
-**The need for accounting for more interactions between the climate and
-the Earth system has led to the incorporation of additional complex
-components.** For example: New polar ice sheet models simulate ice
-dynamics and their potentially important links to sea level. Beyond
-transporting aerosols and including their radiative effects, new
-atmospheric physics and chemistry modules simulate the formation and
-removal of aerosols as well as their interactions with clouds and
-precipitation, which represents some of the most complex physical
-challenges. The global carbon cycle can now be simulated so that
-atmospheric greenhouse gas concentrations no longer have to be
-prescribed but rather are predicted by the models based on emission time
-series and the coupled system’s response. These new developments reflect
-a greater level of maturity in modeling that now more closely reflects
-the integration of processes and their uncertainties, and can better
-reflect the attributes of the shared socioeconomic pathways (SSPs,
-discussed in 4.B) and the response of the whole Earth system to societal
-development scenarios. For exploring these complex scenarios,
-sophisticated Earth system models coupling all of these processes
-together have become the prerequisite.
+.. dropdown:: **Modeling of the Earth’s climate system has and continues to evolve and innovate.** 
 
-**However, the scales at which this information is offered typically
-requires further processing for many practical applications on the
-ground.** While scientific advances and computational power have allowed
-the models to include more complex components, their spatial resolution
-has not significantly advanced over the past decade, still largely
-constrained by computation limitations. Every time the spatial
-resolution of a climate model is increased, the demand for more
-computational resources grows significantly. Thus, the global models
-have generally remained at horizontal resolutions of around 100 km. This
-deficiency in properly representing important local factors, such as
-topography, the land-sea interface, etc. still requires downscaling
-approaches, either in dynamical form (see :mark:`CMIP’s CORDEX` effort
-in section 4.A.; Giorgi and Gutowski 2015), through statistical means,
-or some hybrid form. Most recently, even Machine Learning (ML) has been
-employed to achieve higher resolutions (Watson-Parris 2021). While ML
-and Artificial Intelligence (AI) techniques will quite likely
-revolutionize the overall enterprise of modeling (replacing
-parameterizations, offering higher resolution ensembles, etc.), the need
-for a physics-based core that more faithfully can represent the
-non-linear interactions and evolution of the system will probably remain
-(e.g., O’Gorman and Dwyer 2018; Huntingford et al. 2019).
+    During the mid to late 1990s, the representation of a coupled atmosphere-ocean system without flux corrections [2]_ was a key achievement that could be used to study consequences of evolving greenhouse gas concentrations. This was followed by the introduction of aerosols (primarily sulfate and later others), allowing for the evaluation of the spatial climate footprint imposed by these emissions. In the early 2000s, the objectives moved to the proper representation of the seasonal cycles, followed by a focus on the power spectrum of internal variability [3]_, and especially of El Niño-Southern Oscillation fluctuations. More recently, climate modeling efforts have focused on processes with more significant regional or local impacts. For example, there has been an emphasis on understanding the nature of extreme rainfall, as well the processes linking the middle atmosphere to the lower atmosphere. These processes affect the variability in storm tracks, allowing for the application of these models for more time-dependent problems, such as forecasts at sub-seasonal, to seasonal, to decadal timescales (Towler and Yates 2021).
 
-**Nevertheless, these modeling developments strengthen confidence in the
-understanding of climate change processes and contribute to reducing
-uncertainty.** They now provide a robust foundation to offer projections
-of possible future changes, with increasing and direct relevance for
-society in planning and decision-making. These projections (:mark:`see
-below: drivers of change`) fit into the current understanding of the
-evolving climate over past centuries, millennia and back millions of
-years both in magnitude as well as key determined characteristics of
-change, again, confirming the increasingly robust scientific
-“partnership” between observations, theory/modeling, and paleoclimate
-reconstructions (geologic records).
+.. dropdown:: **The need for accounting for more interactions between the climate and the Earth system has led to the incorporation of additional complex components.** 
 
-4.D Earth system climate modeling – current strengths and abilities
--------------------------------------------------------------------
+    For example: New polar ice sheet models simulate ice dynamics and their potentially important links to sea level. Beyond transporting aerosols and including their radiative effects, new atmospheric physics and chemistry modules simulate the formation and removal of aerosols as well as their interactions with clouds and precipitation, which represents some of the most complex physical challenges. The global carbon cycle can now be simulated so that atmospheric greenhouse gas concentrations no longer have to be prescribed but rather are predicted by the models based on emission time series and the coupled system’s response. These new developments reflect a greater level of maturity in modeling that now more closely reflects the integration of processes and their uncertainties, and can better reflect the attributes of the shared socioeconomic pathways (SSPs, discussed in 4.B) and the response of the whole Earth system to societal development scenarios. For exploring these complex scenarios, sophisticated Earth system models coupling all of these processes together have become the prerequisite.
 
-**Climate models offer the only practical way to integrate highly
-non-linear systems (or system of systems) and then provide insights into
-their interactions.** Models help translate the physics of the dynamical
-interactions and allow us to explore ranges of outcomes [4]_. The
-drivers of change are well documented, their imprints within the climate
-system have been identified (detected and attributed, e.g., Gillett et
-al. 2016), and thus there is robust confidence in the tools for
-exploring different potential future pathways of climate and what they
-will likely mean on the ground. As a foundational example, the figure
-below shows how the global temperature record since 1850 has been
-reproduced by the current ensemble of models.
+.. dropdown:: **However, the scales at which this information is offered typically requires further processing for many practical applications on the ground.** 
 
-|image5|
+    While scientific advances and computational power have allowed the models to include more complex components, their spatial resolution has not significantly advanced over the past decade, still largely constrained by computation limitations. Every time the spatial resolution of a climate model is increased, the demand for more computational resources grows significantly. Thus, the global models have generally remained at horizontal resolutions of around 100 km. This deficiency in properly representing important local factors, such as topography, the land-sea interface, etc. still requires downscaling approaches, either in dynamical form (see CMIP’s CORDEX effort in section 4.A.; Giorgi and Gutowski 2015), through statistical means, or some hybrid form. Most recently, even Machine Learning (ML) has been employed to achieve higher resolutions (Watson-Parris 2021). While ML and Artificial Intelligence (AI) techniques will quite likely revolutionize the overall enterprise of modeling (replacing parameterizations, offering higher resolution ensembles, etc.), the need for a physics-based core that more faithfully can represent the non-linear interactions and evolution of the system will probably remain (e.g., O’Gorman and Dwyer 2018; Huntingford et al. 2019).
 
-*Figure: Change in global average temperature since 1850 using four
-observational series and two multi-model ensembles with their ranges.
-(Source: ESMValTools Eyring et al. 2020 and IPCC, 2021.)*
+.. dropdown:: **Nevertheless, these modeling developments strengthen confidence in the understanding of climate change processes and contribute to reducing uncertainty.** 
 
-**This ability of models to reproduce the temporal evolution of the
-climate system has strengthened our confidence in properly contrasting
-the changes between different societal emission pathways**. The
-magnitude of global surface air temperature change associated with
-future emissions and thus atmospheric concentrations of the main drivers
-(well-mixed greenhouse gasses and aerosols) is associated with the
-system’s sensitivity to these changes. Uncertainties about this central
-quantity still exist, but the range that is to a large part driven by
-aerosols and how they interact with clouds, has been further reduced in
-the recent years since Charney et al. (1979) by using observational
-constraints (Sherwood et al., 2020; Hausfather et al., 2020; Brunner et
-al. 2020; Gillett et al., 2021; Ribes et al., 2021). The figure below
-shows the evolution of best estimates of climate sensitivity over the
-years.
+    They now provide a robust foundation to offer projections of possible future changes, with increasing and direct relevance for society in planning and decision-making. These projections (see below: drivers of change) fit into the current understanding of the evolving climate over past centuries, millennia and back millions of years both in magnitude as well as key determined characteristics of change, again, confirming the increasingly robust scientific “partnership” between observations, theory/modeling, and paleoclimate reconstructions (geologic records).
 
-|image6|
+4.5 Earth system climate modeling – current strengths and abilities
+-----------------------------------------------------------------------
 
-*Figure: Evolution of the equilibrium climate sensitivity of the global
-surface air temperature. First, Second, and Third Assessment Report:
-FAR, SAR, and TAR; Assessment Reports 4, 5, and 6: AR4, AR5, AR6. From
-Charney et al. (1979) to AR6 (Source: IPCC, 2021).*
+.. dropdown:: **Climate models offer the only practical way to integrate highly non-linear systems (or system of systems) and then provide insights into their interactions.** 
 
-**The spatial skill of models in reproducing the observed patterns
-continues to improve, with temperature historically already
-well-represented, and precipitation gradually improving.** The panels
-show the progression of the spatial correlation of temperature and
-precipitation of CMIP models against reference observations (left panel)
-and a global map of precipitation bias of the CMIP6 multi-model ensemble
-mean (right panel). Temperature structures have historically been very
-well represented (indicated by very high correlation coefficients),
-while precipitation patterns have improved more gradually. However,
-precipitation “skill” also suffers from the fact that there are large
-differences between observational datasets, and thus assessing the
-actual quality is more challenging. Still, the continuous increase in
-correlation against observations is obvious. The right panel shows the
-spatial structure of the biases, where the tropical regions stand out
-for their large biases – part of which can be related to the coarse
-spatial representation in climate models (i.e. coastal upwelling areas
-are not well resolved), but also the systematic errors due to double
-Intertropical Convergence Zone (ITCZ) representation and tropical
-convection dynamics [5]_.
+    Models help translate the physics of the dynamical interactions and allow us to explore ranges of outcomes [4]_. The drivers of change are well documented, their imprints within the climate system have been identified (detected and attributed, e.g., Gillett et al. 2016), and thus there is robust confidence in the tools for exploring different potential future pathways of climate and what they will likely mean on the ground. As a foundational example, the figure below shows how the global temperature record since 1850 has been reproduced by the current ensemble of models.
 
-|image7|
+    |image5|
 
-*Figure: Improvements of temperature and precipitation pattern
-correlation over the course of three CMIP generations (left panel).
-CMIP6 multi-model precipitation bias (right panel), with crossed lines
-indicating regions with conflicting signal. Source: ESMVal Tools,
-Eyering et al., 2020.*
+    *Figure: Change in global average temperature since 1850 using four observational series and two multi-model ensembles with their ranges. (Source: ESMValTools Eyring et al. 2020 and IPCC, 2021.)*
 
-**Some of the differences in climate modeling results have decreased
-over time; others have increased.** In the figure below, differences
-between CMIP5 and CMIP6 results are very small in the global temperature
-field, except in the Arctic where CMIP6 shows somewhat larger changes in
-sea ice. For precipitation, however, more differences are seen in the
-tropics with often increased intensity of daily maximum precipitation
-compared to the earlier generation of models. This reflects the
-development process in the different modeling groups that are aiming to
-improve the utility of the model output, where extreme precipitation is
-a climate variable that is in high demand (e.g., Trenberth et al. 2003;
-Seneviratne et al. 2012).
+.. dropdown:: **This ability of models to reproduce the temporal evolution of the climate system has strengthened our confidence in properly contrasting the changes between different societal emission pathways**. 
 
-|image8|
+    The magnitude of global surface air temperature change associated with future emissions and thus atmospheric concentrations of the main drivers (well-mixed greenhouse gasses and aerosols) is associated with the system’s sensitivity to these changes. Uncertainties about this central quantity still exist, but the range that is to a large part driven by aerosols and how they interact with clouds, has been further reduced in the recent years since Charney et al. (1979) by using observational constraints (Sherwood et al., 2020; Hausfather et al., 2020; Brunner et al. 2020; Gillett et al., 2021; Ribes et al., 2021). The figure below shows the evolution of best estimates of climate sensitivity over the years.
 
-*Figure: Comparison of changes in daily maximum temperature (top) and
-daily maximum precipitation (bottom) between CMIP5 and CMIP6. The right
-panels show a summary of these changes relative to the global mean
-temperature. Temperature changes are well aligned between the two
-generations of CMIP, but precipitation projections show a distinct
-increase in intensity in the new CMIP6 models (red) compared to earlier
-versions of CMIP5 (blue). Source: IPCC, 2021.*
+    |image6|
 
-**Climate models have also improved in representing climate variability
-across a broad range of timescales.** Diagnostics comparing the global
-models against observations demonstrate continued improvements (Lauer et
-al. 2020). The figure below illustrates the spatial structure of El Niño
-– Southern Oscillation (ENSO) related variability and how models manage
-to reproduce the key features. Overall reasonable direction and
-magnitudes of anomalies can be seen, though challenges in duration and
-frequency (power spectrum) of events remain. However, it also needs to
-be kept in mind that for many of the impacts related to potential
-changes in the statistics of these modes of variability, the
-observational record is often too short to allow for a robust
-identification of trends on the mode as well as the stability of
-teleconnections (see e.g., Krokos et al., 2019). While we can describe
-what global models project in terms of trends of these modes, a
-validation of these trends through theory and observations is often
-missing.
+    *Figure: Evolution of the equilibrium climate sensitivity of the global surface air temperature. First, Second, and Third Assessment Report: FAR, SAR, and TAR; Assessment Reports 4, 5, and 6: AR4, AR5, AR6. From Charney et al. (1979) to AR6 (Source: IPCC, 2021).*
 
-|image9|
+.. dropdown:: **The spatial skill of models in reproducing the observed patterns continues to improve, with temperature historically already well-represented, and precipitation gradually improving.** 
 
-*Figure: El Nino-Southern Oscillation teleconnections in boreal winter
-as represented in CMIP6. (Source: IPCC, 2021)*
+    The panels show the progression of the spatial correlation of temperature and precipitation of CMIP models against reference observations (left panel) and a global map of precipitation bias of the CMIP6 multi-model ensemble mean (right panel). Temperature structures have historically been very well represented (indicated by very high correlation coefficients), while precipitation patterns have improved more gradually. However, precipitation “skill” also suffers from the fact that there are large differences between observational datasets, and thus assessing the actual quality is more challenging. Still, the continuous increase in correlation against observations is obvious. The right panel shows the spatial structure of the biases, where the tropical regions stand out for their large biases – part of which can be related to the coarse spatial representation in climate models (i.e. coastal upwelling areas are not well resolved), but also the systematic errors due to double Intertropical Convergence Zone (ITCZ) representation and tropical convection dynamics [5]_.
 
-**In conclusion, climate modeling has made steady improvements over the
-years and now represents a strong basis to inform adaptation and
-mitigation action.** The GCM models of the Earth system have been able
-to provide decision makers with a growing confidence in the way
-processes that dominate future climate under different scenarios are
-reflected in modeling frameworks. The above examples illustrate the
-increasing accuracy by which temperature, precipitation and other
-large-scale patterns are effectively reproduced within models under
-different socioeconomic development scenarios. In fact, models are now
-so detailed, that they can be used to spot errors in the observational
-record (e.g., Santer et al. 2003; 2011), even as the observational
-record has been used to validate climate models.
+    |image7|
 
-4.E Earth system climate modeling – ongoing challenges
-------------------------------------------------------
+    *Figure: Improvements of temperature and precipitation pattern correlation over the course of three CMIP generations (left panel). CMIP6 multi-model precipitation bias (right panel), with crossed lines indicating regions with conflicting signal. Source: ESMVal Tools, Eyering et al., 2020.*
 
-**Despite the progress, uncertainties remain regarding climate models’
-ability to represent the earth-climate system.** Importantly, reducing
-these uncertainties will not change the fundamental, robust conclusion
-that climate change is largely driven by anthropogenic emissions of
-GHGs. However, improving the predictive capability of climate models at
-the spatial and temporal scales necessary for decision-making will help
-reduce criticism when discussing the uncertainties of climate modeling
-results. There are several scientific challenges that the climate
-modeling community continue to work on, with the following bullets a
-sample of such challenges.
+.. dropdown:: **Some of the differences in climate modeling results have decreased over time; others have increased.** 
 
-   · *Aerosol-cloud interactions.* One of the largest modeling
-   challenges is associated with the processes of aerosol-cloud
-   interactions (Gettelman and Sherwood, 2016). Even when the
-   composition of aerosols are generally known - and thus one can
-   calculate their “direct radiative effect” (e.g. Osipov et al. 2015) -
-   how these particles interact with clouds and influence cloud
-   structure and evolution, and then how they influence precipitation
-   (the “indirect effect”, see Shine et al. 2015; Anisimov et al., 2018;
-   Francis et al. 2021), is highly uncertain and can depend on numerous,
-   very detailed processes. The large uncertainties in aerosol forcing
-   are associated with these issues. The consequences of these
-   processes, however, are important because they have a substantial
-   influence on the sensitivity of the climate system (Sherwood et al.
-   2020). To make matters worse, potential future change in aerosol
-   composition will continue to challenge the ability to accurately
-   model aerosol-cloud interactions. Improved understanding of
-   cloud-aerosol dynamics will remain a high priority for years to come.
+    In the figure below, differences between CMIP5 and CMIP6 results are very small in the global temperature field, except in the Arctic where CMIP6 shows somewhat larger changes in sea ice. For precipitation, however, more differences are seen in the tropics with often increased intensity of daily maximum precipitation compared to the earlier generation of models. This reflects the development process in the different modeling groups that are aiming toimprove the utility of the model output, where extreme precipitation is a climate variable that is in high demand (e.g., Trenberth et al. 2003; Seneviratne et al. 2012).
 
-   · *Ice sheet dynamics.* A newer topic within CMIP is the simulation
-   of the response of polar ice sheets to the changing climate. Earlier
-   generations of models did not contain dynamic ice sheet components
-   and thus were hampered in estimating future changes in global sea
-   level. Several of this latest generation of models include polar ice
-   sheets and thus the model-based estimates of sea level have been
-   corrected upwards. However, the lack of long-term observations in the
-   vicinity of the ice sheets on ice sheet stability and the ocean-ice
-   interface limits the confidence in the results at the present time.
+    |image8|
 
-   · *Carbon cycle feedback loops*. Another focal point of development
-   is centered on the carbon cycle feedback, and how it interacts with
-   vegetation and land use (Friedlingstein et al. 2014). The carbon
-   cycle contains many feedback mechanisms, some of which are positive
-   and speed up warming trends (e.g., an increase of dead trees in a
-   forest reduces gross primary productivity which means less carbon
-   dioxide is being absorbed from the air for photosynthesis) and some
-   of which are negative and serve to slow the warming trend (e.g.,
-   ocean buffering resists changes in ocean pH to some extent). Some
-   feedbacks are highly local and extremely sensitive to environmental
-   conditions. Therefore, even the sign over large areas are difficult
-   to constrain. This topic too will remain as a priority challenge in
-   future CMIP efforts.
+    *Figure: Comparison of changes in daily maximum temperature (top) and daily maximum precipitation (bottom) between CMIP5 and CMIP6. The right panels show a summary of these changes relative to the global mean temperature. Temperature changes are well aligned between the two generations of CMIP, but precipitation projections show a distinct increase in intensity in the new CMIP6 models (red) compared to earlier versions of CMIP5 (blue). Source: IPCC, 2021.*
 
-   · *Artificial intelligence.* As mentioned above, the role of ML/AI
-   approaches within models and in the post-processing of outcomes will
-   dramatically change in the years ahead. The opportunities that these
-   computationally efficient techniques offer is difficult to
-   exaggerate. Still, there will be the problems of stationarity, and
-   physics-based non-linear dynamics that will have to be overcome.
-   Nevertheless, a new class of tools is likely to emerge that will
-   increasingly influence how we approach simulations and explore ranges
-   of impacts. The activities towards “Digital Twins” of the Earth will
-   heavily rely on these methods.
+.. dropdown:: **Climate models have also improved in representing climate variability across a broad range of timescales.** 
 
-   · *Ground truthing.* Finally, the challenge of maintaining continued,
-   high-quality observational networks remains a serious challenge in
-   many parts of the globe despite the increase in capabilities of using
-   remotely sensed information from ever more capable satellite
-   platforms. Still, without ground truthing, there will continue to be
-   challenges in estimating critical parameters such as precipitation
-   (Song and Bai, 2016, Chen et al. 2019).
+    Diagnostics comparing the global models against observations demonstrate continued improvements (Lauer et al. 2020). The figure below illustrates the spatial structure of El Niño – Southern Oscillation (ENSO) related variability and how models manage to reproduce the key features. Overall reasonable direction and magnitudes of anomalies can be seen, though challenges in duration and frequency (power spectrum) of events remain. However, it also needs to be kept in mind that for many of the impacts related to potential changes in the statistics of these modes of variability, the observational record is often too short to allow for a robust identification of trends on the mode as well as the stability of teleconnections (see e.g., Krokos et al., 2019). While we can describe what global models project in terms of trends of these modes, a validation of these trends through theory and observations is often missing.
 
-4.G GCM future climate datasets
--------------------------------
+    |image9|
+
+    *Figure: El Nino-Southern Oscillation teleconnections in boreal winter as represented in CMIP6. (Source: IPCC, 2021)*
+
+.. dropdown:: **In conclusion, climate modeling has made steady improvements over the years and now represents a strong basis to inform adaptation and mitigation action.** 
+
+    The GCM models of the Earth system have been able to provide decision makers with a growing confidence in the way processes that dominate future climate under different scenarios are reflected in modeling frameworks. The above examples illustrate the increasing accuracy by which temperature, precipitation and other large-scale patterns are effectively reproduced within models under different socioeconomic development scenarios. In fact, models are now so detailed, that they can be used to spot errors in the observational record (e.g., Santer et al. 2003; 2011), even as the observational record has been used to validate climate models.
+
+4.6 Earth system climate modeling – ongoing challenges
+------------------------------------------------------------
+
+.. dropdown:: **Despite the progress, uncertainties remain regarding climate models’ ability to represent the earth-climate system.** 
+
+     Importantly, reducing these uncertainties will not change the fundamental, robust conclusion that climate change is largely driven by anthropogenic emissions of GHGs. However, improving the predictive capability of climate models at the spatial and temporal scales necessary for decision-making will help reduce criticism when discussing the uncertainties of climate modeling results. There are several scientific challenges that the climate modeling community continue to work on, with the following bullets a sample of such challenges.
+
+.. dropdown:: *Aerosol-cloud interactions* 
+
+    One of the largest modeling challenges is associated with the processes of aerosol-cloud interactions (Gettelman and Sherwood, 2016). Even when the composition of aerosols are generally known - and thus one can calculate their “direct radiative effect” (e.g. Osipov et al. 2015) - how these particles interact with clouds and influence cloud structure and evolution, and then how they influence precipitation (the “indirect effect”, see Shine et al. 2015; Anisimov et al., 2018; Francis et al. 2021), is highly uncertain and can depend on numerous, very detailed processes. The large uncertainties in aerosol forcing are associated with these issues. The consequences of these processes, however, are important because they have a substantial influence on the sensitivity of the climate system (Sherwood et al. 2020). To make matters worse, potential future change in aerosol composition will continue to challenge the ability to accurately model aerosol-cloud interactions. Improved understanding of cloud-aerosol dynamics will remain a high priority for years to come.
+
+.. dropdown:: *Ice sheet dynamics.* 
+
+    A newer topic within CMIP is the simulation of the response of polar ice sheets to the changing climate. Earlier generations of models did not contain dynamic ice sheet components and thus were hampered in estimating future changes in global sea level. Several of this latest generation of models include polar ice sheets and thus the model-based estimates of sea level have been corrected upwards. However, the lack of long-term observations in the vicinity of the ice sheets on ice sheet stability and the ocean-ice interface limits the confidence in the results at the present time.
+
+.. dropdown:: *Carbon cycle feedback loops*
+
+    Another focal point of development is centered on the carbon cycle feedback, and how it interacts with vegetation and land use (Friedlingstein et al. 2014). The carbon cycle contains many feedback mechanisms, some of which are positive and speed up warming trends (e.g., an increase of dead trees in a forest reduces gross primary productivity which means less carbon dioxide is being absorbed from the air for photosynthesis) and some of which are negative and serve to slow the warming trend (e.g., ocean buffering resists changes in ocean pH to some extent). Some feedbacks are highly local and extremely sensitive to environmental conditions. Therefore, even the sign over large areas are difficult to constrain. This topic too will remain as a priority challenge in future CMIP efforts.
+
+.. dropdown:: *Artificial intelligence* 
+
+    As mentioned above, the role of ML/AI approaches within models and in the post-processing of outcomes will dramatically change in the years ahead. The opportunities that these computationally efficient techniques offer is difficult to exaggerate. Still, there will be the problems of stationarity, and physics-based non-linear dynamics that will have to be overcome. Nevertheless, a new class of tools is likely to emerge that will increasingly influence how we approach simulations and explore ranges of impacts. The activities towards “Digital Twins” of the Earth will heavily rely on these methods.
+
+.. dropdown:: *Ground truthing* 
+
+    Finally, the challenge of maintaining continued, high-quality observational networks remains a serious challenge in many parts of the globe despite the increase in capabilities of using remotely sensed information from ever more capable satellite platforms. Still, without ground truthing, there will continue to be challenges in estimating critical parameters such as precipitation (Song and Bai, 2016, Chen et al. 2019).
+
+4.7 GCM future climate datasets
+-----------------------------------
 
 Note that the IPCC’s goals, as stated above in this chapter, do not
 explicitly include the mandate of providing future change model outputs
