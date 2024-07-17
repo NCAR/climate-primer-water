@@ -124,11 +124,73 @@ guidance on how to understand and use climate and climate change data.
 -  How to combine multiple future projections of drivers, e.g.,
    future land use with future climate
 
-2.2 What is needed for science and research support
+
+2.2 Water Availability Assessments
+----------------------------------
+
+Understanding what climate elements are important in water availability
+assessments help us focus our efforts when completing climate change
+impact studies. Climate changes, particularly changes in temperature and
+precipitation, have a direct impact on two key elements of the
+hydrologic cycle: evaporation and precipitation. Other elements of the
+hydrologic cycle—snowmelt, runoff, streamflow, and storage—are
+consequently impacted. It is also important to understand other,
+non-climate related attributes of climate change scenarios (e.g.
+socio-economic projections, land use change assumptions, etc.) that will
+impact water availability. While this climate primer will only cover
+attributes and the use of the climate change scenarios, it is also
+important to mention that projected changes in elements outside climate
+change scenarios, such as changes in water management systems (e.g.
+diversions, storage, demand side management), will also impact future
+water availability. These are often evaluated in Integrated Assessment
+Models.
+
+|image3|
+
+Perlman, Howard and Evans, John. The Natural Water Cycle (JPG). USGS.
+https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
+2019
+
+
+**Issues with spatial and temporal covariance**
+
+
+a. Issues with spatial and temporal covariance
+
+b. Thresholds/extremes, weather typing
+
+   1. Important variables
+
+      a. P,T,
+
+c. Culling ensembles
+
+d. Applying climate deltas (e.g., temperature warming)
+
+e. Land use / land cover
+
+f. Socio-economic aspects
+
+g. 
+
+Preparation for running impacts models for climate change impacts:
+
+1. Surface water hydrology
+
+2. Crop irrigation water requirements
+
+3. Inland water temperature
+
+4. Sediment transport
+
+5. Long term planning of water resources
+
+
+2.3 What is needed for science and research support
 -----------------------------------------------------
 *Note: This following section is summarized from COMET MetEd's* `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_
 
-2.2.1 Define the problem/objective
+2.3.1 Define the problem/objective
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With any scientific research tasked to consider climate change, the
@@ -168,7 +230,7 @@ accuracies, uncertainties) for the problem and target metrics.
 | consecutive year in the 2040-2070 period?       |                       |
 +-------------------------------------------------+-----------------------+
 
-2.2.2 What is relevant, reliable, and practical?
+2.3.2 What is relevant, reliable, and practical?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you’ve defined your research questions and objectives, there are three
@@ -353,67 +415,8 @@ reliability with the practicality of implementation.
 
     In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
 
-2.2.3 Water Availability Assessments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Understanding what climate elements are important in water availability
-assessments help us focus our efforts when completing climate change
-impact studies. Climate changes, particularly changes in temperature and
-precipitation, have a direct impact on two key elements of the
-hydrologic cycle: evaporation and precipitation. Other elements of the
-hydrologic cycle—snowmelt, runoff, streamflow, and storage—are
-consequently impacted. It is also important to understand other,
-non-climate related attributes of climate change scenarios (e.g.
-socio-economic projections, land use change assumptions, etc.) that will
-impact water availability. While this climate primer will only cover
-attributes and the use of the climate change scenarios, it is also
-important to mention that projected changes in elements outside climate
-change scenarios, such as changes in water management systems (e.g.
-diversions, storage, demand side management), will also impact future
-water availability. These are often evaluated in Integrated Assessment
-Models.
-
-|image3|
-
-Perlman, Howard and Evans, John. The Natural Water Cycle (JPG). USGS.
-https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
-2019
-
-
-**Issues with spatial and temporal covariance**
-
-
-a. Issues with spatial and temporal covariance
-
-b. Thresholds/extremes, weather typing
-
-   1. Important variables
-
-      a. P,T,
-
-c. Culling ensembles
-
-d. Applying climate deltas (e.g., temperature warming)
-
-e. Land use / land cover
-
-f. Socio-economic aspects
-
-g. 
-
-Preparation for running impacts models for climate change impacts:
-
-1. Surface water hydrology
-
-2. Crop irrigation water requirements
-
-3. Inland water temperature
-
-4. Sediment transport
-
-5. Long term planning of water resources
-
-2.2.4 Predictions vs. Projections vs. Scenarios vs. Storylines
+2.3.3 Predictions vs. Projections vs. Scenarios vs. Storylines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As we look towards the future, there are different ways to estimate what
@@ -505,7 +508,7 @@ the system with compounding drivers (e.g., climate change and urbanization).
 An example use of storylines for water availability assessments is provided in
 `Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
-2.2.5 Paradigm (Process)
+2.3.4 Paradigm (Process)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image5|
@@ -528,7 +531,7 @@ It is important to remember that this process is just one way to prepare
 climate change impacts. There are a number of other methods, each with
 their own strengths and weaknesses.
 
-2.2.6 Bias Correction/Downscaling Overview
+2.3.5 Bias Correction/Downscaling Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Errors occur in most models. Some errors have consistency in their
