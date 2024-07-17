@@ -1278,14 +1278,14 @@ uncertainty.
 
 Climate models can be tested in several ways.
 
-1. :mark:`We can develop skill scores, which reduce model biases to a
-   single number.`
+1. We can develop skill scores, which reduce model biases to a
+   single number.
 
-2. :mark:`We can examine the spatial and temporal distribution of biases
-   in model means.`
+2. We can examine the spatial and temporal distribution of biases
+   in model means.
 
-3. :mark:`We can compare the natural variability in the simulated
-   climate with that in the observed climate.`
+3. We can compare the natural variability in the simulated
+   climate with that in the observed climate.
 
 In the future we expect that increasing computational
 capabilities will allow models to be run at increased resolution and
