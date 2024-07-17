@@ -129,7 +129,7 @@ guidance on how to understand and use climate and climate change data.
 *Note: This following section is summarized from COMET MetEd's* `Climate and Water Resource Management Part 2 <https://www.meted.ucar.edu/education_training/lesson/1245>`_
 
 2.2.1 Define the problem/objective
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With any scientific research tasked to consider climate change, the
 starting point is to ask: what is the central aim of the study?
@@ -354,7 +354,7 @@ reliability with the practicality of implementation.
     In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
 
 2.2.2. Water Availability Assessments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Understanding what climate elements are important in water availability
 assessments help us focus our efforts when completing climate change
@@ -379,8 +379,9 @@ Perlman, Howard and Evans, John. The Natural Water Cycle (JPG). USGS.
 https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
 2019
 
-Issues with spatial and temporal covariance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Issues with spatial and temporal covariance**
+
 
 a. Issues with spatial and temporal covariance
 
@@ -413,7 +414,7 @@ Preparation for running impacts models for climate change impacts:
 5. Long term planning of water resources
 
 2.2.3. Predictions vs. Projections vs. Scenarios vs. Storylines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As we look towards the future, there are different ways to estimate what
 it will look like. This section will provide a brief overview of the
@@ -427,8 +428,9 @@ and narratives/storylines.
 
    -  ???
 
-Predictions vs. Projections
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Predictions vs. Projections**
+
 
 Predictions and forecasts are probabilistic estimates of the future 
 based on current conditions, with the expectation that decisions made today
@@ -469,8 +471,9 @@ meaningful feedback to the climate modeling system.
 
 |image4|
 
-Scenarios
-^^^^^^^^^
+
+**Scenarios**
+
 
 Scenarios are projections of what potential futures look like. They
 require context and are generally used in pairs (e.g., with and without
@@ -494,8 +497,8 @@ Emissions scenarios are used as boundary value input for climate models.
 impacts from demographic, economic, and technological factors.
 
 
-Narratives or Storylines
-^^^^^^^^^^^^^^^^^^^^^^^^
+**Narratives or Storylines**
+
 
 `Shepherd et al. (2018) <Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9>`_ 
 define storylines (or narratives) as "physically self-consistent unfolding 
@@ -510,7 +513,7 @@ An example use of storylines for water availability assessments is provided in
 `Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
 2.2.4 Paradigm (Process)
-~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image5|
 
@@ -533,7 +536,7 @@ climate change impacts. There are a number of other methods, each with
 their own strengths and weaknesses.
 
 2.2.5. Bias Correction/Downscaling Overview
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Errors occur in most models. Some errors have consistency in their
 patterns or recurrence. For example, a climate model may consistently
