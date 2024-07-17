@@ -380,7 +380,7 @@ https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
 2019
 
 Issues with spatial and temporal covariance
-'''''''''''''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 a. Issues with spatial and temporal covariance
 
@@ -412,48 +412,14 @@ Preparation for running impacts models for climate change impacts:
 
 5. Long term planning of water resources
 
-2.2.3. Predictions vs. Projections vs. Scenarios, vs. Narratives and Storylines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.3. Predictions vs. Projections vs. Scenarios vs. Storylines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As we look towards the future, there are different ways to estimate what
 it will look like. This section will provide a brief overview of the
 different terms such as forecasts, predictions, projections, scenarios,
-and narratives.
+and narratives/storylines.
 
--  Predictions and Forecasts
-
-   -  Short-term evolution from initial state with constant boundary
-      conditions
-
-   -  Probability that can be verified
-
-      -  Examples: seasonal outlooks, El Niño forecasts, and seasonal
-         hurricane outlooks
-
--  Projections
-
-   -  Changing statistics in response to changing boundary values
-
-   -  Probability cannot be verified in time to provide meaningful
-      feedback
-
-      -  Examples:
-
--  Scenarios
-
-   -  “Climate change scenario" describes a set of possible mean
-      characteristics of a future climate;
-
-      -  Examples: hotter and wetter.
-
-   -  “Emission scenarios” represent realistic pathways of greenhouse
-      gas concentrations given effects on the likely emissions rates due
-      to changes in anthropogenic factors.
-
-      -  Shared Socio-Economic Pathways (SSPs)
-
-         -  Examples: impacts from demographic, economic, and
-            technological factors.
 
    -  
 
@@ -461,52 +427,87 @@ and narratives.
 
    -  ???
 
-Predictions vs Projections
-''''''''''''''''''''''''''
+Predictions vs. Projections
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Predictions and forecasts are probabilistic estimates of the future 
+based on current conditions, with the expectation that decisions made today
+will have little impact on the estimates. Climate predictions refers to 
+the short-term evolution of a weather system from an initial state under 
+constant boundary conditions. The initial value is represented by the initial 
+states of the climate system, including ocean heat content, and surface snow and
+ice cover. Predictions are associated with probability that can be verified.
 At lead times of weeks to months, predictions are typically based on
-both initial and boundary values. Climate "predictions" such as seasonal
-outlooks, El Niño forecasts, and seasonal hurricane outlooks fall into
-this category. The initial value is represented by the initial states of
-the climate system, including ocean heat content, and surface snow and
-ice cover.
-
-Predictions:
-
--  Short-term evolution from initial state with constant boundary
-   conditions
-
--  Probability that can be verified
-
-Projections:
-
--  Changing statistics in response to changing boundary values
-
--  Probability cannot be verified in time to provide meaningful feedback
-
-Think of the difference between predictions and projections in the
-following way: Prediction refers to the short-term evolution of a
-weather system from an initial state under constant boundary conditions.
-Predictions are associated with probability that can be verified.
+both initial and boundary values. Climate predictions, such as seasonal
+outlooks, El Niño forecasts, and seasonal hurricane outlooks, fall into
+this category. 
 
 Projection refers to how the statistical measures associated with a
 climate system will change in response to changing boundary values.
+Climate projections are generally framed as "if-then" statements where
+decisions made today and in the future are expected to impacts estimates.
 Projections, like predictions, may also be associated with
 probabilities, but they often cannot be verified in time to provide
 meaningful feedback to the climate modeling system.
 
++--------------------------------+--------------------------------+
+| **Predictions and Forecasts**  | **Projections**                |
++=================================================+===============+
+| Short-term evolution from      | "If-then" statements, with     |
+| initial state with constant    | changing statistics in         |
+| boundary conditions            | response to changing boundary  |
+|                                | values                         |           
++--------------------------------+--------------------------------+
+| Probability that can be        | Probability cannot be verified |
+| verified                       | in time to provide meaningful  |
+|                                | feedback                       |
++--------------------------------+--------------------------------+
+| Examples: seasonal outlooks,   | Examples: end-of-century       |
+| El Niño forecasts, and         | temperature increase range     |
+| seasonal hurricane outlooks    |                                |
++--------------------------------+--------------------------------+
+
 |image4|
 
 Scenarios
-'''''''''
+^^^^^^^^^
 
-The term "climate change scenario" describes a set of possible mean
-characteristics of a future climate; for example, hotter and wetter. The
-emissions scenarios are the driving force, or cause; the climate change
-scenarios capture the effect. Emissions scenarios are used as boundary
-value input for climate models. Climate models are used to produce
-climate projections. Climate projections inform, or provide the detailed
-climate information needed for climate change scenarios.
+Scenarios are projections of what potential futures look like. They
+require context and are generally used in pairs (e.g., with and without
+mitigation) or ensembles (e.g., the IPCC SSSP-RCP scenarios). There
+are many different types of scenarios used in climate modeling, and 
+many are linked.
+
+"Climate change scenario" describes a set of possible mean
+characteristics of a future climate; for example, hotter and wetter. 
+Climate models are used to produce climate projections. Climate projections 
+inform, or provide the detailed climate information needed for climate 
+change scenarios. 
+
+“Emissions scenarios” represent realistic pathways of greenhouse
+gas concentrations given effects on the likely emissions rates due
+to changes in anthropogenic factors. The emissions scenarios are the 
+driving force, or cause; the climate change scenarios capture the effect. 
+Emissions scenarios are used as boundary value input for climate models. 
+
+"Socioeconomic scenarios" represent societal drivers, including 
+impacts from demographic, economic, and technological factors.
+
+
+Narratives or Storylines
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Shepherd et al. (2018) <Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9>`_ 
+define storylines (or narratives) as "physically self-consistent unfolding 
+of past events, or of plausible future events or pathways." Storylines 
+focus on understanding the driving factors and impacts. They are useful 
+when orienting towards stakeholder decision-making and policy, which are 
+often driven by impactful events. Storylines are also useful for "bottom-up" 
+approaches where you want to work backward from a particular event and "stress test"
+the system with compounding drivers (e.g., climate change and urbanization).
+
+An example use of storylines for water availability assessments is provided in
+`Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
 2.2.4 Paradigm (Process)
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -549,6 +550,10 @@ manifestations of climate patterns result from complex topography or
 coastal interfaces may find downscaling a necessity.There are many
 spatial downscaling methods, but they can generally be classified into
 two categories: 1) statistical, and 2) dynamical.
+
+References:
+Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9
+
 
 .. |image1| image:: media/ch2/image3.png
    :width: 6.5in
