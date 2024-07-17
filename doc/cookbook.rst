@@ -1,9 +1,9 @@
 
 
-Further Reading
+Learn More...
 ========
 
-**Learn More: Introduction to Climate Models**
+**Introduction to Climate Models**
 -------------------------------------------------------------
 
 Introduction
