@@ -1232,7 +1232,7 @@ getting better.
 
 .. _section-18:
 
-**Summary**
+Summary
 ~~~~~~~~~~~~~~~
 
 The modeling of both weather and climate share a deep history and
@@ -1296,7 +1296,7 @@ with the most accurate parameterization schemes.
 
 .. _section-19:
 
-**References**
+References
 ~~~~~~~~~~~~~~~~~~
 
 Climate Change 2007: The Physical Science Basis. Working Group I
