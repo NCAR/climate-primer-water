@@ -168,8 +168,8 @@ accuracies, uncertainties) for the problem and target metrics.
 | consecutive year in the 2040-2070 period?       |                       |
 +-------------------------------------------------+-----------------------+
 
-2.2.1.1 What is relevant, reliable, and practical
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2.2 What is relevant, reliable, and practical?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you’ve defined your research questions and objectives, there are three
 primary questions to answer when scoping a study that involves the
@@ -353,8 +353,8 @@ reliability with the practicality of implementation.
 
     In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
 
-2.2.2. Water Availability Assessments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2.3 Water Availability Assessments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Understanding what climate elements are important in water availability
 assessments help us focus our efforts when completing climate change
@@ -413,8 +413,8 @@ Preparation for running impacts models for climate change impacts:
 
 5. Long term planning of water resources
 
-2.2.3. Predictions vs. Projections vs. Scenarios vs. Storylines
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2.4 Predictions vs. Projections vs. Scenarios vs. Storylines
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As we look towards the future, there are different ways to estimate what
 it will look like. This section will provide a brief overview of the
@@ -512,7 +512,7 @@ the system with compounding drivers (e.g., climate change and urbanization).
 An example use of storylines for water availability assessments is provided in
 `Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
-2.2.4 Paradigm (Process)
+2.2.5 Paradigm (Process)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image5|
@@ -535,8 +535,8 @@ It is important to remember that this process is just one way to prepare
 climate change impacts. There are a number of other methods, each with
 their own strengths and weaknesses.
 
-2.2.5. Bias Correction/Downscaling Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2.6 Bias Correction/Downscaling Overview
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Errors occur in most models. Some errors have consistency in their
 patterns or recurrence. For example, a climate model may consistently
