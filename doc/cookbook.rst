@@ -3,8 +3,9 @@
 Further Reading
 ========
 
-Workflow 1
-----------
+.. dropdown:: **Learn More: Introduction to Climate Models**
+-------------------------------------------------------------
+
 
 #. Step 1
 #. Step 2
