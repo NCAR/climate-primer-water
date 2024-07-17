@@ -107,7 +107,7 @@ policy-making in addressing the challenges of climate change.
 Further below we provide a broader introduction to the climate modeling
 process.
 
-— popout Ch4 Intro Introduction to Climate Models
+To learn more about climate models visit [Introduction Introduction to Climate Models](https://ncar.github.io/climate-primer-water/cookbook.html#introduction-to-climate-models).
 
 4.2 Goals of the IPCC, CMIPs, NCA
 ------------------------------------
