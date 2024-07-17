@@ -44,13 +44,13 @@ we do not attempt to explain the mechanics of El Nino-Southern
 Oscillation (ENSO), but we show examples of observations and model
 simulations of ENSO phenomena.
 
-Why Model the Earth System?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Why Model the Earth System?**
+
 
 |Satellite imagery of the great flood of the Mississippi River, 1993 in
 the area around St. Louis, MO comparing August 1991 and 1993.|
 
-Why do we model the climate system?
+**Why do we model the climate system?**
 
 Since the start of the Industrial Revolution, greenhouse gases,
 principally carbon dioxide, have increased substantially in the
@@ -86,8 +86,8 @@ future water and hydrologic needs requires looking far into the future.
 Building a dam, like the Shasta Dam shown here, requires a long lead
 time.
 
-Global Energy Flows
-~~~~~~~~~~~~~~~~~~~
+**Global Energy Flows**
+
 
 |Global Energy Flows (W/m2)|
 
@@ -133,8 +133,8 @@ Therefore, the cloud processes need to be accurately simulated in
 climate models. Similarly, vegetation strongly modulates energy flow by
 affecting albedo and evapotranspiration.
 
-Earth's Atmospheric Dynamics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Earth's Atmospheric Dynamics**
+
 
 |The Tropics defined by upward motion, low pressure, surface winds, and
 net surface heating|
@@ -146,8 +146,8 @@ by moving heat from warmer to colder regions. Climate models have to
 account for these large-scale circulations, such as Hadley cells, and
 the convective heating shown in this figure.
 
-Storm Systems
-~~~~~~~~~~~~~
+**Storm Systems**
+
 
 |Composite IR Satellite Image Loop 00 UTC 17 Mar 2012 to 12 UTC 20 Mar
 2012|
@@ -164,8 +164,8 @@ moist, tropical air toward the poles.
 `Top of
 page <https://www.meted.ucar.edu/nwp/climate_models/print.htm#header>`__
 
-Earth's Heat Transport
-~~~~~~~~~~~~~~~~~~~~~~
+**Earth's Heat Transport**
+
 
 |Meridional Atmosphere and Ocean Heat Transports|
 
@@ -182,8 +182,8 @@ atmospheric ones.
 Predictability of Weather and Climate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Weather versus Climate
-~~~~~~~~~~~~~~~~~~~~~~
+**Weather versus Climate**
+
 
 The key difference between weather and climate is really a matter of
 time scale.
@@ -211,8 +211,8 @@ atmospheric conditions to the extent that weather forecast models are.
 Initial ocean conditions can affect the simulated climate over the
 course of several years (eg. El Nino/La Nina) to a decade or more.
 
-Initial Condition vs Boundary Condition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Initial Condition vs Boundary Condition**
+
 
 -|Schamatic animation illustrating the difference between initial
 condition problem (ensemble drift and spread) and boundary condition
@@ -278,8 +278,8 @@ For climate models, it's the boundary conditions that matter.
 Initialization does not affect the long-term statistics that the models
 are designed to generate for periods of decades to centuries.
 
-Prediction vs Projection
-~~~~~~~~~~~~~~~~~~~~~~~~
+**Prediction vs Projection**
+
 
 Another way to look at weather versus climate is looking at it as a
 forecast challenge.
@@ -342,8 +342,8 @@ boundary conditions. Prediction refers to the short-term evolution of
 the climate system from an initial state under constant boundary
 conditions.
 
-Boundary Conditions
-~~~~~~~~~~~~~~~~~~~
+**Boundary Conditions**
+
 
 Boundary conditions in climate models all affect the way that energy is
 absorbed or exchanged in the climate system. Boundary conditions are not
@@ -361,9 +361,6 @@ has varied by about 2 W/m2 around an average of about 1361 W/m2 over the
 past 1150 years. Large volcanic eruptions episodically inject large
 quantities of aerosols into the atmosphere, which reflects incoming
 solar radiation.
-
-**Sidebar: Natural forcing: How do we know?**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Natural forcing: How do we know?**
 
@@ -393,9 +390,6 @@ Human-influenced boundary conditions include changes at the surface and
 changes in the atmosphere. At the surface, cutting forest for pasture
 and crops changes surface reflectivity and moisture, heat, and momentum
 exchanges between land and atmosphere.
-
-**Sidebar: Land use: How do we know?**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Land use: How do we know?**
 
@@ -429,9 +423,6 @@ Overall, aerosols are thought to contribute a cooling effect equal to
 about half of the warming caused by greenhouse gases when averaged over
 the globe.
 
-**Sidebar: Greenhouse gases: How do we know?**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 **Greenhouse gases: How do we know?**
 
 |Photo of ice core section with bubbles|
@@ -446,9 +437,8 @@ in atmospheric composition.
 
 Building a Climate System Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Physical Basis of Weather and Climate Models**
 
-Physical Basis of Weather and Climate Models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |Portraits of Sir Issac Newton, Rudolf Clausius, Arthur Schuster, Lewis
 Richardson, Vilhelm Bjerknes, John von Neumann|
@@ -485,8 +475,7 @@ they hear the word “model”, believe that the equations used to describe
 physical processes are loosely constrained and can be easily “tweaked”
 to get whatever answer the modeler wants. That is not the case.
 
-Resolved Dynamical Processes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Resolved Dynamical Processes**
 
 |Gridded globe with zoomed in section|
 
@@ -510,8 +499,7 @@ on a side. As of 2012, the NWP models have grid boxes as small as 1.5 km
 on a side or even a little less. Climate models are now run at a
 resolution as high as about 50 km.
 
-Sub-grid Scale Processes and Parameterization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Sub-grid Scale Processes and Parameterization**
 
 Even in high resolution models, some weather and climate processes are
 too small in scale to be calculated directly, and always will be, even
@@ -555,8 +543,7 @@ and computing power continues to increase.
 
 .. _section-1:
 
-Climate Model Evolution
-~~~~~~~~~~~~~~~~~~~~~~~
+**Climate Model Evolution**
 
 |Loop of schematic images showing the Evolution of Climate Models|
 
@@ -602,8 +589,7 @@ climate models.
 
 .. _section-2:
 
-Model components
-~~~~~~~~~~~~~~~~
+**Model components**
 
 |Schamatic animation illustrating the climate model coupler|
 
@@ -620,8 +606,7 @@ can be fixed.
 
 .. _section-3:
 
-Atmospheric Model
-~~~~~~~~~~~~~~~~~
+**Atmospheric Model**
 
 |Illustration of all processes and physical model elements that are
 parameterized in numerical weather prediction models. Includes 20
@@ -669,8 +654,7 @@ weather model, this is what you're going to find.
 
 .. _section-4:
 
-Ocean Model
-~~~~~~~~~~~
+**Ocean Model**
 
 |Processes Simulated by the Parallel Ocean Program|
 
@@ -715,8 +699,7 @@ solar radiation in the ocean.
 
 .. _section-5:
 
-Land Model
-~~~~~~~~~~
+**Land Model**
 
 |Processes Simulated by the Community Land Model 4.0|
 
@@ -748,8 +731,7 @@ for
 
 .. _section-6:
 
-Ice Models
-~~~~~~~~~~
+**Ice Models**
 
 |Processes Simulated by the Community Ice CodE|
 
@@ -788,8 +770,7 @@ climate.
 Model Tuning
 ~~~~~~~~~~~~
 
-Why We Tune Models
-~~~~~~~~~~~~~~~~~~
+**Why We Tune Models**
 
 |Interactive graphic showing relationship between radiative balance and
 cloud cover|
@@ -827,8 +808,7 @@ as or better than that of the old model.
 
 .. _section-8:
 
-How We Tune Models
-~~~~~~~~~~~~~~~~~~
+**How We Tune Models**
 
 |Summary of the principal components of the radiative forcing of climate
 change|
@@ -895,8 +875,7 @@ range of uncertainty that exists in the observations.
 Testing Climate System Models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Model Skill
-~~~~~~~~~~~
+**Model Skill**
 
 |Time series (1981-2006) of Anomaly Correlation of ECMWF 500 hPa Height
 Forecasts|
@@ -955,8 +934,7 @@ kinds of models can be.
 Bias in Model Means
 ~~~~~~~~~~~~~~~~~~~
 
-SST
-~~~
+**SST**
 
 |Difference between the SST in observations and (top) 2° run and
 (bottom) 0.5° run of CCSM4 for 1990-1999|
@@ -993,8 +971,7 @@ regions, eliminating the cold bias.
 
 .. _section-10:
 
-Sea Ice
-~~~~~~~
+**Sea Ice**
 
 |Sea Ice Concentration (%) for 1981-2005. Top (a-b): Observed
 Climatology from SSM/I/SSMR Satellites. Bottom (c-d): Ensemble Mean from
@@ -1009,8 +986,7 @@ ice minimum typically occurs in September.
 
 .. _section-11:
 
-Precipitation
-~~~~~~~~~~~~~
+**Precipitation**
 
 |Global Mean Precipitation and Precipitation Bias in 1-degree and
 2-degree CCSM4 Simulations|
@@ -1043,8 +1019,7 @@ those we saw in long-term simulations by climate models.
 
 .. _section-12:
 
-Biases in Initialized Climate Models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Biases in Initialized Climate Models**
 
 |ISCCP Mean Annual Frequency of Cloud Occurrence with Location of Cross
 Section|
@@ -1100,8 +1075,7 @@ of weather forecast models.
 Natural Variability
 ~~~~~~~~~~~~~~~~~~~
 
-North Atlantic Oscillation
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+**North Atlantic Oscillation**
 
 |North Atlantic Oscillation|
 
@@ -1138,8 +1112,7 @@ Northern Hemisphere.
 
 .. _section-14:
 
-ENSO
-~~~~
+**ENSO**
 
 |Sea-Surface Temperature Anomalies for the NiÃ±o 3.4 Region in
 Observations, CCSM4 (1Â°), and CCSM3 (T85).|
@@ -1161,8 +1134,7 @@ simulating these various modes of variability.
 Future Directions
 ~~~~~~~~~~~~~~~~~
 
-Increased Model Complexity
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Increased Model Complexity**
 
 |Conceptual Model of Earth System Processes Operating on Timescales of
 Decades to Centuries|
@@ -1207,8 +1179,7 @@ dioxide.
 
 .. _section-16:
 
-Increased Model Resolution
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Increased Model Resolution**
 
 |Average Precipitation Rate (mm/day) for North America 1996-2005 from
 Willmott-Matsuura Climatology and 0.25-degree Resolution CCSM4|
@@ -1233,80 +1204,79 @@ like a forecast model, and run at 5-km resolution to simulate a
 particular storm system. The other image is the satellite observation of
 the actual storm system.
 
-:mark:`So not only are models getting more complex, but there is a
+So not only are models getting more complex, but there is a
 parallel path wherein models are being run with increasing horizontal
 resolution, in both the atmosphere and the ocean. In general, the more
 we increase resolution, the more improvement we see in the model
 simulations. However, not all model fields are improving with increased
 resolution, and increasing resolution further may not yield significant
 improvement. Biases still remain, but many are now clearly related to
-parameterization schemes.`
+parameterization schemes.
 
 .. _section-17:
 
-:mark:`The Goal`
-~~~~~~~~~~~~~~~~
+**The Goal**
 
-:mark:`Eventually climate and weather modelers would like to merge
+Eventually climate and weather modelers would like to merge
 increased resolution and added complexity and run the most complete
 models at 10 to 20 km resolution with the most accurate parameterization
-schemes.`
+schemes.
 
-:mark:`There are still biases in models. There will always be biases in
+There are still biases in models. There will always be biases in
 models. But the models are grounded in basic physics and they're tested
 against multiple data sets of observations, in terms of both the mean
 and the variability. Thirty years ago atmosphere-only models were run
 with prescribed sea surface temperatures. Now we're running fully
 coupled Earth system models for thousands of years, and the models keep
-getting better.`
+getting better.
 
 .. _section-18:
 
-:mark:`Summary`
+**Summary**
 ~~~~~~~~~~~~~~~
 
-:mark:`The modeling of both weather and climate share a deep history and
+The modeling of both weather and climate share a deep history and
 common pedigree based on fundamental laws of physics. The key difference
 between climate and weather models lies not in the models themselves,
 but in the questions they seek to answer. Weather models predict how
 weather will evolve from an initial state for a particular place and
 time. Climate models project how the statistics of the climate system
 will respond to changes in external forcing (i.e., boundary
-conditions).`
+conditions).
 
-:mark:`For the climate system to be in a steady state, the long-term
+For the climate system to be in a steady state, the long-term
 average energy coming in must balance the long-term energy going out.
 Boundary conditions in climate models affect the way that energy is
 absorbed or exchanged in the climate system. Boundary conditions are not
 predicted by the model and must be specified. Boundary conditions
-include solar radiation, atmospheric composition, and land use.`
+include solar radiation, atmospheric composition, and land use.
 
-:mark:`Atmospheric and oceanic circulation develops in response to the
+Atmospheric and oceanic circulation develops in response to the
 unequal distribution of incoming solar energy across the globe. Climate
 models have to account for these circulations. To directly simulate
 processes in Earth’s climate system, models use a set of equations that
 balance forces acting in three dimensions and conserve mass and track
-the temperature of each grid layer. These are the resolved processes.`
+the temperature of each grid layer. These are the resolved processes.
 
-:mark:`Processes that operate on a scale smaller than the model grid
+Processes that operate on a scale smaller than the model grid
 must be parameterized. That is, their effect over the entire grid cell
 is given by a single value. Examples include the latent heating due to
 cumulus convection or the radiative transfer of solar and longwave
-radiation.`
+radiation.
 
-:mark:`The components that go into a climate model include an atmosphere
+The components that go into a climate model include an atmosphere
 model, ocean model, land model (including snow and land ice), and sea
 ice model. A coupler manages the interactions between the different
-components, accommodating different grids, resolution, and time steps.`
+components, accommodating different grids, resolution, and time steps.
 
-:mark:`When we simulate the climate system, we want no intrinsic climate
+When we simulate the climate system, we want no intrinsic climate
 drift in the model. In a process akin to calibrating laboratory
 instruments, modelers “tune” the model to achieve a steady-state. To
 tune a climate model, modelers vary a parameterization that has a large
 effect on the energy budget within the range of observational
-uncertainty.`
+uncertainty.
 
-:mark:`Climate models can be tested in several ways.`
+Climate models can be tested in several ways.
 
 1. :mark:`We can develop skill scores, which reduce model biases to a
    single number.`
@@ -1317,82 +1287,82 @@ uncertainty.`
 3. :mark:`We can compare the natural variability in the simulated
    climate with that in the observed climate.`
 
-:mark:`In the future we expect that increasing computational
+In the future we expect that increasing computational
 capabilities will allow models to be run at increased resolution and
 complexity. As model complexity increases, more parameters become
 predicted, rather than prescribed. The eventual goal of climate and
 weather modelers is to run the most complete models at high resolution
-with the most accurate parameterization schemes.`
+with the most accurate parameterization schemes.
 
 .. _section-19:
 
-:mark:`References`
+**References**
 ~~~~~~~~~~~~~~~~~~
 
-:mark:`Climate Change 2007: The Physical Science Basis. Working Group I
+Climate Change 2007: The Physical Science Basis. Working Group I
 Contribution to the Fourth Assessment Report of the Intergovernmental
-Panel on Climate Change, Figure SPM.2. Cambridge University Press.`
+Panel on Climate Change, Figure SPM.2. Cambridge University Press.
 
-:mark:`Hannay, C., D. Williamson, J. Olson, J. Hack and J. Kiehl, R.
+Hannay, C., D. Williamson, J. Olson, J. Hack and J. Kiehl, R.
 Neale and C. Bretherton (2007), Sensitivity to the CAM candidate schemes
 in climate and forecast runs along the Pacific Cross-section, CCSM
 Atmosphere Model Working Group (AMWG) Meeting, 29-31 January 2007, NCAR,
-Boulder, Colorado.
-`www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf <https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf>`__`
+Boulder, Colorado
+`www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf <https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf>`__
 
-:mark:`Hannay, C., R. Neale, and J. Bacmeister (2012), High Resolution
+Hannay, C., R. Neale, and J. Bacmeister (2012), High Resolution
 Climate Simulations with the Community Atmospheric Model (CAM), AMS 92th
 meeting, New Orleans, 22-26 January 2012.
-`www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf <https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf>`__`
+`www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf <https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf>`__
 
-:mark:`Jahn, A., and Coauthors, 2012: Late-Twentieth-Century Simulation
+Jahn, A., and Coauthors, 2012: Late-Twentieth-Century Simulation
 of Arctic Sea Ice and Ocean Properties in the CCSM4. *J. Climate*,
 **25**, 1431–1452.
-http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-11-00201.1`
+http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-11-00201.1
 
-:mark:`Landrum, L., B. L. Otto-Bliesner, A. Conley, P. Lawrence, N.
+Landrum, L., B. L. Otto-Bliesner, A. Conley, P. Lawrence, N.
 Rosenbloom, and H. Teng.
 Last Millennium Climate and Its Variability in CCSM4.
 *Journal of Climate Special Issue Collection on CCSM4
-*\ http://www.cesm.ucar.edu/publications/jclim10/docs/landrum.ccsm4.last_millennium.pdf`
+*\ http://www.cesm.ucar.edu/publications/jclim10/docs/landrum.ccsm4.last_millennium.pdf
 
-:mark:`Lawrence, D.M., K.W. Oleson, M.G. Flanner, P.E. Thornton, S.C.
+Lawrence, D.M., K.W. Oleson, M.G. Flanner, P.E. Thornton, S.C.
 Swenson, P.J. Lawrence, X. Zeng, Z.-L. Yang, S. Levis, K. Sakaguchi,
 G.B. Bonan, and A.G. Slater, 2011: Parameterization improvements and
 functional and structural advances in version 4 of the Community Land
 Model. *J. Adv. Model. Earth Sys*., **3**, DOI: 10.1029/2011MS000045.
-http://james.agu.org/index.php/JAMES/article/view/v3n1`
+http://james.agu.org/index.php/JAMES/article/view/v3n1
 
-:mark:`Neale, R. B., J. Richter, S. Park, P. H. Lauritzen, S. J. Vavrus,
+Neale, R. B., J. Richter, S. Park, P. H. Lauritzen, S. J. Vavrus,
 P. J. Rasch, and M. Zhang.
 The Mean Climate of the Community Atmosphere Model (CAM4) in Forced SST
 and Fully Coupled Experiments. *J. Climate*, in press.
-http://www.cesm.ucar.edu/publications/jclim10/docs/ccsm4.html`
+http://www.cesm.ucar.edu/publications/jclim10/docs/ccsm4.html
 
-:mark:`Pongratz, J., C. Reick, T. Raddatz, and M. Claussen (2008), A
+Pongratz, J., C. Reick, T. Raddatz, and M. Claussen (2008), A
 reconstruction of global agricultural areas and land cover for the last
 millennium, *Global Biogeochem. Cycles*, **22**, GB3018.
-http://www.agu.org/journals/gb/gb0803/2007GB003153`
+http://www.agu.org/journals/gb/gb0803/2007GB003153
 
-:mark:`Teixeira, J., and Coauthors, 2011: Tropical and Subtropical Cloud
+Teixeira, J., and Coauthors, 2011: Tropical and Subtropical Cloud
 Transitions in Weather and Climate Prediction Models: The GCSS/WGNE
 Pacific Cross-Section Intercomparison (GPCI). *J. Climate*, **24**,
 5223–5256.
-http://journals.ametsoc.org/doi/abs/10.1175/2011JCLI3672.1`
+http://journals.ametsoc.org/doi/abs/10.1175/2011JCLI3672.1
 
-:mark:`Trenberth, K.E., J.T. Fasullo, J. Kiehl, 2009: Earth's global
+Trenberth, K.E., J.T. Fasullo, J. Kiehl, 2009: Earth's global
 energy budget. *Bull. Amer. Meteor. Soc.*, **90**, 311–323.
-http://journals.ametsoc.org/doi/abs/10.1175/2008BAMS2634.1`
+http://journals.ametsoc.org/doi/abs/10.1175/2008BAMS2634.1
 
-:mark:`Trenberth, K.E., J.M. Caron, 2001: Estimates of meridional
+Trenberth, K.E., J.M. Caron, 2001: Estimates of meridional
 atmosphere and ocean heat transports. *J. Climate*, **14**, 3433–3443.
-http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282001%29014%3C3433%3AEOMAAO%3E2.0.CO%3B2`
+http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282001%29014%3C3433%3AEOMAAO%3E2.0.CO%3B2
 
-:mark:`Willis, J. K., D. Roemmich, and B. Cornuelle (2004), Interannual
+Willis, J. K., D. Roemmich, and B. Cornuelle (2004), Interannual
 variability in upper ocean heat content, temperature, and thermosteric
 expansion on global scales, *J. Geophys. Res.*, **109**, C12036,
 doi:10.1029/2003JC002260.
-http://www.agu.org/pubs/crossref/2004/2003JC002260.shtml`
+http://www.agu.org/pubs/crossref/2004/2003JC002260.shtml
 
 .. |CCSM3 Simulation of Water Vapor (white) and Precipitation (orange) for April| image:: media/ch4_popout/image9.jpg
    :width: 5.72917in
