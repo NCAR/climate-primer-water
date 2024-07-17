@@ -422,13 +422,6 @@ different terms such as forecasts, predictions, projections, scenarios,
 and narratives/storylines.
 
 
-   -  
-
--  Narratives/storylines
-
-   -  ???
-
-
 **Predictions vs. Projections**
 
 
@@ -454,7 +447,7 @@ meaningful feedback to the climate modeling system.
 
 +--------------------------------+--------------------------------+
 | **Predictions and Forecasts**  | **Projections**                |
-+=================================================+===============+
++================================+================+===============+
 | Short-term evolution from      | "If-then" statements, with     |
 | initial state with constant    | changing statistics in         |
 | boundary conditions            | response to changing boundary  |
@@ -481,29 +474,29 @@ mitigation) or ensembles (e.g., the IPCC SSSP-RCP scenarios). There
 are many different types of scenarios used in climate modeling, and 
 many are linked.
 
-"Climate change scenario" describes a set of possible mean
+**"Climate change scenario"** describes a set of possible mean
 characteristics of a future climate; for example, hotter and wetter. 
 Climate models are used to produce climate projections. Climate projections 
 inform, or provide the detailed climate information needed for climate 
 change scenarios. 
 
-“Emissions scenarios” represent realistic pathways of greenhouse
+**“Emissions scenarios”** represent realistic pathways of greenhouse
 gas concentrations given effects on the likely emissions rates due
 to changes in anthropogenic factors. The emissions scenarios are the 
 driving force, or cause; the climate change scenarios capture the effect. 
 Emissions scenarios are used as boundary value input for climate models. 
 
-"Socioeconomic scenarios" represent societal drivers, including 
+**"Socioeconomic scenarios"** represent societal drivers, including 
 impacts from demographic, economic, and technological factors.
 
 
 **Narratives or Storylines**
 
 
-`Shepherd et al. (2018) <Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9>`_ 
+`Shepherd et al. (2018) <https://doi.org/10.1007/s10584-018-2317-9>`_ 
 define storylines (or narratives) as "physically self-consistent unfolding 
 of past events, or of plausible future events or pathways." Storylines 
-focus on understanding the driving factors and impacts. They are useful 
+focus on understanding driving factors and impacts. They are useful 
 when orienting towards stakeholder decision-making and policy, which are 
 often driven by impactful events. Storylines are also useful for "bottom-up" 
 approaches where you want to work backward from a particular event and "stress test"
@@ -517,11 +510,11 @@ An example use of storylines for water availability assessments is provided in
 
 |image5|
 
-The process to prepare data for running impacts models for climate
-change impacts includes four main steps.
+The process to prepare data for running climate change impact models 
+includes four main steps.
 
 We start with questions about how climate change might affect future
-water resources. Then, the first step is to develop a basic recognition
+water resources. The first step is to develop a basic recognition
 of key terminology and processes for global climate modeling. Then we
 develop regionally applicable climate projections, determine climate
 change scenarios and select associated climate projections to inform
