@@ -1,7 +1,7 @@
 .. vim: syntax=rst
 
-Chapter 2 Climate and Water Availability Assessments
-======================
+Chapter 2: Climate and Water Availability Assessments
+=====================================================
 
 
 2.1 Water Availability Assessments
@@ -29,38 +29,6 @@ Models.
 Perlman, Howard and Evans, John. The Natural Water Cycle (JPG). USGS.
 https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
 2019
-
-
-**Issues with spatial and temporal covariance**
-
-
-a. Issues with spatial and temporal covariance
-
-b. Thresholds/extremes, weather typing
-
-   1. Important variables
-
-      a. P,T,
-
-c. Culling ensembles
-
-d. Applying climate deltas (e.g., temperature warming)
-
-e. Land use / land cover
-
-f. Socio-economic aspects
-
-g. Preparation for running impacts models for climate change impacts:
-
-1. Surface water hydrology
-
-2. Crop irrigation water requirements
-
-3. Inland water temperature
-
-4. Sediment transport
-
-5. Long term planning of water resources
 
 
 2.2 What is needed for science and research support
