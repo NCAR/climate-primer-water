@@ -18,7 +18,7 @@ A project of the National Center for Atmospheric Research
    ch3_baselines.rst
    ch4_gcms.rst
    ch5_downscaling.rst
-   ch6_ensembles.rst
+   ch6_uncertainty.rst
    ch7_together.rst
    casestudies.rst
    cookbook.rst
