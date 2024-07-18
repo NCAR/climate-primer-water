@@ -12,7 +12,6 @@ Introduction
 |CCSM3 Simulation of Water Vapor (white) and Precipitation (orange) for
 April|
 
-– popout Ch4 Intro movie1 ccsm3_apr.mp4
 
 Weather forecasters depend on numerical weather prediction (NWP) models
 to produce timely, accurate forecasts. We depend on these forecasts to
@@ -63,7 +62,7 @@ in 1993, may increase with a high toll on society.
 |Observed Surface Winds, Ocean Temperatures, and Currents across the
 Equatorial Pacific, Oct 2006 to Sep 2011|
 
-– popout Ch4 Intro movie2 sst-wind-cur-eqt-20c.mp4
+
 
 Understanding how climate changes in response to changes in the
 composition of the atmosphere and other factors drives climate research.
@@ -91,7 +90,7 @@ time.
 
 |Global Energy Flows (W/m2)|
 
-– popout Ch4 Intro movie3 climate_energy_flows.mp4
+
 
 Solar energy drives the Earth's climate system. Based on measurements
 from satellites and other instruments, we can trace the flow of energy
@@ -152,7 +151,7 @@ the convective heating shown in this figure.
 |Composite IR Satellite Image Loop 00 UTC 17 Mar 2012 to 12 UTC 20 Mar
 2012|
 
-– popout Ch4 Intro movie4 global_ir_loop.mp4
+
 
 Furthermore, embedded within these planetary scale circulations are
 smaller-scale features that we call storm systems. They transport
@@ -218,7 +217,7 @@ course of several years (eg. El Nino/La Nina) to a decade or more.
 condition problem (ensemble drift and spread) and boundary condition
 problem (seasonality)|
 
-– popout Ch4 Intro movie5 initial_boundary.mp4
+
 
 In modeling terms, the difference between weather and climate is what we
 call an initial condition problem versus a boundary condition problem.
@@ -254,7 +253,7 @@ results from a difference in boundary conditions.
 
 |animation of Earth orbiting Sun to explain seasons|
 
-– popout Ch4 Intro movie6 seasons.mp4
+
 
 If this were a location in the U.S., we know that it will be warmer in
 the summer, on average, than in the winter. The boundary condition that
@@ -287,7 +286,7 @@ forecast challenge.
 |Schematic diagram illustrating the difference between weather
 prediction and climate projection|
 
-– popout Ch4 Intro movie7 prediction_projection.mp4
+
 
 Weather forecasters have a strong grasp of the fundamental mechanics of
 their task. If you know the initial conditions, you can predict how the
@@ -395,7 +394,7 @@ exchanges between land and atmosphere.
 
 |Global historical cropland area (% of grid cell)|
 
-– popout Ch4 Intro movie8 global_historical_cropland.mp4
+
 
 Land use reconstructions for times prior to the 20th century are based
 on population estimates and historical relationships of land use for
@@ -513,7 +512,7 @@ These indirect effects are determined by what is called
 |Graph showing growth by condensation growth and collision-coalescence
 growth plus Animation of collision-coalescence|
 
-– popout Ch4 Intro movie9 ccprcess_graph_plus_anim.mp4
+
 
 Parameterizations are designed using observations and the laws of
 physics; they are not a "best guess". Take the example of a model
@@ -547,7 +546,7 @@ and computing power continues to increase.
 
 |Loop of schematic images showing the Evolution of Climate Models|
 
-– popout Ch4 Intro movie10 climate_model_history.mp4
+
 
 With the development of digital computers in the 1950s, it became
 theoretically possible to develop weather and climate models.
@@ -775,7 +774,7 @@ Model Tuning
 |Interactive graphic showing relationship between radiative balance and
 cloud cover|
 
-– popout Ch4 Intro movie11 cloud_tuning.mp4
+
 
 When we simulate the climate system, we often want to run models for a
 very long time. For meaningful results, we want no intrinsic drift in
@@ -991,7 +990,7 @@ ice minimum typically occurs in September.
 |Global Mean Precipitation and Precipitation Bias in 1-degree and
 2-degree CCSM4 Simulations|
 
-– popout Ch4 Intro movie12 ccsm4_precip_bias.mp4
+
 
 Biases still remain in climate models. One in particular is the
 so-called double Intertropical Convergence Zone, or ITCZ, bias in
@@ -1139,7 +1138,7 @@ Future Directions
 |Conceptual Model of Earth System Processes Operating on Timescales of
 Decades to Centuries|
 
-– popout Ch4 Intro diagram bretherton_diagram_large.jpg
+
 
 About 30 years ago, Francis Bretherton developed this system flow chart
 of the Earth's climate and biospheric cycles, which has forever become
