@@ -107,7 +107,7 @@ accuracies, uncertainties) for the problem and target metrics.
 | consecutive year in the 2040-2070 period?       |                       |
 +-------------------------------------------------+-----------------------+
 
-2.3.2 What is relevant, reliable, and practical?
+2.2.2 What is relevant, reliable, and practical?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you’ve defined your research questions and objectives, there are three
