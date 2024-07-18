@@ -13,13 +13,13 @@ A project of the National Center for Atmospheric Research
 .. toctree::
    :maxdepth: 2
 
-   summary.rst
-   introduction.rst
-   baselines.rst
-   gcms.rst
-   downscaling.rst
-   ensembles.rst
-   attribution.rst
+   ch1_intro.rst
+   ch2_climatewater.rst
+   ch3_baselines.rst
+   ch4_gcms.rst
+   ch5_downscaling.rst
+   ch6_ensembles.rst
+   ch7_together.rst
    casestudies.rst
    cookbook.rst
    references.rst
