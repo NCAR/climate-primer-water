@@ -4,23 +4,23 @@ Chapter 2: Climate and Water Availability Assessments
 =====================================================
 
 
-2.1 Water Availability Assessments
+2.1 Water-Availability Assessments
 ----------------------------------
 
-Understanding what climate elements are important in water availability
-assessments help us focus our efforts when completing climate change
+Understanding which climate elements are important to water availability
+assessments help us focus our efforts when performing climate-change
 impact studies. Climate changes, particularly changes in temperature and
 precipitation, have a direct impact on two key elements of the
 hydrologic cycle: evaporation and precipitation. Other elements of the
 hydrologic cycle—snowmelt, runoff, streamflow, and storage—are
-consequently impacted. It is also important to understand other,
-non-climate related attributes of climate change scenarios (e.g.
-socio-economic projections, land use change assumptions, etc.) that will
-impact water availability. While this climate primer will only cover
-attributes and the use of the climate change scenarios, it is also
+consequently influenced. It is also important to understand other,
+non-climate-related attributes of climate change scenarios (e.g.
+socio-economic projections, land-use change assumptions, etc.) that will
+affect water availability. While this climate primer will only cover
+attributes and the use of the climate-change scenarios, it is also
 important to mention that projected changes in elements outside climate
 change scenarios, such as changes in water management systems (e.g.
-diversions, storage, demand side management), will also impact future
+diversions, storage, demand side management) will also impact future
 water availability. These are often evaluated in Integrated Assessment
 Models.
 
@@ -38,24 +38,24 @@ https://www.usgs.gov/media/images/natural-water-cycle-jpg OCTOBER 16,
 2.2.1 Define the problem/objective
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With any scientific research tasked to consider climate change, the
+When any scientific research is tasked to consider climate change, the
 starting point is to ask: what is the central aim of the study?
 For example:
 
 -  How often might water temperatures in streams be too dangerous for
    aquatic life in the 2050-2080 period?
 
--  Why might we fail to reach water delivery targets in the 2070-2100 period?
+-  Why might we fail to reach water-delivery targets in the 2070-2100 period?
 
 -  What are the chances of dropping below reservoir low-pool levels for
    more than one consecutive year in the 2040-2070 period?
 
-Each of these questions is examining the impacts of a future climate on
+Each of these questions examines the impacts of a future climate on
 a system performance measure. Below are example measures for these questions. 
 Water managers, scientific experts (e.g., aquatic biologists), and 
 stakeholders are all good resources for defining these performance measures. 
 The problem and performance measures should be defined early in the study to 
-inform selection of datasets and models that are optimal (in terms of resolutions, 
+inform selection of the datasets and models that are optimal (in terms of resolutions, 
 accuracies, uncertainties) for the problem and target metrics.
 
 +-------------------------------------------------+-----------------------+
@@ -79,8 +79,8 @@ accuracies, uncertainties) for the problem and target metrics.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you’ve defined your research questions and objectives, there are three
-primary questions to answer when scoping a study that involves the
-integration of climate change information:
+primary questions to answer when scoping a study that involves 
+integrating climate-change information:
 
 1. What is relevant?
 
@@ -90,7 +90,7 @@ integration of climate change information:
 
 2. What is reliable?
 
-   a. There is a varying degree of confidence in projected climate and
+   a. There are varying degrees of confidence in projected climate and
       climate-derived data. You must consider which set of climate
       projection data to rely on and which potential climate futures to
       consider.
@@ -100,7 +100,7 @@ integration of climate change information:
    a. The realities of the project, such as the availability of
       resources, time, and personnel.
 
-The answer to these questions are closely related to the specifics of the 
+The answers to these questions are closely related to the specifics of the 
 project goals, location, and stakeholder needs, and can vary from project to
 project. You will need to balance the relevancy of the data and its
 reliability with the practicality of implementation.
@@ -108,15 +108,15 @@ reliability with the practicality of implementation.
 .. dropdown:: What is relevant?
     
     Simply stated, the “\ **what is relevant**\ ” question asks you to identify which 
-    climate impacts and climate-derived data are important. The answer will likely vary 
+    climate impacts and climate-derived data are most important. The answer will likely vary 
     depending on the research topic and specific decisions that need to be made.        
-    When determining what data are relevant to a study, you should consider:
+    When determining which data are relevant to a study, you should consider:
 
-    1. Climate data that describe potential future climate conditions relevant to the study goals.
+    1. Climate data that describe potential future climate conditions pertinent to the study goals.
 
-    2. System performance measures that are relevant.
+    2. System performance measures that are most relevant.
 
-    For a specific watershed, snowmelt may be more relevant to seasonal streamflow and groundwater recharge than rainfall. Therefore, projections of snowpack and snowmelt would be very useful.
+    For a given watershed, snowmelt may be more relevant to seasonal streamflow and groundwater recharge than rainfall. Therefore, projections of snowpack and snowmelt would be very useful.
 
     Here are some of the data derived, at least in part, from temperature and precipitation projections:
 
@@ -150,7 +150,7 @@ reliability with the practicality of implementation.
                                                                            
      -  Evaporation                                                        
                                                                            
-     -  Snow water equivalent                                              
+     -  Snow-water equivalent                                              
                                                                            
      -  Streamflow                                                         
                                                                            
@@ -184,12 +184,12 @@ reliability with the practicality of implementation.
                                                                            
      -  Drought                                                            
                                                                            
-     -  Water quality issues (water temperature, water chemistry,          
+     -  Water-quality issues (water temperature, water chemistry,          
         sediment)                                                          
 
 .. dropdown:: What is reliable?
     
-    The “\ **what is reliable”** question recognizes that there are varying degrees of confidence in projected climate and climate-derived data. In understanding what is reliable you should think about the following:
+    The “\ **what is reliable”** question recognizes there are varying degrees of confidence in projected climate and climate-derived data. To understand what is reliable, you should consider the following:
 
     -  Balance reliability with relevancy
 
@@ -199,21 +199,21 @@ reliability with the practicality of implementation.
 
     You should consider which set of climate projection data to rely on and which potential climate futures to consider. Issues of reliability and uncertainty, and how they depend on time-horizon, spatial-scale, and means or extremes of a climate variable, are also discussed in `Chapter 3 <https://ncar.github.io/climate-primer-water/baselines.html>`_ of this primer.
 
-    Given the inherent uncertainty in climate projections, when considering climate futures, you may need to strike a balance between using climate data that is relevant and using data that is reliable enough for the purpose and particulars of your project. For example, highly uncertain data may be fine for a project exploring system vulnerabilities to potential climate change scenarios but may be far too unreliable to underpin an infrastructure investment.
+    Given the inherent uncertainty in climate projections when considering climate futures, you may need to strike a balance between using climate data that are relevant and using data that are reliable enough for the purpose of your project. For example, highly uncertain data may be fine for a project exploring system vulnerabilities to potential climate-change scenarios, but may be far too unreliable to underpin an infrastructure investment.
 
     Balancing Reliability With Relevancy
 
     |image1|
 
-    How do you determine which data are reliable enough to be trusted with answering the questions posed by the project? Here the challenge is to determine how reliable data needs to be for you to consider it “reliable enough” for inclusion as potential future climate data.
+    How do you determine which data are reliable enough to be trusted to answer the questions posed by the project? The challenge here is to determine how reliable the data need to be to consider it “reliable enough” for inclusion as potential future climate data.
 
     On a relative scale of reliability, average long-term temperature trends are the most reliable. In addition, many projects require future temperature-derived information, such as frequency of heat waves, seasonal snow, and potential evaporation. These are less reliable but still considered relatively reliable at representing potential future climate. The slightly lower rating is due to the need for more time- and space-specific information, and the influence of less reliably projected phenomena such as precipitation, wind, and cloudiness.
 
-    Precipitation projections are more uncertain, but may still be relatively reliable on larger regional scales and for long-term averages. Depending on your research questions, objectives such as long-term planning, reservoir operations, and adaptive management may still benefit from precipitation data that are only moderately reliable at describing potential future climates.
+    Precipitation projections are more uncertain, but may still be reasonably reliable on larger regional scales and for long-term averages. Depending on your research questions, objectives such as long-term planning, reservoir operations, and adaptive management may still benefit from precipitation data that are only moderately reliable for describing potential future climates.
 
-    For specific short-duration, local-area precipitation and precipitation-derived variables, reliability is much lower. Yet these data are highly relevant to research questions related to extreme precipitation and runoff thresholds. Since extremes, by definition, occur rarely, you need to represent low-probability, high consequence events in a potential future climate.
+    For specific short-duration, local-area precipitation and precipitation-derived variables, precipitation-projection reliability is much lower. Yet these data are highly relevant to research questions related to extreme precipitation and runoff thresholds. Since extremes, by definition, occur rarely, you need to represent low-probability, high-consequence events in a future climate scenario.
 
-    Other approaches may help with extracting the most reliable possible information about local extremes, such as those related to the study time period and/or the use of historical observations.
+    Other approaches may help extract the most reliable possible information about local extremes, such as those related to the study time period and/or the use of historical observations.
 
     A study’s time horizon may help minimize some of the reliability issues when dealing with highly uncertain climate variables. Consider the cone below, where the lines and colored circles represent the hypothetical futures for five climate projections. The left side represents the current time, the right side 2100.
 
@@ -230,15 +230,15 @@ reliability with the practicality of implementation.
 .. dropdown:: What is practical?
     
     The “\ **what is practical**\ ” question is related to the realities of the project, such as the availability of resources, time, and personnel.
-    Questions to think about include the following:
+    Questions to consider include the following.
 
     -  Do you have the necessary resources and modeling capabilities?
 
     -  How might climate change affect your modeling approach?
 
-    -  What climate change influences are practical to represent?
+    -  Which climate-change influences can be represented practically?
 
-    Is it practical to expect that your study will sufficiently model system metrics? You may need to consider the following questions to answer that:
+    Is it practical to expect that your study will sufficiently model system metrics? You may need to consider the following questions to answer that.
 
     -  Are the models needed to incorporate climate change readily available?
 
@@ -246,11 +246,11 @@ reliability with the practicality of implementation.
 
     -  What are the implications of having to link multiple models, for example, a hydrological model that produces water temperature with a reservoir operations model?
 
-    The answers may determine whether the project has a good chance for successful completion.
+    The answers may determine whether the project has a good chance of successful completion.
 
-    Climate change itself may influence the choices you make for modeling and analyzing data for your study. For example, water temperature in a stream that has been controlled by groundwater input historically may need to be controlled by reservoir releases in the future. Such a study may require detailed information about the time evolution of variables as the climate changes. Model issues may pose constraints, making certain approaches impractical given your project resources.
+    Climate change itself may influence the choices you make for modeling and analyzing data for your study. For example, water temperature in a stream that has been historically controlled by groundwater input may need to be controlled by reservoir releases in the future. Such a study may require detailed information about the time evolution of variables as the climate changes. Model issues may pose constraints, making some approaches impractical given your project resources.
 
-    Is it practical to consider multiple futures given the following:
+    Is it practical to consider multiple futures given the following?
 
     -  Resources and personnel available
 
@@ -258,7 +258,7 @@ reliability with the practicality of implementation.
 
     -  Complexity and particular requirements for modeling the relevant influences
 
-    In some cases, using a small set of climate change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
+    In some cases, using a small set of climate-change scenarios (such as a wet scenario and a dry scenario for long-term planning for water availability) may be the most practical approach for balancing multiple futures with limited resources. In this way, the study can explore a range of potential future climates with relatively low impacts on its resources. `Chapter 5 <https://ncar.github.io/climate-primer-water/downscaling.html>`_ of this primer will explore this issue further by providing an example of how this process is carried out.
 
 
 2.2.3 Predictions vs. Projections vs. Scenarios vs. Storylines
