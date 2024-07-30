@@ -5,7 +5,7 @@ Chapter 3 Characterize baseline quantities of interest, uncertainties
 
 This Chapter provides an overview and guidance on the following topics:
 
--  Observation-based water cycle data sets for North America and their
+-  Observation-based water-cycle datasets for North America and their
    strengths and weaknesses
 
 -  Characterizing baseline natural variability and introduction to the
@@ -31,25 +31,25 @@ This Chapter provides an overview and guidance on the following topics:
 3.1 Introduction
 -------------------------------------------------
 
-In any study on future impacts of climate change, it is essential to
-first characterize and quantify the baseline or starting point of the
+In any study of future impacts of climate change, it is essential to
+first characterize and quantify the baseline, or starting point, of the
 study area of interest, which includes understanding the natural
 variability of the water system being studied, independent of
-anthropogenic impacts (e.g. due to, say, changes in radiative forcing
+anthropogenic impacts (e.g. changes in radiative forcing
 due to changes in CO2 emissions, land-use changes, etc.). In addition,
 when using future numerical-based climate modeling outputs, some form of
 bias correction using local observations is also essential for making
-the results physically-relevant, as well as making the climate model
-outputs applicable as inputs into local impact models. The first part of
+the results physically-relevant, as well as ensuring the climate model
+outputs are applicable as inputs into local impact models. The first part of
 this chapter discusses observational data sources that would be relevant
 for both of these topics. Note that our coverage of climate variables in
 this primer is primarily on the atmospheric “flux” terms into and out of
 the surface (see figure below) of the hydrologic cycle components:
 precipitation and the climate variables that impact evapotranspiration
-(temperature, solar insolation, long wave radiation, wind speed,
-relative humidity); this is in contrast to those variables that are
+(temperature, solar insolation, long-wave radiation, wind speed,
+relative humidity); this contrasts with those variables that are
 subsurface variables, and those that are more “point-based” and
-diagnosed through local impact model research (e.g. streamflow, sediment
+diagnosed through local-impact model research (e.g. streamflow, sediment
 transport, storage, etc.).
 
 |image1|
@@ -57,7 +57,7 @@ transport, storage, etc.).
 *The components of the hydrologic cycle*
 
 In the second section of this chapter we discuss the concept of the
-baseline natural variability of a system under study, and ways to detect
+baseline natural variability of a system under study and ways to detect
 and potentially attribute the contribution of observed changes to
 natural and anthropogenic factors. Because climate change is a
 phenomenon that is typically characterized by slow changes through time,
@@ -68,7 +68,7 @@ changes may be detected through examination of the historical record,
 depending on the study area. At the same time, detection depends on how
 large the “natural variability” of the system of interest is. The
 Earth's climate systems exhibit natural variability due to a range of
-factors. These include variations in solar radiation (e.g. solar
+factors. These include variations in solar radiation (e.g., solar
 cycles), volcanic activity, ocean currents, atmospheric circulation
 patterns such as El Niño and La Niña, and geological processes like the
 shifting of tectonic plates (at time-scales of millions of years).
@@ -112,15 +112,15 @@ influence our climate over time.
 
     |image3|
 
-    **Climate** is the statistical representation of weather over days, months, seasons, years, decades and longer
+    **Climate** is the statistical representation of weather over days, months, seasons, years, decades, and longer
 
     |image4|
 
     **A weather prediction, or forecast,** describes the near-term likelihood of a weather event such as a specific occurrence of rain or snow and/or the expected change in temperature. A weather forecast, for example, might read, "colder with a 70% chance of snow this afternoon."
 
-    **A climate prediction**, on the other hand, might call for below average precipitation and near average temperature over the next 30 days.`
+    **A climate prediction,** on the other hand, might call for below-average precipitation and near-average temperature over the next 30 days.`
 
-    **Climate model output:** used to generate statistics of weather phenomena`
+    **Climate-model output:** used to generate statistics of weather phenomena`
 
       -Mean and variability of precipitation and temperature
 
@@ -128,15 +128,15 @@ influence our climate over time.
 
     **Projections:** Lack specificity and predictability
 
-    Climate models do predict specific weather events many years into the future, but not with the intention for use as time and site-specific forecasts. Rather, the intended use of climate model output is to generate statistics of weather phenomena, such as means and variability of precipitation or temperature, and thus to characterize the collective impact of weather events. These climate predictions are typically referred to as projections, or simulations, and lack the short-term specificity of weather predictions.`
+    Climate models do predict specific weather events many years into the future, but not with the intention for use as time- and site-specific forecasts. Rather, the intended use of climate-model output is to generate statistics of weather phenomena, such as means and variability of precipitation or temperature, to characterize the collective impact of weather events. These climate predictions are typically referred to as projections or simulations and lack the short-term specificity of weather predictions.`
 
 .. dropdown:: **Natural factors impacting climate variability**
 
-    Earth's climate shifts over time because so many different land, ocean, and space phenomena have a hand in it. The sun is the main driver of Earth's climate, as it provides most of the energy. The sun's energy output increased about a tenth of a percent from 1750 to 1950, which contributed about 0.2°F (0.1°C) warming in the first part of the 20th century. But since 1979, when we began taking measurements from space, the data show no long-term change in total solar energy, even though Earth has been warming.
+    Earth's climate shifts over time because so many different land, ocean, and space phenomena have influence. The sun is the main driver of Earth's climate, as it provides most of the energy. The sun's energy output increased about a tenth of a percent from 1750 to 1950, which contributed about 0.2°F (0.1°C) warming in the first part of the 20th century. But since 1979, when we began taking measurements from space, the data show no long-term change in total solar energy, even though Earth has been warming.
 
     |Graphic showing Milankovitch cycles|
 
-    Repetitive cycles in Earth's orbit can influence the angle and timing of sunlight. The tilt and wobble of Earth's axis and the degree to which its orbit is stretched produce the Milankovitch cycles, which scientists believe triggered and shut off ice ages for the last few million years. But these changes take thousands of years, and so cannot explain the warming in this century.
+    Repetitive cycles in Earth's orbit can influence the angle and timing of sunlight. The tilt and wobble of Earth's axis and the degree to which its orbit is stretched produce the Milankovitch cycles, which scientists believe both triggered and rewarmed ice ages for the last few million years. But these changes take thousands of years, and so cannot explain the warming in this century.
 
     |Graphic showing continental drift|
 
@@ -183,38 +183,37 @@ influence our climate over time.
 --------------------------------------------------
 
 Climate-sensitive terrestrial water-related research and impact studies
-can take many forms, often dealing with very specific, localized
+can take many forms, often examining very specific, localized
 phenomena (e.g. climate impacts on seasonal lake mixing). The intent of
-this section is to provide guidance on data sources of larger spatial
-scale atmospheric flux terms that can provide what are termed hydrologic
+this section is to offer guidance on data sources of larger spatial-scale atmospheric flux terms that can provide what are termed hydrologic
 cycle “forcings” to more localized impact models, divided in the context
 of this chapter into precipitation and components of evapotranspiration.
 In this section, we begin by discussing the theoretical ideal for
-obtaining a “localized”, dense observational data set, along with
+obtaining a “localized,” dense observational dataset, along with
 practical needs and considerations. We follow this with a discussion of
-considerations for supplementing these data sets with larger
+considerations for supplementing these datasets with larger
 spatial-scale and longer temporal-scale datasets, concluding this
-section by providing links to potential observational datasets and
+section by providing links to useful observational datasets and
 resources.
 
-Before we begin this discussion, it is helpful to have some questions in
-mind related to the spatial, temporal, and distributional climate data
-attributes required to capture the local impact phenomena being studied,
-and when assessing the adequacy of observational datasets:
+Before we begin this discussion, it is helpful to keep some questions in
+mind related to the spatial, temporal, and distributional climate-data
+attributes required to capture the local-impact phenomena being studied,
+and when assessing the adequacy of observational datasets.
 
 -  Is the phenomenon highly variable in space such that only localized
    sampling is sufficient (e.g. often occurring in regions of strong
    topographical gradients)?
 
--  Is the phenomenon more related to specific weather events or more to
+-  Is the phenomenon more likely related to specific weather events or 
    year-by-year changes in climate averages?
 
 -  Are temporal averages of the variables sufficient (e.g. monthly,
    daily, hourly, etc.) and/or is the phenomenon critically dependent on
    extremes in intensity, frequency, and duration?
 
--  If extremes are the primary focus, are there long enough historical
-   records to capture these extremes at sufficient temporal/spatial
+-  If extremes are the primary focus, are there historical
+   records long enough to capture these extremes at sufficient temporal/spatial
    resolution to drive local impact models?
 
 |image5|
@@ -222,22 +221,22 @@ and when assessing the adequacy of observational datasets:
 *Figure: one of the most monitored attributes of local rainfall are
 changes in its Intensity-Duration-Frequency (IDF) relationship.*
 
-These questions often highlight the need for data sets developed from a
+These questions often highlight the need for datasets developed from a
 combination of different data sources and meteorological tools and
 approaches to ensure a comprehensive understanding of the weather and
 climatological conditions of interest, which we talk about next.
 
-3.2.1 **Ideal local data sets.**
+3.2.1 **Ideal local datasets.**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguably the ideal data for researchers who are interested in obtaining
 variables and datasets that can then provide or force detailed and
-localized ecosystem and impact models (i.e. storage, surface water
-flows, stream temperatures, etc.) would be to have **gage-derived
+localized ecosystem and impact models (e.g., storage, surface water
+flows, stream temperatures, etc.) would be to have **gauge-derived
 instrumented measurements** of all climate variables of interest at high
 enough density, sampling frequency, and historical record to capture all
 dominant scales of spatial and temporal heterogeneity across the study
-domain of interest (more often than not, unattainable). In this context,
+domain of interest, which are more often than not, unattainable. In this context,
 weather gauges are often considered the best source of truthful weather
 information for several reasons. **Accuracy and precision**: if properly
 calibrated and maintained, weather gauges provide accurate and precise
@@ -255,28 +254,27 @@ capture the widest range of temporal and spatial variability, given sufficient s
 **Long-term data collection, standardization and calibration:** Many
 gauging approaches have remained consistent for many decades (or can be
 easily cross-compared to modernized techniques), along with
-universally-accepted and consistent standardization and calibration
-approaches, means weather gages are often resource for long-term
+universally accepted and consistent standardization and calibration
+approaches, means weather gauges are often resource for long-term
 archives of meteorological data, essential for studying climate change,
 weather patterns, and long-term trends. **Sufficient for
 climatologies**: even if sparsely-located gauges may be insufficient to
 represent a time-series of weather across a region, they may be
 sufficient to represent the long-term climatology if the region is
-sufficiently homogenous in its weather patterns (note: a weather
+largely homogenous in its weather patterns (note: a weather
 climatology refers to the statistical representation of the long-term
 weather conditions at a particular location or over a specific region,
 typically involving the analysis of weather data over extended periods,
 typically 30 years or more, to understand the typical weather patterns
 and variations of an area).
 
-However, weather gauges also come with certain drawbacks.
+However, weather gauges also have certain drawbacks.
 **Representativeness:** Point observations are rarely sufficient
 to represent spatial patterns of precipitation; this is especially true
 in regions with sharp changes in elevation and/or nearby large bodies of
 water. **Wind and turbulence-dependent errors for precipitation
 gauges:** The wind over and around raised gauges can distort the
-measurement of the flux of hydrometeors falling to the ground, with
-typically the higher the wind speed, the higher the distortion.
+measurement of the flux of hydrometeors falling to the ground. Typically, the higher the wind speed, the higher the distortion.
 **Susceptibility to local interferences:** Weather gauges can be
 affected by local environmental factors such as buildings, trees, and
 other obstructions that can alter wind patterns or create microclimates.
@@ -284,11 +282,11 @@ This can lead to data that may not accurately represent broader weather
 conditions. **Maintenance and calibration needs:** These instruments
 require regular maintenance and calibration to ensure accuracy. This can
 lead to data gaps that degrade the reliability of any dataset based on
-consistent measurements. Ideally, quality control records would be kept
+consistent measurements. Ideally, quality-control records would be kept
 and available for quality confirmation. **Limited range:** A single
-weather gauge provides data only for its immediate location; while this
-is also considered a strength, this does require siting of multiple
-gauges to get a comprehensive view of weather over a larger area, if
+weather gauge provides data only for its immediate location. While this
+is also considered a strength, it does require siting of multiple
+gauges to obtain a comprehensive view of weather over a larger area, if
 required. See figure below of the density of rain gauges used for
 observation quality control of the U.S. National Centers for
 Environmental Prediction Multi-Radar Multi-Sensor (MRMS) system (Zhang
@@ -300,11 +298,11 @@ et al., 2016).
 signs indicating locations of the ~7000 hourly gauges. (Source: Zhang et
 al., 2016)*
 
-However, we stress that even where these local data may not in and of
+Even where these local data may not in and of
 themselves be sufficient to cover project needs and provide a sufficient
 observational baseline, they can still provide an important (local)
-evaluation of the supplemental (larger scale) data sets that are being
-utilized.
+evaluation of the supplemental (larger scale) datasets that are being
+used.
 
 **Further resources**
 
@@ -319,7 +317,7 @@ utilized.
 
 .. dropdown:: **Rain gauge QPE**
 
-    As long as humans have kept weather records there has been a need to capture precipitation in some sort of collection device.
+    As long as humans have kept weather records, there has been a need to capture precipitation in some sort of collection device.
 
     Today’s precipitation gauges, hereafter referred to as rain gauges, are the current version of those collection devices.
 
@@ -333,14 +331,14 @@ utilized.
 
     |Rooftop optical recording gauge|
 
-    In this section we will discuss the reality of the term “ground truth”. In doing so we will discuss the impact on gauge measurement, or “gauge catch,” from wind, the physical characteristics and location of the gauge, and the characteristics of the precipitation. We will offer some perspective on these issues with respect to whether the gauge is automated or manual.
+    In this section we will discuss the reality of the term “ground truth.” By doing so, we will discuss the impact on gauge measurement, or “gauge catch,” from wind, the physical characteristics and location of the gauge, and the characteristics of the precipitation. We will offer some perspective on these issues with respect to whether the gauge is automated or manual.
 
     **Rain Gauge QPE » Are they really ground truth?**
 
 
-    Often referred to as “ground truth”, rain gauges are subject to errors from a variety of sources. Although gauges do often provide excellent point measurements, at times the error in those measurements can become quite large. Sources of error include the construction and exposure of the gauge itself, the character of the precipitation, and the weather conditions.
+    Often referred to as “ground truth,” rain gauges are subject to errors from a variety of sources. Although gauges often provide excellent point measurements, at times the error in those measurements can be quite large. Sources of error include the construction and exposure of the gauge itself, the characteristics of the precipitation, and the weather conditions.
 
-    Even a perfectly accurate rain gauge network, if such a thing exists, may not be representative of the areal variations in the precipitation accumulation. Because they are point measurements, gauges are only representative of the immediate vicinity where they are located.
+    Even a perfectly accurate rain-gauge network, if such a thing exists, may not be representative of the areal variations in the precipitation accumulation. Because they are point measurements, gauges are only representative of the immediate vicinity where they are located.
 
     |Gauge locations on radar precip accumulation image|
 
@@ -370,9 +368,9 @@ utilized.
 
     *Download Video*
 
-    In this exercise we will consider typical 2 mm-diameter raindrop. We will take the perspective of 2-mm drops falling toward the gauge opening. Consider a 0° fall angle to be that of rain falling perfectly vertical, and a 90° fall angle is rain blowing perpendicular to the gauge.
+    In this exercise we will consider typical 2-mm-diameter raindrop. We will take the perspective of 2-mm drops falling toward the gauge opening. Consider a 0° fall angle to be that of rain falling perfectly vertical, and a 90° fall angle is rain blowing perpendicular to the gauge.
 
-    Compare how the fall angle changes in the following figures, along with the effective collection area of the gauge, as wind speed changes. For each wind speed you can compare the ideal catch area of the gauge with the effective catch area that is determined by the fall angle. When you are ready, answer the questions provided.
+    Compare how the fall angle changes in the following figures, along with the effective collection area of the gauge, as wind speed changes. For each wind speed, you can compare the ideal catch area of the gauge with the effective catch area that is determined by the fall angle. When you are ready, answer the questions provided.
 
     |Fall angle and gauge catch for 2-mm diameter raindrops at 0 m/s wind speed|
 
@@ -397,9 +395,9 @@ utilized.
     **Rain Gauge QPE » Gauges, Wind, and Turbulence**
 
 
-    The exercise that you just completed showed a simplified look at the impact of wind on gauge catch. The fall angle considerations represent a worst-case scenario. But in addition to fall angle considerations, turbulence in the flow may influence the trajectory of hydrometeors. This may partially offset errors caused by the wind. Spacing between hydrometeors may also change due to wind effects, possibly offsetting some of the wind-induced errors.
+    The exercise that you just completed showed a simplified view of the impact of wind on gauge catch. The fall-angle considerations represent a worst-case scenario. But in addition to fall-angle considerations, turbulence in the flow may influence the trajectory of hydrometeors. This may partially offset errors caused by the wind. Spacing between hydrometeors may also change due to wind effects, possibly offsetting some of the wind-induced errors.
 
-    Here we see an increase in wind speed over the gauge, but we also see turbulence- induced downward motion. Note from the trajectories that this may increase catch, although sometimes the primary gauge-induced downward motion may be downwind of the gauge.
+    Here we see an increase in wind speed over the gauge, but we also see turbulence-induced downward motion. Note from the trajectories that this may increase catch, although sometimes the primary gauge-induced downward motion may be downwind of the gauge.
 
     |image10|
 
@@ -409,7 +407,7 @@ utilized.
 
     |Effects of wind turbulence near the ground on precipitation and gauge catch|
 
-    As long as the ground objects are not tall enough to intercept incoming precipitation, the turbulence-induced downward motion has the effect of turning the hydrometeors vertically toward the ground.
+    As long as the ground objects are not tall enough to intercept incoming precipitation, the turbulence-induced downward motion has the effect of steering the hydrometeors vertically toward the ground.
 
     |Effects of wind turbulence near the ground on precipitation and gauge catch - wind blockage by trees|
 
@@ -430,7 +428,7 @@ utilized.
 
     **Rain Gauge QPE » Rain, Gauge Catch, and Wind**
   
-    In summary, gauge catch of rain is influenced by both the fall angle and the turbulence in the vicinity of the gauge.
+    In summary, gauge catching rain is influenced by both the fall angle and the turbulence in the vicinity of the gauge.
 
     |Effects of wind turbulence near the ground on precipitation and gauge catch - tree blockage and elevated gauge|
 
@@ -459,7 +457,7 @@ utilized.
 
     |Photo of snow blown in gauge on side|
 
-    A 5 m/s (11 mph) wind will result in gauge undercatch for snowflakes on the order of tens of percent. The studies plotted on this graph show that at a wind speed of 7 m/s (15 mph) the gauge may be catching only 10-50% of what actually falls! Even in the two studies where the gauge catch was improved through use of wind shields, the gauge catch at 7 m/s is still 50% or less. The magnitude of the problem will vary with snowflake characteristics. Denser crystals will have less gauge catch errors than low density crystals.
+    A 5 m/s (11 mph) wind will result in gauge undercatch for snowflakes on the order of tens of percent. The studies plotted on this graph show that at a wind speed of 7 m/s (15 mph) the gauge may be catching only 10-50% of what actually falls! Even in the two studies where the gauge catch was improved through use of wind shields, the gauge catch at 7 m/s is still 50% or less. The magnitude of the problem will vary with snowflake characteristics. Denser crystals will have fewer gauge catch errors than low density crystals.
 
     |Plot of studies gauge catch ratio to wind speed for various gauges|
 
@@ -478,11 +476,11 @@ utilized.
   
     A gauge aperture of at least 102 mm (4 in) in diameter is desirable. These NOAA-approved clear plastic gauges have 4-inch diameter apertures. Smaller openings will increase the likelihood of under catch.
 
-    |4 inch rain gauge|
+    |4-inch rain gauge|
 
-    The NWS cooperative climate station manual gauges have a 203 mm (8 inch) aperture.
+    The NWS cooperative climate station manual gauges have a 203-mm (8-inch) aperture.
 
-    |8 inch rain gauge|
+    |8-inch rain gauge|
 
     As mentioned earlier, gauge catch is sometimes improved when nearby vegetation disrupts the wind. A good location may be a forest clearing where the trees are not close enough to directly intercept the precipitation.
 
@@ -503,15 +501,15 @@ utilized.
 
     Problems associated with automated gauge measurements are often a function of precipitation rate and precipitation phase.
 
-    Precipitation phase refers to whether the hydrometeors are liquid, liquid and below freezing—such as freezing rain—or frozen, such as hail or snow.
+    Precipitation phase refers to whether the hydrometeors are liquid, liquid, and below freezing such as freezing rain, or frozen, such as hail or snow.
 
     |image16|
 
     *Download Video*
 
-    Freezing and frozen precipitation present a difficult problem for gauge measurement. This is particularly true for the popular automated tipping bucket gauge. To obtain a liquid equivalent measurement, the gauge must be heated to melt the frozen precipitation. This can and often does lead to sublimation or evaporation of precipitation without measuring it, resulting in underestimates. In addition, if the snowfall rate is very great, the melting will not occur fast enough to prevent gauge overflow, again leading to underestimation.
+    Freezing and frozen precipitation present a difficult problem for gauge measurement. This is particularly true for the popular automated tipping bucket gauge. To obtain a liquid-equivalent measurement, the gauge must be heated to melt the frozen precipitation. This can and often does lead to sublimation or evaporation of precipitation without measuring it, resulting in underestimates. In addition, if the snowfall rate is very great, the melting will not occur fast enough to prevent gauge overflow, again leading to underestimation.
 
-    Precipitation rate can also impact the accuracy of the gauge measurement. Although this varies with gauge design, the problem has been primarily with the tipping bucket style gauge as described in the rain gauge webcast referred to earlier.
+    Precipitation rate can also impact the accuracy of the gauge measurement. Although this varies with gauge design, the problem has been primarily with the tipping-bucket-style gauge as described in the rain-gauge webcast referred to earlier.
 
     The NWS is testing an automated “weighing” gauge known as the all weather precipitation accumulation gauge (AWPAG). There is still some heating of the rim to help direct snow into the gauge where a weight will determine the liquid equivalent. However, the heated area is not nearly as large as that in the tipping bucket gauges used by the NWS. Therefore, the errors with evaporation and sublimation should be reduced.
 
@@ -519,7 +517,7 @@ utilized.
 
     Initial testing showed disappointing results in snow, perhaps due mainly to wind effects.
 
-    A new double wind shield version of the AWPAG gauge that is being deployed may help reduce the problems with measuring snow.
+    A new double wind shield version of the AWPAG gauge being deployed may help reduce the problems with measuring snow.
 
     |All weather precipitation accumulation gauge (AWPAG) with
     double-structure wind shield|
@@ -529,21 +527,21 @@ utilized.
 
     **Rain Gauge QPE » Measurements from Manual Gauges**
    
-    Manual gauge reports suffer from the lack of high temporal resolution. This makes manual reports less suitable for software programs that need fast access to high resolution gauge reports.
+    Manual gauge reports suffer from the lack of high temporal resolution. This makes manual reports less suitable for software programs that need fast access to high-resolution gauge reports.
 
-    However, manual gauges are visited routinely and therefore problems that affect gauge measurement may be identified more quickly. These problems can include insect or bird nests, leakage, overflow, blockage from rapidly growing vegetation, and vandalism.
+    However, manual gauges are visited routinely and therefore problems that affect gauge measurement may be identified more promptly. These problems can include insect or bird nests, leakage, overflow, blockage from rapidly growing vegetation, and vandalism.
 
     |Rain gauge in snow|
 
-    Provided that gauge overflow does not occur during intense hail or snowfall, manual gauges may allow more accurate liquid equivalent measurements with frozen precipitation. Snow and hail are melted and measured manually.
+    Provided that gauge overflow does not occur during intense hail or snowfall, manual gauges may allow more accurate liquid-equivalent measurements with frozen precipitation. Snow and hail are melted and measured manually.
 
     |Checking a rain gauge in snow conditions|
 
-    In addition, the observer may collect a “core” measurement of snow from the ground if she/he determines that this will provide a more representative sample than the snow that was collected by the gauge. Core measurements are intended to minimize the errors caused by the wind. A well trained observer may therefore provide improved liquid equivalent readings.
+    In addition, the observer may collect a “core” measurement of snow from the ground if they determine that this will provide a more representative sample than the snow that was collected by the gauge. Core measurements are intended to minimize the errors caused by the wind. A well trained observer may therefore provide improved liquid-equivalent readings.
 
     |Taking a snow core sample|
 
-    There are numerous manual gauge networks. Two well-known ones are the cooperative observing network and the Community Collaborative Rain, Hail, and Snow observing network (CoCoRaHS).
+    There are numerous manual gauge networks. Two well known ones are the cooperative observing network and the Community Collaborative Rain, Hail, and Snow observing network (CoCoRaHS).
 
     The cooperative observing network, which is sponsored by NOAA’s National Weather Service, has observers in every state. Roughly 80% of the network still uses manual gauges.
 
@@ -677,7 +675,7 @@ utilized.
    :height: 4.34722in
 
 
-3.2.2 **Beyond gauges - alternative precipitation data sets**
+3.2.2 **Beyond gauges - alternative precipitation datasets**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Given the limitations of rain gauge networks in their spatial coverage
@@ -973,7 +971,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     The precipitation frequency of occurrence starts with a precipitation threshold for defining what we will consider precipitation. Let’s use a threshold of 0.0 mm which means that any time there is more than 0.0 mm detected by the radar, we have a precipitation event. We could choose a higher threshold if we want to filter out light events.
 
-    The frequency of precipitation, for each radar bin, is the number of times more than 0.0 mm was observed divided by all of the radar observations in the data set. We get this image for the Boise radar. The radar is in the center of the 230-km radius of ideal radar coverage.
+    The frequency of precipitation, for each radar bin, is the number of times more than 0.0 mm was observed divided by all of the radar observations in the dataset. We get this image for the Boise radar. The radar is in the center of the 230-km radius of ideal radar coverage.
 
     |Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season|
   
@@ -1168,7 +1166,7 @@ see: http://www.prism.oregonstate.edu/); Daymet daily surface weather
 and climatological summaries from Oak Ridge National Laboratory
 (https://daymet.ornl.gov/); gridMET from the Climatology Lab of the
 University of California-Merced
-(https://www.climatologylab.org/gridmet.html); and the Livneh data sets
+(https://www.climatologylab.org/gridmet.html); and the Livneh datasets
 from the University of Colorado
 (https://ciresgroups.colorado.edu/livneh/data).`
 
@@ -1254,7 +1252,7 @@ approach.
 
     **Precipitation Climatology/PRISM » Limitations of Precipitation Climatology**
 
-    As with any climatological data, there are limitations. Climatology averages the individual events in a data set. Individual precipitation events may show large departures from climatology, especially in the locations of extreme and sharp gradients. However, even with these limitations, there are regions that will likely benefit somewhat from climatological tools.
+    As with any climatological data, there are limitations. Climatology averages the individual events in a dataset. Individual precipitation events may show large departures from climatology, especially in the locations of extreme and sharp gradients. However, even with these limitations, there are regions that will likely benefit somewhat from climatological tools.
 
     Individual events will often be closer to climatology in regions with large orographic influences.
 
@@ -1432,7 +1430,7 @@ Service, Office of Water Prediction, Oct. 2021.
 
 There continues to be a broad range of remotely sensed
 hydrologically-relevant data sources that continue to be made available
-and can help offset and supplement some of the data sets mentioned above
+and can help offset and supplement some of the datasets mentioned above
 (e.g. GPM and SWOT), especially in regions with limited observed
 coverage, and the reader is encouraged to continue to monitor the
 availability of additional resources that could help with their
@@ -1446,7 +1444,7 @@ hydrometeorological data needs. Examples:
 3.2.7 **Further Resources**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For further resources and guidance on observational data sets, please
+For further resources and guidance on observational datasets, please
 see:
 
 -  the NSF NCAR Climate Data Guide: https://climatedataguide.ucar.edu/
