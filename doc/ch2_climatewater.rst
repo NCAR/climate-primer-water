@@ -275,12 +275,12 @@ and narratives/storylines.
 
 Predictions and forecasts are probabilistic estimates of the future 
 based on current conditions, with the expectation that decisions made today
-will have little impact on the estimates. Climate predictions refers to 
+will have little impact on the estimates. Climate prediction refers to 
 the short-term evolution of a weather system from an initial state under 
 constant boundary conditions. The initial value is represented by the initial 
 states of the climate system, including ocean heat content, and surface snow and
 ice cover. Predictions are associated with probability that can be verified.
-At lead times of weeks to months, predictions are typically based on
+For lead times of weeks to months, predictions are typically based on
 both initial and boundary values. Climate predictions, such as seasonal
 outlooks, El Niño forecasts, and seasonal hurricane outlooks, fall into
 this category. 
@@ -288,7 +288,7 @@ this category.
 Projection refers to how the statistical measures associated with a
 climate system will change in response to changing boundary values.
 Climate projections are generally framed as "if-then" statements where
-decisions made today and in the future are expected to impacts estimates.
+decisions made today and in the future are expected to impact estimates.
 Projections, like predictions, may also be associated with
 probabilities, but they often cannot be verified in time to provide
 meaningful feedback to the climate modeling system.
@@ -316,23 +316,21 @@ meaningful feedback to the climate modeling system.
 **Scenarios**
 
 
-Scenarios are projections of what potential futures look like. They
+Scenarios are projections of what potential futures may look like. They
 require context and are generally used in pairs (e.g., with and without
 mitigation) or ensembles (e.g., the IPCC SSSP-RCP scenarios). There
-are many different types of scenarios used in climate modeling, and 
+are several types of scenarios used in climate modeling, and 
 many are linked.
 
-**"Climate change scenario"** describes a set of possible mean
+**"Climate-change scenario"** describes a set of possible mean
 characteristics of a future climate; for example, hotter and wetter. 
 Climate models are used to produce climate projections. Climate projections 
-inform, or provide the detailed climate information needed for climate 
-change scenarios. 
+inform or provide the detailed climate information needed for climate-change scenarios. 
 
 **“Emissions scenarios”** represent realistic pathways of greenhouse
-gas concentrations given effects on the likely emissions rates due
-to changes in anthropogenic factors. The emissions scenarios are the 
-driving force, or cause; the climate change scenarios capture the effect. 
-Emissions scenarios are used as boundary value input for climate models. 
+gas concentration effects on the likely emissions rates caused by changes in anthropogenic factors. The emissions scenarios are the 
+driving force, or cause; the climate-change scenarios capture the effect. 
+Emissions scenarios are used as boundary-value input for climate models. 
 
 **"Socioeconomic scenarios"** represent societal drivers, including 
 impacts from demographic, economic, and technological factors.
@@ -350,7 +348,7 @@ often driven by impactful events. Storylines are also useful for "bottom-up"
 approaches where you want to work backward from a particular event and "stress test"
 the system with compounding drivers (e.g., climate change and urbanization).
 
-An example use of storylines for water availability assessments is provided in
+An example use of storylines for water-availability assessments is provided in
 `Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
 2.2.4 Paradigm (Process)
@@ -358,42 +356,41 @@ An example use of storylines for water availability assessments is provided in
 
 |image5|
 
-The process to prepare data for running climate change impact models 
+The process to prepare data for running climate-change impact models 
 includes four main steps.
 
 We start with questions about how climate change might affect future
-water resources. The first step is to develop a basic recognition
+water resources. The first step is to build a basic understanding
 of key terminology and processes for global climate modeling. Then we
-develop regionally applicable climate projections, determine climate
-change scenarios and select associated climate projections to inform
+develop regionally applicable climate projections, determine climate-change scenarios and select associated climate projections to inform
 them, and finally develop "climate-adjusted weather" inputs for each of
-the climate change scenarios.
+the climate-change scenarios.
 
-This last step will result in the inputs for models that simulate future
+This last step will derive the inputs for models that simulate future
 impacts on surface hydrology and crop irrigation requirements.
 
 It is important to remember that this process is just one way to prepare
-climate change impacts. There are a number of other methods, each with
+climate-change impacts. There are a number of other methods, each with
 their own strengths and weaknesses.
 
 2.2.5 Bias Correction/Downscaling Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Errors occur in most models. Some errors have consistency in their
+Errors occur in most models. Some errors are consistent in their
 patterns or recurrence. For example, a climate model may consistently
-simulate too little precipitation when compared to the observed values.
-In this case the model has a dry bias. A bias is more easily removed
+simulate too little precipitation when compared with the observed values.
+In this case, the model has a dry bias. A bias is more easily removed
 than random errors. Removing bias helps us improve confidence in climate
 projections.
 
-In addition to bias correction, spatial downscaling is often done to
+In addition to bias correction, spatial downscaling can
 make climate simulations more regionally relevant. Downscaling allows
 aspects of climate change to be presented on a spatial scale that is
 useful for analyzing and simulating climate impacts. Regions where local
 manifestations of climate patterns result from complex topography or
 coastal interfaces may find downscaling a necessity.There are many
 spatial downscaling methods, but they can generally be classified into
-two categories: 1) statistical, and 2) dynamical.
+two categories: 1) statistical and 2) dynamical.
 
 References:
 Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9
