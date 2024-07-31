@@ -35,7 +35,7 @@ In any study of future impacts of climate change, it is essential to
 first characterize and quantify the baseline, or starting point, of the
 study area of interest, which includes understanding the natural
 variability of the water system being studied, independent of
-anthropogenic impacts (e.g. changes in radiative forcing
+anthropogenic impacts (e.g.,changes in radiative forcing
 due to changes in CO2 emissions, land-use changes, etc.). In addition,
 when using future numerical-based climate modeling outputs, some form of
 bias correction using local observations is also essential for making
@@ -46,10 +46,10 @@ for both of these topics. Note that our coverage of climate variables in
 this primer is primarily on the atmospheric “flux” terms into and out of
 the surface (see figure below) of the hydrologic cycle components:
 precipitation and the climate variables that impact evapotranspiration
-(temperature, solar insolation, long-wave radiation, wind speed,
+(temperature, solar insolation, longwave radiation, wind speed,
 relative humidity); this contrasts with those variables that are
 subsurface variables, and those that are more “point-based” and
-diagnosed through local-impact model research (e.g. streamflow, sediment
+diagnosed through local-impact model research (e.g.,streamflow, sediment
 transport, storage, etc.).
 
 |image1|
@@ -184,7 +184,7 @@ influence our climate over time.
 
 Climate-sensitive terrestrial water-related research and impact studies
 can take many forms, often examining very specific, localized
-phenomena (e.g. climate impacts on seasonal lake mixing). The intent of
+phenomena (e.g.,climate impacts on seasonal lake mixing). The intent of
 this section is to offer guidance on data sources of larger spatial-scale atmospheric flux terms that can provide what are termed hydrologic
 cycle “forcings” to more localized impact models, divided in the context
 of this chapter into precipitation and components of evapotranspiration.
@@ -202,13 +202,13 @@ attributes required to capture the local-impact phenomena being studied,
 and when assessing the adequacy of observational datasets.
 
 -  Is the phenomenon highly variable in space such that only localized
-   sampling is sufficient (e.g. often occurring in regions of strong
+   sampling is sufficient (e.g.,often occurring in regions of strong
    topographical gradients)?
 
 -  Is the phenomenon more likely related to specific weather events or 
    year-by-year changes in climate averages?
 
--  Are temporal averages of the variables sufficient (e.g. monthly,
+-  Are temporal averages of the variables sufficient (e.g., monthly,
    daily, hourly, etc.) and/or is the phenomenon critically dependent on
    extremes in intensity, frequency, and duration?
 
@@ -241,7 +241,7 @@ weather gauges are often considered the best source of truthful weather
 information for several reasons. **Accuracy and precision**: if properly
 calibrated and maintained, weather gauges provide accurate and precise
 measurements of temperature, precipitation, wind speed, humidity; fluxes
-of energy, momentum, and moisture; and long- and short-wave radiation.
+of energy, momentum, and moisture; and long- and shortwave radiation.
 **Direct measurement:** Unlike other methods that might rely on indirect
 indicators or modeled inputs, weather gauges collect direct, empirical
 data from the environment. **Localized information:** These instruments
@@ -545,7 +545,7 @@ used.
 
     The cooperative observing network, which is sponsored by NOAA’s National Weather Service, has observers in every state. Roughly 80% of the network still uses manual gauges.
 
-    |Map of coop rain gauge locations in the US|
+    |Map of coop rain gauge locations in the U.S.|
 
     The CoCoRaHS network is nationwide in the United States: http://www.cocorahs.org/.
 
@@ -670,7 +670,7 @@ used.
 .. |Taking a snow core sample| image:: media/ch3/image_obs_popout_gaugeqpe21.jpg
    :width: 5.73611in
    :height: 4.27778in
-.. |Map of coop rain gauge locations in the US| image:: media/ch3/image_obs_popout_gaugeqpe19.gif
+.. |Map of coop rain gauge locations in the U.S.| image:: media/ch3/image_obs_popout_gaugeqpe19.gif
    :width: 6.5in
    :height: 4.34722in
 
@@ -728,7 +728,7 @@ estimation quality through time:** some of the most significant radar
 technologies did not become operational until the 1990s or later (with
 dual-polarization and doppler capabilities), so care should be taken
 when using radar-based precision estimates preceding this time
-period. However, note that over the US it is possible to assess the
+period. However, note that over the U.S. it is possible to assess the
 level of uncertainty in derived radar-precipitation estimates for a
 given location, as shown in the figure below of the Radar Quality Index
 (RQI), which shows the impact of non-uniform coverage of radar related to the elevation of the radar sample, distance from the
@@ -748,9 +748,9 @@ when there is more convective precipitation and higher freezing levels.*
 Taken together, gauge-adjusted radar estimates provide some of the most
 dependable and accurate estimates of precipitation over the contiguous
 U.S. (CONUS) with the following caveats: use outside of CONUS (e.g.
-insufficient radar coverage), in mountainous areas (e.g. beam blockage),
-variability in the quality of the estimates in space (e.g. range
-degradation) and time (e.g. changes in coverage and technologies used
+insufficient radar coverage), in mountainous areas (e.g.,beam blockage),
+variability in the quality of the estimates in space (e.g.,range
+degradation) and time (e.g.,changes in coverage and technologies used
 over the last 60 years).
 
 Below we provide a brief overview of some of the changes in radar
@@ -1032,9 +1032,9 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     -  Errors in radar-derived precipitation are associated with variations in drop size distributions, precipitation phase, and lack of low-level information.
 
-    -  Dual-polarized radars estimate hydrometeor shapes, and have resulted in more accurate precipitation products.
+    -  Dual-polarized radars estimate hydrometeor shapes, and have generated more accurate precipitation products.
 
-    -  Satellite-derived precipitation is a supplement in regions with poor radar and rain gauge coverage.
+    -  Satellite-derived precipitation is a supplement in regions with poor radar and rain-gauge coverage.
 
 .. |24h QPE| image:: media/ch3/image_obs_popout_radarqpe16.jpg
    :width: 6.04167in
@@ -1148,13 +1148,13 @@ Below we provide additional introductory details on the derivation, strengths, a
 3.2.3 **Weather climatologies**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A weather climatology is sometimes used to augment weather variable
+A weather climatology is sometimes used to augment weather-variable
 estimates. These climatologies are especially useful in regions with
 limited capacity for measurements or rapidly changing terrain features,
-the latter causing weather variable dependence on this topographic
-variability (e.g. sharp changes in elevation and/or nearby large
+the latter causing weather-variable dependence on this topographic
+variability (e.g.,sharp changes in elevation and/or nearby large
 bodies of water) as well as potentially limiting the ability for direct
-observation (such as in cases of radar beam blockage as discussed in the
+observation (such as in cases of radar-beam blockage as discussed in the
 previous section). Some of the more commonly used climatologies (which
 can include a variety of weather variables, and may have daily weather
 estimates for some products) are the Parameter-elevation
@@ -1168,33 +1168,33 @@ University of California-Merced
 from the University of Colorado
 (https://ciresgroups.colorado.edu/livneh/data).`
 
-|PRISM Precipitation Annual Climatology for the US|
+|PRISM Precipitation Annual Climatology for the U.S.|
 
 *Figure: The Parameter-elevation Regressions on an Independent Slopes
-Model, or PRISM, provides a commonly-used precipitation climatology
+Model (PRISM) is a commonly-used precipitation climatology
 tool. For more information on precipitation climatology guidance from
 Parameter-elevation Regressions on an Independent Slopes Model (PRISM),
 see:* http://www.prism.oregonstate.edu/\ *.*
 
 The approach used by PRISM using gauge and terrain data is
 considered the 3-dimensional (3-D) approach. This can be very useful in
-terrain-affected areas – see figures below. The areas that are within
+terrain-affected areas (see figures below). The areas that are within
 100 km of the green shading on this map are where PRISM uses the 3-D
 approach for QPE. This would also include all of the Hawaiian Islands
-and most of Alaska. In the white areas on this map, PRISM uses a 2-D
+and most of Alaska. For the white areas on this map, PRISM uses a 2-D
 process. This is basically a distance-weighted gauge analysis.
 
 |PRISM effective terrain areas|
 
 *Figure: Effective terrain grid for the U.S. Shaded areas denote terrain features that are expected to produce significant terrain-induced (3D) precipitation patterns. Unshaded grid cells as far as 100 km away from the shaded areas may also be considered 3D; see text for discussion. Grid resolution is 2.5 minutes (~ 4 km). (Source: https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)*
 
-Below we provide more introductory information on the PRISM
+Below we provide more  information on the PRISM
 approach.
 
 .. dropdown:: **PRISM**
     **Precipitation Climatology/PRISM**
 
-    Precipitation climatology guidance can be used to help fill in the gaps where estimates of observed precipitation are poor. The most widely used precipitation climatology tool in the United States as of 2009 is the Parameter-elevation Regressions on an Independent Slopes Model, or PRISM. Prior to its use in multiple-sensor precipitation estimation (MPE), PRISM was used extensively in several River Forecast Centers in the western United States.
+    Precipitation climatology guidance can be used to help fill in the gaps where estimates of observed precipitation are poor. The most widely used precipitation climatology tool in the United States as of 2009 is the PRISM model. Prior to its use in multiple-sensor precipitation estimation (MPE), PRISM was used extensively in several River Forecast Centers in the Western United States.
 
     |Prism precipitation maps|
 
@@ -1222,7 +1222,7 @@ approach.
 
     Point observations are rarely sufficient to represent spatial patterns of precipitation. This is especially true in regions with sharp changes in elevation and/or nearby large bodies of water. PRISM uses the known relationships of precipitation with geographic features. An automated statistical approach is used for efficiency, but this is guided by human expertise.
 
-    |PRISM annual precip climatology with rain gauge locations for the Olympic peninsula|
+    |PRISM annual precip climatology with raingauge locations for the Olympic peninsula|
 
     **Precipitation Climatology/PRISM » Basic Use of PRISM**
 
@@ -1317,9 +1317,9 @@ The climate models used are often numerical weather prediction (NWP)
 models, sophisticated models that simulate the Earth's atmosphere,
 oceans, and land surface based on physical laws. The integration of the
 observational data into the NWP models is done through a process called
-data assimilation. For a time period of interest and for a given (grid-)
-location, data assimilation systems utilizes different mathematical
-methods (e.g. 4D-Var, Ensemble Kalman Filter, etc.) to combine often
+data assimilation. For a given period of interest and for a given (grid-)
+location, data assimilation systems use different mathematical
+methods (e.g.,4D-Var, Ensemble Kalman Filter, etc.) to combine often
 unevenly spatially-distributed observations with errors in a prescribed
 time-window of interest with a NWP-derived estimate constrained by
 previous observations on a regularly spaced grid to obtain what is
@@ -1343,14 +1343,14 @@ point).
 
 Although reanalyses have proven to be quite useful in general, they have
 their limitations. Even though the reanalysis framework is consistently
-applied over long time periods that can extend back several decades or
+applied over long time frames that can extend back several decades or
 more, the one component that does vary are the sources and amount of the
 raw input data due to changing global observational networks. Due to
 this changing mix of observations, the reliability of the reanalysis can
-considerably vary depending on the location, time period, and variable
+vary considerably depending on the location, time frame, and variable
 considered; and this changing mix, along with biases in observations and
 models, can also introduce spurious variability and trends into the
-output. And of particular importance to this primer, variables relating
+output. Of particular importance to this primer, variables relating
 to the hydrological cycle such as precipitation (P) and evaporation (E)
 are derived quantities that are calculated from the primary variables
 (or differences in the primary variables) of the NWP model, and
@@ -1363,8 +1363,8 @@ which compares two reanalysis products (NASA MERRA and ECMWF
 ERA-Interim) and shows how E-P is of different sign between the two
 products over central Africa (but noting this is an analysis from over a
 decade ago)! However, we note that just as reanalysis products continue
-to improve in accuracy and their ability to remove past known
-deficiencies, some products (e.g. ERA5) also are providing information
+to improve in accuracy and their ability to remove formerly known
+deficiencies, some products (e.g.,ERA5) also are providing information
 about uncertainty: data from areas or periods where observations
 are sparser are likely to be less certain.
 
@@ -1390,10 +1390,9 @@ NCAR Climate Data Guide)*
 
 Multiple sensors and data products are often employed, especially in the
 case of producing time-series of data, to compensate for deficiencies in
-each product alone. As an example, over CONUS radar and rain
-gauge networks have been the primary tools for precipitation analyses,
+each product alone. As an example, over-CONUS radar and rain-gauge networks have been the primary tools for precipitation analyses,
 but advances in satellite tools for precipitation analysis are showing
-great promise in areas with poor coverage from radar and rain gauge
+great promise in areas with poor coverage from radar and rain-gauge
 networks, especially over Alaska. Particularly promising are tools that
 merge data from different satellites.
 
@@ -1407,15 +1406,14 @@ downward longwave and shortwave radiation, and west-east and south-north
 wind components, with this suite of eight variables sufficient to drive
 most land-surface and hydrologic models and is used as input to the
 National Water Model (NWM) retrospective simulation. As an example of
-this blending process, consider that the AORC was constructed from over
+this blending process, consider that the AORC was assembled from over
 a dozen individual time-series and climatological datasets, not all of
 which were available through the entire period-of-record. The best
 available input dataset for each of the constituent elements was used at
 any given time and place. Some alternative time-series data (such as
 satellite data) were used to replace the input forcings at particular
 areas or used to temporally disaggregate higher-temporal resolution
-data. The climatological datasets were used to bias-correct the time
-series data (such as PRISM [Vose et al., 2014] and Livneh [Livneh et
+data. The climatological datasets were used to bias correct the time-series data (such as PRISM [Vose et al., 2014] and Livneh [Livneh et
 al., 2015] data), and were all developed based on ground-based gauge
 observations.
 
@@ -1427,9 +1425,9 @@ Service, Office of Water Prediction, Oct. 2021.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There continues to be a broad range of remotely sensed
-hydrologically-relevant data sources that continue to be made available
+hydrologically-relevant data sources that continue to be made publically available
 and can help offset and supplement some of the datasets mentioned above
-(e.g. GPM and SWOT), especially in regions with limited observed
+(e.g.,GPM and SWOT), especially for regions with limited observed
 coverage, and the reader is encouraged to continue to monitor the
 availability of additional resources that could help with their
 hydrometeorological data needs. Examples:
@@ -1471,10 +1469,10 @@ see:
 -  Below we provide a list of IPCC AR6-referenced climate variable
    observational products applicable to the U.S. and North America. The
    table lists observational datasets commonly used for climate studies
-   that are considered well-vetted by the scientific community. The
+   that are considered well vetted by the scientific community. The
    table documents the details of the types and versions of datasets,
-   the time period they cover, and citations and (where available) web
-   links to the data. Reanalyses data products are included. Datasets
+   the time frame they cover, and citations and (where available) web
+   links to the data. Reanalysis data products are included. Datasets
    are sorted alphabetically according to the dataset name or, if there
    is no formal name, the name of the responsible institution or lead
    author.
@@ -1495,7 +1493,7 @@ see:
 .. |image7| image:: media/ch3/image_obs6.png
    :width: 6.5in
    :height: 4.54167in
-.. |PRISM Precipitation Annual Climatology for the US| image:: media/ch3/image_obs5.jpg
+.. |PRISM Precipitation Annual Climatology for the U.S.| image:: media/ch3/image_obs5.jpg
    :width: 6.04167in
    :height: 4.58333in
 .. |PRISM effective terrain areas| image:: media/ch3/image_obs3.jpg
