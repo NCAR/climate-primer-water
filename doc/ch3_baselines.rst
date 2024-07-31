@@ -551,7 +551,7 @@ used.
 
     **Rain Gauge QPE » Rain Gauge QPE Key Points**
   
-    -  Rain gauges can provide excellent information if they are well-maintained, optimally located, and the wind is light.
+    -  Rain gauges can provide excellent information if they are well maintained, optimally located, and the wind is light.
 
     -  Rain gauges are point estimates and will not necessarily provide good spatial resolution.
 
@@ -559,7 +559,7 @@ used.
 
     -  Wind-induced fall angles reduce the effective catch area of the gauge. Turbulence can induce downward motion that partially offsets the fall angle problem.
 
-    -  In situations where good radar coverage exists, it is possible that high wind situations may cause greater uncertainties in the accuracy of the gauges than that of the radar. A user of multiple precipitation sensors may want to consider the possibility that under such conditions it may not be wise to adjust the radar with the rain gauge data.
+    -  In situations where good radar coverage exists, radar may incur less uncertainty in high-wind situations than the gauges. A user of multiple precipitation sensors may want to consider the possibility that under such conditions it may not be wise to adjust the radar with the rain gauge data.
 
     **Reference**
     https://www.meted.ucar.edu/hydro/precip_est/part1_measurement/
@@ -678,10 +678,9 @@ used.
 3.2.2 **Beyond gauges - alternative precipitation datasets**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Given the limitations of rain gauge networks in their spatial coverage
-(including wind-speed sampling error, etc., see popout above for
+Given the spatial coverage limitations of rain-gauge networks (including wind-speed sampling error, etc., see popout above for
 details), a primary source for alternative precipitation estimates are
-gauge-adjusted radar estimates, in regions where radar beam coverage is
+gauge-adjusted radar estimates, in regions where radar-beam coverage is
 sufficient. The strengths of these derived estimates are as follows.
 **High spatial resolution:** outside of point-based rain gauges, radar
 systems provide some of the highest-resolution data on precipitation
@@ -701,13 +700,13 @@ lead to underestimations of rainfall intensity at greater distances from
 the radar site. **Ground (or other) clutter:** Objects on or near the
 ground (buildings, hills, trees) can reflect radar signals, resulting in
 ground clutter that obscures or mimics precipitation signals, leading to
-inaccuracies. Most operational radar systems including the WSR-88D effectively filter out the ground echoes, limiting the impact of stationary clutter. However non-stationary clutter including vehicle and train traffic, sea surface clutter and clutter from wind farms cannot be filtered effectively leading to errors.
-It is important to note that above-ground flying insects, birds and bats can also cause
+inaccuracies. Most operational radar systems including the WSR-88D effectively filter out the ground echoes, limiting the impact of stationary clutter. However non-stationary clutter including vehicle and train traffic, sea-surface clutter and clutter from wind farms cannot be filtered effectively leading to errors.
+It is important to note that above-ground flying insects, birds, and bats can also cause
 similar problems. **Elevation angle limitations:** The radar beam
 travels in a nearly straight line (it is typically refracted slightly towards the surface by the atmosphere), while the Earth curves away from it. At
 longer distances, this can cause the radar to overshoot lower-altitude
 precipitation, leading to errors in estimated rainfall close to the
-ground due to evaporation and the horizontal advection of the measured precipitation. Also at long ranges, part or all of the radar beam may be located above the 0 deg C level, so it is measuring the ice or melting ice above the rain and not the rain itself. **Range degradation:** The quality and accuracy of radar data
+ground due to evaporation and the horizontal advection of the measured precipitation. Also, at long ranges, part or all of the radar beam may be located above the 0 deg C level, so it is measuring the ice or melting ice above the rain and not the rain itself. **Range degradation:** The quality and accuracy of radar data
 decrease with distance due to the spreading of the radar beam and
 increasing altitude of observation. This makes long-range precipitation
 estimates less reliable. **Dependence on reflectivity:** Radar traditionally estimates
@@ -716,47 +715,46 @@ air. This method assumes a relationship between the size and type of
 particles and the intensity of precipitation, which has its own
 inaccuracies. The introduction of dual-polarization measurements has reduced, but not eliminated, these issues. **Calibration and maintenance:** Radar systems require
 regular calibration and maintenance to ensure their accuracy.
-Calibration must often be localized to account for regional climatic and
+Calibration must often be adjusted locally to account for regional climatic and
 environmental conditions, adding complexity to their operation.
-**Spatial representation:** radar beams are of a certain width, and as
+**Spatial representation:** radar beams are a certain width, and as
 such, the measurements implicitly are a type of representative average
 over the region of coverage. This can be a strength or a weakness
-depending on if the implicit sampling area corresponds to that of the
+depending on whether the implicit sampling area corresponds to that of the
 researcher’s interest. Note that this spatial discretization also
-implicitly dampens extremes that would be captured through point-based
+ dampens extremes that would be captured through point-based
 gauge measurements. **Length of historical record and changes in
 estimation quality through time:** some of the most significant radar
 technologies did not become operational until the 1990s or later (with
 dual-polarization and doppler capabilities), so care should be taken
-when utilizing radar-based precision estimates preceding this time
+when using radar-based precision estimates preceding this time
 period. However, note that over the US it is possible to assess the
-level of uncertainty in derived radar precipitation estimates for a
+level of uncertainty in derived radar-precipitation estimates for a
 given location, as shown in the figure below of the Radar Quality Index
-(RQI), which shows the impact of non-uniform coverage of radar
-that is related to the elevation of the radar sample, distance from the
+(RQI), which shows the impact of non-uniform coverage of radar related to the elevation of the radar sample, distance from the
 radar, and the impact of mountains.
 
 |image7|
 
-*Figure: the Radar Quality Index (RQI) provides a measure how useful
+*Figure: the Radar Quality Index (RQI) provides a measure for how useful
 radar might be for precipitation estimates based on the amount of
 unblocked radar sampling below the freezing level. The scale is 0 to
 100%, with the high end indicating good radar coverage, and the low end
-indicating poor coverage typically due to terrain blocking or increasing
+indicating poor coverage, typically due to terrain blocking or increasing
 distance from the radar. This image is from February. The distance that
 high RQI values extend from the radar is typically better during summer
 when there is more convective precipitation and higher freezing levels.*
 
 Taken together, gauge-adjusted radar estimates provide some of the most
 dependable and accurate estimates of precipitation over the contiguous
-U.S. (CONUS), but with the following caveats: use outside of CONUS (e.g.
+U.S. (CONUS) with the following caveats: use outside of CONUS (e.g.
 insufficient radar coverage), in mountainous areas (e.g. beam blockage),
 variability in the quality of the estimates in space (e.g. range
 degradation) and time (e.g. changes in coverage and technologies used
 over the last 60 years).
 
 Below we provide a brief overview of some of the changes in radar
-estimates since their operational use by the National Weather Service in
+estimates since their first operational use by the National Weather Service in
 1957.
 
 .. dropdown:: **Radar technology changes**
@@ -765,32 +763,32 @@ estimates since their operational use by the National Weather Service in
 
     **Early Developments and WSR-57 (1950s)**
 
-    -  **Initial Use**: Radar technology initially developed for military purposes during World War II was adapted for weather observation.
+    -  **Initial Use**: Radar technology that was initially developed for military purposes during World War II was adapted for weather observation.
 
-    -  **WSR-57**: The first dedicated weather radar network, Weather Surveillance Radar-1957 (WSR-57), was deployed. It provided basic reflectivity data, showing areas of precipitation.
+    -  **WSR-57**: The first dedicated weather-radar network, Weather Surveillance Radar-1957 (WSR-57), was deployed. It provided basic reflectivity data, showing areas of precipitation.
 
     **WSR-74 (1970s)**
 
     -  **Improved Technology**: The WSR-74 was an upgraded version of the WSR-57, with better resolution and reliability.
 
-    -  **Increased Coverage**: More radar units were installed across the United States, providing better national coverage.
+    -  **Increased Coverage**: More radar units were installed across the United States, providing broader national coverage.
 
     **NEXRAD (WSR-88D) (1990s)** 
 
-    -  **Next Generation Radar (NEXRAD)**: The WSR-88D, implemented in the early 1990s, marked a significant leap forward. It provided Doppler capabilities, allowing for the measurement of precipitation velocity (indicating wind speeds and direction within storms).  The WSR-88Ds were also double the wavelength (10 cm S-band versus 5 cm C-band) resulting in dramatically reduced attenuation.
+    -  **Next Generation Radar (NEXRAD)**: The WSR-88D, implemented in the early 1990s, marked a significant leap forward. It provided Doppler capabilities, enabling the measurement of precipitation velocity (indicating wind speeds and direction within storms).  The WSR-88Ds were also double the wavelength (10 cm S-band versus 5 cm C-band) resulting in dramatically reduced attenuation.
 
 
     -  **Dual Polarization**: In the 2010s, NEXRAD radars were upgraded with dual-polarization technology, which sends out both horizontally and vertically polarized pulses. This enhancement allowed for better differentiation between types of precipitation (rain, snow, hail) and improved estimates of precipitation rates and quantities.
 
     **Phased Array Radar (2000s - Present)**
 
-    -  **Phased Array Technology**: Research and development into phased array radar technology, which allows for faster and more flexible scanning of the atmosphere, began. Phased array radars can rapidly switch between different observation modes and provide more timely data.
+    -  **Phased-Array Technology**: Research and development into phased-array radar technology, which allows for faster and more flexible scanning of the atmosphere, began. Phased-array radars can rapidly switch between different observation modes and provide more timely data.
 
     -  **Enhanced Detection**: This technology offers potential improvements in detecting severe weather phenomena, such as tornadoes and microbursts, more quickly and accurately.
 
-    **Advances in Data Processing and Integration**
+    **Advances in Data-Processing and Integration**
 
-    -  **Improved Algorithms**: Advances in data processing algorithms have led to more accurate and detailed precipitation estimates and forecasts. For example the automated detection and removal of ground clutter and transmitting advanced waveforms that are used to extend the unambiguous range. 
+    -  **Improved Algorithms**: Advances in data-processing algorithms have led to more accurate and detailed precipitation estimates and forecasts. For example the automated detection and removal of ground clutter and transmitting advanced waveforms that are used to extend the unambiguous range. 
 
 
     -  **Integration with Other Data Sources**: Modern systems integrate data from radars, satellites, weather stations, and other sensors, providing a more comprehensive understanding of weather systems.
@@ -799,14 +797,14 @@ estimates since their operational use by the National Weather Service in
 
     -  **Continued Innovation**: Ongoing research aims to further enhance radar technology with even faster data acquisition, higher resolution, and better predictive capabilities.
 
-    These advancements have greatly enhanced the accuracy, reliability, and detail of precipitation observations, significantly improving weather and precipitation estimation and severe weather warning systems.
+    These advancements have greatly enhanced the accuracy, reliability, and detail of precipitation observations, significantly improving weather and precipitation estimation and severe-weather warning systems.
 
-Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality control methods, and a brief discussion of satellite-derived QPE.
+Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality-control methods, and a brief discussion of satellite-derived QPE.
 
 
 .. dropdown:: **Radar QPE**
 
-    **I. Introduction » What is Precipitation Estimation (QPE)?**
+    **I. Introduction » What is Quantitative Precipitation Estimation (QPE)?**
 
     The term Quantitative Precipitation Estimation, or QPE, refers to the estimation of observed precipitation.
 
@@ -820,7 +818,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     **I. Introduction » QPE Methods and Tools**
 
-    Radar is a remote sensing QPE tool with excellent spatial and temporal resolution. However, radar coverage may be inconsistent from place to place and from storm to storm.
+    Radar is a remote-sensing QPE tool with excellent spatial and temporal resolution. However, radar coverage may be inconsistent from place to place and from storm to storm.
 
     |Illustration of radar, satellite and rain gauges sensing a convective cloud system.|
 
@@ -840,7 +838,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Radar-derived Total Accumulation|
 
-    Topics in this section include the relationship between drop size distribution, the Z-R relationship, and derived rainfall; the impact of snow on radar-derived estimates, the potential QPE improvement with polarimetric radar, radar coverage issues, and the concept of radar climatology. A brief summary of issues regarding satellite-derived QPE will follow the radar sections.
+    Topics in this section include the relationship between drop-size distribution, the Z-R relationship, and derived rainfall; the impact of snow on radar-derived estimates, the potential QPE improvement with polarimetric radar, radar coverage issues, and the concept of radar climatology. A brief summary of issues regarding satellite-derived QPE will follow the radar sections.
 
     **II. Remote Sensing of QPE » Reflectivity-Rainfall Rate (Z-R) and Drop Size Distribution (DSD)**
 
@@ -868,7 +866,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Drop shapes as a function of size|
 
-    Even relatively small 13-mm (half-inch) diameter hailstones contribute greatly to radar reflectivity. That’s why the presence of hail results in anomalously high derived-rainfall rates. This anomaly is typically minimized through use of rainfall rate thresholds.
+    Even relatively small 13-mm- (half-inch) diameter hailstones contribute greatly to radar reflectivity. That’s why the presence of hail results in anomalously high derived-rainfall rates. This anomaly is typically minimized through use of rainfall-rate thresholds.
 
     **In Depth: Reflectivity Factor, Z**
 
@@ -903,23 +901,23 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     **II. Remote Sensing of QPE » Precipitation Estimates with Dual Polarimetric Radar**
 
-    Advances are made in radar technology every year. As this lesson is being developed the most impactful with respect to precipitation is dual polarized radar, or polarimetric radar.
+    Advances are made in radar technology every year. As this lesson is being developed, dual polarized radar, or polarimetric radar, is the most impactful with respect to precipitation.
 
     |Sample data from dual-polarimetric Radar|
 
-    Since the WSR-88D radar network has been upgraded to dual-polarization capabilities in about 2010 and 2011, many of hte ambiguities associated with the phase, size and distribution of hyrometeors have been greatly reduced. Further, the overall data quality has been improved with the addition of dual-polarization data. For example, ground clutter, bright-band and biological echoes are difficult to reliably identify and remove with traditional radars. But with dual-polarization radars these sources of contamination are readily identified by automated algorithms. Although errors from DSD variations, bright-band contamination and clutter remain ongoing issues for the WSR-88D radar data, the errors associated with them have been substantially reduced with the addition of dual-polarization capability.     
+    Since the WSR-88D radar network was upgraded to dual-polarization capabilities in about 2010 and 2011, many of the ambiguities associated with the phase, size, and distribution of hydrometeors have been greatly reduced. Further, the overall data quality has been improved with the addition of dual-polarization data. For example, ground clutter, bright-band and biological echoes are difficult to reliably identify and remove with traditional radars. But with dual-polarization radars these sources of contamination are readily identified by automated algorithms. Although errors from DSD variations, bright-band contamination and clutter remain ongoing issues for the WSR-88D radar data, the errors associated with them have been substantially reduced with the addition of dual-polarization capability.     
 
-    Excellent training on precipitation measurement using polarimetric radar is available from NOAA’s WDTD. We will not repeat those lessons here, but we strongly encourage you to review them: http://www.wdtb.noaa.gov/courses/dualpol/Outreach/.
+    Excellent training resources on precipitation measurement using polarimetric radar is available from NOAA’s WDTD. We will not repeat those lessons here, but we strongly encourage you to review them: http://www.wdtb.noaa.gov/courses/dualpol/Outreach/.
 
-    In addition to reflectivity estimates that we are familiar with, dual-polarization radar allows for estimates of the average shapes of hydrometeors within the resolution volume and whether or not differently shaped hydrometeors are collocated, e.g. mixed phase. This is accomplished by transmitting and receiving both a horizontally and a vertically polarized radar beam. By measuring the different returns from these two polarizations, one can estimate the shape and the effects from different hydrometeor shapes, which increase the accuracy of precipitation estimates and hydrometeor type classification..
+    In addition to reflectivity estimates that we are familiar with, dual-polarization radar allows for estimates of the average shapes of hydrometeors within the resolution volume and whether or not differently shaped hydrometeors are collocated, i.e., mixed phase. This is accomplished by transmitting and receiving both a horizontally and a vertically polarized radar beam. By measuring the different returns from these two polarizations, one can estimate the shape and the effects from different hydrometeor shapes, which increase the accuracy of precipitation estimates and hydrometeor type classification.
 
-    For example, we can determine if the prominent reflectors are large raindrops, which tend to be oblate with a large horizontal axis. We can also determine if the hydrometeors are more spherical, consistent with small raindrops. Or we can measure if the hydrometeors are highly reflective and generally spherical, consistent with hail. Other measures can be used to estimate the presence of snow, insects, or ground targets.
+    For example, we can determine if the prominent reflectors are large raindrops, which tend to be oblate with a large horizontal axis. We can also determine if the hydrometeors are more spherical, which is consistent with small raindrops. Or we can discern whether the hydrometeors are highly reflective and generally spherical, consistent with hail. Other measures can be used to estimate the presence of snow, insects, or ground targets.
 
     |Reflector shape is a function of its size, phase, and type|
 
     **II. Remote Sensing of QPE » Radar Sampling of Precipitation**
 
-    Most of the discussion so far is applicable for areas with good radar coverage. Good radar coverage is determined by three main factors:
+    Most of the discussion so far is applicable for areas with good radar coverage. Good radar coverage is determined by three main factors.
 
     1. There are no obstructions of the low-level radar beam from terrain features or other ground targets like buildings.
 
@@ -933,29 +931,29 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Influences on radar coverage - low level sampling|
 
-    The radar beam gets higher in the atmosphere with distance from the radar. Even a low tilt angle like 0.5° is ~1.5 km (5,000 ft) above the ground at 100 km from the radar, and 5.2 km (17,000 ft) high at 230 km. Therefore, to sample the low-level precipitation, which is most likely to be representative of the precipitation reaching the ground, radars need to be close to each other.
+    The radar beam gets higher in the atmosphere with distance from the radar. Even a low tilt angle like 0.5° is ~1.5 km (5,000 ft) above the ground at 100 km from the radar, and 5.2 km (17,000 ft) high at 230 km. Therefore, to sample the low-level precipitation, which is most likely to be representative of the precipitation reaching the ground, radars need to be positioned close to each other.
 
     |Height above the ground of radar sample as a function of range|
 
-    For stratiform precipitation it is best to sample the lowest 1 km of the atmosphere, which typically occurs within 50 km of the radar. Beyond 50 km the radar sample may be questionable. This range can be limited further by terrain blocking of the radar beam. Sampling of stratiform precipitation is almost always poor beyond 100 km from the radar.
+    For stratiform precipitation, it is best to sample the lowest 1 km of the atmosphere, which typically occurs within 50 km of the radar. Beyond 50 km, the radar sample may be questionable. This range can be further limited by terrain blocking of the radar beam. Sampling of stratiform precipitation is almost always poor beyond 100 km from the radar.
 
     |Radar coverage of precipitation with range - assuming no beam blocking|
 
-    Convective precipitation is distributed over a much deeper layer of the atmosphere than stratiform precipitation. Therefore, in seasons and locations where convection is common and terrain is minimal, the radar may be able to sample precipitation well at long distance from the radar, perhaps beyond 150 km. Shallow convection may be undersampled by the radar at closer ranges than 150 km. Range coverage is worse for snow.
+    Convective precipitation is distributed over a much deeper layer of the atmosphere than stratiform precipitation. Therefore, in seasons and locations where convection is common and terrain is minimal, the radar may be able to sample precipitation well at long distances from the radar, perhaps beyond 150 km. Shallow convection may be undersampled by the radar at ranges closer than 150 km. Range coverage is worse for snow.
 
     **II. Remote Sensing of QPE » Radar Coverage**
 
-    Here are the NWS radar locations with the ideal 230-km range shown with yellow circles. The density of weather radars is generally lower in the western United States and Alaska than in other parts of the country. These maps do not account for terrain features that can greatly reduce the radar coverage.
+    Here are the NWS radar locations with the ideal 230-km range shown with yellow circles. The density of weather radars is generally lower in the Western United States and Alaska than in other parts of the country. These maps do not account for terrain features that can greatly reduce the radar coverage.
 
     |Locations of WSR-88D radars with the idealized 230-km coverge areas|
 
-    For many locations and precipitation regimes, it’s unrealistic to expect good precipitation estimates with the ideal 230-km coverage shown here. A more realistic radius of 100 or 150-km would show bigger and more numerous gaps, especially in the Western United States. In the winter, the range of realistic coverage may shrink to less than a 100 km radius.
+    For many locations and precipitation regimes, it’s unrealistic to expect good precipitation estimates with the idealized 230-km coverage shown here. A more realistic radius of 100 or 150 km would show greater and more numerous gaps, especially in the Western United States. In the winter, the range of realistic coverage may shrink to less than a 100-km radius.
 
     A more realistic coverage is shown here with a map of the height above ground level (AGL) of the radar sampling. It is for November 10th, 2008. Although this map can change depending on weather conditions and radar operations, the basic pattern will be the same.
 
     |Height above ground level of radar coverage, 1755 UTC 10 Nov 2008 CONUS|
 
-    The light blues show where there is good coverage of the low levels. The best low level coverage is obviously in areas with relatively flat terrain and good radar density. Recall that for stratiform precipitation, radar coverage can be significantly impacted if the radar sampling is 1 km or more above the ground, as shown in the dark blue, greens, yellows, and reds. Even in the central and eastern U.S., stratiform precipitation may be significantly underestimated in places. In the West, radar sampling can be more than 3 km above the ground in large areas. This results in completely missing precipitation systems, especially stratiform. This is also a problem in Alaska. As an example let’s look more closely at radar coverage in the northwestern portion of the contiguous United States.
+    The light blues show where there is good coverage of the low levels. The best low-level coverage is obviously in areas with relatively flat terrain and good radar density. Recall that for stratiform precipitation, radar coverage can be significantly impacted if the radar sampling is 1 km or more above the ground, as shown in the dark blue, greens, yellows, and reds. Even in the Central and Eastern U.S., stratiform precipitation may be significantly underestimated in places. In the West, radar sampling can be more than 3 km above the ground in large areas. This results in completely missed precipitation systems, especially stratiform. This is also a problem in Alaska. As an example, let’s look more closely at radar coverage in the northwestern portion of the contiguous United States.
 
     **II. Remote Sensing of QPE » Radar Climatology**
 
@@ -963,19 +961,19 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |Warm season radar coverage for the northwest river forecast center area|
 
-    KCBX is considered good here because 1) that radar is able to sample precipitation, and 2) in areas of overlap with neighboring radars, KCBX is sampling from a lower elevation. The jagged appearance is caused by mountains preventing uniform good coverage throughout the entire 230-km radius.
+    KCBX is considered good here because 1) this radar is able to sample precipitation, and 2) in areas of overlap with neighboring radars, KCBX is sampling from a lower elevation. The jagged appearance is caused by mountains preventing uniformly good coverage throughout the entire 230-km radius.
 
     These are produced by the NWS radar climatology program, RADCLIM. We will briefly demonstrate radar climatology based on frequency of occurrence of precipitation for Boise, Idaho.
 
     |Radar climatology analysis and display (Radclim)|
 
-    The precipitation frequency of occurrence starts with a precipitation threshold for defining what we will consider precipitation. Let’s use a threshold of 0.0 mm which means that any time there is more than 0.0 mm detected by the radar, we have a precipitation event. We could choose a higher threshold if we want to filter out light events.
+    The precipitation frequency of occurrence starts with a precipitation threshold for defining what we will consider precipitation. Let’s use a threshold of 0.0 mm which means that any time there is more than 0.0 mm detected by the radar, we have a precipitation event. We could choose a higher threshold if we wanted to filter out light events.
 
     The frequency of precipitation, for each radar bin, is the number of times more than 0.0 mm was observed divided by all of the radar observations in the dataset. We get this image for the Boise radar. The radar is in the center of the 230-km radius of ideal radar coverage.
 
     |Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season|
   
-    The different colors show the different frequencies of occurrence. As distance increases from the radar the frequency of precipitation decreases, indicated by blue and black colors. Note the large areas with very low frequencies of occurrence, seen as black. These do not represent natural precipitation distribution. Rather, it shows where the radar sampling is greatly inhibited by terrain blocking.
+    The different colors show the different frequencies of occurrence. As distance increases from the radar, the frequency of precipitation decreases, indicated by blue and black colors. Note the large areas with very low frequencies of occurrence, are shown as black. These do not represent natural precipitation distribution. Rather, it shows where the radar sampling is greatly inhibited by terrain blocking.
 
 
     **II. Remote Sensing of QPE » Radar Coverage Map**
@@ -985,13 +983,13 @@ Below we provide additional introductory details on the derivation, strengths, a
     In this example, a frequency of occurrence of 0.006 was chosen. This means that we will only consider radar bins where greater than 0.0 mm occurred at least 0.006, or 0.6% of the time according to the radar climatology.
   
     |Warm season effective radar coverage for Boise, ID (KCBX)|
-    This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite. 
+    This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume there is good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite. 
 
     The choice of frequency threshold is somewhat subjective, based on forecaster experience regarding what produces the most useful guidance.
 
-    Radar climatologies are generated for specific months or seasons. Let’s go back to the summer season radar coverage for the northwestern portion of the contiguous United States. All of the non-black areas are where we can assume good radar coverage. 
+    Radar climatologies are generated for specific months or seasons. Let’s go back to the summer season radar coverage for the northwestern portion of the contiguous United States. All of the non-black areas are where we can assume there is good radar coverage. 
 
-    In the cool season, there is more low level precipitation and thus the effects of terrain and distance on radar precipitation estimates are more severe. Note the sharp decrease in good radar coverage in the radar coverage map for the Northwest in the cool season.
+    In the cool season, there is more low-level precipitation and thus the effects of terrain and distance on radar precipitation estimates are more severe. Note the sharp decrease in good radar coverage in the radar coverage map for the Northwest in the cool season.
 
    |image23|
 
@@ -1005,18 +1003,18 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     |1 hr satellite estimated precip as of 1515 UTC 17 Apr 2009|
 
-    Satellite-derived rainfall products perform best in the tropics and in the middle latitudes during the warm season. In other words it verifies best when the wind shear is relatively low and precipitation is dominated by convection. These are not the conditions in the radar-sparse western United States during the wintertime wet season.
+    Satellite-derived rainfall products perform best in the tropics and in the middle latitudes during the warm season. In other words, it verifies best when the wind shear is relatively low and precipitation is dominated by convection. These are not the conditions in the radar-sparse Western United States during the wintertime wet season.
 
-    This NOAA product known as the hydro-estimator applies a terrain factor to the precipitation estimate using 700 mb winds. This helps with resolving the spatial distribution of the precipitation. Other improvements to precipitation rates may be achieved by applying factors related to cloud, moisture, and stability characteristics.
+    This NOAA product, known as the hydro-estimator, applies a terrain factor to the precipitation estimate using 700 mb winds. This helps to resolve the spatial distribution of the precipitation. Other improvements to precipitation rates may be achieved by applying factors related to cloud, moisture, and stability characteristics.
 
     |24 hr satellite estimated precip as of 1200 UTC 5 Jan 2008|
 
     For satellite Hydro-Estimator rainfall products:
     http://www.star.nesdis.noaa.gov/smcd/emb/ff/HydroEst.php
 
-    In addition to adjustments based on both measured and modeled environmental properties, there is increasing use of additional sensor capabilities such as microwave satellite sensing and lightning detection. Passive microwave observations allow detection of water and ice within the cloud for derivation of more accurate rainfall rates. However, because microwave sensing capabilities are specific to polar-orbiting satellites, the temporal frequency is much less than that of the hydro-estimator products based on geostationary satellites.
+    In addition to adjustments based on both measured and modeled environmental properties, there is increasing use of additional sensor capabilities such as microwave satellite sensing and lightning detection. Passive microwave observations allow detection of water and ice within the cloud to derive more accurate rainfall rates. However, because microwave-sensing capabilities are specific to polar-orbiting satellites, the temporal frequency is much less than that of the hydro-estimator products based on geostationary satellites.
 
-    The SCaMPR product, (which stands for Self-Calibrating Multivariate Precipitation Retrieval) is an example of combining the temporal resolution of geostationary satellites with the more accurate estimation of rainfall rates of polar orbiters, and previews the next generation of operational satellite-based precipitation estimation tools.
+    The Self-Calibrating Multivariate Precipitation Retrieval product, (SCaMPR) is an example of combining the temporal resolution of geostationary satellites with the more accurate estimation of rainfall rates of polar orbiters, and previews the next generation of operational satellite-based precipitation estimation tools.
 
     |SCaMPR 24 hr estimated precip at 1200 UTC 13 Apr 2009|
 
