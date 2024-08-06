@@ -1508,7 +1508,7 @@ see:
 
 .. vim: syntax=rst
 
-Ch3.3 Baseline natural variability and detection and attribution of observed changes
+3.3 Baseline natural varaiblity and detection and attribution of observed changes
 ------------------------------------------------------------------------------------
 
 This section provides an introduction to ways to understand and quantify
@@ -1527,47 +1527,47 @@ climate variability and change.
 
 .. dropdown:: Earth’s energy balance and the greenhouse effect>
 
-**Earth’s Energy Balance and the Greenhouse Effect**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Earth’s Energy Balance and the Greenhouse Effect**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|still|
+    |still|
 
-The Earth is in a delicate equilibrium of solar energy (mainly shortwave
-ultraviolet) coming in and longwave energy (mainly infrared) going out.
-Slight alterations to this balance impact weather and climate. These can
-be caused by the natural cycles of climate variability, such as volcanic
-eruptions, that temporarily reduce the amount of solar energy reaching
-the Earth’s surface, thus disrupting the energy balance.
+    The Earth is in a delicate equilibrium of solar energy (mainly shortwave
+    ultraviolet) coming in and longwave energy (mainly infrared) going out.
+    Slight alterations to this balance impact weather and climate. These can
+    be caused by the natural cycles of climate variability, such as volcanic
+    eruptions, that temporarily reduce the amount of solar energy reaching
+    the Earth’s surface, thus disrupting the energy balance.
 
-|Volcanic eruption|
+    |Volcanic eruption|
 
-Small changes to the balance of energy between the Sun and Earth are
-driving recent trends in global temperature.
+    Small changes to the balance of energy between the Sun and Earth are
+    driving recent trends in global temperature.
 
-The diagram below of the energy cycle shows the amount of energy, in
-Watts per square meter, that comes into the Earth-atmosphere-ocean
-system, stays within it, and leaves. Notice that about one third of the
-342 W/m2 of solar energy (the yellow arrows) is reflected back to space
-by the atmosphere or surface, while about two thirds is absorbed. As
-we’ve seen, the magnitude of solar energy reflected by aerosols
-sometimes increases temporarily after major volcanic eruptions, leading
-to temporary decreases in solar energy reaching Earth’s surface.
+    The diagram below of the energy cycle shows the amount of energy, in
+    Watts per square meter, that comes into the Earth-atmosphere-ocean
+    system, stays within it, and leaves. Notice that about one third of the
+    342 W/m2 of solar energy (the yellow arrows) is reflected back to space
+    by the atmosphere or surface, while about two thirds is absorbed. As
+    we’ve seen, the magnitude of solar energy reflected by aerosols
+    sometimes increases temporarily after major volcanic eruptions, leading
+    to temporary decreases in solar energy reaching Earth’s surface.
 
-On the right side of the diagram, the red arrows show the amount of
-terrestrial energy (mainly infrared) emitted by the Earth’s surface and
-atmosphere. Some is radiated back to space. But due to the presence of
-greenhouse gases, carbon dioxide, and water vapor in particular, a
-significant portion is absorbed by the atmosphere and re-radiated back
-to Earth. The “Back Radiation” portion of the diagram shows the heat
-energy radiated from the atmosphere to the surface. This is the
-**Greenhouse Effect**. Without naturally occurring greenhouse gases, the
-Earth would be an inhospitably cold and frozen planet.
+    On the right side of the diagram, the red arrows show the amount of
+    terrestrial energy (mainly infrared) emitted by the Earth’s surface and
+    atmosphere. Some is radiated back to space. But due to the presence of
+    greenhouse gases, carbon dioxide, and water vapor in particular, a
+    significant portion is absorbed by the atmosphere and re-radiated back
+    to Earth. The “Back Radiation” portion of the diagram shows the heat
+    energy radiated from the atmosphere to the surface. This is the
+    **Greenhouse Effect**. Without naturally occurring greenhouse gases, the
+    Earth would be an inhospitably cold and frozen planet.
 
-|The Earth-Sun Energy Balance|
+    |The Earth-Sun Energy Balance|
 
 — stop popout Ch3.2 Earth’s energy balance and the greenhouse effect
 
-:mark:`And the pop-out below provides introductory information on
+And the pop-out below provides introductory information on
 natural climate variability versus anthropogenic climate change examples
 for streamflow, CO2 emissions, and global temperature anomalies.`
 
