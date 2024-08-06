@@ -2552,7 +2552,7 @@ These changes may lie outside the range of observations in the
 period of record, and will need to be taken into account in water
 research and resources planning.
 
--------------------------------------------------------------------------
+*-----------------------------------------------------------------------*
 | **TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING**       |
 |                                                                       |
 |                                                                       |
@@ -2576,7 +2576,7 @@ research and resources planning.
 | These climate trends have, and will continue to have, impacts on      |
 | water resources management, operations, and planning.                 |
 +=======================================================================+
-+-----------------------------------------------------------------------+
+
 
 The need for understanding the influence of climate change on the U.S.
 water sector, its impacts, and need for informed decision-making across
