@@ -2576,6 +2576,7 @@ research and resources planning.
 | These climate trends have, and will continue to have, impacts on      |
 | water resources management, operations, and planning.                 |
 +=======================================================================+
++-----------------------------------------------------------------------+
 
 
 The need for understanding the influence of climate change on the U.S.
