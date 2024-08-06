@@ -2531,7 +2531,7 @@ certain types of droughts and tropical cyclones (e.g., Herring et al.,
 2021).
 
 
-3.3.1 **Observed Climate Impacts**
+3.3.2 **Observed Climate Impacts**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image18|
