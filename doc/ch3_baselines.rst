@@ -2107,7 +2107,9 @@ and detection of secular anomalies and trends.
 
 
 
-**Detection and Attribution**
+
+3.3.1 **Detection and Attribution**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Detection and Attribution is a complex scientific discipline, so below
 we provide only an overview of this field along with some of the more
@@ -2528,7 +2530,9 @@ attributable human influence has been found for heavy precipitation, and
 certain types of droughts and tropical cyclones (e.g., Herring et al.,
 2021).
 
-**Observed Climate Impacts**
+
+3.3.1 **Observed Climate Impacts**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image18|
 
