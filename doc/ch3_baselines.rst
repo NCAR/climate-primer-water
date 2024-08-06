@@ -1683,259 +1683,257 @@ external natural forcings), include changes in incoming solar radiation
 (through solar cycles), volc:mark:`anic activity, orbital cycles, and
 changes in global biogeochemical cycles.`
 
-:mark:`– start popout Ch3.2 Irregular climate impacts`
+.. dropdown:: Irregular climate impacts
 
-**Irregular Climate Impacts**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Irregular Climate Impacts**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|Time series, observed, (1880-2000) of Global Temperature Change
-Relative to 1870-1899 Baseline with Five Major Volcanoes Indicated|
+    |Time series, observed, (1880-2000) of Global Temperature Change
+    Relative to 1870-1899 Baseline with Five Major Volcanoes Indicated|
 
-Major volcanic eruptions are irregular natural climate events. In this
-global temperature time series, we can see how the sun-shielding
-properties of atmospheric aerosols from volcanic eruptions result in
-decreased global average temperatures. Notice how Mt. Pinatubo’s 1991
-eruption decreased global average temperatures for 1-2 years.
+    Major volcanic eruptions are irregular natural climate events. In this
+    global temperature time series, we can see how the sun-shielding
+    properties of atmospheric aerosols from volcanic eruptions result in
+    decreased global average temperatures. Notice how Mt. Pinatubo’s 1991
+    eruption decreased global average temperatures for 1-2 years.
 
-:mark:`– stop popout Ch3.2 Irregular climate impacts`
+.. dropdown:: Very long-term climate variability
 
-:mark:`– start popout Ch3.2 Very long-term climate variability`
+    **Very Long-term Climate Variability**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Very Long-term Climate Variability**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    There are much longer climate variability cycles associated with changes
+    in the Earth’s orbital eccentricity and its tilt with respect to the
+    Sun.
 
-There are much longer climate variability cycles associated with changes
-in the Earth’s orbital eccentricity and its tilt with respect to the
-Sun.
+    |Graphic showing Milankovitch cycles|
 
-|Graphic showing Milankovitch cycles|
+    These cycles, known as the Milankovitch Cycles, lead to big changes in
+    the amount and distribution of solar energy on the Earth’s surface. The
+    global temperature during these long-duration cycles ranges from being
+    much colder (the ice ages) to much warmer than the current global
+    average temperature.
 
-These cycles, known as the Milankovitch Cycles, lead to big changes in
-the amount and distribution of solar energy on the Earth’s surface. The
-global temperature during these long-duration cycles ranges from being
-much colder (the ice ages) to much warmer than the current global
-average temperature.
+    |Graph of temperatures and CO2 concentrations for the past 800,000
+    years|
 
-|Graph of temperatures and CO2 concentrations for the past 800,000
-years|
+    Milankovitch Cycles unfold on timescales much longer than a human life
+    span, from tens to hundreds of thousands of years. The rate of change
+    associated with the Milankovitch Cycles is so slow that it will not
+    impact water research planning for the next century or so.
 
-Milankovitch Cycles unfold on timescales much longer than a human life
-span, from tens to hundreds of thousands of years. The rate of change
-associated with the Milankovitch Cycles is so slow that it will not
-impact water research planning for the next century or so.
 
-:mark:`– stop popout Ch3.2 Very long-term climate variability`
 
-:mark:`Major anthropogenic drivers include atmospheric aerosols (fine
+Major anthropogenic drivers include atmospheric aerosols (fine
 solid particles or liquid droplets), land-use change, and CO2 and
 non-CO2 greenhouse gasses. The natural and anthropogenic drivers taken
-together make up what are called climate forcings.`
+together make up what are called climate forcings.
 
-— start popout Ch3.2 Climate forcings
+.. dropdown:: Climate forcings
 
-**Climate Forcings**
-~~~~~~~~~~~~~~~~~~~~
+    **Climate Forcings**
+    ~~~~~~~~~~~~~~~~~~~~
 
-:mark:`In this pop-out, we will examine how a number of forcings (both
-natural and anthropogenic) have influenced the energy balance between
-the Earth and Sun from 1880 to 2014, determining if each forcing has had
-a warming effect (in which case the forcing goes above the zero change
-line) or a cooling effect (in which case the forcing goes below the zero
-change line).`
+    In this pop-out, we will examine how a number of forcings (both
+    natural and anthropogenic) have influenced the energy balance between
+    the Earth and Sun from 1880 to 2014, determining if each forcing has had
+    a warming effect (in which case the forcing goes above the zero change
+    line) or a cooling effect (in which case the forcing goes below the zero
+    change line).
 
-**Natural Factors**
-~~~~~~~~~~~~~~~~~~~
+    **Natural Factors**
+    ~~~~~~~~~~~~~~~~~~~
 
-Solar irradiance leads to some cyclic warming, but has a very small
-magnitude.
+    Solar irradiance leads to some cyclic warming, but has a very small
+    magnitude.
 
-|Exploring the Impact of Climate Forcings on Global Energy Balance|
+    |Exploring the Impact of Climate Forcings on Global Energy Balance|
 
-Volcanic eruptions have a notable cooling impact due to increased
-atmospheric albedo triggered by reflective volcanic aerosols. The
-cooling from volcanoes in the period examined was temporary, never
-lasting more than a few years. And, they had no real impact on the
-long-term trend.
+    Volcanic eruptions have a notable cooling impact due to increased
+    atmospheric albedo triggered by reflective volcanic aerosols. The
+    cooling from volcanoes in the period examined was temporary, never
+    lasting more than a few years. And, they had no real impact on the
+    long-term trend.
 
-|image2|
+    |image2|
 
-:mark:`What effect does a typical large volcano have on carbon dioxide
-concentration compared to the effect from human activity? The diagram
-shows that in a typical year, the CO2 emissions from anthropogenic
-sources is 135 times greater than those from volcanoes, with some
-studies showing even greater differences. Even the 1991 eruption of Mt
-Pinatubo put roughly 1/500th of the 2010 emissions from anthropogenic
-activity into the atmosphere.`
+     What effect does a typical large volcano have on carbon dioxide
+    concentration compared to the effect from human activity? The diagram
+    shows that in a typical year, the CO2 emissions from anthropogenic
+    sources is 135 times greater than those from volcanoes, with some
+    studies showing even greater differences. Even the 1991 eruption of Mt
+    Pinatubo put roughly 1/500th of the 2010 emissions from anthropogenic
+    activity into the atmosphere.
 
-|Comparison of the typical annual CO2 output from global volcanic
-activity versus human activity.|
+    |Comparison of the typical annual CO2 output from global volcanic
+    activity versus human activity.|
 
-**:mark:`Land Use`**
-~~~~~~~~~~~~~~~~~~~~
+    **Land Use**
+    ~~~~~~~~~~~~~~~~~~~~
 
-:mark:`Now we'll look at the Land Use Forcings. What impact does land
-use have on the solar energy absorbed at the Earth’s surface?`
+    Now we'll look at the Land Use Forcings. What impact does land
+    use have on the solar energy absorbed at the Earth’s surface?
 
-|image3|
+    |image3|
 
-:mark:`Land use leads to very small decreases in the energy absorbed at
-the surface, or small amounts of cooling. That’s because replacing
-forests with agricultural or urban land tends to increase the surface
-albedo and reflect more solar energy back to space.`
+    Land use leads to very small decreases in the energy absorbed at
+    the surface, or small amounts of cooling. That’s because replacing
+    forests with agricultural or urban land tends to increase the surface
+    albedo and reflect more solar energy back to space.
 
-**Climate Forcings – What is Albedo**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Climate Forcings – What is Albedo**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|California/Nevada January Snowcover Comparison: 2013 versus 2014|
+    |California/Nevada January Snowcover Comparison: 2013 versus 2014|
 
-Albedo is a measure of how well a surface can reflect solar energy.
-Reflective surfaces, like snow, ice, and clouds, have high albedo and
-are efficient at reflecting solar energy back to space. In the satellite
-images centered on the Sierra Nevada, snow and clouds have very high
-albedo and appear white. You can see that there may be large
-year-to-year differences in snow cover and thus the albedo. Even desert
-sands have high albedo and show up as relatively bright in this visible
-satellite imagery.
+    Albedo is a measure of how well a surface can reflect solar energy.
+    Reflective surfaces, like snow, ice, and clouds, have high albedo and
+    are efficient at reflecting solar energy back to space. In the satellite
+    images centered on the Sierra Nevada, snow and clouds have very high
+    albedo and appear white. You can see that there may be large
+    year-to-year differences in snow cover and thus the albedo. Even desert
+    sands have high albedo and show up as relatively bright in this visible
+    satellite imagery.
 
-Dark colored surfaces have low albedo and absorb solar energy. This
-impacts the solar energy absorbed by Earth. Forest areas appear dark on
-visible satellite images, and are more efficient at absorbing solar
-energy. Bodies of water appear very dark and have very low albedos.
+    Dark colored surfaces have low albedo and absorb solar energy. This
+    impacts the solar energy absorbed by Earth. Forest areas appear dark on
+    visible satellite images, and are more efficient at absorbing solar
+    energy. Bodies of water appear very dark and have very low albedos.
 
-**:mark:`Anthropogenic Aerosols`**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Anthropogenic Aerosols`**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:mark:`Now we’ll look at the impact of Anthropogenic Aerosols (those
-resulting from human activity). What kind of impacts are related to
-anthropogenic aerosols?`
+    Now we’ll look at the impact of Anthropogenic Aerosols (those
+    resulting from human activity). What kind of impacts are related to
+    anthropogenic aerosols?
 
-|image4|
+    |image4|
 
-:mark:`Anthropogenic aerosols have both warming and cooling impacts.
-That's because different aerosols have opposite effects on albedo. Dark
-particulates, such as black carbon, decrease albedo and increase
-absorption of solar energy, resulting in a warming effect. This occurs
-in the atmosphere as a whole, but also when black carbon settles out on
-otherwise reflective surfaces, such as snow and ice.`
+    Anthropogenic aerosols have both warming and cooling impacts.
+    That's because different aerosols have opposite effects on albedo. Dark
+    particulates, such as black carbon, decrease albedo and increase
+    absorption of solar energy, resulting in a warming effect. This occurs
+    in the atmosphere as a whole, but also when black carbon settles out on
+    otherwise reflective surfaces, such as snow and ice.`
 
-|image5|
+    |image5|
 
-:mark:`Other aerosols in the atmosphere are reflective and increase atmospheric albedo. This can occur from the aerosols themselves reflecting sunlight back to space, or from aerosol enhancement of cloud development (an indirect effect). Cloud tops have high albedo and reflect solar energy back to space.`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    Other aerosols in the atmosphere are reflective and increase atmospheric albedo. This can occur from the aerosols themselves reflecting sunlight back to space, 
+    or from aerosol enhancement of cloud development (an indirect effect). Cloud tops have high albedo and reflect solar energy back to space.
 
-:mark:`What has the overall impact of anthropogenic aerosols been?`
 
-|image6|
+    What has the overall impact of anthropogenic aerosols been?
 
-:mark:`The reflective anthropogenic aerosols dominate and thus the
-impact of all anthropogenic aerosols leads to climate cooling.`
+    |image6|
 
-**:mark:`Greenhouse Gases`**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    The reflective anthropogenic aerosols dominate and thus the
+    impact of all anthropogenic aerosols leads to climate cooling.
 
-:mark:`Now we’ll look at the impact of Greenhouse Gases. All of the
-greenhouse gases result in a warming trend. Well-mixed gases, such as
-carbon dioxide, methane, and nitrous oxide, have the greatest impact,
-and this impact is increasing with time.`
+    **Greenhouse Gases**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image7|
+    Now we’ll look at the impact of Greenhouse Gases. All of the
+    greenhouse gases result in a warming trend. Well-mixed gases, such as
+    carbon dioxide, methane, and nitrous oxide, have the greatest impact,
+    and this impact is increasing with time.
 
-:mark:`The magnitude of the warming from greenhouse gas forcing is
-greater than the notable cooling effect from reflective aerosols.`
+    |image7|
 
-**:mark:`All Forcings`**
-~~~~~~~~~~~~~~~~~~~~~~~~
+    The magnitude of the warming from greenhouse gas forcing is
+    greater than the notable cooling effect from reflective aerosols.
 
-:mark:`Now we’ll look at all forcings combined.`
+    **All Forcings**
+    ~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image8|
+     Now we’ll look at all forcings combined.
 
-:mark:`When all variables are included in one time series, the trend
-induced by greenhouse gas forcing is clear. Net climate forcing has
-increased by 1 to 2 Watts per square meter since pre-industrial times,
-leading to the warming of the Earth by 1ºC (1.8ºF) through 2015. The
-warming effect induced by greenhouse gases has been tempered by the
-overall cooling effect of anthropogenic aerosols, and occasional
-short-duration cooling from volcanic aerosols.`
+    |image8|
 
-**:mark:`Climate Change and Climate Forcings`**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    When all variables are included in one time series, the trend
+    induced by greenhouse gas forcing is clear. Net climate forcing has
+    increased by 1 to 2 Watts per square meter since pre-industrial times,
+    leading to the warming of the Earth by 1ºC (1.8ºF) through 2015. The
+    warming effect induced by greenhouse gases has been tempered by the
+    overall cooling effect of anthropogenic aerosols, and occasional
+    short-duration cooling from volcanic aerosols.
 
-:mark:`As we’ve seen, anthropogenic climate forcings result in a steady
-trend in global warming, with short-term variations caused by natural
-factors. Anthropogenic forcings have led to both global cooling (from
-reflective aerosols) and warming (from greenhouse gases) but the warming
-dominates over periods of multiple decades or longer.`
+    **Climate Change and Climate Forcings**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|Time series, observed and projected, (1880-2099) of Global Temperature
-Change Relative to 1870-1899 Baseline|
+    As we’ve seen, anthropogenic climate forcings result in a steady
+    trend in global warming, with short-term variations caused by natural
+    factors. Anthropogenic forcings have led to both global cooling (from
+    reflective aerosols) and warming (from greenhouse gases) but the warming
+    dominates over periods of multiple decades or longer.
 
-:mark:`By the middle part of the 21st century, even the cooling impact
-from notable volcanoes like Krakatau and Pinatubo won’t be able to
-temporarily cool the average global temperature to average 20th-century
-levels according to climate model projections.`
+    |Time series, observed and projected, (1880-2099) of Global Temperature
+    Change Relative to 1870-1899 Baseline|
 
-|Graph of temperatures and CO2 concentrations for the past 800,000
-years|
+    By the middle part of the 21st century, even the cooling impact
+    from notable volcanoes like Krakatau and Pinatubo won’t be able to
+    temporarily cool the average global temperature to average 20th-century
+    levels according to climate model projections.
 
-:mark:`When viewed in the context of Earth's average temperature over
-hundreds of thousands of years, the current warming is on par with some
-past epochs. But the increase in carbon dioxide, the most abundant
-anthropogenic greenhouse gas, is much greater than in past warm periods.
-This suggests that our very rapid warming--and it is very rapid on the
-geologic time scale--is just beginning. This greenhouse gas-induced
-warming is likely to dwarf the cooling factors as we move through the
-21st century.`
+    |Graph of temperatures and CO2 concentrations for the past 800,000
+    years|
 
-— stop popout Ch3.2 Climate forcings
+    When viewed in the context of Earth's average temperature over
+    hundreds of thousands of years, the current warming is on par with some
+    past epochs. But the increase in carbon dioxide, the most abundant
+    anthropogenic greenhouse gas, is much greater than in past warm periods.
+    This suggests that our very rapid warming--and it is very rapid on the
+    geologic time scale--is just beginning. This greenhouse gas-induced
+    warming is likely to dwarf the cooling factors as we move through the
+    21st century.
+
+
 
 The pop-out below discusses how the components of the energy cycle are
 expected to change over the next few decades based on anthropogenic
 changes to specific forcings.
 
-— start popout Ch3.2 Climate forcings impact on energy balance
+.. dropdown:: Climate forcings impact on energy balance
 
-**Climate Forcings Impact on Energy Balance**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Climate Forcings Impact on Energy Balance**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this pop-out we discuss how the components of the energy cycle are
-expected to change over the next few decades based on anthropogenic
-changes to specific forcings (discussed in previous pop-outs), while
-assuming continued emissions of greenhouse gases:
+    In this pop-out we discuss how the components of the energy cycle are
+    expected to change over the next few decades based on anthropogenic
+    changes to specific forcings (discussed in previous pop-outs), while
+    assuming continued emissions of greenhouse gases:
 
-|The Earth-Sun Energy Balance, annotated for an exercise|
+    |The Earth-Sun Energy Balance, annotated for an exercise|
 
--  Incoming solar radiation (1) should stay the same over the time
-   period of decades.
+    -  Incoming solar radiation (1) should stay the same over the time
+       period of decades.
 
--  Total reflected solar radiation from Earth (2 and 4) is uncertain.
-   Increases in reflected solar energy are likely given that reflective
-   aerosols and/or cloud cover continue to increase. But the uncertainty
-   is because surface albedo should decrease with the continued loss of
-   snow and ice.
+    -  Total reflected solar radiation from Earth (2 and 4) is uncertain.
+       Increases in reflected solar energy are likely given that reflective
+       aerosols and/or cloud cover continue to increase. But the uncertainty
+       is because surface albedo should decrease with the continued loss of
+       snow and ice.
 
--  The amount of solar energy absorbed at the ground is uncertain. Of
-   the solar radiation that reaches the surface, a greater proportion is
-   likely to be absorbed (3) due to the continued loss of snow and ice,
-   but increases in reflective aerosols and clouds could reduce the
-   amount of solar energy reaching the ground.
+    -  The amount of solar energy absorbed at the ground is uncertain. Of 
+        the solar radiation that reaches the surface, a greater proportion is
+       likely to be absorbed (3) due to the continued loss of snow and ice,
+       but increases in reflective aerosols and clouds could reduce the
+       amount of solar energy reaching the ground.
 
--  As the global land and ocean surfaces (5) continue to warm on
-   average, the radiative energy from the surface should continue to
-   increase.
+    -  As the global land and ocean surfaces (5) continue to warm on
+       average, the radiative energy from the surface should continue to
+       increase.
 
--  Increasing greenhouse gases (6) will likely increase the amount of
-   terrestrial radiation that is radiated back to the surface.
+    -  Increasing greenhouse gases (6) will likely increase the amount of
+       terrestrial radiation that is radiated back to the surface.
 
--  The longwave radiation leaving the Earth (7) should decrease because
-   more is being trapped by the atmosphere.
+    -  The longwave radiation leaving the Earth (7) should decrease because
+       more is being trapped by the atmosphere.
 
--  It is important to note that the answers for all of the longwave
-   fluxes could be different if rapid emissions reduction occurs.
+    -  It is important to note that the answers for all of the longwave
+       fluxes could be different if rapid emissions reduction occurs.
 
-— stop popout Ch3.2 Climate forcings impact on energy balance
 
-:mark:`In addition to these secular changes to the climate, there is
+In addition to these secular changes to the climate, there is
 also variability that originates from natural processes within the
 coupled ocean-atmosphere-cryosphere-land-biosphere system that is
 generally termed internally generated variability, arising primarily
@@ -1957,7 +1955,7 @@ Oscillation (AMO) patterns which can influence regional climate
 conditions, such as droughts or cooling periods. It is a central
 scientific challenge to identify anthropogenic influences on weather and
 climate amidst this background of internal variability (Deser et al.,
-2020).`
+2020).
 
 :mark:`– start popout Ch3.2 Semiregular climate cycles`
 
