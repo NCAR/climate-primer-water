@@ -1957,48 +1957,48 @@ scientific challenge to identify anthropogenic influences on weather and
 climate amidst this background of internal variability (Deser et al.,
 2020).
 
-:mark:`– start popout Ch3.2 Semiregular climate cycles`
+.. dropdown:: Semiregular climate cycles`
 
-**Semiregular Climate Cycles**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Semiregular Climate Cycles**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Recurring, but less regular, climate cycles often have a large influence
-on how the seasonal climate variations play out.
+    Recurring, but less regular, climate cycles often have a large influence
+    on how the seasonal climate variations play out.
 
-A well known, semi-regular climate cycle is associated with the El Niño
-Southern Oscillation (ENSO). ENSO can have a significant impact on
-precipitation and temperature in many regions of the world in a cycle
-that recurs roughly every 3-4 years.
+    A well known, semi-regular climate cycle is associated with the El Niño
+    Southern Oscillation (ENSO). ENSO can have a significant impact on
+    precipitation and temperature in many regions of the world in a cycle
+    that recurs roughly every 3-4 years.
 
-In the contiguous United States, the ENSO cycle can have large
-influences on precipitation distribution, especially in the cool season.
+    In the contiguous United States, the ENSO cycle can have large
+    influences on precipitation distribution, especially in the cool season.
 
-Below we see the typical impacts of El Niño versus La Niña on both the
-sea surface temperature anomalies of the tropical Pacific Ocean, and the
-November through March precipitation in the contiguous United States.
-The difference can be very important for snowpack and the potential for
-regional floods and drought. There are differences from one cycle to the
-next, but these composite maps provide guidance based on historic data.
-Note that La Niña typically results in a drier winter across a broader
-area than El Niño.
+    Below we see the typical impacts of El Niño versus La Niña on both the
+    sea surface temperature anomalies of the tropical Pacific Ocean, and the
+    November through March precipitation in the contiguous United States.
+    The difference can be very important for snowpack and the potential for
+    regional floods and drought. There are differences from one cycle to the
+    next, but these composite maps provide guidance based on historic data.
+    Note that La Niña typically results in a drier winter across a broader
+    area than El Niño.
 
-|image9|
+    |image9|
 
-|image10|
+    |image10|
 
-Like ENSO, there are other natural atmospheric and oceanic cycles that
-have regional impacts on precipitation and temperature, including the
-Pacific Decadal Oscillation (PDO), as seen below. And like ENSO, local
-research planning typically considers the range of variations that these
-cycles cause.
+    Like ENSO, there are other natural atmospheric and oceanic cycles that
+    have regional impacts on precipitation and temperature, including the
+    Pacific Decadal Oscillation (PDO), as seen below. And like ENSO, local
+    research planning typically considers the range of variations that these
+    cycles cause.
 
-|(a) Typical wintertime SST (colors), sea level pressure (contours), and
-surface windstress (arrows) anomaly during warm and cool phases of PDO.
-(b) Monthly PDO index from 1925 to Sep 2006|
+    |(a) Typical wintertime SST (colors), sea level pressure (contours), and
+    surface windstress (arrows) anomaly during warm and cool phases of PDO.
+    (b) Monthly PDO index from 1925 to Sep 2006|
 
-:mark:`– stop popout Ch3.2 Semiregular climate cycles`
 
-:mark:`Natural climate variability can temporarily obscure or intensify
+
+Natural climate variability can temporarily obscure or intensify
 anthropogenic climate change on decadal time scales, especially in
 regions with large internal interannual-to-decadal variability. Both the
 rate of long-term change and the amplitude of interannual (year-to-year)
@@ -2008,9 +2008,9 @@ become apparent. As an example, tropical regions have experienced less
 warming than most others, but also exhibit smaller interannual
 variations in temperature. Accordingly, the signal of change is more
 apparent in tropical regions than in regions with greater warming but
-larger interannual variations (IPCC WG1).`
+larger interannual variations (IPCC WG1).
 
-:mark:`The relative influence of natural and anthropogenic-induced
+The relative influence of natural and anthropogenic-induced
 variability is also dependent on the spatial scale of the system being
 examined. In general, the signs of climate change are unequivocal at the
 global scale but are more difficult to discern on smaller spatial
@@ -2018,95 +2018,95 @@ scales. Discernible changes also depend on the climate variable. For
 example, changes in average rainfall are becoming clear in some regions,
 but not in others, mainly because natural year-to-year variations in
 precipitation tend to be large relative to the magnitude of the
-long-term trends.`
+long-term trends.
 
-:mark:`The case study in the pop-out below of surface temperature
+The case study in the pop-out below of surface temperature
 changes over time provides a visualization of natural variability and
 its sensitivity to spatial- and temporal-scales, along with sensitivity
-and detection of secular anomalies and trends.`
+and detection of secular anomalies and trends.
 
-— start popout Ch3.2 Natural variability case study
+.. dropdown:: Natural variability case study
 
-**Natural Variability Case Study**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Natural Variability Case Study**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:mark:`This case study provides a visual sense for the natural
-variability in long-term temperature trends across time-scales and
-spatial-scales, and the discernment of significant changes outside of
-this natural variability. Shown in the two figures below are the surface
-temperature trends since 1880 comparing the observed temperature record
-of two domains: 1) “Global: Land + Ocean” (first figure) and, 2)
-“Global: Land Only” (second figure). The blue line in the graph depicts
-the global mean annual temperature anomalies from 1880 to 2014. An
-“anomaly” is simply the departure of a temperature from a baseline, in
-this case the average temperature. For example, if the average
-temperature for today is 15°C but the actual temperature is 18°C, then
-the temperature anomaly is +3°C. If the actual temperature was 12°C,
-then the anomaly would be -3°C. In these two times series, the anomalies
-are based on the 30-year average from 1951-1980. Therefore, the
-anomalies show the departure of each average annual temperature from
-that 30-year average. The red line represents the trend for the entire
-1880-2014 period. You can see year-to-year variability in the anomalies,
-as well as variability on the decadal time scale.`
+     This case study provides a visual sense for the natural
+    variability in long-term temperature trends across time-scales and
+    spatial-scales, and the discernment of significant changes outside of
+    this natural variability. Shown in the two figures below are the surface
+    temperature trends since 1880 comparing the observed temperature record
+    of two domains: 1) “Global: Land + Ocean” (first figure) and, 2)
+    “Global: Land Only” (second figure). The blue line in the graph depicts
+    the global mean annual temperature anomalies from 1880 to 2014. An
+    “anomaly” is simply the departure of a temperature from a baseline, in
+    this case the average temperature. For example, if the average
+    temperature for today is 15°C but the actual temperature is 18°C, then
+    the temperature anomaly is +3°C. If the actual temperature was 12°C,
+    then the anomaly would be -3°C. In these two times series, the anomalies
+    are based on the 30-year average from 1951-1980. Therefore, the
+    anomalies show the departure of each average annual temperature from
+    that 30-year average. The red line represents the trend for the entire
+    1880-2014 period. You can see year-to-year variability in the anomalies,
+    as well as variability on the decadal time scale.
 
-|image11|
+    |image11|
 
-|image12|
+    |image12|
 
-:mark:`The overall warming trend (red line) for “Global: Land Only” is a
-bit steeper than “Global: Land + Ocean”. The “Land Only” trend shows
-more than a +0.5°C departure from the mean by 2014, while the "Land +
-Ocean” trend shows a little less than a +0.5°C departure. Due to the
-oceans' ability to store heat, the global warming trend is a bit slower
-when they are included. This, then, also highlights the dependence of
-land temperature variability on its proximity to large water bodies.`
+    The overall warming trend (red line) for “Global: Land Only” is a
+    bit steeper than “Global: Land + Ocean”. The “Land Only” trend shows
+    more than a +0.5°C departure from the mean by 2014, while the "Land +
+    Ocean” trend shows a little less than a +0.5°C departure. Due to the
+    oceans' ability to store heat, the global warming trend is a bit slower
+    when they are included. This, then, also highlights the dependence of
+    land temperature variability on its proximity to large water bodies.
 
-:mark:`Below we highlight the dependence on the variability to (smaller)
-spatial scale, showing the trend for the Contiguous United States.`
+    Below we highlight the dependence on the variability to (smaller)
+    spatial scale, showing the trend for the Contiguous United States.
 
-|image13|
+    |image13|
 
-:mark:`The “Contiguous United States” trend shows a little less rapid
-warming than the “Global: Land Only" areas, but the year-to-year
-variability is much greater. Generally, the variability will continue to
-increase as the spatial domain covered decreases. The 48 contiguous
-states make up only 1.6% of the global surface and are not, by
-themselves, a good measure of global trends.`
+    The “Contiguous United States” trend shows a little less rapid
+    warming than the “Global: Land Only" areas, but the year-to-year
+    variability is much greater. Generally, the variability will continue to
+    increase as the spatial domain covered decreases. The 48 contiguous
+    states make up only 1.6% of the global surface and are not, by
+    themselves, a good measure of global trends.
 
-:mark:`Next we focus on the dependence of trend on time period, and
-again examine the “Global: Land + Ocean” domain (shown below). If we
-were to fit 10-year trend lines over differing periods of this record,
-one would find 10-year periods with upward, downward, and no trend in
-temperature. For example, the decade of 1941-1950 shows distinct
-cooling, while the overlapping decade of 1933-1942 shows very distinct
-warming. Since the mid-20th century, 10-year temperature trends are
-mainly warming, although there are flat periods as well as year-to-year
-variation (noting that the last 10-year period shown in the graph below,
-2005-2014, has no trend but is warmer than every other 10-year period in
-the 20th century). Internal variability drivers are the predominant
-mechanisms for this year-by-year, decadal-by-decadal trend variability
-and the motivation to “smooth over” this variability is one reason why
-both the World Meteorological Organization (WMO) and the National
-Oceanic and Atmospheric Administration (NOAA) represent 30 years as the
-period of time used to define a climate station’s “climate normals”.
-Note that one of the “climate normal” periods is shown below covering
-1938-1967.`
+   Next we focus on the dependence of trend on time period, and
+    again examine the “Global: Land + Ocean” domain (shown below). If we
+    were to fit 10-year trend lines over differing periods of this record,
+    one would find 10-year periods with upward, downward, and no trend in
+    temperature. For example, the decade of 1941-1950 shows distinct
+    cooling, while the overlapping decade of 1933-1942 shows very distinct
+    warming. Since the mid-20th century, 10-year temperature trends are
+    mainly warming, although there are flat periods as well as year-to-year
+    variation (noting that the last 10-year period shown in the graph below,
+    2005-2014, has no trend but is warmer than every other 10-year period in
+    the 20th century). Internal variability drivers are the predominant
+    mechanisms for this year-by-year, decadal-by-decadal trend variability
+    and the motivation to “smooth over” this variability is one reason why
+    both the World Meteorological Organization (WMO) and the National
+    Oceanic and Atmospheric Administration (NOAA) represent 30 years as the
+    period of time used to define a climate station’s “climate normals”.
+    Note that one of the “climate normal” periods is shown below covering
+    1938-1967.
 
-|image14|
+    |image14|
 
-:mark:`Interestingly, during this 30-year period (1938-1967) the global
-surface temperature actually decreased by about 0.1°C, and was caused by
-the backscattering to space of sulfate particles from the increased
-burning of fossil fuels, and was thus a cooling anthropogenic climate
-driver. However, this trend stopped once the United States and other
-countries began to lower sulfur emissions in the 1970s to reduce acid
-rain and respiratory illnesses (since 1975, the average global
-temperature has risen by about 0.15-0.2°C per decade). This observed
-cooling effect is one reason why the injection of sulfate aerosols into
-the upper atmosphere is actively being considered as one mechanism of
-geoengineering to limit global warming.`
+    Interestingly, during this 30-year period (1938-1967) the global
+    surface temperature actually decreased by about 0.1°C, and was caused by
+    the backscattering to space of sulfate particles from the increased
+    burning of fossil fuels, and was thus a cooling anthropogenic climate
+    driver. However, this trend stopped once the United States and other
+    countries began to lower sulfur emissions in the 1970s to reduce acid
+    rain and respiratory illnesses (since 1975, the average global
+    temperature has risen by about 0.15-0.2°C per decade). This observed
+    cooling effect is one reason why the injection of sulfate aerosols into
+    the upper atmosphere is actively being considered as one mechanism of
+    geoengineering to limit global warming.
 
-— stop popout Ch3.2 Natural variability case study
+
 
 **Detection and Attribution**
 
@@ -2161,54 +2161,54 @@ be used to test the significance of differences between distributions
 from the same distribution; NIST, 2023; Chakravart et al., 1967; Press
 et al., 1992).
 
-– start popout 3.2 Climate change and extremes
+.. dropdown::  Climate change and extremes
 
-**Climate Change and Extremes**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Climate Change and Extremes**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Just as changes in annual and seasonal mean temperature and
-precipitation are very important to water research and resources,
-depending on the particular focus of the planning, changes in short
-duration extremes can be very important too. Extremes can have direct
-impacts on habitat, and pose risks to infrastructure. It is important to
-get a sense for what extremes represent from a statistical standpoint.
-:mark:`Extreme weather is a bit relative. For example, a hot day in
-Wyoming would be considered a mild one in Arizona. And we don't
-generally notice changes in climate because most weather falls within
-the range of what is expected. It is mainly the extreme events that get
-our attention—events that are outside our normal experience and that
-often inflict human suffering. So how might global warming affect
-climate extremes and extreme weather? There are several possible ways.`
+    Just as changes in annual and seasonal mean temperature and
+    precipitation are very important to water research and resources,
+    depending on the particular focus of the planning, changes in short
+    duration extremes can be very important too. Extremes can have direct
+    impacts on habitat, and pose risks to infrastructure. It is important to
+    get a sense for what extremes represent from a statistical standpoint.
+    Extreme weather is a bit relative. For example, a hot day in
+    Wyoming would be considered a mild one in Arizona. And we don't
+    generally notice changes in climate because most weather falls within
+    the range of what is expected. It is mainly the extreme events that get
+    our attention—events that are outside our normal experience and that
+    often inflict human suffering. So how might global warming affect
+    climate extremes and extreme weather? There are several possible ways.
 
-Temperature at a given location can be roughly represented with a bell
-curve or a normal distribution, similar to the top panel in the figure
-below, :mark:`with the majority of the observations in the middle,` hot
-and cold events in the tails of the curve, :mark:`but with rare events
-of extremely cold or extremely warm temperatures at the ends.`
-:mark:`Global warming could shift the distribution to the right` when
-the average temperature increases. Temperatures that used to be
-unusually high become more common, while heat levels not reached before
-become more probable. Cold extremes still occur, but become less common.
-Although not shown here, a:mark:`nother possibility is that climate
-change increases the variance (or width) in the distribution of
-temperature—in other words, it increases the range of possibilities at
-both ends of the distribution. Or climate change could result in a
-combination of the two types of distributions. We don't *a priori* know
-exactly how the distributions of weather variables in each specific
-location will be impacted.`
+    Temperature at a given location can be roughly represented with a bell
+    curve or a normal distribution, similar to the top panel in the figure
+    below, :mark:`with the majority of the observations in the middle,` hot
+    and cold events in the tails of the curve, :mark:`but with rare events
+    of extremely cold or extremely warm temperatures at the ends.
+    Global warming could shift the distribution to the right` when
+    the average temperature increases. Temperatures that used to be
+    unusually high become more common, while heat levels not reached before
+    become more probable. Cold extremes still occur, but become less common.
+    Although not shown here, a:mark:`nother possibility is that climate
+    change increases the variance (or width) in the distribution of
+    temperature—in other words, it increases the range of possibilities at
+    both ends of the distribution. Or climate change could result in a
+    combination of the two types of distributions. We don't *a priori* know
+    exactly how the distributions of weather variables in each specific
+    location will be impacted.
 
-|Graphic depicting how a warmer climate affects extremes in temperature
-and precipitation|
+    |Graphic depicting how a warmer climate affects extremes in temperature
+    and precipitation|
 
-Precipitation curves have only one tail for the extreme precipitation
-events, as shown in the bottom panel of the figure above :mark:`(with
-the two-parameter gamma traditionally used; Ye et al., 2018)`. In a
-warmer climate with more atmospheric water vapor, generally, more
-intense precipitation events become more common. Recent observations
-back this up, with high-end precipitation events becoming less rare than
-they have been, in general.
+    Precipitation curves have only one tail for the extreme precipitation
+    events, as shown in the bottom panel of the figure above :mark:`(with
+    the two-parameter gamma traditionally used; Ye et al., 2018)`. In a
+    warmer climate with more atmospheric water vapor, generally, more
+    intense precipitation events become more common. Recent observations
+    back this up, with high-end precipitation events becoming less rare than
+    they have been, in general.
 
-– stop popout 3.2 Climate change and extremes
+
 
 *Attribution –* On the other hand, attribution deals with determining
 the most likely causes for those detected changes in the climate. This
@@ -2533,25 +2533,25 @@ certain types of droughts and tropical cyclones (e.g., Herring et al.,
 
 |image18|
 
-:mark:`**What are we certain about?** On a global scale we know that sea
+**What are we certain about?** On a global scale we know that sea
 and land ice volume are decreasing as average temperature, evaporation,
-and atmospheric water vapor are increasing.`
+and atmospheric water vapor are increasing.
 
-:mark:`**What are we pretty sure about?** There are likely to be some
+**What are we pretty sure about?** There are likely to be some
 regional differences from the global averages, but most regions are
-likely to experience the following:`
+likely to experience the following:
 
--  :mark:`more frequent wet and/or dry extremes brought about by warmer
-   temperatures,`
+-  more frequent wet and/or dry extremes brought about by warmer
+   temperatures,
 
--  :mark:`increased evapotranspiration, and`
+-  increased evapotranspiration, and
 
--  :mark:`changes to precipitation intensity, distribution, and phase
-   (liquid versus frozen).`
+-  changes to precipitation intensity, distribution, and phase
+   (liquid versus frozen).
 
-:mark:`These changes may lie outside the range of observations in the
+These changes may lie outside the range of observations in the
 period of record, and will need to be taken into account in water
-research and resources planning.`
+research and resources planning.
 
 +-----------------------------------------------------------------------+
 | **TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING**       |
@@ -2662,9 +2662,9 @@ especially the northern Rockies and Pacific Northwest.
 
 |image24|
 
-*:mark:`Water year precipitation of the Southwest U.S.A., 1894-2008.
+*water year precipitation of the Southwest U.S.A., 1894-2008.
 Multidecadal wet and dry episodes are labeled. Precipitation is
-expressed as mean deviation from individual station averages. USGS`*
+expressed as mean deviation from individual station averages. USGS*
 
 Historic observations in the southwestern United States show multi-year
 periods of both positive and negative annual precipitation anomalies
