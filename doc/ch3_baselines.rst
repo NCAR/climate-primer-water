@@ -2552,31 +2552,15 @@ These changes may lie outside the range of observations in the
 period of record, and will need to be taken into account in water
 research and resources planning.
 
-*-----------------------------------------------------------------------*
-| **TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING**       |
-|                                                                       |
-|                                                                       |
-| The following observed and/or projected trends have an impact on      |
-| planning for water and environmental resources.                       |
-|                                                                       |
-| -  Global average temperature has been warming and will continue to   |
-|    warm through the 21st century                                      |
-|                                                                       |
-| -  Short-term natural cycles of increased warming interspersed with   |
-|    cooling (or slower warming) will be superimposed on the overall    |
-|    long-term warming                                                  |
-|                                                                       |
-| -  Average snow cover and snowpack in the United States is likely to  |
-|    decrease through the 21st century                                  |
-|                                                                       |
-| -  Precipitation extremes (wet and dry) are likely to continue        |
-|    increasing through the 21st century, with some regional trends     |
-|    toward either more wet or more dry                                 |
-|                                                                       |
-| These climate trends have, and will continue to have, impacts on      |
-| water resources management, operations, and planning.                 |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+.. dropdown::  Trends Impacting Water and Environmental Resources Planning
+
+    The following observed and/or projected trends have an impact on planning for water and environmental resources.
+    - Global average temperature has been warming and will continue to warm through the 21st century
+    - Short-term natural cycles of increased warming interspersed with cooling (or slower warming) will be superimposed on the overall long-term warming
+    - Average snow cover and snowpack in the United States is likely to decrease through the 21st century
+    - Precipitation extremes (wet and dry) are likely to continue increasing through the 21st century, with some regional trends toward either more wet or more dry
+
+    These climate trends have, and will continue to have, impacts on water resources 
 
 
 The need for understanding the influence of climate change on the U.S.
