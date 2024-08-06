@@ -1525,7 +1525,7 @@ As background, the pop-out below provides background information on the
 Earth’s energy balance, the factors that influence it, and thus lead to
 climate variability and change.
 
-.. dropdown:: Earth’s energy balance and the greenhouse effect>
+.. dropdown:: Earth’s energy balance and the greenhouse effect
 
     **Earth’s Energy Balance and the Greenhouse Effect**
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1565,82 +1565,81 @@ climate variability and change.
 
     |The Earth-Sun Energy Balance|
 
-— stop popout Ch3.2 Earth’s energy balance and the greenhouse effect
 
-And the pop-out below provides introductory information on
+The pop-out below provides introductory information on
 natural climate variability versus anthropogenic climate change examples
-for streamflow, CO2 emissions, and global temperature anomalies.`
+for streamflow, CO2 emissions, and global temperature anomalies.
 
-:mark:`– start popout Ch3.2 Introductory information`
+.. dropdown:: Introductory information
 
-**Natural Climate Variability versus Climate Change**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Natural Climate Variability versus Climate Change**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|Ice core from Antarctica|
+    |Ice core from Antarctica|
 
-Scientists have explored past global temperature trends using proxy
-data—tree rings, ice cores, etc.—that show the Earth has had numerous
-and somewhat irregular swings in temperature over the past several
-hundred thousand years. Those swings in temperature contribute to
-variations in other natural phenomena such as streamflow.
+    Scientists have explored past global temperature trends using proxy
+    data—tree rings, ice cores, etc.—that show the Earth has had numerous
+    and somewhat irregular swings in temperature over the past several
+    hundred thousand years. Those swings in temperature contribute to
+    variations in other natural phenomena such as streamflow.
 
-|Map of Colorado River Basin.|
+    |Map of Colorado River Basin.|
 
-To take one example, tree ring analysis can be used to reconstruct
-streamflow in the rivers of the western United States. This has been
-done for rivers such as the Colorado River at Lee's Ferry, in the state
-of Arizona.
+    To take one example, tree ring analysis can be used to reconstruct
+    streamflow in the rivers of the western United States. This has been
+    done for rivers such as the Colorado River at Lee's Ferry, in the state
+    of Arizona.
 
-|A reconstruction of streamflow for the Colorado River at Lees Ferry
-based on tree ring data.|
+    |A reconstruction of streamflow for the Colorado River at Lees Ferry
+    based on tree ring data.|
 
-The reconstructed streamflow shows large swings in annual streamflow
-volume on the Colorado River. Multi-year periods of wet and dry can be
-seen in the 25-year running mean of the annual streamflow.
+    The reconstructed streamflow shows large swings in annual streamflow
+    volume on the Colorado River. Multi-year periods of wet and dry can be
+    seen in the 25-year running mean of the annual streamflow.
 
-|Graph of temperatures and CO2 concentrations for the past 800,000
-years|
+    |Graph of temperatures and CO2 concentrations for the past 800,000
+    years|
 
-Ice cores, on the other hand, can provide a depiction of changes in
-global temperature and CO\ :sub:`2` levels over the past several hundred
-thousand years. This graphic shows that warmer periods coincide with
-higher levels of CO\ :sub:`2`.
+    Ice cores, on the other hand, can provide a depiction of changes in
+    global temperature and CO\ :sub:`2` levels over the past several hundred
+    thousand years. This graphic shows that warmer periods coincide with
+    higher levels of CO\ :sub:`2`.
 
-Carbon dioxide levels have naturally fluctuated between 180 parts per
-million (ppm) and 280 ppm. This is an example of a naturally occurring
-climate forcing. Human industrialization has been a major source of the
-increase in CO\ :sub:`2` in the most recent century, with average annual
-concentrations exceeding 420 ppm in 2024. This is an example of
-anthropogenic forcing. We can see how carbon dioxide concentration has
-continued to rise over the last decade, as seen in the black line in the
-figure below.
+    Carbon dioxide levels have naturally fluctuated between 180 parts per
+    million (ppm) and 280 ppm. This is an example of a naturally occurring
+    climate forcing. Human industrialization has been a major source of the
+    increase in CO\ :sub:`2` in the most recent century, with average annual
+    concentrations exceeding 420 ppm in 2024. This is an example of
+    anthropogenic forcing. We can see how carbon dioxide concentration has
+    continued to rise over the last decade, as seen in the black line in the
+    figure below.
 
-|Red line shows annual fluctuation in CO2 Concentration from 2012-2016.
-Black line shows the smoothed upward trend.|
+    |Red line shows annual fluctuation in CO2 Concentration from 2012-2016.
+    Black line shows the smoothed upward trend.|
 
-Trajectories of past global mean temperatures have been estimated using
-experiments conducted with Atmosphere-Ocean General Circulation Models
-(AOGCMs). Experiments that do not incorporate anthropogenic forcing
-produce the trajectory shown with the blue line and the light blue
-uncertainty bounds in the figure below.
+    Trajectories of past global mean temperatures have been estimated using
+    experiments conducted with Atmosphere-Ocean General Circulation Models
+    (AOGCMs). Experiments that do not incorporate anthropogenic forcing
+    produce the trajectory shown with the blue line and the light blue
+    uncertainty bounds in the figure below.
 
-The black line shows the observed global mean temperatures. You can see
-that the experiments that do not include anthropogenic forcings fail to
-reproduce the warming that has been observed over the past half century.
+    The black line shows the observed global mean temperatures. You can see
+    that the experiments that do not include anthropogenic forcings fail to
+    reproduce the warming that has been observed over the past half century.
 
-Experiments were also run that do include anthropogenic forcings. This
-trajectory is shown with the red line and pink uncertainty bounds. You
-can see that when anthropogenic forcings are included, the global
-climate models do produce results that very closely match the observed
-warming trends. This suggests that anthropogenic factors have emerged as
-a significant contributor to global warming.
+    Experiments were also run that do include anthropogenic forcings. This
+    trajectory is shown with the red line and pink uncertainty bounds. You
+    can see that when anthropogenic forcings are included, the global
+    climate models do produce results that very closely match the observed
+    warming trends. This suggests that anthropogenic factors have emerged as
+    a significant contributor to global warming.
 
-|Models of 20th century climate run with and without anthropogenic
-greenhouse gases|
+    |Models of 20th century climate run with and without anthropogenic
+    greenhouse gases|
 
-:mark:`– stop popout Ch3.2 Introductory information`
 
 **Climate variability**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When accounting for climate change impacts on research in water and
 environmental studies, it is important to differentiate between climate
@@ -1649,31 +1648,30 @@ where the past is not necessarily a good predictor as climate change
 involves changes to this natural variability. Starting off this section,
 we will review some of the natural climate cycles and occurrences.
 
-:mark:`– start popout Ch3.2 Regular climate cycle`
+.. dropdown:: Regular climate cycle
 
-**Regular Climate Cycle**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+    **Regular Climate Cycle**
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image1|
+    |image1|
 
-The most regular climate cycle is the change of seasons. The seasons
-determine the times of year when precipitation may be most abundant,
-evapotranspiration will peak, tropical cyclones are most likely to form,
-and snowpack accumulates and melts. Although the change of seasons is
-very dependable, there is often year-to-year variation.
+    The most regular climate cycle is the change of seasons. The seasons
+    determine the times of year when precipitation may be most abundant,
+    evapotranspiration will peak, tropical cyclones are most likely to form,
+    and snowpack accumulates and melts. Although the change of seasons is
+    very dependable, there is often year-to-year variation.
 
-|before|\ |after|
+    |before|\ |after|
 
-To illustrate natural season-to-season variability, here we see
-differences in snowpack on the first of April in two consecutive years.
-The 2011 analysis shows large areas with above average snowpack in the
-central Rocky Mountain region and California Sierra Nevada Range in the
-United States. In 2012, these same areas had abnormally low snowpack,
-reflecting a less productive snow season. Good research planning allows
-for such variation. But will the expected range of snowpack change as
-the climate warms?
+    To illustrate natural season-to-season variability, here we see
+    differences in snowpack on the first of April in two consecutive years.
+    The 2011 analysis shows large areas with above average snowpack in the
+    central Rocky Mountain region and California Sierra Nevada Range in the
+    United States. In 2012, these same areas had abnormally low snowpack,
+    reflecting a less productive snow season. Good research planning allows
+    for such variation. But will the expected range of snowpack change as
+    the climate warms?
 
-:mark:`– stop popout Ch3.2 Regular climate cycle`
 
 When speaking of climate change, we are referring to changes in average
 weather conditions that persist over multiple decades or longer. Climate
