@@ -1914,7 +1914,7 @@ changes to specific forcings.
        snow and ice.
 
     -  The amount of solar energy absorbed at the ground is uncertain. Of 
-        the solar radiation that reaches the surface, a greater proportion is
+       the solar radiation that reaches the surface, a greater proportion is
        likely to be absorbed (3) due to the continued loss of snow and ice,
        but increases in reflective aerosols and clouds could reduce the
        amount of solar energy reaching the ground.
@@ -2030,8 +2030,7 @@ and detection of secular anomalies and trends.
     **Natural Variability Case Study**
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-     This case study provides a visual sense for the natural
-    variability in long-term temperature trends across time-scales and
+    This case study provides a visual sense for the natural variability in long-term temperature trends across time-scales and
     spatial-scales, and the discernment of significant changes outside of
     this natural variability. Shown in the two figures below are the surface
     temperature trends since 1880 comparing the observed temperature record
@@ -2259,7 +2258,7 @@ climate change.
 
 |image15|
 
-*Figure: :mark:`Cross-Working Group Box: Attribution, Figure 1 \|
+*Figure: Cross-Working Group Box: Attribution, Figure 1 \|
 Schematic of the steps to develop an attribution assessment, and the
 purposes of such assessments. Methods and systems used to test the
 attribution hypothesis or theory include: model-based fingerprinting;
@@ -2268,7 +2267,7 @@ approaches; empirical or decomposition methods; and the use of multiple
 lines of evidence. Many of the methods are based on the comparison of
 the observed state of a system to a hypothetical counterfactual world
 that does not include the driver of interest to help estimate the causes
-of the observed response.`*
+of the observed response.*
 
 *Attribution Methods –* Concerning the attribution methods or system to
 test the hypothesis or theory, Bindoff et al. (2013) highlight that the
@@ -2345,7 +2344,7 @@ heating trend.
 
 |image17|
 
-*Figure: :mark:`The distribution of 60-yr annual temperature trends
+*Figure: The distribution of 60-yr annual temperature trends
 (1951–2010) over North America (24–72° N, 180–62° W) from seven ESM LEs
 (thin curves), 40 different CMIP5 models (grey shading), and
 observations (Berkeley Earth Surface Temperature; vertical black line).
@@ -2357,7 +2356,7 @@ ensemble members from CESM1 (green) and MPI (purple) with the weakest
 member maps show the total (forced-plus-internal) trends in the model
 LEs. Observed trends are analogous to an individual ensemble member in
 that they reflect forced and internal contributions. From: Deser et al.,
-2020, Nat. Clim. Chang.,` 10, 277-286, doi:10.1038/s41558-020-0731-2,
+2020, Nat. Clim. Chang., 10, 277-286, doi:10.1038/s41558-020-0731-2,
 Copyright 2020 Nature Climate Change.*
 
 Generally, attribution methods are grouped into two categories:
@@ -2553,9 +2552,10 @@ These changes may lie outside the range of observations in the
 period of record, and will need to be taken into account in water
 research and resources planning.
 
-+-----------------------------------------------------------------------+
+-------------------------------------------------------------------------
 | **TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING**       |
-|                                                                       |
+|                                 
+|
 | The following observed and/or projected trends have an impact on      |
 | planning for water and environmental resources.                       |
 |                                                                       |
