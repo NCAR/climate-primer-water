@@ -2072,7 +2072,7 @@ and detection of secular anomalies and trends.
     states make up only 1.6% of the global surface and are not, by
     themselves, a good measure of global trends.
 
-   Next we focus on the dependence of trend on time period, and
+    Next we focus on the dependence of trend on time period, and
     again examine the “Global: Land + Ocean” domain (shown below). If we
     were to fit 10-year trend lines over differing periods of this record,
     one would find 10-year periods with upward, downward, and no trend in
@@ -2181,10 +2181,10 @@ et al., 1992).
 
     Temperature at a given location can be roughly represented with a bell
     curve or a normal distribution, similar to the top panel in the figure
-    below, :mark:`with the majority of the observations in the middle,` hot
-    and cold events in the tails of the curve, :mark:`but with rare events
+    below, with the majority of the observations in the middle, hot
+    and cold events in the tails of the curve, but with rare events
     of extremely cold or extremely warm temperatures at the ends.
-    Global warming could shift the distribution to the right` when
+    Global warming could shift the distribution to the right when
     the average temperature increases. Temperatures that used to be
     unusually high become more common, while heat levels not reached before
     become more probable. Cold extremes still occur, but become less common.
@@ -2200,8 +2200,8 @@ et al., 1992).
     and precipitation|
 
     Precipitation curves have only one tail for the extreme precipitation
-    events, as shown in the bottom panel of the figure above :mark:`(with
-    the two-parameter gamma traditionally used; Ye et al., 2018)`. In a
+    events, as shown in the bottom panel of the figure above (with
+    the two-parameter gamma traditionally used; Ye et al., 2018). In a
     warmer climate with more atmospheric water vapor, generally, more
     intense precipitation events become more common. Recent observations
     back this up, with high-end precipitation events becoming less rare than
@@ -2554,8 +2554,8 @@ research and resources planning.
 
 -------------------------------------------------------------------------
 | **TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING**       |
-|                                 
-|
+|                                                                       |
+|                                                                       |
 | The following observed and/or projected trends have an impact on      |
 | planning for water and environmental resources.                       |
 |                                                                       |
