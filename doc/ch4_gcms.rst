@@ -51,46 +51,47 @@ science to provide insights into our understanding of climate change.
 These sophisticated computer models simulate the Earth’s climate
 systems, including the atmosphere, oceans, land surface, and ice,
 enabling an accounting of the energy storage and energy fluxes into
-and out of the earth system. Here are some key benefits of GCMs to
-climate-change understanding.
+and out of the earth system. 
 
-*Projection of Future Climate Conditions and Support for International
-Climate Assessments*
-GCMs enable scientists to project future climate conditions under
-various scenarios, such as those outlined in the IPCC SRES, RCP, and SSP
-frameworks (which we discuss further below). By inputting different
-concentrations of greenhouse gases, GCMs can simulate how the climate
-might change in the future and provide the scientific basis for the
-climate projections and policies discussed in IPCC reports, helping to
-inform policymakers, businesses, and the public about potential risks
-and necessary adaptations.
+Here are some key benefits of GCMs to climate-change understanding.
 
-*Understanding Climate Processes and Evaluation of Climate Change
-Impacts*
-GCMs simulate the complex interactions between different components of
-the Earth's climate system. This helps scientists understand fundamental
-processes such as the water cycle, energy balance, and atmospheric
-dynamics. By modeling these processes, GCMs provide insights into how
-changes in one part of the system (like increased atmospheric CO2) can
-affect other parts (like global temperature and precipitation patterns).
-This in turn, helps assess potential impacts of climate change on various
-sectors, including agriculture, water resources, and health. For
-instance, models can project changes in rainfall patterns, heat waves,
-and the frequency of extreme weather events, which are crucial for
-planning and mitigation strategies in vulnerable regions.
+.. dropdown:: *Provides Projections of Future Climate Conditions and Support for International Climate Assessments*
 
-*Testing Hypotheses and Development of Mitigation and Adaptation
-Strategies*
-GCMs are valuable for testing scientific hypotheses about the climate
-system. By altering specific variables or processes within the model,
-researchers can explore how these changes affect climate outcomes,
-thereby testing our understanding of climate mechanisms and feedbacks,
-and contributing to detection and attribution studies (discussed in
-Chapter 3). This also allows researchers to simulate different future
-climate scenarios in developing effective climate-change mitigation and
-adaptation strategies, such as emission reductions, reforestation, and
-technological innovations including geoengineering, in curbing climate
-impacts.
+    GCMs enable scientists to project future climate conditions under
+    various scenarios, such as those outlined in the IPCC SRES, RCP, and SSP
+    frameworks (which we discuss further below). By inputting different
+    concentrations of greenhouse gases, GCMs can simulate how the climate
+    might change in the future and provide the scientific basis for the
+    climate projections and policies discussed in IPCC reports, helping to
+    inform policymakers, businesses, and the public about potential risks
+    and necessary adaptations.
+
+.. dropdown:: *Provides an Understanding of Climate Processes and Evaluation of Climate Change Impacts*
+
+    GCMs simulate the complex interactions between different components of
+    the Earth's climate system. This helps scientists understand fundamental
+    processes such as the water cycle, energy balance, and atmospheric
+    dynamics. By modeling these processes, GCMs provide insights into how
+    changes in one part of the system (like increased atmospheric CO2) can
+    affect other parts (like global temperature and precipitation patterns).
+    This in turn, helps assess potential impacts of climate change on various
+    sectors, including agriculture, water resources, and health. For
+    instance, models can project changes in rainfall patterns, heat waves,
+    and the frequency of extreme weather events, which are crucial for
+    planning and mitigation strategies in vulnerable regions.
+
+.. dropdown:: *Allows for Testing Hypotheses and Development of Mitigation and Adaptation Strategies*
+
+    GCMs are valuable for testing scientific hypotheses about the climate
+    system. By altering specific variables or processes within the model,
+    researchers can explore how these changes affect climate outcomes,
+    thereby testing our understanding of climate mechanisms and feedbacks,
+    and contributing to detection and attribution studies (discussed in
+    Chapter 3). This also allows researchers to simulate different future
+    climate scenarios in developing effective climate-change mitigation and
+    adaptation strategies, such as emission reductions, reforestation, and
+    technological innovations including geoengineering, in curbing climate
+    impacts.
 
 While GCMs are invaluable, they do come with limitations. Their accuracy
 depends on the quality of input data, the precision of mathematical
