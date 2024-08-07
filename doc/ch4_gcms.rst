@@ -121,16 +121,17 @@ information that they can use to formulate climate policies. The
 assessments are provided regularly (approximately every 5-7 years), with
 IPCC Reports being one of the primary modalities, covering the
 scientific basis of climate change, its impacts and future risks, and
-options for adaptation and mitigation. More specifically, the IPCC’s
-primary goals are:
+options for adaptation and mitigation. 
 
--  Assess Scientific Information in its assessment reports through
-   comprehensive reviews of the latest scientific literature on climate
-   change, its impacts, and potential future risks, involving
-   synthesizing findings from thousands of scientific studies; and
-   special reports on specific aspects of climate change as requested by
-   the IPCC member governments, addressing emerging issues or areas
-   requiring detailed examination.
+.. dropdown:: *The IPCC’s primary goals*
+
+    -  Assess Scientific Information in its assessment reports through
+       comprehensive reviews of the latest scientific literature on climate
+       change, its impacts, and potential future risks, involving
+       synthesizing findings from thousands of scientific studies; and
+       special reports on specific aspects of climate change as requested by
+       the IPCC member governments, addressing emerging issues or areas
+       requiring detailed examination.
 
 -  Evaluate Climate Change Impacts and Risks on Global and Regional
    scales by Assessing the observed and projected impacts of climate
