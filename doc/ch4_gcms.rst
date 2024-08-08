@@ -502,7 +502,7 @@ addressing the multifaceted challenges of climate change.
     Finally, the challenge of maintaining continued, high-quality observational networks remains a serious challenge in many parts of the globe despite the increase in capabilities of using remotely sensed information from ever more capable satellite platforms. Still, without ground truthing, there will continue to be challenges in estimating critical parameters such as precipitation (Song and Bai, 2016, Chen et al. 2019).
 
 
-For more information on the history of GCM's and future climate datasets, please visit `Learn More' <https://https://ncar.github.io/climate-primer-water/learnmore.html#earth-system-climate-modeling-historical-perspective/>`_
+For more information on the history of GCM's and future climate datasets, please visit `Learn More <https://https://ncar.github.io/climate-primer-water/learnmore.html#earth-system-climate-modeling-historical-perspective/>`_
 
 
 Ch4 References
