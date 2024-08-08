@@ -1497,8 +1497,6 @@ http://www.agu.org/pubs/crossref/2004/2003JC002260.shtml
    :height: 4.16667in
 
 
-GCM: historic and future
--------------------------------------------------------------
 
 **Earth-system climate modeling – historical perspective**
 -----------------------------------
