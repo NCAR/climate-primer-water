@@ -53,9 +53,9 @@ systems, including the atmosphere, oceans, land surface, and ice,
 enabling an accounting of the energy storage and energy fluxes into
 and out of the earth system. 
 
-Here are some key benefits of GCMs to climate-change understanding.
+*Here are some key benefits of GCMs to climate-change understanding.*
 
-.. dropdown:: *Provides Projections of Future Climate Conditions and Support for International Climate Assessments*
+.. dropdown:: Provides Projections of Future Climate Conditions and Support for International Climate Assessments
 
     GCMs enable scientists to project future climate conditions under
     various scenarios, such as those outlined in the IPCC SRES, RCP, and SSP
@@ -66,7 +66,7 @@ Here are some key benefits of GCMs to climate-change understanding.
     inform policymakers, businesses, and the public about potential risks
     and necessary adaptations.
 
-.. dropdown:: *Provides an Understanding of Climate Processes and Evaluation of Climate Change Impacts*
+.. dropdown:: Provides an Understanding of Climate Processes and Evaluation of Climate Change Impacts
 
     GCMs simulate the complex interactions between different components of
     the Earth's climate system. This helps scientists understand fundamental
@@ -80,7 +80,7 @@ Here are some key benefits of GCMs to climate-change understanding.
     and the frequency of extreme weather events, which are crucial for
     planning and mitigation strategies in vulnerable regions.
 
-.. dropdown:: *Allows for Testing Hypotheses and Development of Mitigation and Adaptation Strategies*
+.. dropdown:: Allows for Testing Hypotheses and Development of Mitigation and Adaptation Strategies
 
     GCMs are valuable for testing scientific hypotheses about the climate
     system. By altering specific variables or processes within the model,
@@ -123,51 +123,60 @@ IPCC Reports being one of the primary modalities, covering the
 scientific basis of climate change, its impacts and future risks, and
 options for adaptation and mitigation. 
 
-.. dropdown:: *The IPCC’s primary goals*
+*The IPCC's primary goals*
 
-    -  Assess Scientific Information in its assessment reports through
-       comprehensive reviews of the latest scientific literature on climate
-       change, its impacts, and potential future risks, involving
-       synthesizing findings from thousands of scientific studies; and
-       special reports on specific aspects of climate change as requested by
-       the IPCC member governments, addressing emerging issues or areas
-       requiring detailed examination.
+.. dropdown:: Assess Scientific Information
 
--  Evaluate Climate Change Impacts and Risks on Global and Regional
-   scales by Assessing the observed and projected impacts of climate
-   change on natural and human systems at both global and regional
-   scales. This includes examining effects on ecosystems, weather
-   patterns, sea levels, and human health. And provide risk analyses by
-   Analyzing the risks associated with different levels of global
-   warming, providing insights into the potential consequences of
-   various climate change scenarios.
+    in its assessment reports through
+    comprehensive reviews of the latest scientific literature on climate
+    change, its impacts, and potential future risks, involving
+    synthesizing findings from thousands of scientific studies; and
+    special reports on specific aspects of climate change as requested by
+    the IPCC member governments, addressing emerging issues or areas
+    requiring detailed examination.
 
--  Inform Policymakers with scientific information that is
-   policy-relevant but not policy-prescriptive. This means offering
-   evidence-based findings without advocating for specific policies.
-   Also provides Summaries for Policymakers that distill the key
-   findings of comprehensive reports into actionable information for
-   decision-makers.
+.. dropdown:: Evaluate Climate Change Impacts and Risks 
 
--  Support International Climate Negotiations, such as providing
-   scientific assessments that support the United Nations Framework
-   Convention on Climate Change and international climate negotiations.
-   IPCC reports are often used as the scientific basis for global
-   climate agreements and negotiations, such as the Paris Agreement.
+    on global and regional scales by sssessing the observed and projected impacts of climate
+    change on natural and human systems at both global and regional
+    scales. This includes examining effects on ecosystems, weather
+    patterns, sea levels, and human health. And provide risk analyses by
+    Analyzing the risks associated with different levels of global
+    warming, providing insights into the potential consequences of
+    various climate change scenarios.
 
--  Assess Mitigation and Adaptation Strategies. Evaluate strategies for
-   reducing greenhouse gas emissions and enhancing carbon sinks. This
-   includes assessing the potential of renewable energy, energy
-   efficiency, carbon capture and storage, and other mitigation
-   technologies. And assess strategies for adapting to the impacts of
-   climate change. This includes evaluating measures to increase
-   resilience in agriculture, water resources, infrastructure, and
-   public health.
+.. dropdown:: Inform Policymakers 
+
+    with scientific information that is
+    policy-relevant but not policy-prescriptive. This means offering
+    evidence-based findings without advocating for specific policies.
+    Also provides Summaries for Policymakers that distill the key
+    findings of comprehensive reports into actionable information for
+    decision-makers.
+
+.. dropdown:: Support International Climate Negotiations 
+    
+    such as providing
+    scientific assessments that support the United Nations Framework
+    Convention on Climate Change and international climate negotiations.
+    IPCC reports are often used as the scientific basis for global
+    climate agreements and negotiations, such as the Paris Agreement.
+
+.. dropdown:: Assess Mitigation and Adaptation Strategies
+
+    Evaluate strategies for
+    reducing greenhouse gas emissions and enhancing carbon sinks. This
+    includes assessing the potential of renewable energy, energy
+    efficiency, carbon capture and storage, and other mitigation
+    technologies. And assess strategies for adapting to the impacts of
+    climate change. This includes evaluating measures to increase
+    resilience in agriculture, water resources, infrastructure, and
+    public health.
 
 Note that the IPCC’s goals, as stated above, do not explicitly include
 the mandate of providing future-change model outputs and datasets that
 would be useful, say, for this primer’s user audience (aka needed to
-drive more local-scale impact models). However, Section 4.E provides
+drive more local-scale impact models). However, Section *Learn More* provides
 resources where many of these data, including CMIP6 [discussed below]
 and other data, can be found.
 
