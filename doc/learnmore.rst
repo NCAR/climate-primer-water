@@ -1497,4 +1497,85 @@ http://www.agu.org/pubs/crossref/2004/2003JC002260.shtml
    :height: 4.16667in
 
 
+GCM: historic and future
+-------------------------------------------------------------
 
+**Earth-system climate modeling – historical perspective**
+-----------------------------------
+
+.. dropdown:: **Modeling of the Earth’s climate system has and continues to evolve and innovate.** 
+
+    During the mid to late 1990s, the representation of a coupled atmosphere-ocean system without flux corrections [2]_ was a key achievement that could be used to study consequences of evolving greenhouse-gas concentrations. This was followed by the introduction of aerosols (primarily sulfate and later others), allowing for the evaluation of the spatial climate footprint imposed by these emissions. In the early 2000s, the objectives moved to the proper representation of the seasonal cycles, followed by a focus on the power spectrum of internal variability [3]_, and especially of El Niño-Southern Oscillation fluctuations. More recently, climate-modeling efforts have focused on processes with more significant regional or local impacts. For example, there has been an emphasis on understanding the nature of extreme rainfall, as well the processes linking the middle atmosphere to the lower atmosphere. These processes affect the variability in storm tracks, allowing for the application of these models for more time-dependent problems, such as forecasts at sub-seasonal, to seasonal, to decadal timescales (Towler and Yates 2021).
+
+.. dropdown:: **The need for accounting for more interactions between the climate and the Earth system has led to the incorporation of additional complex components.** 
+
+    For example: New polar ice-sheet models simulate ice dynamics and their potentially important links to sea level. Beyond transporting aerosols and including their radiative effects, new atmospheric physics and chemistry modules simulate the formation and removal of aerosols as well as their interactions with clouds and precipitation, which represents some of the most complex physical challenges. The global carbon cycle can now be simulated so that atmospheric greenhouse-gas concentrations no longer have to be prescribed but rather are predicted by the models based on emission time series and the coupled system’s response. These new developments reflect a greater level of maturity in modeling that now more closely reflects the integration of processes and their uncertainties, and can better reflect the attributes of the shared socioeconomic pathways (SSPs, discussed in 4.B) and the response of the whole Earth system to societal development scenarios. For exploring these complex scenarios, sophisticated Earth-system models coupling all of these processes together have become the prerequisite.
+
+.. dropdown:: **However, the scales at which this information is offered typically requires further processing for many practical applications on the ground.** 
+
+    While scientific advances and computational power have allowed the models to include more complex components, their spatial resolution has not significantly advanced over the past decade, still largely constrained by computation limitations. Every time the spatial resolution of a climate model is increased, the demand for more computational resources grows significantly. Thus, the global models have generally remained at horizontal resolutions of around 100 km. This deficiency in properly representing important local factors, such as topography, the land-sea interface, etc. still requires downscaling approaches, either in dynamical form (see CMIP’s CORDEX effort in section 4.A.; Giorgi and Gutowski 2015), through statistical means, or some hybrid form. Most recently, even Machine Learning (ML) has been employed to achieve higher resolutions (Watson-Parris 2021). While ML and Artificial Intelligence (AI) techniques will quite likely revolutionize the overall enterprise of modeling (replacing parameterizations, offering higher-resolution ensembles, etc.), the need for a physics-based core that more faithfully can represent the non-linear interactions and evolution of the system will probably remain (e.g., O’Gorman and Dwyer 2018; Huntingford et al. 2019).
+
+.. dropdown:: **Nevertheless, these modeling developments strengthen confidence in the understanding of climate-change processes and contribute to reducing uncertainty.** 
+
+    They now provide a robust foundation to offer projections of possible future changes, with increasing and direct relevance for society in planning and decision-making. These projections (see below: drivers of change) fit into the current understanding of the evolving climate over past centuries, millennia, and back millions of years both in magnitude as well as key determined characteristics of change, again, confirming the increasingly robust scientific “partnership” between observations, theory/modeling, and paleoclimate reconstructions (geologic records).
+
+**GCM future climate datasets**
+-----------------------------------
+
+Note that the IPCC’s goals, as stated above in this chapter, do not
+explicitly include the mandate of providing future change model outputs
+and data sets that would be useful, say, for this primer’s user audience
+(aka needed to drive more local scale impact models). However, with this
+said, both the IPCC’s `Data Distribution
+Centre <https://www.ipcc-data.org/>`__ (DDC) and CMIP’s ``Program
+for Climate Model Diagnosis and
+Intercomparison <https://pcmdi.llnl.gov/>`__ (PCMDI) at Lawrence
+Livermore National Laboratory have been supporting access to data sets
+that would be useful for the audience, with the `PCMDI ESGF
+Portal <https://aims2.llnl.gov/search>`__ being a well-used portal for
+acquiring dynamical downscaling data sets. Also, NCAR also has its CMIP
+Analysis Platform
+(https://www.cisl.ucar.edu/computing-data/data/cmip-analysis-platform)
+that gives researchers convenient access to climate data from CMIP,
+along with direct access to other related NCAR model data dealing with
+climate change. Two examples are the CESM Large Ensemble Community
+Project (LENS; https://www.cesm.ucar.edu/community-projects/lens) and
+the follow-on LENS2
+(https://www.cesm.ucar.edu/community-projects/lens2),`\ publicly
+available sets of climate model simulations intended for advancing
+understanding of internal climate variability and climate change through
+the generation of many ensembles starting from initial starting points
+in the atmosphere (LENS and LENS2) and ocean (just LENS2). This
+initialization design is intended to enable an assessment of oceanic and
+atmospheric contributions to ensemble spread (i.e. the natural
+variability of the Earth system), and the impact of initial-condition
+memory on the global Earth system.
+
+One word of caution: the historic period GCM CMIP6 outputs to these
+models are provided so that researchers can assess the GCM skill at
+reproducing the general statistical behavior of the Earth system,
+including trends and potential biases in this behavior. However these
+data are not designed to be compared with specific historic events (e.g.
+a specific year’s and region’s heat wave or flooding event), since the
+models’ states are started from an observed initial state, but then are
+free to internally equilibrate, with only certain historic forcings
+providing the models with further constraints as they run forward over
+the historic period. The constraining forcings are:
+
+-  **Greenhouse Gases:** Concentrations of CO2, CH4, N2O, and other
+   greenhouse gases.
+
+-  **Aerosols and Ozone:** Historical data on aerosols (such as sulfate,
+   black carbon, organic carbon) and ozone concentrations.
+
+-  **Land Use Changes:** Historical land use and land cover changes,
+   including deforestation, urbanization, and agricultural practices.
+
+-  **Solar and Volcanic Activity:** Variations in solar irradiance and
+   major volcanic eruptions.
+
+Note that this lack of constraints on the GCMs over the historic period
+is in contrast to how these same GCMs might be used to produce
+reanalysis data sets over the historic period, where model states are
+continually brought back to be consistent to observations collected over
+the period.
