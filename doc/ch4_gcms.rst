@@ -294,7 +294,8 @@ SSPs) developed by the IPCC community for climate modeling and
 assessment of future scenarios regarding greenhouse gas emissions and
 their impacts:
 
-SRES (Special Report on Emissions Scenarios)
+*4.3.1 SRES (Special Report on Emissions Scenarios)*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Developed by: Intergovernmental Panel on Climate Change (IPCC) in
    2000, and used in the IPCC’s Third and Fourth Assessment Reports.
@@ -313,7 +314,8 @@ SRES (Special Report on Emissions Scenarios)
       account any current or future measures to limit greenhouse gas
       emissions (e.g., the Kyoto Protocol).
 
-RCP (Representative Concentration Pathways)
+*4.3.2 RCP (Representative Concentration Pathways)*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Developed by: Introduced in the IPCC’s Fifth Assessment Report
    (2014).
@@ -333,7 +335,8 @@ RCP (Representative Concentration Pathways)
    -  Includes the impact of potential future policies by considering
       different levels of greenhouse gas emissions and concentrations.
 
-SSP (Shared Socioeconomic Pathways)
+*4.3.3 SSP (Shared Socioeconomic Pathways)*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Developed by: First used extensively in the IPCC’s Sixth Assessment
    Report (2021).
@@ -359,7 +362,8 @@ SSP (Shared Socioeconomic Pathways)
       to adaptation", providing a matrix of scenarios for more refined
       analysis.
 
-Comparison and Contrast
+*4.3.4 Comparison and Contrast*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Application in Climate Models: SRES scenarios were used primarily
    before the development of RCPs, which are now commonly used in
