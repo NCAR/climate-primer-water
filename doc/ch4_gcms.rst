@@ -13,8 +13,7 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  Overview of how GCMs are utilized under the IPCC framework
 
--  Some of the limitations and challenges of GCMs: historical
-   perspectives, current strengths and abilities, and ongoing challenges
+-  Some of the limitations and challenges of GCMs: current strengths and abilities and ongoing challenges
 
 -  Resources where GCM-derived future climate change outputs can be
    found for future applications
@@ -27,12 +26,6 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  What do climate projections (IPCC scenarios) mean and their
    assumptions
-
--  Processes captured/not captured
-
--  General limitations and future improvements
-
--  Already downscaled Data sets available
 
 -  Key takeaways from the chapter
 
