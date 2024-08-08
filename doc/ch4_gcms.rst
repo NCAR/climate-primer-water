@@ -362,6 +362,49 @@ their impacts:
       to adaptation", providing a matrix of scenarios for more refined
       analysis.
 
+.. dropdown:: *Further details on SSPs*
+
+    The figure below presents the simple framing of the different societal
+    storylines that form the basis of the new SSPs. At their core, they
+    represent different societal development pathways that are describing
+    their respective “worlds”: SSP1 sustain-ability; SSP2 middle of the
+    road; SSP3 regional rivalry; SSP4 inequality; and SSP5 fossil-fueled
+    development. For each of these storylines, different outcomes regarding
+    emissions and thus concentrations of greenhouse gasses, aerosol, and
+    land-use changes can be considered (e.g., Riahi et al., 2017). The
+    ScenarioMIP process then performed a selection of scenarios that offer
+    continuation to previous assessment reports. The core (Tier 1) scenarios
+    offered to the climate-modeling communities were: SSP1-2.6, with an end-of-century radiative forcing of about 2.6 W/m\ :sup:`2`; SSP2-4.5 with
+    4.5 W/m\ :sup:`2`; SSP3-7.0 with 7 W/m\ :sup:`2`, and SSP5-8.5 with 8.5
+    W/m\ :sup:`2`.
+
+    |image1|
+
+    *Figure: SSPs from ScenarioMIP matrix with associated select forcing
+    levels (Tier 1), from O’Neill et al., 2016.*
+
+    Notable characteristics of the different SSPs are illustrated in the
+    three figures below for well mixed global emissions; spatial emission-pattern differences between CMIP6 and CMIP5; and land-use changes over
+    time, respectively.
+
+    |image2|
+
+    *Figure: Emissions of well-mixed greenhouse gases (CO\ 2, CH\ 4, N2O) as
+    well as SO\ 2. (Source: IPCC, 2021)*
+
+    |image3|
+
+    *Figure: Spatial emissions differences between CMIP6 and the previous
+    CMIP5 emissions for SO\ 2 (top) and black carbon (bottom). (Source:
+    IPCC, 2021)*
+
+    |image4|
+
+    *Figure: Global time-series of land use changes (in million hectares)
+    (Source: IPCC, 2021)*
+
+    Modeling groups were also encouraged to perform additional experiments beyond Tier 1 scenarios. These experiments are associated with scenarios that contain reductions later in the century (so called “overshoot scenarios”) as well as a low-end emission scenario in line with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large computational demand, most modeling centers only performed the core Tier 1 experiments. Some centers managed to simulate a large number of ensemble members for select experiments. These experiments are the CMIP6 simulations associated with the ScenarioMIP project. However, there are a total of 23 independent intercomparison projects that are part of CMIP6, and thus significantly more model output is available to study physical systems.
+
 *4.3.4 Comparison and Contrast*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -382,50 +425,7 @@ and applicability of these scenarios. Each successive framework has
 built upon the last, providing more detailed tools for understanding and
 addressing the multifaceted challenges of climate change.
 
-*Further details on SSPs*
 
-The figure below presents the simple framing of the different societal
-storylines that form the basis of the new SSPs. At their core, they
-represent different societal development pathways that are describing
-their respective “worlds”: SSP1 sustain-ability; SSP2 middle of the
-road; SSP3 regional rivalry; SSP4 inequality; and SSP5 fossil-fueled
-development. For each of these storylines, different outcomes regarding
-emissions and thus concentrations of greenhouse gasses, aerosol, and
-land-use changes can be considered (e.g., Riahi et al., 2017). The
-ScenarioMIP process then performed a selection of scenarios that offer
-continuation to previous assessment reports. The core (Tier 1) scenarios
-offered to the climate-modeling communities were: SSP1-2.6, with an end-of-century radiative forcing of about 2.6 W/m\ :sup:`2`; SSP2-4.5 with
-4.5 W/m\ :sup:`2`; SSP3-7.0 with 7 W/m\ :sup:`2`, and SSP5-8.5 with 8.5
-W/m\ :sup:`2`.
-
-|image1|
-
-*Figure: SSPs from ScenarioMIP matrix with associated select forcing
-levels (Tier 1), from O’Neill et al., 2016.*
-
-Notable characteristics of the different SSPs are illustrated in the
-three figures below for well mixed global emissions; spatial emission-pattern differences between CMIP6 and CMIP5; and land-use changes over
-time, respectively.
-
-|image2|
-
-*Figure: Emissions of well-mixed greenhouse gases (CO\ 2, CH\ 4, N2O) as
-well as SO\ 2. (Source: IPCC, 2021)*
-
-|image3|
-
-*Figure: Spatial emissions differences between CMIP6 and the previous
-CMIP5 emissions for SO\ 2 (top) and black carbon (bottom). (Source:
-IPCC, 2021)*
-
-|image4|
-
-*Figure: Global time-series of land use changes (in million hectares)
-(Source: IPCC, 2021)*
-
-.. dropdown:: **Modeling groups were also encouraged to perform additional experiments beyond Tier 1 scenarios.** 
-
-    These experiments are associated with scenarios that contain reductions later in the century (so called “overshoot scenarios”) as well as a low-end emission scenario in line with the Paris Agreement (IPCC 2016): SSP1-1.9. Because of the large computational demand, most modeling centers only performed the core Tier 1 experiments. Some centers managed to simulate a large number of ensemble members for select experiments. These experiments are the CMIP6 simulations associated with the ScenarioMIP project. However, there are a total of 23 independent intercomparison projects that are part of CMIP6, and thus significantly more model output is available to study physical systems.
 
 4.4 Earth-system climate modeling – historical perspective
 -------------------------------------------------------------
