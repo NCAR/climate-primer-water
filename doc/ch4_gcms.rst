@@ -93,7 +93,7 @@ and out of the earth system.
     technological innovations including geoengineering, in curbing climate
     impacts.
 
-While GCMs are invaluable, they do come with limitations. Their accuracy
+While GCMs are invaluable, they do come with *limitations*. Their accuracy
 depends on the quality of input data, the precision of mathematical
 formulations, and the computing power available that constrains the
 temporal and spatial resolution of the calculations. Moreover, there is
@@ -222,7 +222,7 @@ regions around the world. This experiment complements and adds value to
 the CMIP global models, particularly in complex topography zones,
 coastal areas and small islands, as well as for extremes.
 
-** 4.2.4 NCA**
+**4.2.4 NCA**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The National Climate Assessment (NCA) is a key initiative of the U.S.
