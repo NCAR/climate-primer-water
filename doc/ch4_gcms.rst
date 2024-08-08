@@ -113,7 +113,9 @@ To learn more about climate models visit `Introduction Introduction to Climate M
 4.2 Goals of the IPCC, CMIPs, NCA
 ------------------------------------
 
-*IPCC*
+**4.2.1 IPCC**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The Intergovernmental Panel on Climate Change (IPCC) is the United
 Nations body tasked with assessing the science related to climate change, with
 its objective to provide governments at all levels with the scientific
@@ -180,7 +182,9 @@ drive more local-scale impact models). However, Section *Learn More* provides
 resources where many of these data, including CMIP6 [discussed below]
 and other data, can be found.
 
-*CMIP*
+**4.2.2 CMIP**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The Coupled Model Intercomparison Project (CMIP) is a collaborative
 framework designed to synthesize climate-modeling efforts from a number of
 weather and climate centers to improve knowledge of past, present, and
@@ -189,7 +193,7 @@ anthropogenic changes to radiative forcing [1]_. CMIP is under the
 Working Group on Coupled Modelling (WGCM) of the World Climate Research
 Programme (WCRP), with the latter under the joint sponsorship of the
 World Meteorological Organization (WMO) and the International Council
-for Science (ISCU).:mark:`In terms of the CMIP acronym, “Coupled” refers
+for Science (ISCU). In terms of the CMIP acronym, “Coupled” refers
 to the interconnected components of the climate system (e.g., land, air,
 water, etc.) that are simulated by the climate models; “intercomparison”
 references the many models that are available to compare with
@@ -197,14 +201,17 @@ observations and to one another to characterize model uncertainty and
 scenario uncertainty. The CMIP project started in 1995 and has multiple
 versions of generated datasets, including CMIP3 (2005), CMIP5 (2011)
 (there was no CMIP4), and CMIP6 (2018), with the members of the CMIP
-Core Panel currently working on the design of CMIP7. Important
-goals of CMIP are:
+Core Panel currently working on the design of CMIP7. 
+
+*Important goals of CMIP*
 
 -  Standardize global climate model (GCM) experiments and model output
 -  Compare and evaluate GCMs used in the climate studies`
 -  Make the CMIP GCM data publicly available
 
-*CORDEX*: 
+**4.2.3 CORDEX**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 One notable model intercomparison project under the umbrella
 of CMIP is the COordinated Regional Climate Down-scaling Experiment or
 CORDEX (Gutowski et al. 2016), for comparing and evaluating regional
@@ -215,7 +222,9 @@ regions around the world. This experiment complements and adds value to
 the CMIP global models, particularly in complex topography zones,
 coastal areas and small islands, as well as for extremes.
 
-*NCA*
+** 4.2.4 NCA**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The National Climate Assessment (NCA) is a key initiative of the U.S.
 Global Change Research Program (USGCRP) and is aimed at assessing and
 summarizing the impacts of climate change on the country and involves
@@ -228,31 +237,38 @@ the natural environment, agriculture, energy production and use, land
 and water resources, transportation, human health and welfare, human
 social systems, and biological diversity; and analyzes current trends in
 global change, both human-induced and natural, and projects major trends
-for the subsequent 25 to 100 years.” More specifically (with overlap
-with the IPCC), the main goals of the National Climate Assessment
-include:
+for the subsequent 25 to 100 years.” 
 
--  Inform policy guidance and resource-management decision-making by
-   providing policy-neutral and policy-relevant information
-   accessible and actionable.
+*The main goals of the National Climate Assessment*
 
--  Enhance Public Awareness and Understanding about the causes, impacts,
-   and potential solutions to climate change, aiming to make the
-   scientific information accessible to a broad audience.
+.. dropdown:: Inform policy guidance and resource-management decision-making 
+   
+    by providing policy-neutral and policy-relevant information
+    accessible and actionable.
 
--  Evaluate Climate Impacts and Vulnerabilities through Regional
-   Assessments providing detailed assessments of climate impacts and
-   vulnerabilities at regional scales; and Sectoral Assessments
-   evaluating the impacts of climate change on various sectors, such as
-   health, agriculture, water resources, energy, ecosystems, and
-   infrastructure.
+.. dropdown:: Enhance Public Awareness and Understanding 
 
--  Assess Adaptation and Mitigation Strategies; assess the
-   science of adapting to a changing climate, emissions reductions, and
-   other efforts that together describe the US’s existing and potential
-   response to climate change, including benefits, trade-offs, targets,
-   limitations, and best practices (while not evaluating or recommending
-   specific adaptation or mitigation policies).
+    about the causes, impacts,
+    and potential solutions to climate change, aiming to make the
+    scientific information accessible to a broad audience.
+
+.. dropdown:: Evaluate Climate Impacts and Vulnerabilities 
+
+    through Regional
+    Assessments providing detailed assessments of climate impacts and
+    vulnerabilities at regional scales; and Sectoral Assessments
+    evaluating the impacts of climate change on various sectors, such as
+    health, agriculture, water resources, energy, ecosystems, and
+    infrastructure.
+
+.. dropdown:: Assess Adaptation and Mitigation Strategies
+
+    assess the
+    science of adapting to a changing climate, emissions reductions, and
+    other efforts that together describe the US’s existing and potential
+    response to climate change, including benefits, trade-offs, targets,
+    limitations, and best practices (while not evaluating or recommending
+    specific adaptation or mitigation policies). 
 
 4.3 What climate projections and IPCC climate-change scenarios mean and their assumptions
 -------------------------------------------------------------------------------------------------
