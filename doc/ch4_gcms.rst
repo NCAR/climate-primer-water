@@ -31,6 +31,26 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
+CHapter 4 Key Takeaways
+---------------------------------
+Summary of GCM Attributes, Strengths, and Limitations
++-------------------------------------------------+-----------------------+
+| **Research Question**                           | **System Performance  |
+|                                                 | Measures**            |
++=================================================+=======================+
+| How often might water temperatures              | Threshold maximum     |
+| in streams be too dangerous for aquatic life    | water temperature     |
+| in the 2050-2080 period?                        | and threshold         |
+|                                                 | exposure duration     |           
++-------------------------------------------------+-----------------------+
+| Why might we fail to reach water delivery       | Annual water          |
+| targets in the 2070-2100 period?                | delivery targets      |
++-------------------------------------------------+-----------------------+
+| What are the chances of dropping below          | Reservoir low-pool    |
+| reservoir low-pool levels for more than one     | threshold             |
+| consecutive year in the 2040-2070 period?       |                       |
++-------------------------------------------------+-----------------------+
+
 4.1 Introduction
 ---------------------------------
 
