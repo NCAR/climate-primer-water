@@ -1150,10 +1150,10 @@ Below we provide additional introductory details on the derivation, strengths, a
 .. |image_obs6| image:: media/ch3/image_obs6.png
    :width: 6.04167in
    :height: 4.58333in
-..|image_obs_popout_radarqpe21| image:: media/ch3/image_obs_popout_radarqpe21.jpg
+.. |image_obs_popout_radarqpe21| image:: media/ch3/image_obs_popout_radarqpe21.jpg
    :width: 6.04167in
    :height: 4.58333in
-..|image_obs_popout_radarqpe34| image:: media/ch3/image_obs_popout_radarqpe34.jpg
+.. |image_obs_popout_radarqpe34| image:: media/ch3/image_obs_popout_radarqpe34.jpg
    :width: 6.04167in
    :height: 4.58333in
 
