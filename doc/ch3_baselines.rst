@@ -723,8 +723,7 @@ environmental conditions, adding complexity to their operation.
 such, the measurements implicitly are a type of representative average
 over the region of coverage. This can be a strength or a weakness
 depending on whether the implicit sampling area corresponds to that of the
-researcher’s interest. Note that this spatial discretization also
- dampens extremes that would be captured through point-based
+researcher’s interest. Note that this spatial discretization also dampens extremes that would be captured through point-based
 gauge measurements. **Length of historical record and changes in
 estimation quality through time:** some of the most significant radar
 technologies did not become operational until the 1990s or later (with
@@ -736,7 +735,7 @@ given location, as shown in the figure below of the Radar Quality Index
 (RQI), which shows the impact of non-uniform coverage of radar related to the elevation of the radar sample, distance from the
 radar, and the impact of mountains.
 
-|image_obs6.png|
+|image_obs6|
 
 *Figure: the Radar Quality Index (RQI) provides a measure for how useful
 radar might be for precipitation estimates based on the amount of
