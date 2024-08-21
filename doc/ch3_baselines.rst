@@ -2756,6 +2756,12 @@ empty.\ |image25|
 .. |Exploring the Impact of Climate Forcings on Global Energy Balance| image:: media/ch3_2/image24.jpg
    :width: 6.5in
    :height: 3.05556in
+.. |image_intro1| image:: media/ch3/image_intro1.jpg
+   :width: 6.5in
+   :height: 3.05556in
+.. |image_intro2| image:: media/ch3/image_intro2.png
+   :width: 6.5in
+   :height: 3.05556in
 .. |image2| image:: media/ch3_2/image25.jpg
    :width: 6.5in
    :height: 3.05556in
