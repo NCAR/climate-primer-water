@@ -152,18 +152,6 @@ influence our climate over time.
 
     Greenhouse gases, which occur both naturally and as a result of human activities, also influence Earth's climate.
 
-.. |Graphic showing Milankovitch cycles| image:: media/ch3/image_intro_popout_natl2.jpg
-   :width: 6.5in
-   :height: 4.875in
-.. |Graphic showing continental drift| image:: media/ch3/image_intro_popout_natl3.jpg
-   :width: 6.5in
-   :height: 4.875in
-.. |Global average surface temperature change with volcanic eruptions| image:: media/ch3/image_intro_popout_natl1.gif
-   :width: 5.73611in
-   :height: 2.61111in
-.. |Incoming solar radiation and the effect of increasing greenhouse gases| image:: media/ch3/image_intro_popout_natl4.jpg
-   :width: 6.5in
-   :height: 4.875in
 .. |image1| image:: media/ch3/image_intro1.jpg
    :width: 5.20833in
    :height: 3.64583in
@@ -176,7 +164,18 @@ influence our climate over time.
 .. |image4| image:: media/ch3/image_intro_popout_weather1.png
    :width: 6.25in
    :height: 4.58333in
-
+.. |Graphic showing Milankovitch cycles| image:: media/ch3/image_intro_popout_natl2.jpg
+   :width: 6.5in
+   :height: 4.875in
+.. |Graphic showing continental drift| image:: media/ch3/image_intro_popout_natl3.jpg
+   :width: 6.5in
+   :height: 4.875in
+.. |Global average surface temperature change with volcanic eruptions| image:: media/ch3/image_intro_popout_natl1.gif
+   :width: 5.73611in
+   :height: 2.61111in
+.. |Incoming solar radiation and the effect of increasing greenhouse gases| image:: media/ch3/image_intro_popout_natl4.jpg
+   :width: 6.5in
+   :height: 4.875in
 
 
 3.2 Observational datasets and their uncertainties
