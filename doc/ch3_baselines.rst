@@ -89,13 +89,13 @@ smaller, and as the timescales of interest also decrease.
 
 |image_intro2|
 
-*Figure: :mark:`Left panel: the global surface temperature (shown as
+*Figure:Left panel: the global surface temperature (shown as
 annual anomalies from a 1850–1900 baseline) has increased by around
 1.1°C since 1850–1900. Right panel: temperature change attributed to:
 total human influence; its decomposition into changes in greenhouse gas
 (GHG) concentrations and other human drivers (aerosols, ozone and
 land-use change (land-use reflectance)); solar and volcanic drivers; and
-internal climate variability. Whiskers show likely ranges. Source:`
+internal climate variability. Whiskers show likely ranges. Source:
 IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1.*
 
 Further below we provide introductory information on the distinction of
@@ -110,11 +110,11 @@ influence our climate over time.
 
     **Weather** describes the details of what we experience over the course of hours and days.
 
-    |image3|
+    |image_popoutweather1|
 
     **Climate** is the statistical representation of weather over days, months, seasons, years, decades, and longer
 
-    |image4|
+    |image_intro_popout_weather1|
 
     **A weather prediction, or forecast,** describes the near-term likelihood of a weather event such as a specific occurrence of rain or snow and/or the expected change in temperature. A weather forecast, for example, might read, "colder with a 70% chance of snow this afternoon."
 
@@ -152,16 +152,16 @@ influence our climate over time.
 
     Greenhouse gases, which occur both naturally and as a result of human activities, also influence Earth's climate.
 
-.. |image1| image:: media/ch3/image_intro1.jpg
-   :width: 5.20833in
-   :height: 3.64583in
-.. |image2| image:: media/ch3/image_intro2.png
+.. |image_intro1| image:: media/ch3/image_intro1.jpg
    :width: 6.5in
-   :height: 3.40278in
-.. |image3| image:: media/ch3/image_intro_popout_weather2.png
+   :height: 3.05556in
+.. |image_intro2| image:: media/ch3/image_intro2.png
+   :width: 6.5in
+   :height: 3.05556in
+.. |image_popoutweather1| image:: media/ch3/image_intro_popout_weather2.png
    :width: 6.25in
    :height: 4.58333in
-.. |image4| image:: media/ch3/image_intro_popout_weather1.png
+.. |image_intro_popout_weather1| image:: media/ch3/image_intro_popout_weather1.png
    :width: 6.25in
    :height: 4.58333in
 .. |Graphic showing Milankovitch cycles| image:: media/ch3/image_intro_popout_natl2.jpg
@@ -2754,12 +2754,6 @@ empty.\ |image25|
    :width: 6.5in
    :height: 4.875in
 .. |Exploring the Impact of Climate Forcings on Global Energy Balance| image:: media/ch3_2/image24.jpg
-   :width: 6.5in
-   :height: 3.05556in
-.. |image_intro1| image:: media/ch3/image_intro1.jpg
-   :width: 6.5in
-   :height: 3.05556in
-.. |image_intro2| image:: media/ch3/image_intro2.png
    :width: 6.5in
    :height: 3.05556in
 .. |image2| image:: media/ch3_2/image25.jpg
