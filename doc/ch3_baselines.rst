@@ -215,7 +215,7 @@ and when assessing the adequacy of observational datasets.
    records long enough to capture these extremes at sufficient temporal/spatial
    resolution to drive local impact models?
 
-|image5|
+|image_obs2|
 
 *Figure: one of the most monitored attributes of local rainfall are
 changes in its Intensity-Duration-Frequency (IDF) relationship.*
@@ -291,7 +291,7 @@ observation quality control of the U.S. National Centers for
 Environmental Prediction Multi-Radar Multi-Sensor (MRMS) system (Zhang
 et al., 2016).
 
-|image6|
+|image_obs7|
 
 *Figure: the MRMS locations of rain gauge sites, with the white plus
 signs indicating locations of the ~7000 hourly gauges. (Source: Zhang et
@@ -363,7 +363,7 @@ used.
 
     -  Wind effects vary with hydrometeor phase and size
 
-    |still|
+    |image_obs_popout_gaugeqpe6|
 
     *Download Video*
 
@@ -398,7 +398,7 @@ used.
 
     Here we see an increase in wind speed over the gauge, but we also see turbulence-induced downward motion. Note from the trajectories that this may increase catch, although sometimes the primary gauge-induced downward motion may be downwind of the gauge.
 
-    |image10|
+    |image_obs_popout_gaugeqpe18|
 
     *Download Video*
 
@@ -422,7 +422,7 @@ used.
 
     |SNOTEL site|
 
-    |image12|
+    |image_obs_popout_gaugeqpe33|
 
 
     **Rain Gauge QPE » Rain, Gauge Catch, and Wind**
@@ -460,13 +460,13 @@ used.
 
     |Plot of studies gauge catch ratio to wind speed for various gauges|
 
-    |image13|
+    |image_obs_popout_gaugeqpe26|
 
-    |image14|
+    |image_obs_popout_gaugeqpe38|
 
     Snow pillows are a technology used at SNOTEL sites in the western United States. These weigh the snow on the ground to get a liquid equivalent. Users in the NWS generally find that these data are superior to those provided by automated gauges.
 
-    |image15|
+    |image_obs_popout_gaugeqpe23|
 
     More information can be found at the United States Department of Agriculture, Natural Resources Conservation Service (NRCS) site: http://www.wcc.nrcs.usda.gov/snow/.
 
@@ -475,11 +475,11 @@ used.
   
     A gauge aperture of at least 102 mm (4 in) in diameter is desirable. These NOAA-approved clear plastic gauges have 4-inch diameter apertures. Smaller openings will increase the likelihood of under catch.
 
-    |4-inch rain gauge|
+    |4 inch rain gauge|
 
     The NWS cooperative climate station manual gauges have a 203-mm (8-inch) aperture.
 
-    |8-inch rain gauge|
+    |8 inch rain gauge|
 
     As mentioned earlier, gauge catch is sometimes improved when nearby vegetation disrupts the wind. A good location may be a forest clearing where the trees are not close enough to directly intercept the precipitation.
 
@@ -502,7 +502,7 @@ used.
 
     Precipitation phase refers to whether the hydrometeors are liquid, liquid, and below freezing such as freezing rain, or frozen, such as hail or snow.
 
-    |image16|
+    |image_obs_popout_gaugeqpe16|
 
     *Download Video*
 
@@ -582,7 +582,7 @@ used.
 .. |Rainfall in hurricane falling at an angle| image:: media/ch3/image_obs_popout_gaugeqpe24.jpg
    :width: 5.83333in
    :height: 4.375in
-.. |still| image:: media/ch3/image_obs_popout_gaugeqpe6.jpg
+.. |image_obs_popout_gaugeqpe6| image:: media/ch3/image_obs_popout_gaugeqpe6.jpg
    :width: 3.64583in
    :height: 3.02083in
 .. |Fall angle and gauge catch for 2-mm diameter raindrops at 0 m/s wind speed| image:: media/ch3/image_obs_popout_gaugeqpe14.jpg
@@ -600,7 +600,7 @@ used.
 .. |Fall angle and gauge catch for 2-mm diameter raindrops at 20 m/s wind speed| image:: media/ch3/image_obs_popout_gaugeqpe28.jpg
    :width: 6.04167in
    :height: 5.10417in
-.. |image10| image:: media/ch3/image_obs_popout_gaugeqpe18.jpg
+.. |image_obs_popout_gaugeqpe18| image:: media/ch3/image_obs_popout_gaugeqpe18.jpg
    :width: 6.04167in
    :height: 4.16667in
 .. |Effects of wind turbulence near the ground on precipitation and gauge catch| image:: media/ch3/image_obs_popout_gaugeqpe17.jpg
@@ -618,7 +618,7 @@ used.
 .. |SNOTEL site| image:: media/ch3/image_obs_popout_gaugeqpe9.jpg
    :width: 5.47222in
    :height: 4.09722in
-.. |image12| image:: media/ch3/image_obs_popout_gaugeqpe33.jpg
+.. |image_obs_popout_gaugeqpe33| image:: media/ch3/image_obs_popout_gaugeqpe33.jpg
    :width: 5.47222in
    :height: 4.09722in
 .. |Relationship between wind speed and gauge measurement for liquid hydrometeors| image:: media/ch3/image_obs_popout_gaugeqpe25.jpg
@@ -633,13 +633,13 @@ used.
 .. |Plot of studies gauge catch ratio to wind speed for various gauges| image:: media/ch3/image_obs_popout_gaugeqpe36.gif
    :width: 4.16667in
    :height: 3.125in
-.. |image13| image:: media/ch3/image_obs_popout_gaugeqpe26.gif
+.. |image_obs_popout_gaugeqpe26| image:: media/ch3/image_obs_popout_gaugeqpe26.gif
    :width: 4.16667in
    :height: 3.125in
-.. |image14| image:: media/ch3/image_obs_popout_gaugeqpe38.gif
+.. |image_obs_popout_gaugeqpe38| image:: media/ch3/image_obs_popout_gaugeqpe38.gif
    :width: 4.16667in
    :height: 3.125in
-.. |image15| image:: media/ch3/image_obs_popout_gaugeqpe23.jpg
+.. |image_obs_popout_gaugeqpe23| image:: media/ch3/image_obs_popout_gaugeqpe23.jpg
    :width: 4.09722in
    :height: 5.47222in
 .. |4 inch rain gauge| image:: media/ch3/image_obs_popout_gaugeqpe30.jpg
@@ -654,7 +654,7 @@ used.
 .. |Inner workings of a tipping bucket rain gauge| image:: media/ch3/image_obs_popout_gaugeqpe20.jpg
    :width: 6.04167in
    :height: 4.47917in
-.. |image16| image:: media/ch3/image_obs_popout_gaugeqpe16.jpg
+.. |image_obs_popout_gaugeqpe16| image:: media/ch3/image_obs_popout_gaugeqpe16.jpg
    :width: 6.04167in
    :height: 4.47917in
 .. |All weather precipitation accumulation gauge (AWPAG) with double-structure wind shield| image:: media/ch3/image_obs_popout_gaugeqpe29.jpg
@@ -1483,10 +1483,10 @@ see:
        :header-rows: 1
    
 
-.. |image5| image:: media/ch3/image_obs2.png
+.. |image_obs2| image:: media/ch3/image_obs2.png
    :width: 5.38263in
    :height: 3.77339in
-.. |image6| image:: media/ch3/image_obs7.png
+.. |image_obs7| image:: media/ch3/image_obs7.png
    :width: 6.5in
    :height: 4.40278in
 .. |image7| image:: media/ch3/image_obs6.png
