@@ -52,7 +52,7 @@ subsurface variables, and those that are more “point-based” and
 diagnosed through local-impact model research (e.g.,streamflow, sediment
 transport, storage, etc.).
 
-|image1|
+|image_intro1|
 
 *The components of the hydrologic cycle*
 
@@ -87,7 +87,7 @@ changes, natural variability generally becomes relatively a much larger
 contributor to observed changes as the spatial region of interest gets
 smaller, and as the timescales of interest also decrease.
 
-|image2|
+|image_intro2|
 
 *Figure: :mark:`Left panel: the global surface temperature (shown as
 annual anomalies from a 1850–1900 baseline) has increased by around
