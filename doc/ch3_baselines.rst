@@ -389,6 +389,9 @@ used.
 
     |Fall angle and gauge catch for 2-mm diameter raindrops at 20 m/s wind speed|
 
+    Of course there is a great deal of variability controlling the fall angle. Influences on the angle include the steadiness of the wind, disruption to 
+    the flow, and very importantly, the size and phase of the hydrometeor.
+
     *Download Video*
 
     **Rain Gauge QPE » Gauges, Wind, and Turbulence**
@@ -733,7 +736,7 @@ given location, as shown in the figure below of the Radar Quality Index
 (RQI), which shows the impact of non-uniform coverage of radar related to the elevation of the radar sample, distance from the
 radar, and the impact of mountains.
 
-|image7|
+|image_obs6.png|
 
 *Figure: the Radar Quality Index (RQI) provides a measure for how useful
 radar might be for precipitation estimates based on the amount of
@@ -823,11 +826,11 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     Satellite is another remote sensing QPE tool, but with much coarser resolution than radar.
 
-    |image21|
+    |image_obs_popout_radarqpe21|
 
     Even rain gauges, which are ground-based measurements, are subject to errors and cannot resolve the spatial detail of precipitation patterns.
 
-    |image22|
+    |image_obs_popout_radarqpe34|
 
     A precipitation climatology is sometimes used to augment the estimates of observed precipitation. This can be very useful in regions where precipitation distribution, and the ability to observe it, is greatly affected by terrain features.
 
@@ -982,6 +985,7 @@ Below we provide additional introductory details on the derivation, strengths, a
     In this example, a frequency of occurrence of 0.006 was chosen. This means that we will only consider radar bins where greater than 0.0 mm occurred at least 0.006, or 0.6% of the time according to the radar climatology.
   
     |Warm season effective radar coverage for Boise, ID (KCBX)|
+    
     This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume there is good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite. 
 
     The choice of frequency threshold is somewhat subjective, based on forecaster experience regarding what produces the most useful guidance.
@@ -990,7 +994,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 
     In the cool season, there is more low-level precipitation and thus the effects of terrain and distance on radar precipitation estimates are more severe. Note the sharp decrease in good radar coverage in the radar coverage map for the Northwest in the cool season.
 
-   |image23|
+   |image_obs_popout_radarqpe19|
 
     |Cool season radar coverage for the northwest river forecast center|
 
@@ -1128,7 +1132,7 @@ Below we provide additional introductory details on the derivation, strengths, a
 .. |Warm season effective radar coverage for Boise, ID (KCBX)| image:: media/ch3/image_obs_popout_radarqpe33.jpg
    :width: 6.04167in
    :height: 4.16667in
-.. |image23| image:: media/ch3/image_obs_popout_radarqpe19.jpg
+.. |image_obs_popout_radarqpe19| image:: media/ch3/image_obs_popout_radarqpe19.jpg
    :width: 6.04167in
    :height: 4.16667in
 .. |Cool season radar coverage for the northwest river forecast center| image:: media/ch3/image_obs_popout_radarqpe12.jpg
@@ -1143,6 +1147,17 @@ Below we provide additional introductory details on the derivation, strengths, a
 .. |SCaMPR 24 hr estimated precip at 1200 UTC 13 Apr 2009| image:: media/ch3/image_obs_popout_radarqpe23.jpg
    :width: 6.04167in
    :height: 4.58333in
+.. |image_obs6| image:: media/ch3/image_obs6.png
+   :width: 6.04167in
+   :height: 4.58333in
+..|image_obs_popout_radarqpe21| image:: media/ch3/image_obs_popout_radarqpe21.jpg
+   :width: 6.04167in
+   :height: 4.58333in
+..|image_obs_popout_radarqpe34| image:: media/ch3/image_obs_popout_radarqpe34.jpg
+   :width: 6.04167in
+   :height: 4.58333in
+
+
 
 3.2.3 **Weather climatologies**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
