@@ -28,6 +28,22 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
+**Attribution**
+
+Much of the material and images used in this chapter are derived 
+from the following MetEd Lessons: Understanding the Hydrologic Cycle;
+Precipitation Estimates, Part 1: Measurement; Precipitation Estimates,
+Part 2: Analysis; Preparing Hydro-climate Inputs for Climate Change in
+Water Resource Planning; Climate and Water Resources Management, 
+Part 1: Climate Variability and Change; Climate and Water Resources
+Management, Part 2: General Principles in Integrating Climate Change; 
+Climate Change and Extreme Weather. The source of this material is the
+COMET® Website at http://meted.ucar.edu/ of the University Corporation
+for Atmospheric Research (UCAR), sponsored in part through cooperative
+agreement(s) with the National Oceanic and Atmospheric Administration
+(NOAA), U.S. Department of Commerce (DOC). ©1997-2024 University
+Corporation for Atmospheric Research. All Rights Reserved.
+
 3.1 Introduction
 -------------------------------------------------
 
