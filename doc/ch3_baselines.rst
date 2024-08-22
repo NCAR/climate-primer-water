@@ -1366,7 +1366,7 @@ mimicking the production of day-to-day weather forecasts, which use an
 analysis of the current state of the Earth system as their starting
 point).
 
-|image8|
+|image_obs1|
 
 *Figure: A schematic of the reanalysis process. (Source: ECMWF)*
 
@@ -1397,7 +1397,7 @@ deficiencies, some products (e.g.,ERA5) also are providing information
 about uncertainty: data from areas or periods where observations
 are sparser are likely to be less certain.
 
-|image9|
+|image_obs4|
 
 *Figure: Evaporation minus Precipitation in MERRA (top) and ERA-Interim
 (bottom) based on Trenberth et al. (2011). (Contributed by J Fasullo and
@@ -1528,10 +1528,10 @@ see:
 .. |PRISM effective terrain areas| image:: media/ch3/image_obs3.jpg
    :width: 6.04167in
    :height: 4.16667in
-.. |image8| image:: media/ch3/image_obs1.jpg
+.. |image_obs1| image:: media/ch3/image_obs1.jpg
    :width: 6.5in
    :height: 4.33333in
-.. |image9| image:: media/ch3/image_obs4.png
+.. |image_obs4| image:: media/ch3/image_obs4.png
    :width: 6.5in
    :height: 7.54167in
 
