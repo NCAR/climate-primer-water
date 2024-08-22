@@ -51,6 +51,18 @@ Summary of GCM Attributes, Strengths, and Limitations
 | consecutive year in the 2040-2070 period?       |                       |
 +-------------------------------------------------+-----------------------+
 
+**Attribution**
+
+Much of the material and images used in this chapter are derived 
+from the following MetEd Lessons: Introduction to Climate Models; 
+Preparing Hydro-climate Inputs for Climate Change in
+Water Resource Planning. The source of this material is the
+COMET® Website at http://meted.ucar.edu/ of the University Corporation
+for Atmospheric Research (UCAR), sponsored in part through cooperative
+agreement(s) with the National Oceanic and Atmospheric Administration
+(NOAA), U.S. Department of Commerce (DOC). ©1997-2024 University
+Corporation for Atmospheric Research. All Rights Reserved.
+
 4.1 Introduction
 ---------------------------------
 
