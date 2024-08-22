@@ -1251,7 +1251,7 @@ approach.
 
     Point observations are rarely sufficient to represent spatial patterns of precipitation. This is especially true in regions with sharp changes in elevation and/or nearby large bodies of water. PRISM uses the known relationships of precipitation with geographic features. An automated statistical approach is used for efficiency, but this is guided by human expertise.
 
-    |PRISM annual precip climatology with raingauge locations for the Olympic peninsula|
+    |image_obs_popout_prism3|
 
     **Precipitation Climatology/PRISM » Basic Use of PRISM**
 
@@ -1306,7 +1306,7 @@ approach.
 .. |Gauge locations and topography of Olympic peninsula| image:: media/ch3/image_obs_popout_prism13.jpg
    :width: 6.04167in
    :height: 4.55556in
-.. |PRISM annual precip climatology with rain gauge locations for the Olympic peninsula| image:: media/ch3/image_obs_popout_prism3.jpg
+.. |image_obs_popout_prism3| image:: media/ch3/image_obs_popout_prism3.jpg
    :width: 6.04167in
    :height: 4.79167in
 .. |Using gauge reports and PRISM to get QPE 2| image:: media/ch3/image_obs_popout_prism5.jpg
