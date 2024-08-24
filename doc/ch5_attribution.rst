@@ -42,6 +42,17 @@ Corporation for Atmospheric Research. All Rights Reserved.
 
 In this chapter we discuss the concept of the baseline natural variability  of a system under study, and ways to detect and potentially attribute the contribution of observed changes to natural and anthropogenic factors. Because climate change is a phenomenon that is typically characterized by slow changes through time, and that anthropogenic-induced climate change predominantly began in the mid-19th century (when atmospheric concentrations of CO2 began to show a marked increase correlating with industrial activities), significant changes may be detected through examination of the historical record, depending on the study area. At the same time, detection depends on how large the “natural variability” of the system of interest is. The Earth's climate systems exhibit natural variability due to a range of factors. These include variations in solar radiation (e.g. solar cycles), volcanic activity, ocean currents, atmospheric circulation patterns such as El Niño and La Niña, and geological processes like the shifting of tectonic plates (at time-scales of millions of years). Additionally, feedback mechanisms within the Earth's climate system can amplify or dampen these variations, leading to fluctuations in temperature, precipitation patterns, and other climatic parameters over different timescales, from years to centuries and beyond. The figure below from the Intergovernmental Panel on Climate Change (IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1) shows on the left panel the increase in the global surface temperature through time, while the panel at the right shows estimates of how much these temperature changes have been attributed to total human influence; solar and volcanic drivers; and internal climate variability. Although at the global scale, human impacts are the dominant contributor to these changes, natural variability generally becomes relatively a much larger contributor to observed changes as the spatial region of interest gets smaller, and as the timescales of interest also decrease.
 
+|image_intro2|
+
+*Figure:Left panel: the global surface temperature (shown as
+annual anomalies from a 1850–1900 baseline) has increased by around
+1.1°C since 1850–1900. Right panel: temperature change attributed to:
+total human influence; its decomposition into changes in greenhouse gas
+(GHG) concentrations and other human drivers (aerosols, ozone and
+land-use change (land-use reflectance)); solar and volcanic drivers; and
+internal climate variability. Whiskers show likely ranges. Source:
+IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1.*
+
 We start with a brief overview of what these different types of variability are, where they have already been observed, then discuss methods that can be more generally applied to a particular region to discern these different types of variability. 
 
 As background, we provide introductory background information: 
@@ -98,9 +109,6 @@ The pop-out below provides a description of the natural factors that influence o
 
     Greenhouse gases, which occur both naturally and as a result of human activities, also influence Earth's climate.
 
-.. |image_intro1| image:: media/ch5/image_intro1.jpg
-   :width: 6.5in
-   :height: 3.05556in
 .. |image_intro2| image:: media/ch5/image_intro2.png
    :width: 6.5in
    :height: 3.05556in
