@@ -31,7 +31,7 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  References
 
-CHapter 4 Key Takeaways
+Chapter 4 Key Takeaways
 ---------------------------------
 Summary of GCM Attributes, Strengths, and Limitations
 +-------------------------------------------------+-----------------------+

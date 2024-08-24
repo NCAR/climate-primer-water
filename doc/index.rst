@@ -15,11 +15,12 @@ A project of the National Center for Atmospheric Research
 
    ch1_intro.rst
    ch2_climatewater.rst
-   ch3_baselines.rst
+   ch3_observations.rst
    ch4_gcms.rst
-   ch5_downscaling.rst
-   ch6_uncertainty.rst
-   ch7_together.rst
+   ch5_attribution.rst
+   ch6_downscaling.rst
+   ch7_uncertainty.rst
+   ch8_together.rst
    casestudies.rst
    learnmore.rst
    references.rst
