@@ -1378,7 +1378,9 @@ see:
        :file: _files/Table3_1.csv  
        :header-rows: 1
    
-
+.. |image_intro1| image:: media/ch3/image_intro1.jpg
+   :width: 6.5in
+   :height: 3.05556in
 .. |image_obs2| image:: media/ch3/image_obs2.png
    :width: 5.38263in
    :height: 3.77339in
