@@ -351,47 +351,6 @@ the system with compounding drivers (e.g., climate change and urbanization).
 An example use of storylines for water-availability assessments is provided in
 `Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
 
-2.2.4 Paradigm (Process)
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-|image5|
-
-The process to prepare data for running climate-change impact models 
-includes four main steps.
-
-We start with questions about how climate change might affect future
-water resources. The first step is to build a basic understanding
-of key terminology and processes for global climate modeling. Then we
-develop regionally applicable climate projections, determine climate-change scenarios and select associated climate projections to inform
-them, and finally develop "climate-adjusted weather" inputs for each of
-the climate-change scenarios.
-
-This last step will derive the inputs for models that simulate future
-impacts on surface hydrology and crop irrigation requirements.
-
-It is important to remember that this process is just one way to prepare
-climate-change impacts. There are a number of other methods, each with
-their own strengths and weaknesses.
-
-2.2.5 Bias Correction/Downscaling Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Errors occur in most models. Some errors are consistent in their
-patterns or recurrence. For example, a climate model may consistently
-simulate too little precipitation when compared with the observed values.
-In this case, the model has a dry bias. A bias is more easily removed
-than random errors. Removing bias helps us improve confidence in climate
-projections.
-
-In addition to bias correction, spatial downscaling can
-make climate simulations more regionally relevant. Downscaling allows
-aspects of climate change to be presented on a spatial scale that is
-useful for analyzing and simulating climate impacts. Regions where local
-manifestations of climate patterns result from complex topography or
-coastal interfaces may find downscaling a necessity.There are many
-spatial downscaling methods, but they can generally be classified into
-two categories: 1) statistical and 2) dynamical.
-
 References:
 Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9
 
