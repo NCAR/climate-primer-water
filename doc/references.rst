@@ -1,7 +1,7 @@
 
 
-References
-==========
+Additional Resources
+====================
 
 - `NCAR Climate Change and Water Resources Primer <https://ral.ucar.edu/sites/default/files/public/product-tool/Primer_2006_cr_project_2973_Climate_Change_and_Water_Resources.pdf>`_
 - `Downscaled High Resolution Datasets for Climate Change Projections <https://www.enviro.wiki/index.php?title=Downscaled_High_Resolution_Datasets_for_Climate_Change_Projections>`_
