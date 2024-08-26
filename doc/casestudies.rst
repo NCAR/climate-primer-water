@@ -1,7 +1,7 @@
 
 
-Case Studies
-============
+Chapter 8: Case Studies
+=======================
 
 Write me.
 
