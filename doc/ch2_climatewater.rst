@@ -349,7 +349,7 @@ approaches where you want to work backward from a particular event and "stress t
 the system with compounding drivers (e.g., climate change and urbanization).
 
 An example use of storylines for water-availability assessments is provided in
-`Chapter 8 <https://ncar.github.io/climate-primer-water/casestudies.html>`_
+`Chapter 8 <https://ncar.github.io/climate-primer-water/ch8_casestudies.html>`_
 
 References:
 Shepherd, T.G., Boyd, E., Calel, R.A. et al. Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. Climatic Change 151, 555–571 (2018). https://doi.org/10.1007/s10584-018-2317-9
