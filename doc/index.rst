@@ -20,7 +20,7 @@ A project of the National Center for Atmospheric Research
    ch5_attribution.rst
    ch6_downscaling.rst
    ch7_uncertainty.rst
-   casestudies.rst
+   ch8_casestudies.rst
    learnmore.rst
    references.rst
    acknowledgements.rst
