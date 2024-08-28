@@ -3,8 +3,8 @@
 Chapter 7: Uncertainty
 ======================
 
-Sources of Uncertainty
-----------------------
+7.1 Sources of Uncertainty
+--------------------------
 
 Simulations of the climate system have multiple sources of uncertainty. Broadly, these sources are:
 
@@ -28,8 +28,8 @@ Even without anthropogenic radiative forcing, projecting future climate involves
 Interactions between radiative forcings and climate variations are plausible, such as influencing the phasing or amplitude of internal or natural climate variability. For instance, the timing of volcanic eruptions may affect Atlantic Multi-decadal Variability and ENSO; and additionally, anthropogenic aerosols may impact decadal modes of variability in the Pacific (IPCC, 2021; Zanchettin, 2017; Otterå et al., 2010; Birkel et al., 2018; Maher et al., 2015; Khodri et al., 2017; Zuo et al., 2018; Smith et al., 2016).
 
 
-Ensembles
----------
+7.2 Ensembles
+-------------
 
 Ensembles of climate simulations, such as those from CMIP6, help explore and estimate these uncertainties. In this context, "ensembles" refer to a collection of multiple climate model simulations used to represent the range of possible future climate conditions, with the spread of these ensembles intended to represent this range. There are different types of ensembles, depending on the various sources of uncertainty in climate projections, including:
 Multi-model ensembles (MMEs): These include simulations from different climate models developed by various research groups around the world (e.g. CMIP). By comparing results from multiple models, scientists can better understand the range of potential outcomes and identify common patterns or discrepancies in climate response uncertainty.
@@ -38,8 +38,8 @@ Perturbed parameter ensembles: These consist of simulations from a single climat
 Using ensembles allows researchers to provide more robust climate projections by averaging across multiple simulations while also quantifying the uncertainty and variability in future climate predictions.
 
 
-Uncertainty Quantification
---------------------------
+7.3 Uncertainty Quantification
+------------------------------
 
 For climate model projections, it is possible to roughly quantify the relative impact of various sources of uncertainty (e.g., Hawkins and Sutton, 2009; Lehner et al., 2020). Different climate models are used to estimate model response uncertainty for a specific emissions pathway, and multiple pathways are used to assess scenario uncertainty. The unforced component of internal variability can be estimated from individual ensemble members of the same climate model (e.g., Deser et al., 2012; Maher et al., 2019).
 
