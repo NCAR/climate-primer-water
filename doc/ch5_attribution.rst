@@ -1,6 +1,6 @@
 .. vim: syntax=rst
 
-Chapter 5 Baseline natural variability and attribution of observed changes
+Chapter 5: Baseline natural variability and attribution of observed changes
 ==========================================================================
 
 This Chapter provides an overview and guidance on the following topics:
