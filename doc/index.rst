@@ -22,6 +22,6 @@ A project of the National Center for Atmospheric Research
    ch7_uncertainty.rst
    ch8_casestudies.rst
    learnmore.rst
-   references.rst
+   resources.rst
    acknowledgements.rst
 
