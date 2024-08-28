@@ -9,13 +9,16 @@ This Chapter provides an overview and guidance on the following topics:
    strengths and weaknesses
 
 
+
+
+
 **Table of Contents**
+
+-  Key takeaways from the chapter
 
 -  Introduction
 
 -  Observational datasets and their strengths and weaknesses
-
--  Key takeaways from the chapter
 
 -  References
 
@@ -30,6 +33,32 @@ for Atmospheric Research (UCAR), sponsored in part through cooperative
 agreement(s) with the National Oceanic and Atmospheric Administration
 (NOAA), U.S. Department of Commerce (DOC). ©1997-2024 University
 Corporation for Atmospheric Research. All Rights Reserved.
+
+**Chapter 3 Key Takeaways**
+
+We need observational datasets to:
+
+- Understand the natural variability of the system of interest
+
+- Provide a baseline reference useful for future model projections in:
+
+    - Removing biases
+    
+    - Downscaling 
+
+    - Making the results physically-realistic (e.g.incorporating temporal and spatial sequencing)
+ 
+When assessing observational datasets it is important to consider their spatial, temporal and distributional climate-data characteristics as this will impact their ability to capture local-impact phenomena.
+
+An alternative to strictly observational-based datasets are climate reanalyses which is often used to reconstruct past climate conditions by combining historical observational data with modern climate models.
+
+As a general rule of thumb, datasets are more useful if they:
+
+- Provide estimates of their uncertainty
+
+- Are derived from multiple data sets, sensors, algorithms, since their errors can partially cancel, making them more robust
+
+For climate change analyses, data sets that accurately capture the distributional characteristics of the system under study are more important than those that capture specific historic events and their sequencing in time and space
 
 3.1 Introduction
 -------------------------------------------------
