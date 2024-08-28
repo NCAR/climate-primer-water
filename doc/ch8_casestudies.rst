@@ -15,7 +15,7 @@ Case Study 2: Compound Flooding Impacts due to Tropical Cyclones under Climate C
 
 **Motivation:**
 
-The East Coast U.S. was severely impacted by Hurricane Irene in 2011. The region was primed by an abnormally wet 2 weeks prior to the hurricane's landfall. Heavy rainfall from the hurricane, saturated soils, and storm surge combined to cause severe flooding along the heavily populated U.S. East Coast. See this `Storymap <https://storymaps.arcgis.com/stories/fa28d98081594cf3b2dd9ce3a6d7018b>`_ from the Mid-Atlantic River Forecast Center for a nice overview of the event.
+The East Coast U.S. was severely impacted by Hurricane Irene in 2011. The region was primed by an abnormally wet 2 weeks prior to the hurricane's landfall. Heavy rainfall from the hurricane, saturated soils, and storm surge combined to cause severe flooding along the heavily populated U.S. East Coast. See this `Storymap <https://storymaps.arcgis.com/stories/fa28d98081594cf3b2dd9ce3a6d7018b>`_ from the Mid-Atlantic River Forecast Center for a nice overview of the event. Per `Gutmann et al. (2018) <https://doi.org/10.1175/JCLI-D-17-0391.1>`_, hurricanes in the U.S. are becoming slower and wetter under climte change. This shift has the potential to change flooding impacts and amplify (or expose new) vulnerabilities in communities and infrastructure.
 
 **Question:**
 
