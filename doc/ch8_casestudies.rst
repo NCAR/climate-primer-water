@@ -39,7 +39,7 @@ We will follow a **storyline approach** ("physically self-consistent unfolding o
 
 **Potential Products:**
 
-* CONUS404-Historical and CONUS404-PGW - CONUS404-Historical is a dynamically downscaled historical weather simulation forced by ERA5 reanalysis product. CONUS404-PGW is a Pseudo-Global Warming simulation based on CONUS404-Historical with anomaly derived using the LENS2 large ensemble (which uses the SSP3-7.0 scenario). Both products incude high-resolution (4-km, hourly) precipitation, temperature, wind, humidity, pressure, radiation fields, among others.
+* `CONUS404-Historical <https://www.usgs.gov/data/conus404-four-kilometer-long-term-regional-hydroclimate-reanalysis-over-conterminous-united>`_ and CONUS404-PGW (coming soon) - CONUS404-Historical is a dynamically downscaled historical weather simulation forced by ERA5 reanalysis product. CONUS404-PGW is a Pseudo-Global Warming simulation based on CONUS404-Historical with anomaly derived using the LENS2 large ensemble (which uses the SSP3-7.0 scenario). Both products incude high-resolution (4-km, hourly) precipitation, temperature, wind, humidity, pressure, radiation fields, among others.
 
 **Similar Examples from the Literature:**
 
