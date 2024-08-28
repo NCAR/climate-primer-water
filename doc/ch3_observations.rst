@@ -1,6 +1,6 @@
 .. vim: syntax=rst
 
-Chapter 3 Characterize baseline quantities of interest, uncertainties
+Chapter 3: Characterize baseline quantities of interest, uncertainties
 =====================================================================
 
 This Chapter provides an overview and guidance on the following topics:
