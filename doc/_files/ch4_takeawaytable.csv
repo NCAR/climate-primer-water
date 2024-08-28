@@ -1,15 +1,6 @@
-ATTRIBUTES,STRENGTHS,LIMITATIONS,,,,,,,
-The predominant tool for advancing our understanding of climate dynamics and informing global response strategies and policy-making in addressing the challenges of climate change.,Provides Projections of Future Climate Conditions and Support for International Climate Assessments," Their accuracy depends on the quality of input data, the precision of mathematical formulations, and the computing power available that constrains the temporal and spatial resolution of the calculations.",,,,,,,
-Offer the only practical way to integrate highly non-linear systems (or system of systems) and then provide insights into their interactions.,Provides an Understanding of Climate Processes and Evaluation of Climate Change Impacts,"There is inherent uncertainty in modeling complex systems, which means that they cannot predict
-exact outcomes.",,,,,,,
-Allows for Testing Hypotheses and Development of Mitigation and Adaptation Strategies,The ability to reproduce the temporal evolution of the climate system has strengthened our confidence in properly contrasting the changes between  different societal emission pathways.,"Uncertainties remain regarding climate models' ability to represent some aspects of the earth-climate system (aersol-cloud interactions, ice sheet dynamics, carbon cycle feedback loops, AI, ground truthing)",,,,,,,
-Provides (and continue to improve upon) representation of climate variability across a broad range timescales.,"The spatial skill of models in reproducing the observed patterns continues to improve with temperature historically already well represented, and precipitation gradually improving.",While some of the differences in climate modeling results have decreased over time; others have increased.,,,,,,,
-,,"The lack of constraints on the GCMs over the historic period is in contrast to how these same GCMs might be used to produce reanalysis data sets over the historic period, where model states are continually brought back to be consistent to observations collected over the period.",,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+ATTRIBUTES,STRENGTHS,LIMITATIONS
+The predominant tool for advancing our understanding of climate dynamics and informing global response strategies and policy-making in addressing the challenges of climate change.,Provides Projections of Future Climate Conditions and Support for International Climate Assessments," Their accuracy depends on the quality of input data, the precision of mathematical formulations, and the computing power available that constrains the temporal and spatial resolution of the calculations."
+Offer the only practical way to integrate highly non-linear systems (or system of systems) and then provide insights into their interactions.,Provides an Understanding of Climate Processes and Evaluation of Climate Change Impacts,"There is inherent uncertainty in modeling complex systems, which means that they cannot predict exact outcomes."
+Allows for Testing Hypotheses and Development of Mitigation and Adaptation Strategies,The ability to reproduce the temporal evolution of the climate system has strengthened our confidence in properly contrasting the changes between  different societal emission pathways.,"Uncertainties remain regarding climate models' ability to represent some aspects of the earth-climate system (aersol-cloud interactions, ice sheet dynamics, carbon cycle feedback loops, AI, ground truthing)"
+Provides (and continue to improve upon) representation of climate variability across a broad range timescales.,"The spatial skill of models in reproducing the observed patterns continues to improve with temperature historically already well represented, and precipitation gradually improving.",While some of the differences in climate modeling results have decreased over time; others have increased.
+,,"The lack of constraints on the GCMs over the historic period is in contrast to how these same GCMs might be used to produce reanalysis data sets over the historic period, where model states are continually brought back to be consistent to observations collected over the period."
