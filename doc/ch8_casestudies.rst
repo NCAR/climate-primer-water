@@ -31,7 +31,7 @@ What would the flooding impacts of Hurricane Irene look like under a warmer clim
 
 *  We are interested in evaluating impacts of an *extreme event*. 
 
-   *  We need a climate data product that represents extreme events.
+   *  We need a climate data product that represents extreme events. 
 
 **Approach:**
 
