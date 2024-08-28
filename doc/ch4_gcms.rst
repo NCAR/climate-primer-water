@@ -34,6 +34,12 @@ This Chapter provides an overview and guidance on the following topics:
 Chapter 4 Key Takeaways
 ---------------------------------
 Summary of GCM Attributes, Strengths, and Limitations
+
+.. csv-table:: Key takeaways
+   :file: _files/ch4_takeawaytable.csv
+   :header-rows: 1
+
+
 +-------------------------------------------------+-----------------------+
 | **Research Question**                           | **System Performance  |
 |                                                 | Measures**            |
