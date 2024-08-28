@@ -10,6 +10,8 @@ This Chapter provides an overview and guidance on the following topics:
 
 **Table of Contents**
 
+-  Key takeaways from the chapter
+
 -  Introduction
 
    -  Weather and climate
@@ -18,8 +20,6 @@ This Chapter provides an overview and guidance on the following topics:
 
 -  Baseline natural variability and detection and attribution of
    observed changes
-
--  Key takeaways from the chapter
 
 -  References
 
@@ -36,6 +36,34 @@ for Atmospheric Research (UCAR), sponsored in part through cooperative
 agreement(s) with the National Oceanic and Atmospheric Administration
 (NOAA), U.S. Department of Commerce (DOC). ©1997-2024 University
 Corporation for Atmospheric Research. All Rights Reserved.
+
+**Chapter 5 Key Takeaways**
+
+Detection  is about identifying a significant change in the climate system (temperature, precipitation, wind patterns, shifts in seasonal cycles, etc.) that is above and beyond the natural internal variability of the system.
+
+Climate attribution deals with determining the causes of detected changes in the climate. This involves assessing the various natural and anthropogenic (human-induced) factors that could have led to the observed changes.
+
+Attribution of observed changes is not possible without some kind of model of the relationship between external climate drivers and observable variables, given that we cannot observe a world in which either anthropogenic or natural forcing is absent. 
+
+  - Such models may be very simple (e.g. a set of statistical assumptions) or very complex (e.g. coupled Earth System Model)
+
+A more recent approach in climate modeling for detection and attribution is to run a “Large Ensemble” of historical (and future) simulations, where each member of the ensemble is subject to natural+anthropogenic external forcings, but starts from a slightly different initial condition, which results in a different trajectory of internal variability once the memory of the initial state is lost.
+
+
+The following observed and/or projected trends have an impact on planning for water and environmental resources:
+
+  - Global average temperature has been warming and will continue to warm through the 21st century
+
+  - Short-term natural cycles of increased warming interspersed with cooling (or slower warming) will be superimposed on the overall long-term warming
+
+  - Average snow cover and snowpack in the United States is likely to decrease through the 21st century
+
+  - Precipitation extremes (wet and dry) are likely to continue increasing through the 21st century, with some regional trends toward either more wet or more dry
+
+  - These climate trends have, and will continue to have, impacts on water resources
+
+
+
 
 5.1 Introduction
 -------------------------------------------------
