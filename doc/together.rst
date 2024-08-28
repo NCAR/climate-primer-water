@@ -1,6 +1,6 @@
 
 
-Chapter 8: Bringing it all together
+Bringing it all together
 ===================================
 
 Decision Tree
