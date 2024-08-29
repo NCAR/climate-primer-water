@@ -62,8 +62,6 @@ generally made available through accessible data portals.
 
 |image1|
 
---------------
-
 Figure 1. Downscaling from coarse resolution grids of global earth
 systems models (top), with a horizontal grid spacing of about 100 km, to
 fine scales of a high resolution regional model at ~4 km grid spacing
@@ -74,7 +72,6 @@ represented at coarser resolution, but there are significant biases in
 the GCM precipitation both spatially and in magnitude, different
 processes are simulated locally.
 
---------------
 
 6.2 Approaches to downscaling
 =============================
@@ -85,7 +82,7 @@ hydrologic modeling and analysis. Figure 5.1 provides a general summary
 of the approaches to downscaling, suggesting a ranking of methods from
 the ‘simpler’ approaches to the left and to the more complex and
 computationally intensive approaches to the right (Teutschbein and
-Seibert 2012;Vandal et al. 2019). While the figure suggests a given
+Seibert 2012; Vandal et al. 2019). While the figure suggests a given
 downscaling procedure will result in a usable dataset, the reality is
 that the various methods can include various combinations of approaches.
 The bottom line: There is some ‘art’ to downscaling, there is not one
@@ -105,7 +102,7 @@ smaller spatial domains.
 
 Recent developments in machine learning have introduced new methods that
 blend some of the benefits and drawbacks of both statistical and
-dynamical approaches (:mark:`Vandal et al. 2019`). These techniques are
+dynamical approaches (Vandal et al. 2019). These techniques are
 applicable for enhancing both spatial and temporal resolution. In
 statistical methods, the modifications to spatial and temporal data can
 usually be handled separately, while dynamical downscaling allows for a
@@ -228,32 +225,32 @@ parametric methods.
 
 Some of the more common Non-Parametric techniques include:
 
-   **The Locally Constructed Analog (LOCA) method**, which constructs
-   local analogs by identifying days in the historical observational
-   record with similar large-scale climate patterns to those simulated
-   by the climate model. The selected analogs are weighted based on
-   their similarity to the target pattern and then interpolated to the
-   desired observational grid.Focuses on single-variable analogs, with a
-   primary emphasis on spatial patterns and high-resolution consistency
-   with observations (Pierce et al. 2016).
+**The Locally Constructed Analog (LOCA) method**, which constructs
+local analogs by identifying days in the historical observational
+record with similar large-scale climate patterns to those simulated
+by the climate model. The selected analogs are weighted based on
+their similarity to the target pattern and then interpolated to the
+desired observational grid.Focuses on single-variable analogs, with a
+primary emphasis on spatial patterns and high-resolution consistency
+with observations (Pierce et al. 2016).
 
-   **The Multivariate Adaptive Constructed Analogs (MACA**) downscaling
-   method identifies analog days in the historical record that closely
-   match the multivariate climate conditions of each day in the GCM
-   simulations. These analogs are selected based on multiple climate
-   variables (e.g., temperature, precipitation) to ensure a
-   comprehensive representation of climate conditions. Once the analog
-   days are identified, their observed weather patterns are used to
-   construct a high-resolution climate dataset corresponding to the GCM
-   projections. This involves combining the observed data from the
-   analog days with the simulated data to generate downscaled outputs.
-   MACA is considered “adaptive” as it allows for the ability to adjust
-   the selection of analog days over time and space, ensuring that the
-   downscaling remains relevant as climate conditions evolve. The
-   primary difference between MACA and LOCA is that MACA uses a
-   multivariate approach to downscaling, considering multiple climate
-   variables simultaneously to construct analogs (:mark:`Abatzoglou et
-   al. 2012`).
+**The Multivariate Adaptive Constructed Analogs (MACA**) downscaling
+method identifies analog days in the historical record that closely
+match the multivariate climate conditions of each day in the GCM
+simulations. These analogs are selected based on multiple climate
+variables (e.g., temperature, precipitation) to ensure a
+comprehensive representation of climate conditions. Once the analog
+days are identified, their observed weather patterns are used to
+construct a high-resolution climate dataset corresponding to the GCM
+projections. This involves combining the observed data from the
+analog days with the simulated data to generate downscaled outputs.
+MACA is considered “adaptive” as it allows for the ability to adjust
+the selection of analog days over time and space, ensuring that the
+downscaling remains relevant as climate conditions evolve. The
+primary difference between MACA and LOCA is that MACA uses a
+multivariate approach to downscaling, considering multiple climate
+variables simultaneously to construct analogs (Abatzoglou et
+al. 2012).
 
 **Machine learning approaches** such as support vector machines, random
 forests (He et al. 2016), neural networks, and kernel-based methods can
@@ -450,60 +447,56 @@ fine-scale weather variability influenced by local or micro-climate
 conditions, which are crucial for understanding extreme weather events 
 that impact hydrologic systems.
 
---------------
+.. dropdown:: **WRF**
 
-   *(pop out)*
+    *The Weather Research Forecast Model (WRF)* - The WRF model is one of
+    the most widely used dynamical downscaling tools available for
+    conducting Regional Climate Modeling experiments. The WRF model is a
+    state of the art mesoscale numerical weather prediction system
+    designed for both atmospheric research, operational forecasting
+    applications, and more recently, regional climate change projection
+    development, where it is used to downscale ESM outputs to a finer
+    resolution, typically on the order of a few kilometers, to study
+    regional climate features. This process allows for more detailed
+    simulations of local climate processes that GCMs might miss due to
+    their coarser grid resolutions.
 
-   *The Weather Research Forecast Model (WRF)* - The WRF model is one of
-   the most widely used dynamical downscaling tools available for
-   conducting Regional Climate Modeling experiments. The WRF model is a
-   state of the art mesoscale numerical weather prediction system
-   designed for both atmospheric research, operational forecasting
-   applications, and more recently, regional climate change projection
-   development, where it is used to downscale ESM outputs to a finer
-   resolution, typically on the order of a few kilometers, to study
-   regional climate features. This process allows for more detailed
-   simulations of local climate processes that GCMs might miss due to
-   their coarser grid resolutions.
+    The WRF model serves a wide range of meteorological applications
+    across scales from tens of meters to thousands of kilometers. The
+    effort to develop WRF began in the latter 1990's and was a
+    collaborative partnership of the National Center for Atmospheric
+    Research (NCAR), the National Oceanic and Atmospheric Administration
+    (represented by the National Centers for Environmental Prediction
+    (NCEP) and the Earth System Research Laboratory), the U.S. Air Force,
+    the Naval Research Laboratory, the University of Oklahoma, and the
+    Federal Aviation Administration (FAA).
 
-   The WRF model serves a wide range of meteorological applications
-   across scales from tens of meters to thousands of kilometers. The
-   effort to develop WRF began in the latter 1990's and was a
-   collaborative partnership of the National Center for Atmospheric
-   Research (NCAR), the National Oceanic and Atmospheric Administration
-   (represented by the National Centers for Environmental Prediction
-   (NCEP) and the Earth System Research Laboratory), the U.S. Air Force,
-   the Naval Research Laboratory, the University of Oklahoma, and the
-   Federal Aviation Administration (FAA).
+    For researchers, WRF can produce simulations based on actual
+    atmospheric conditions (i.e., from observations and analyses),
+    idealized conditions, and future climate projections driven by ESM’s.
+    WRF offers operational forecasting a flexible and
+    computationally-efficient platform, while reflecting recent advances
+    in physics, numerics, and data assimilation contributed by developers
+    from the expansive research community. WRF is currently in
+    operational use at NCEP and other national meteorological centers as
+    well as in real-time forecasting configurations at laboratories,
+    universities, and companies. WRF has a large worldwide community of
+    registered users (a cumulative total of over 57,800 in over 160
+    countries as of 2021), and NCAR provides regular workshops and
+    tutorials on it.
 
-   For researchers, WRF can produce simulations based on actual
-   atmospheric conditions (i.e., from observations and analyses),
-   idealized conditions, and future climate projections driven by ESM’s.
-   WRF offers operational forecasting a flexible and
-   computationally-efficient platform, while reflecting recent advances
-   in physics, numerics, and data assimilation contributed by developers
-   from the expansive research community. WRF is currently in
-   operational use at NCEP and other national meteorological centers as
-   well as in real-time forecasting configurations at laboratories,
-   universities, and companies. WRF has a large worldwide community of
-   registered users (a cumulative total of over 57,800 in over 160
-   countries as of 2021), and NCAR provides regular workshops and
-   tutorials on it.
+    |image3|
 
-   |image3|
+    Figure: The Workflow for the WRF Model, used for both an operational
+    implementation or a future regional dynamical downscaling experiment.
 
-   Figure: The Workflow for the WRF Model, used for both an operational
-   implementation or a future regional dynamical downscaling experiment.
-
-   This site, https://www.mmm.ucar.edu/models/wrf, provides general
-   background information on the WRF Model and its organization and
-   offers links to information on user support, code contributions, and
-   system administration. For detailed information on model use, updates
-   and events, support, code downloads, and documentation, please visit
-   the WRF-ARW github users page
-   (https://github.com/wrf-model/Users_Guide).
-
---------------
+    This site, https://www.mmm.ucar.edu/models/wrf, provides general
+    background information on the WRF Model and its organization and
+    offers links to information on user support, code contributions, and
+    system administration. For detailed information on model use, updates
+    and events, support, code downloads, and documentation, please visit
+    the WRF-ARW github users page
+    (https://github.com/wrf-model/Users_Guide).
 
 Similar to statistical downscaling, many institutions provide publicly
 available dynamically downscaled products. However, these products often
@@ -623,8 +616,6 @@ adjusting the model outputs to better match observed data. There are two
 primary stages at which bias correction can be applied: pre-bias
 correction and post-bias correction.
 
---------------
-
 **Pre-bias correction is applied before the dynamical downscaling
 process**. This involves adjusting the outputs of the GCMs before they
 are used as boundary conditions for the RCMs. The advantage of pre-bias
@@ -646,8 +637,6 @@ other regions, GCM biases have been shown to significantly inhibit the
 formation of tropical cyclones, as such the changes in tropical cyclones
 can not be simulated accurately without removing the large scale biases
 in wind shear and atmospheric stability (Akhter et al. 2023).
-
---------------
 
 **Post-bias correction is applied after the dynamical downscaling
 process**. This method involves adjusting the outputs of the GCNs and
@@ -673,8 +662,6 @@ biases in climate model output by aligning the statistical distribution
 of model-simulated variables with observed data. The approach involves
 the following steps:
 
---------------
-
 -  Cumulative Distribution Functions (CDFs): The CDF of the climate
    model output is compared to the CDF of the observational data for a
    particular variable (e.g., temperature, precipitation) over a
@@ -689,14 +676,10 @@ the following steps:
    simulations by transforming the model outputs using the mapping
    function derived from the historical period.
 
---------------
-
 This approach is particularly effective in addressing systematic biases
 in climate models, especially for extreme values, by ensuring that the
 corrected model outputs better represent the observed climate
 distribution.
-
---------------
 
 In summary, both pre- and post-bias correction techniques are essential
 for improving the reliability of downscaled climate projections.
@@ -708,9 +691,6 @@ observed data. The choice between pre- and post-bias correction, or a
 combination of both, depends on the specific requirements of the study
 and the characteristics of the region and models being used.
 
---------------
-
---------------
 
 6.3 References
 ==============
