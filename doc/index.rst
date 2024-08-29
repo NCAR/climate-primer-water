@@ -21,6 +21,7 @@ A project of the National Center for Atmospheric Research
    ch6_downscaling.rst
    ch7_uncertainty.rst
    ch8_casestudies.rst
+   ch9_recipes.rst
    learnmore.rst
    resources.rst
    acknowledgements.rst
