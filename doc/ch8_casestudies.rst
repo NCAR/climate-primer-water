@@ -7,7 +7,33 @@ Chapter 8: Example Cases
 Example Case 1: Delaware River Basin Water System Vulnerabilities under Climate Change
 --------------------------------------------------------------------------------------
 
-Coming soon.
+**Motivation:**
+
+The Delaware River Basin provides drinking water to nearly 15 million people across 4 states, including 3 water supply reservoirs in the upper part of the basin that divert water to New York City. There is a complex governance structure and shared management plan that regulates how water is managed in the basin for human and ecosystem uses, but stressors like drought compounded by land use change, sea level rise, and climate change can expose vulnerabilities in the system. We need to understand how these drivers interact with the water management system to better characterize future water supply risks.
+
+**Question:**
+
+What are the vulnerabilities in the Delaware River Basin water management system under future climate change, land cover change, and sea level rise?
+
+**Considerations:**
+
+*  Water management and reservoir operations planning generally focuses on timescales that are relatively coarse (~weeks) and long (~decades).
+*  While snow is important in this basin, topographic gradients are relatively moderate and the basin is generally well-covered by meteorological observations.
+*  Spatial units can be coarser or semi-distributed/lumped since we are mostly interested in integrated fluxes like inflows to reservoirs.
+*  We need to capture human responses to climate.
+*  Since we are focused on water systems vulnerabilities and risks, we likely need to explore a wide range of conditions to truly characterize risk probabilities and uncertainties.
+
+**Approach:**
+
+Because we need to characterize changing risks, we want to explore a wide range of potential conditions. We will therefore target an ensemble approach where we expose our water systems model to a large number of scenarios. We will want to leverage climate data products that span a range of different climate futures and are high-enough resolution to show reasonable estimates for this relatively small basin (~10km or finer), but daily timesteps are reasonable.
+
+**Potential Products:**
+
+*  `LOCA version 2 for North America <https://loca.ucsd.edu/loca-version-2-for-north-america-ca-jan-2023/>`_ : 6-km across North America, daily precipitation and min and max temperature, 1950-2100, CMIP5 SSP 245, SSP 370, and SSP 585, 27 GCMs with up to 10 ensembles per model
+
+* `MACA CMIP5 downscaled data <https://climate.northwestknowledge.net/MACA/>`_ : 4-6-km across the U.S., daily temperature, precipitation, humidity, wind, and radiation, 1950-2099 corrected to Livneh (MACAv2-LIVNEH) or GRIDMET (MACAv2-METDATA), RCP 4.5 and RCP 8.5 scenarios, 20 GCMs
+
+
 
 
 Example Case 2: Compound Flooding Impacts due to Tropical Cyclones under Climate Change
