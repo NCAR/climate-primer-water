@@ -24,5 +24,6 @@ A project of the National Center for Atmospheric Research
    ch9_recipes.rst
    learnmore.rst
    resources.rst
+   glossary.rst
    acknowledgements.rst
 
