@@ -424,6 +424,11 @@ cons, and the availability of tools for their applications.
 |                 | variables       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
+.. csv-table::
+   :file: _files/ch6_downscaling_table.csv
+   :header-rows: 1
+
+
 6.2.2 Dynamical Downscaling
 ---------------------------
 
