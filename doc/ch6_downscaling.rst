@@ -447,7 +447,7 @@ fine-scale weather variability influenced by local or micro-climate
 conditions, which are crucial for understanding extreme weather events 
 that impact hydrologic systems.
 
-.. dropdown:: **WRF**
+.. dropdown:: **The Weather Research Forecast Model (WRF)**
 
     *The Weather Research Forecast Model (WRF)* - The WRF model is one of
     the most widely used dynamical downscaling tools available for
@@ -550,7 +550,7 @@ approach, where the climate of the past is assumed to repeat in the
 future, but the meteorological fields are perturbed to reflect a, for
 example, ‘warmer and moisture environment’ (Rhoades et al. 2023). Some
 recent tools that can be used to develop PGW datasets are available,
-such as those from Brogli et al. (2023) [1]_.
+such as those from `Brogli et al. (2023) <https://github.com/Potopoles/PGW4ERA5>`_.
 
 An example of a PGW dataset, which has been developed as a collaboration
 between NCAR and USGS Water Mission Area is the CONUS404 (Rasmussen et
@@ -931,8 +931,6 @@ Themeßl, M. J., Gobiet, A., & Leuprecht, A. (2011).
 precipitation from regional climate models." International Journal of
 Climatology, 31(10), 1530-1544.
 
-.. [1]
-   https://github.com/Potopoles/PGW4ERA5
 
 .. |image1| image:: media/ch6/image1.png
    :width: 6.5in
