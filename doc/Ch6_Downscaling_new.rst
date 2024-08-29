@@ -1,10 +1,11 @@
 .. vim: syntax=rst
 
+==========================================
 Chapter 6: Place-Based Climate Projections
 ==========================================
 
-Introduction
-============
+6.1 Introduction
+================
 
 Despite continuing improvements in Global Climate Models (GCMs) and
 computational capabilities of high-performance computers, the spatial
@@ -75,8 +76,8 @@ processes are simulated locally.
 
 --------------
 
-Approaches to downscaling
-=========================
+6.2 Approaches to downscaling
+=============================
 
 There are a multitude of techniques for translating coarse resolution
 GCM into fine-scale, local meteorological data that is useful in
@@ -137,8 +138,8 @@ temperature), where the simple linear equation is used to imply the
 estimation of parameters (i.e. *m,b)*; Pseudo Global Warming (PGW);
 Bias-Correction (BC), Variable Resolution Global Climate Model (VRGCM).
 
-Statistical Downscaling
------------------------
+6.2.1 Statistical Downscaling
+-----------------------------
 
 Statistical downscaling techniques can be employed to enhance both the
 temporal and spatial resolution of data, making it more applicable for
@@ -179,7 +180,7 @@ clear that any statistical downscaling method can be relied on to
 represent changes in them.
 
 Delta Change Methods
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 A simple, but informative method to explore climate change sensitivity
 of hydrologic systems is referred to as the “Delta Change” approach. It
@@ -205,7 +206,7 @@ to identify system vulnerabilities, and simple, direct techniques for
 the
 
 Non-Parametric Methods
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
 
 In the context of downscaling global climate models (GCMs),
 "non-parametric" downscaling refers to statistical approaches that do
@@ -292,6 +293,7 @@ warmer, or ‘much drier and warmer’ types of scenarios (Yates et al.
 2005; Seyyed et al. 2012).
 
 Parametric Methods
+^^^^^^^^^^^^^^^^^^
 
 Parametric statistical downscaling employs statistical models that
 assume a specific functional form or distribution for the relationship
@@ -425,8 +427,8 @@ cons, and the availability of tools for their applications.
 |                 | variables       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
-Dynamical Downscaling
----------------------
+6.2.2 Dynamical Downscaling
+---------------------------
 
 Dynamical downscaling involves the combined use of both global and
 regional climate models (RCMs) to achieve higher spatial resolution and
@@ -445,9 +447,8 @@ corrected before running the RCM, and RCM outputs commonly require an
 additional post-processing step typically in the form of a bias
 correction. Nevertheless, RCMs can improve the representation of
 fine-scale weather variability influenced by local or micro-climate
-conditions, which are crucial for understanding extreme
-
-weather events that impact hydrologic systems.
+conditions, which are crucial for understanding extreme weather events 
+that impact hydrologic systems.
 
 --------------
 
@@ -523,7 +524,7 @@ applications, where spatial gradients and their influence on weather and
 climate are critical to represent.
 
 Intermediate Complexity Models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Fully dynamical Global and Regional Climate models are expensive to run,
 as they have a substantial computation requirement for simulating both
@@ -540,7 +541,7 @@ prediction models and climate models, and in dynamical downscaling
 (https://github.com/NCAR/icar).
 
 Pseudo Global Warming
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 The PGW approach involves modifying historical weather data with future
 climate change signals derived from global climate models (GCMs) to
@@ -570,8 +571,10 @@ model simulations run by NCAR. The CONUS404 includes 42 years of data
 Mexico, thereby capturing transboundary river basins and covering all
 contributing areas for CONUS surface waters.
 
-Variable Resolution GCMs\ |image4|
-----------------------------------
+6.2.3 Variable Resolution GCMs
+-------------------------------
+
+|image4|
 
 A new generation of global climate models takes advantage of a refined
 mesh that enhances the model’s ability to simulate climate processes
@@ -590,11 +593,11 @@ Earth system, including the atmosphere, ocean, sea ice, and land, to
 provide a comprehensive understanding of climate interactions and
 feedbacks.
 
-Pre and Post- Processing of Climate Models
-------------------------------------------
+6.2.4 Pre- and Post- Processing of Climate Models
+-------------------------------------------------
 
 Bias Correction
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 A reality of both GCMs and RCMs is the fact that both are prone to
 biases due to our limited ability to represent the true state of the
@@ -709,243 +712,244 @@ and the characteristics of the region and models being used.
 
 --------------
 
-References
+6.3 References
+==============
 
-:mark:`Abatzoglou, J. T., & Brown, T. J. (2012). A comparison of
+Abatzoglou, J. T., & Brown, T. J. (2012). A comparison of
 statistical downscaling methods suited for wildfire applications.
-*International journal of climatology*, *32*\ (5), 772-780.`
+*International journal of climatology*, *32*\ (5), 772-780.
 
-:mark:`Bhuvandas, N., Timbadiya, P. V., Patel, P. L., & Porey, P. D.
+Bhuvandas, N., Timbadiya, P. V., Patel, P. L., & Porey, P. D.
 (2014). Review of downscaling methods in climate change and their role
 in hydrological studies. *Int. J. Environ. Ecol. Geol. Mar. Eng*, *8*,
-713-718.`
+713-718.
 
-:mark:`Brogli, R., Heim, C., Mensch, J., Sørland, S. L., & Schär, C.
+Brogli, R., Heim, C., Mensch, J., Sørland, S. L., & Schär, C.
 (2023). The pseudo-global-warming (PGW) approach: methodology, software
 package PGW4ERA5 v1. 1, validation, and sensitivity analyses.
-Geoscientific Model Development, 16(3), 907-926.`
+Geoscientific Model Development, 16(3), 907-926.
 
-:mark:`Buster, G., Benton, B. N., Glaws, A., & King, R. N. (2024).
+Buster, G., Benton, B. N., Glaws, A., & King, R. N. (2024).
 High-resolution meteorology with climate change impacts from global
 climate model data using generative machine learning. *Nature Energy*,
-1-13.`
+1-13.
 
-:mark:`He, X., Chaney, N. W., Schleiss, M., & Sheffield, J. (2016).
+He, X., Chaney, N. W., Schleiss, M., & Sheffield, J. (2016).
 Spatial downscaling of precipitation using adaptable random forests.
-*Water resources research*, *52*\ (10), 8217-8237.`
+*Water resources research*, *52*\ (10), 8217-8237.
 
-:mark:`Lorenz, Edward N. (March 1963). `"Deterministic Nonperiodic
+Lorenz, Edward N. (March 1963). `"Deterministic Nonperiodic
 Flow" <https://doi.org/10.1175%2F1520-0469%281963%29020%3C0130%3Adnf%3E2.0.co%3B2>`__.
-*Journal of the Atmospheric Sciences*. **20** (2): 130–141.`
+*Journal of the Atmospheric Sciences*. **20** (2): 130–141.
 
-:mark:`Pinto, James O., Andrew J. Monaghan, Luca Delle Monache, Emilie
+Pinto, James O., Andrew J. Monaghan, Luca Delle Monache, Emilie
 Vanvyve, and Daran L. Rife. "Regional assessment of sampling techniques
 for more efficient dynamical climate downscaling." Journal of climate
-27, no. 4 (2014): 1524-1538.`
+27, no. 4 (2014): 1524-1538.
 
-:mark:`Kotamarthi, R., Hayhoe, K., Mearns, L. O., Wuebbles, D., &
+Kotamarthi, R., Hayhoe, K., Mearns, L. O., Wuebbles, D., &
 Jacobs, J. (2021). Dynamical Downscaling. In Downscaling Techniques for
 High-Resolution Climate Projections (pp. 64-81). Cambridge University
-Press. DOI: 10.1017/9781108601269.005`
+Press. DOI: 10.1017/9781108601269.005
 
-:mark:`PRECIS Model Usage for China’s Extreme Temperatures. (2024).
-Sustainability, 16(7), 3030. DOI: 10.3390/su16073030`
+PRECIS Model Usage for China’s Extreme Temperatures. (2024).
+Sustainability, 16(7), 3030. DOI: 10.3390/su16073030
 
-:mark:`Wilby, R. L., et al. (2004). Statistical downscaling of general
+Wilby, R. L., et al. (2004). Statistical downscaling of general
 circulation model output: A case study. Climate Research, 27, 211-229.
-DOI: 10.3354/cr027211`
+DOI: 10.3354/cr027211
 
-:mark:`Hempel, S., Frieler, K., Warszawski, L., Schewe, J., & Piontek,
+Hempel, S., Frieler, K., Warszawski, L., Schewe, J., & Piontek,
 F. (2013). A trend-preserving bias correction – the ISI-MIP approach.
-Earth System Dynamics, 4(2), 219-236. DOI: 10.5194/esd-4-219-2013`
+Earth System Dynamics, 4(2), 219-236. DOI: 10.5194/esd-4-219-2013
 
-:mark:`Gutmann, E., Barstad, I., Clark, M., Arnold, J., & Rasmussen, R.
+Gutmann, E., Barstad, I., Clark, M., Arnold, J., & Rasmussen, R.
 (2016). The intermediate complexity atmospheric research model (ICAR).
-Journal of Hydrometeorology, 17(3), 957-973.`
+Journal of Hydrometeorology, 17(3), 957-973.
 
-:mark:`Kochkov, D., Yuval, J., Langmore, I., Norgaard, P., Smith, J.,
+Kochkov, D., Yuval, J., Langmore, I., Norgaard, P., Smith, J.,
 Mooers, G., Klöwer, M., Lottes, J., Rasp, S., Düben, P. and Hatfield,
 S., 2024. Neural general circulation models for weather and climate.
-Nature, pp.1-7.`
+Nature, pp.1-7.
 
-:mark:`Moore, N., & Luo, L. (2021). Dynamical and statistical
+Moore, N., & Luo, L. (2021). Dynamical and statistical
 downscaling for hydrological predictions. Hydrology and Earth System
-Sciences, 25, 1205-1225. DOI: 10.5194/hess-25-1205-2021`
+Sciences, 25, 1205-1225. DOI: 10.5194/hess-25-1205-2021
 
-:mark:`Kuswanto, H., et al. (2021). Bias correction methods for climate
+Kuswanto, H., et al. (2021). Bias correction methods for climate
 impact projections. Journal of Climate, 34(5), 1751-1767. DOI:
-10.1175/JCLI-D-20-0506.1`
+10.1175/JCLI-D-20-0506.1
 
-:mark:`McSweeney, C. F., & Jones, R. G. (2016). The effect of bias
+McSweeney, C. F., & Jones, R. G. (2016). The effect of bias
 correction on future climate projections. Climatic Change, 134, 635-646.
-DOI: 10.1007/s10584-015-1565-3`
+DOI: 10.1007/s10584-015-1565-3
 
-:mark:`Pielke, R. A., et al. (2012). Dynamical downscaling: Assessment
+Pielke, R. A., et al. (2012). Dynamical downscaling: Assessment
 of value retained and added using the Regional Atmospheric Modeling
 System (RAMS). Journal of Geophysical Research: Atmospheres, 117,
-D05127. DOI: 10.1029/2011JD016630`
+D05127. DOI: 10.1029/2011JD016630
 
-:mark:`Giorgi, F., & Mearns, L. O. (1999). Introduction to special
+Giorgi, F., & Mearns, L. O. (1999). Introduction to special
 section: Regional climate modeling revisited. Journal of Geophysical
-Research: Atmospheres, 104(D6), 6335-6352. DOI: 10.1029/98JD02072`
+Research: Atmospheres, 104(D6), 6335-6352. DOI: 10.1029/98JD02072
 
-:mark:`Jang, S., & Kavvas, M. L. (2015). Downscaling global climate
+Jang, S., & Kavvas, M. L. (2015). Downscaling global climate
 simulations to regional scales: statistical downscaling versus dynamical
 downscaling. *Journal of Hydrologic Engineering*, *20*\ (1), A4014006.`
 
 :mark:`Christensen, J. H., & Christensen, O. B. (2003). Severe
 summertime flooding in Europe. Nature, 421(6925), 805-806. DOI:
-10.1038/421805a`
+10.1038/421805a
 
-:mark:`Leung, L. R., & Qian, Y. (2003). The sensitivity of precipitation
+Leung, L. R., & Qian, Y. (2003). The sensitivity of precipitation
 and snowpack simulations to model resolution via dynamical downscaling
 of GCM output. Journal of Hydrometeorology, 4(6), 1025-1043. DOI:
-10.1175/1525-7541(2003)004<1025, >2.0.CO;2`
+10.1175/1525-7541(2003)004<1025, >2.0.CO;2
 
-:mark:`Le Roux, R., Katurji, M., Zawar-Reza, P., Quénol, H., & Sturman,
+Le Roux, R., Katurji, M., Zawar-Reza, P., Quénol, H., & Sturman,
 A. (2018). Comparison of statistical and dynamical downscaling results
-from the WRF model. Environmental modelling & software, 100, 67-73.`
+from the WRF model. Environmental modelling & software, 100, 67-73.
 
-:mark:`Laprise, R. (2008). Regional climate modeling. Journal of
+Laprise, R. (2008). Regional climate modeling. Journal of
 Computational Physics, 227(7), 3641-3666. DOI:
-10.1016/j.jcp.2006.10.024`
+10.1016/j.jcp.2006.10.024
 
-:mark:`Xu, Z., et al. (2020). Regional climate modeling for Australia:
+Xu, Z., et al. (2020). Regional climate modeling for Australia:
 past performance and future projections. Climate Dynamics, 54,
-3239-3263. DOI: 10.1007/s00382-020-05152-3`
+3239-3263. DOI: 10.1007/s00382-020-05152-3
 
 :mark:`Feser, F., & Barcikowska, M. (2013). The influence of spectral
 nudging on typhoon formation and path in regional climate models.
 Climate Dynamics, 41, 1025-1045. DOI: 10.1007/s00382-013-1746-x`
 
-:mark:`Di Luca, A., et al. (2013). Comparison of statistical and
+Di Luca, A., et al. (2013). Comparison of statistical and
 dynamical downscaling of precipitation over Australia from a global
 climate model. Journal of Geophysical Research: Atmospheres, 118(12),
-585-604. DOI: 10.1002/jgrd.50139`
+585-604. DOI: 10.1002/jgrd.50139
 
-:mark:`Liu, C., et al. (2012). Dynamical downscaling of precipitation
+Liu, C., et al. (2012). Dynamical downscaling of precipitation
 and temperature changes over China using a regional climate model with
 two parameterization schemes. Climate Dynamics, 39, 345-365. DOI:
-10.1007/s00382-012-1412-5`
+10.1007/s00382-012-1412-5
 
-:mark:`Torma, C., et al. (2015). On the added value of regional climate
+Torma, C., et al. (2015). On the added value of regional climate
 modeling: Does a high-resolution model improve the simulation of
 precipitation? Monthly Weather Review, 143(2), 476-496. DOI:
-10.1175/MWR-D-14-00034.1`
+10.1175/MWR-D-14-00034.1
 
-:mark:`Gao, X. J., et al. (2011). A comparison of downscaling techniques
+Gao, X. J., et al. (2011). A comparison of downscaling techniques
 for producing high-resolution climate projections: application to the
 Yellow River basin, China. Climate Research, 47, 197-209. DOI:
-10.3354/cr00981`
+10.3354/cr00981
 
-:mark:`Evans, J. P., & McCabe, M. F. (2013). Effect of model resolution
+Evans, J. P., & McCabe, M. F. (2013). Effect of model resolution
 on a regional climate model simulation over southeast Australia. Climate
-Research, 56, 131-145. DOI: 10.3354/cr01152`
+Research, 56, 131-145. DOI: 10.3354/cr01152
 
-:mark:`Teutschbein, C., & Seibert, J. (2012). Bias correction of
+Teutschbein, C., & Seibert, J. (2012). Bias correction of
 regional climate model simulations for hydrological climate-change
 impact studies: Review and evaluation of different methods. Journal of
-Hydrology, 456-457, 12-29. DOI: 10.1016/j.jhydrol.2012.05.052`
+Hydrology, 456-457, 12-29. DOI: 10.1016/j.jhydrol.2012.05.052
 
-:mark:`Taylor, K. E., Stouffer, R. J., & Meehl, G. A. (2012). An
+Taylor, K. E., Stouffer, R. J., & Meehl, G. A. (2012). An
 overview of CMIP5 and the experiment design. *Bulletin of the American
-meteorological Society*, *93*\ (4), 485-498.`
+meteorological Society*, *93*\ (4), 485-498.
 
-:mark:`Andrews, T., Gregory, J. M., Webb, M. J., & Taylor, K. E. (2012).
+Andrews, T., Gregory, J. M., Webb, M. J., & Taylor, K. E. (2012).
 Forcing, feedbacks and climate sensitivity in CMIP5 coupled
 atmosphere‐ocean climate models. *Geophysical research letters*,
-*39*\ (9).`
+*39*\ (9).
 
-:mark:`Vandal, T., Kodra, E., & Ganguly, A. R. (2019). Intercomparison
+Vandal, T., Kodra, E., & Ganguly, A. R. (2019). Intercomparison
 of machine learning methods for statistical downscaling: the case of
 daily and extreme precipitation. *Theoretical and Applied Climatology*,
-*137*, 557-570.`
+*137*, 557-570.
 
-:mark:`Hobeichi, S., Nishant, N., Shao, Y., Abramowitz, G., Pitman, A.,
+Hobeichi, S., Nishant, N., Shao, Y., Abramowitz, G., Pitman, A.,
 Sherwood, S., ... & Green, S. (2023). Using machine learning to cut the
 cost of dynamical downscaling. *Earth's Future*, *11*\ (3),
-e2022EF003291.`
+e2022EF003291.
 
-:mark:`Rhoades, A. M., Ullrich, P. A., & Zarzycki, C. M. (2018).
+Rhoades, A. M., Ullrich, P. A., & Zarzycki, C. M. (2018).
 Projecting 21st century snowpack trends in western USA mountains using
-variable-resolution CESM. *Climate Dynamics*, *50*\ (1), 261-288.`
+variable-resolution CESM. *Climate Dynamics*, *50*\ (1), 261-288.
 
-:mark:`Huang, X., Rhoades, A. M., Ullrich, P. A., & Zarzycki, C. M.
+Huang, X., Rhoades, A. M., Ullrich, P. A., & Zarzycki, C. M.
 (2016). An evaluation of the variable‐resolution CESM for modeling
 California's climate. *Journal of Advances in Modeling Earth Systems*,
-*8*\ (1), 345-369.`
+*8*\ (1), 345-369.
 
-:mark:`Zhang, T., Morcrette, C., Zhang, M., Lin, W., Xie, S., Liu, Y.,
+Zhang, T., Morcrette, C., Zhang, M., Lin, W., Xie, S., Liu, Y.,
 ... & Rodrigues, J. (2024). A Fortran-Python Interface for Integrating
 Machine Learning Parameterization into Earth System Models.
-*Geoscientific Model Development Discussions*, *2024*, 1-26.`
+*Geoscientific Model Development Discussions*, *2024*, 1-26.
 
-:mark:`Teutschbein, C., & Seibert, J. (2012). Bias correction of
+Teutschbein, C., & Seibert, J. (2012). Bias correction of
 regional climate model simulations for hydrological climate-change
 impact studies: Review and evaluation of different methods. Journal of
-hydrology, 456, 12-29.`
+hydrology, 456, 12-29.
 
-:mark:`Mendez, M., Maathuis, B., Hein-Griggs, D., & Alvarado-Gamboa, L.
+Mendez, M., Maathuis, B., Hein-Griggs, D., & Alvarado-Gamboa, L.
 F. (2020). Performance evaluation of bias correction methods for climate
 change monthly precipitation projections over Costa Rica. Water, 12(2),
-482.`
+482.
 
-:mark:`Vogel, E., Johnson, F., Marshall, L., Bende-Michl, U., Wilson,
+Vogel, E., Johnson, F., Marshall, L., Bende-Michl, U., Wilson,
 L., Peter, J. R., ... & Duong, V. C. (2023). An evaluation framework for
 downscaling and bias correction in climate change impact studies.
-*Journal of Hydrology*, *622*, 129693.`
+*Journal of Hydrology*, *622*, 129693.
 
-:mark:`Hobeichi, S., Nishant, N., Shao, Y., Abramowitz, G., Pitman, A.,
+Hobeichi, S., Nishant, N., Shao, Y., Abramowitz, G., Pitman, A.,
 Sherwood, S., ... & Green, S. (2023). Using machine learning to cut the
-cost of dynamical downscaling. Earth's Future, 11(3), e2022EF003291.`
+cost of dynamical downscaling. Earth's Future, 11(3), e2022EF003291.
 
-:mark:`Jebeile, J., Lam, V., & Räz, T. (2021). Understanding climate
+Jebeile, J., Lam, V., & Räz, T. (2021). Understanding climate
 change with statistical downscaling and machine learning. Synthese, 199,
-1877-1897.`
+1877-1897.
 
-:mark:`Pierce, D. W., & Cayan, D. R. (2016). Downscaling humidity with
+Pierce, D. W., & Cayan, D. R. (2016). Downscaling humidity with
 localized constructed analogs (LOCA) over the conterminous United
-States. *Climate dynamics*, *47*, 411-431.`
+States. *Climate dynamics*, *47*, 411-431.
 
-:mark:`Gutmann, E. D., Hamman, J. J., Clark, M. P., Eidhammer, T., Wood,
+Gutmann, E. D., Hamman, J. J., Clark, M. P., Eidhammer, T., Wood,
 A. W., & Arnold, J. R. (2022). En-GARD: A statistical downscaling
 framework to produce and test large ensembles of climate projections.
-*Journal of Hydrometeorology*, *23*\ (10), 1545-1561.`
+*Journal of Hydrometeorology*, *23*\ (10), 1545-1561.
 
-:mark:`Seyyed Kaboli, H., AkhodAli, A. M., Masah Bavani, A. R., &
+Seyyed Kaboli, H., AkhodAli, A. M., Masah Bavani, A. R., &
 Radmanesh, F. (2012). A Downscaling Model Based on K-nearest neighbor
-(K-NN) Non-parametric Method. *Water and Soil*, *26*\ (4), 799-808.`
+(K-NN) Non-parametric Method. *Water and Soil*, *26*\ (4), 799-808.
 
-:mark:`Rhoades, Alan M., Colin M. Zarzycki, Héctor A. Inda‐Diaz,
+Rhoades, Alan M., Colin M. Zarzycki, Héctor A. Inda‐Diaz,
 Mohammed Ombadi, Ulysse Pasquier, Abhishekh Srivastava, Benjamin J.
 Hatchett et al. "Recreating the California New Year's flood event of
 1997 in a regionally refined Earth system model." *Journal of Advances
-in Modeling Earth Systems* 15, no. 10 (2023): e2023MS003793.`
+in Modeling Earth Systems* 15, no. 10 (2023): e2023MS003793.
 
-:mark:`Kim, R.S., Kumar, S., Vuyovich, C., Houser, P., Lundquist, J.,
+Kim, R.S., Kumar, S., Vuyovich, C., Houser, P., Lundquist, J.,
 Mudryk, L., Durand, M., Barros, A., Kim, E.J., Forman, B.A. and Gutmann,
 E.D., 2020. Snow Ensemble Uncertainty Project (SEUP): quantification of
 snow water equivalent uncertainty across North America via ensemble land
-surface modeling. *The Cryosphere Discussions*, *2020*, pp.1-32.`
+surface modeling. *The Cryosphere Discussions*, *2020*, pp.1-32.
 
-:mark:`Akhter, S., Holloway, C.E., Hodges, K. and Vanniere, B., 2023.
+Akhter, S., Holloway, C.E., Hodges, K. and Vanniere, B., 2023.
 How well do high-resolution Global Climate Models (GCMs) simulate
 tropical cyclones in the Bay of Bengal?. Climate Dynamics, 61(7),
-pp.3581-3604.`
+pp.3581-3604.
 
-:mark:`Chen, J., Arsenault, R., Brissette, F.P. and Zhang, S., 2021.
+Chen, J., Arsenault, R., Brissette, F.P. and Zhang, S., 2021.
 Climate change impact studies: Should we bias correct climate model
 outputs or post‐process impact model outputs?. Water Resources Research,
-57(5), p.e2020WR028638.`
+57(5), p.e2020WR028638.
 
-:mark:`Maraun, D. (2013). "Bias Correction, Quantile Mapping, and
+Maraun, D. (2013). "Bias Correction, Quantile Mapping, and
 Downscaling: Revisiting the Inflation Issue." Journal of Climate, 26(6),
-2137-2143.`
+2137-2143.
 
-:mark:`Themeßl, M. J., Gobiet, A., & Leuprecht, A. (2011).
+Themeßl, M. J., Gobiet, A., & Leuprecht, A. (2011).
 "Empirical-statistical downscaling and error correction of daily
 precipitation from regional climate models." International Journal of
-Climatology, 31(10), 1530-1544.`
+Climatology, 31(10), 1530-1544.
 
 .. [1]
    https://github.com/Potopoles/PGW4ERA5
