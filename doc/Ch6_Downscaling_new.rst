@@ -950,15 +950,15 @@ Climatology, 31(10), 1530-1544.`
 .. [1]
    https://github.com/Potopoles/PGW4ERA5
 
-.. |image1| image:: media/image1.png
+.. |image1| image:: media/ch6/image1.png
    :width: 6.5in
    :height: 5.625in
-.. |image2| image:: media/image2.png
+.. |image2| image:: media/ch6/image2.png
    :width: 6.28671in
    :height: 3.03912in
-.. |image3| image:: media/image3.png
+.. |image3| image:: media/ch6/image3.png
    :width: 5.24479in
    :height: 4.58441in
-.. |image4| image:: media/image4.png
+.. |image4| image:: media/ch6/image4.png
    :width: 2.9755in
    :height: 2.9535in
