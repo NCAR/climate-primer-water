@@ -324,6 +324,7 @@ cons, and the availability of tools for their applications.
 
 .. csv-table::
    :file: _files/ch6_downscaling_table.csv
+   :widths: 25, 25, 25, 25
    :header-rows: 1
 
 
