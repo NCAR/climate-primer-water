@@ -1,17 +1,17 @@
 
 
-Chapter 8: Case Studies
-=======================
+Chapter 8: Example Cases
+========================
 
 
-Case Study 1: 
-------------------------------------------
+Example Case 1: Delaware River Basin Water System Vulnerabilities under Climate Change
+--------------------------------------------------------------------------------------
 
 Coming soon.
 
 
-Case Study 2: Compound Flooding Impacts due to Tropical Cyclones under Climate Change
--------------------------------------------------------------------------------------
+Example Case 2: Compound Flooding Impacts due to Tropical Cyclones under Climate Change
+---------------------------------------------------------------------------------------
 
 **Motivation:**
 
@@ -47,8 +47,8 @@ We will follow a **storyline approach** ("physically self-consistent unfolding o
 * Goulart, H. M. D., Benito Lazaro, I., van Garderen, L., van der Wiel, K., Le Bars, D., Koks, E., and van den Hurk, B.: Compound flood impacts from Hurricane Sandy on New York City in climate-driven storylines, Nat. Hazards Earth Syst. Sci., 24, 29–45, `https://doi.org/10.5194/nhess-24-29-2024 <https://doi.org/10.5194/nhess-24-29-2024>`_, 2024.
 * Xue, Z., Ullrich, P., and Leung, L.-Y. R.: Sensitivity of the pseudo-global warming method under flood conditions: a case study from the northeastern US, Hydrol. Earth Syst. Sci., 27, 1909–1927, `https://doi.org/10.5194/hess-27-1909-2023 <https://doi.org/10.5194/hess-27-1909-2023>`_, 2023.
 
-Case Study 3
-------------
+Example Case 3
+--------------
 
 Coming soon.
 
