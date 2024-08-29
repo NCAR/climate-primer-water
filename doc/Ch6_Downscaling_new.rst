@@ -33,8 +33,8 @@ Downscaling involves techniques aimed at enhancing the spatial and
 temporal resolution of data obtained from GCMs and is generally
 considered necessary in hydrologic analysis, which benefits from
 high-resolution climate data, with scales of a few kilometers at most
-and at daily or even hourly timescales (:mark:`Bhuvandas et al. 2014;
-Vogel et al. 2023`). Downscaling techniques are broadly categorized into
+and at daily or even hourly timescales (Bhuvandas et al. 2014;
+Vogel et al. 2023). Downscaling techniques are broadly categorized into
 two main types: statistical and dynamical, although there are many
 examples where techniques are blended together to improve the
 performance of regional climate information (Jang and Kavvas 2015; Le
@@ -777,7 +777,7 @@ Jang, S., & Kavvas, M. L. (2015). Downscaling global climate
 simulations to regional scales: statistical downscaling versus dynamical
 downscaling. *Journal of Hydrologic Engineering*, *20*\ (1), A4014006.`
 
-:mark:`Christensen, J. H., & Christensen, O. B. (2003). Severe
+Christensen, J. H., & Christensen, O. B. (2003). Severe
 summertime flooding in Europe. Nature, 421(6925), 805-806. DOI:
 10.1038/421805a
 
@@ -798,9 +798,9 @@ Xu, Z., et al. (2020). Regional climate modeling for Australia:
 past performance and future projections. Climate Dynamics, 54,
 3239-3263. DOI: 10.1007/s00382-020-05152-3
 
-:mark:`Feser, F., & Barcikowska, M. (2013). The influence of spectral
+Feser, F., & Barcikowska, M. (2013). The influence of spectral
 nudging on typhoon formation and path in regional climate models.
-Climate Dynamics, 41, 1025-1045. DOI: 10.1007/s00382-013-1746-x`
+Climate Dynamics, 41, 1025-1045. DOI: 10.1007/s00382-013-1746-x
 
 Di Luca, A., et al. (2013). Comparison of statistical and
 dynamical downscaling of precipitation over Australia from a global
