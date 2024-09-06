@@ -10,17 +10,17 @@ Chapter 6: Place-Based Climate Projections
 Despite continuing improvements in Global Climate Models (GCMs) and
 computational capabilities of high-performance computers, the spatial
 resolution of the current suite of GCMs is typically too coarse for
-direct use in project-specific applications. For example, the spatial
+use in project-specific applications. For example, the spatial
 resolution of the GCMs included in the most recent Coupled Model
 Intercomparison Project Phase 5 and 6 (CMIP5 and CMIP6) ranged from
 approximately 0.5 degree to 4 degrees in horizontal resolution or
 approximately 50 km to 400 km (Andrews et al. 2012; Taylor et al.,
 2012). To overcome resolution issues, downscaling is a common approach
-for translating climate change signals represented by climate models to
+to translating climate change signals represented by climate models to
 changes in meteorological parameters at the regional and local scales
 (Gutmann et al. 2014; Kotamarthi et al. 2021). Downscaling bridges the
 gap between the coarse resolution of climate models and the finer scales
-needed for impact assessments for water resources, agriculture,
+needed for impact assessments that assess water resources, agriculture,
 ecosystems, and other sectors. An example of this discrepancy is
 highlighted in Figure 1, which compares simulated precipitation results
 from a coarse resolution GCM against a high resolution regional model,
@@ -29,7 +29,7 @@ resolving important meteorological processes resulting in a much more
 realistic characterization of precipitation (source: Gutmann, personal
 communication, NSF NCAR).
 
-Downscaling involves techniques aimed at enhancing the spatial and
+Downscaling uses techniques aimed at enhancing the spatial and
 temporal resolution of data obtained from GCMs and is generally
 considered necessary in hydrologic analysis, which benefits from
 high-resolution climate data, with scales of a few kilometers at most
@@ -48,17 +48,17 @@ that while these methods can enhance local scale details based on the
 coarser scale GCM data, they cannot influence the larger scale dynamics
 that actually occur in the climate system. However, new generations of
 climate models are addressing this issue, with some GCMs run at 5
-kilometer resolution globally, and a new generation of variable
+k resolution globally, and a new generation of variable
 resolution models (Huang et al 2016; Rhoades et al. 2018) employing
 unstructured grids, which allows for high resolution in places of
-interest (e.g. the Sierra or Rocky Mountains) and lower resolution where
-detailed fields are not needed (i.e. the Oceans). These more recent
-methods are still largely being developed within the research community
+interest (e.g., the Sierra or Rocky Mountains) and lower resolution where
+detailed fields are not needed (i.e., the Oceans). These more recent
+methods are still being developed within the research community
 and their practical applications are limited to date. Given that it
-takes considerable effort to develop high quality, useful climate
-datasets, practitioners have generally made use of datasets that are
+takes considerable effort to develop high-quality, useful climate
+datasets, practitioners have made use of datasets 
 developed by the climate science community, with data distributions
-generally made available through accessible data portals.
+made available through accessible data portals.
 
 |image1|
 
@@ -77,7 +77,7 @@ processes are simulated locally.
 =============================
 
 There are a multitude of techniques for translating coarse resolution
-GCM into fine-scale, local meteorological data that is useful in
+GCM into fine-scale, local meteorological data useful for
 hydrologic modeling and analysis. Figure 5.1 provides a general summary
 of the approaches to downscaling, suggesting a ranking of methods from
 the ‘simpler’ approaches to the left and to the more complex and
@@ -85,14 +85,14 @@ computationally intensive approaches to the right (Teutschbein and
 Seibert 2012; Vandal et al. 2019). While the figure suggests a given
 downscaling procedure will result in a usable dataset, the reality is
 that the various methods can include various combinations of approaches.
-The bottom line: There is some ‘art’ to downscaling, there is not one
+The bottom line: There is some "art" to downscaling; there is no one single
 approach, and often the various methods are combined or blended based on
 the needs of the study.
 
 From the figure, downscaling techniques include fairly simple “Delta
 Change” methods, to more sophisticated statistical methods that
-increasingly make use of machine learning, and dynamical methods, which
-make use of physical/process based models of the earth system (i.e. the
+increasingly make use of machine learning, and dynamical methods, which 
+use physical/process based models of the earth system (e.g., the
 atmosphere, ocean, land). Statistical downscaling uses statistical or
 mathematical relationships to refine coarse GCM output to a finer scale,
 while dynamical downscaling employs more physically based regional
@@ -106,9 +106,9 @@ dynamical approaches (Vandal et al. 2019). These techniques are
 applicable for enhancing both spatial and temporal resolution. In
 statistical methods, the modifications to spatial and temporal data can
 usually be handled separately, while dynamical downscaling allows for a
-flexible temporal resolution, since RCM’s simulate the full
+flexible temporal resolution, because RCMs simulate the full
 3-dimensional atmosphere that conserves mass, energy, and momentum and
-represents the energy and moisture budgets, with model time-steps
+represents the energy and moisture budgets, with model time steps
 typically less than 1 minute. Statistical downscaling is typically not
 computationally expensive nor does it typically require large amounts of
 computing power or data storage, while dynamically downscaling typically
@@ -119,16 +119,15 @@ The Dynamical Downscaling approaches include the Pseudo Global Warming
 (PGW), which modifies historic meteorological data, such as the ERA5.
 PGW is similar to the statistical delta change approach, in that it
 maintains the same weather patterns; however, the dynamical model is
-able to resolve physical feedbacks in the climate system to resolve
-expected change in, e.g. convection. Even with dynamical downscaling,
-Bias Correction (BC) is still often applied after the generation of the
+able to resolve physical feedbacks in the climate system (e.g., convection). Even with dynamical downscaling,
+Bias Correction (BC) is often still applied after the generation of the
 meteorological dataset.
 
 |image2|
 
 Figure 1. A summary of the various downscaling methods and their general
 characteristics, from the simpler Delta Change approach on the left, to
-non-parametric methods that rely on high quality, long observational
+non-parametric methods that rely on high-quality, long observational
 records; parametric methods that create statistical relationships
 between GCMs and surface variables (e.g daily precipitation and
 temperature), where the simple linear equation is used to imply the
@@ -155,26 +154,24 @@ coarser grid squares of a GCM. On days when temperature and humidity in
 the observed, coarse data match those in the GCM data, it can be assumed
 that the high-resolution temperature and precipitation patterns for that
 day in the GCM will mirror those of the similar days in the observed
-data. Statistical downscaling methods include delta change (or change
-factor) methods, regression techniques, weather generators, and weather
+data. Statistical downscaling methods include Delta Change (or change
+factor [morea about this below]) methods, regression techniques, weather generators, and weather
 classification strategies (Ekstrom et al., 2015). Each method has its
 own set of strengths and weaknesses, as detailed in Table 1. A
 generalized tool for evaluating and generating regional climate
 projections using a variety of statistical techniques has been developed
 by Gutmann et al. 2022, and available at https://github.com/NCAR/GARD.
 
-*Some advantages and disadvantages of statistical downscaling include:*
+*Some advantages and disadvantages of statistical are as follows.*
 
 Statistical downscaling depends on the availability and quality of
 historical observational data for calibration. In regions with limited
 or poor-quality historical data, statistical downscaling might be
-limited. ​Generally, the methods create relationships between
+limited. ​Generally, the statistical downscaling methods create relationships between
 historically observed climate and climate simulations from GCM output,
 with the assumption that the historical relationships will hold into the
-future. For atmospheric phenomena that most GCMs do not simulate in the
-first place, e.g. major tropical cyclones and hurricanes, it is not
-clear that any statistical downscaling method can be relied on to
-represent changes in them.
+future. It is not clear that any statistical downscaling method can be relied on to represent changes in atmospheric phenomena that most GCMs do not simulate in the
+first place, such as major tropical cyclones and hurricanes.
 
 Delta Change Methods
 ^^^^^^^^^^^^^^^^^^^^
@@ -188,19 +185,18 @@ derived from global climate models, providing projections of how these
 climate variables might change in the future under various greenhouse
 gas concentration scenarios.
 
-Delta change factors are derived as the difference between the future
+Delta-change factors are derived as the difference between the future
 climate projections of the GCMs against a historical baseline (usually
 averages over a specified reference period). For precipitation a ratio
 is typically used instead of a difference. These differences, or deltas,
-are typically in terms of changes in mean temperature, precipitation
-amounts, etc., are then applied to the historical data to create
-adjusted datasets. For example, if the delta for temperature is a +2°C
+are typically expressed in terms of changes in mean temperature, precipitation
+amounts, etc., then applied to the historical data to build custom datasets. For example, if the delta for temperature is a +2°C
 increase, this change is added to the historical temperature records to
-generate a "future" dataset. A widely used method that makes use of the
+generate a "future" dataset. A widely used method that employs the
 delta-change method has been promoted by the World Bank known as
-Decision Scaling (Brown et al. 200x), that uses a stress test approach
+Decision Scaling (Brown et al. 2016). It uses a stress test approach
 to identify system vulnerabilities, and simple, direct techniques for
-the
+the implementation of climate projections, such as the use of weather generators and delta-change that are informed by GCM results.
 
 Non-Parametric Methods
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -212,7 +208,7 @@ the variables involved. Instead, they use more flexible statistical
 techniques that can capture complex, nonlinear relationships between
 variables. Resampling techniques include bootstrap resampling or Monte
 Carlo resampling methods that can be used to generate ensemble datasets
-that represent uncertainty in the downscaling process without relying on
+to represent uncertainty in the downscaling process without relying on
 specific parametric assumptions
 
 Non-parametric downscaling methods offer advantages in capturing complex
@@ -220,12 +216,12 @@ relationships and handling non-linearities in the climate system, which
 may be particularly important when downscaling GCM outputs to local or
 regional scales where these relationships can be highly variable.
 However, they may also require serially complete, spatially dense, and
-long-length datasets and can be more computational demand than
+long-length datasets, and can be more computationally demanding than
 parametric methods.
 
-Some of the more common Non-Parametric techniques include:
+Some of the more common Non-Parametric techniques include the following.
 
-**The Locally Constructed Analog (LOCA) method**, which constructs
+**The Locally Constructed Analog (LOCA) method**,  constructs
 local analogs by identifying days in the historical observational
 record with similar large-scale climate patterns to those simulated
 by the climate model. The selected analogs are weighted based on
@@ -252,15 +248,15 @@ multivariate approach to downscaling, considering multiple climate
 variables simultaneously to construct analogs (Abatzoglou et
 al. 2012).
 
-**Machine learning approaches** such as support vector machines, random
+**Machine-learning approaches** such as support vector machines, random
 forests (He et al. 2016), neural networks, and kernel-based methods can
 be used to learn the relationship between large-scale and local-scale
 climate variables from historical data without assuming a specific
 functional form. A Machine Learning method by Benton et al. (2022)
-demonstrates how a neural network can be used to generate high spatial
-and temporal resolution wind and solar data from GCMs (Creswell et al.,
+demonstrates how a neural network can be used to generate high spatial-
+and temporal-resolution wind and solar data from GCMs (Creswell et al.
 2018). The approach uses generative adversarial networks or (GANs),
-which is trained on observed wind and solar data at 4-km hourly
+which are trained on observed wind and solar data at 4-km hourly
 resolution against the same meteorological fields at 100-km resolution
 to learn the relationship between these variables across spatial scales.
 The model is then applied to downscale 100-km daily GCM output to 4 km
@@ -275,18 +271,18 @@ which are then spatially interpolated to a finer grid. The bias
 correction usually entails quantifying the difference between the model
 output and observed data, often using quantile mapping, which matches
 the cumulative distribution functions (CDFs) of the model data with the
-observations. Spatial interpolation methods such as (e.gbilinear
+observations. Spatial interpolation methods such as (eg. bilinear
 interpolation, nearest-neighbor interpolation) are then applied to the
-bias corrected data at the GCM scale to a finer grid.
+bias-corrected data at the GCM scale to a finer grid.
 
 **The K Nearest Neighbor algorithm**, The k-Nearest Neighbor (k-NN)
 method is another statistical downscaling technique used to refine
 coarse-resolution climate model outputs to finer spatial resolutions.
 This approach relies on the similarity between observed and modeled data
 patterns to generate high-resolution climate projections. A unique
-aspect of K-NN is the ability to craft scenario ‘narratives’, that are
+aspect of K-NN is its ability to craft scenario "narratives" that are
 conditioned off of particular attributes of a GCM, such as drier and
-warmer, or ‘much drier and warmer’ types of scenarios (Yates et al.
+warmer, or "much drier and warmer" types of scenarios (Yates et al.
 2005; Seyyed et al. 2012).
 
 Parametric Methods
@@ -298,7 +294,7 @@ between large-scale climate variables (predictors) and local-scale
 climate variables (predictands). These methods are called "parametric"
 because they involve fitting parameters of a predefined statistical
 model to the data. The parameters of the statistical model establish the
-relationship between large-scale climate variables (such as 500 millibar
+relationship between large-scale climate variables (such as 500-millibar
 height, vertically integrated moisture, etc.) simulated by GCMs and
 local-scale climate variables at the downscale level (such as
 temperature and precipitation at specific locations). These parametric
@@ -316,7 +312,7 @@ variables such as daily precipitation and temperature (predictands). The
 tool is available online, well documented in terms of understanding and
 implementation, and can be freely downloaded from the SDSM website
 (https://sdsm.org.uk/). SDSM has been used globally for various
-applications, including water resource management, flood risk
+applications, including water-resource management, flood-risk
 assessment, and urban climate studies​.
 
 Table 1. A summary of statistical downscaling approaches, their pros and
@@ -334,7 +330,7 @@ cons, and the availability of tools for their applications.
 Dynamical downscaling involves the combined use of both global and
 regional climate models (RCMs) to achieve higher spatial resolution and
 in some cases temporal resolution, over specific geographic areas.
-Traditionally, RCMs take outputs from GCMs as boundary
+Traditionally, RCMs ingest outputs from GCMs as boundary
 conditions—assuming GCM data to be accurate at the edges of the RCM’s
 domain—and provide more detailed regional climate information. While
 RCMs can be applied to any location, their high-resolution design makes
@@ -358,7 +354,7 @@ that impact hydrologic systems.
     conducting Regional Climate Modeling experiments. The WRF model is a
     state of the art mesoscale numerical weather prediction system
     designed for both atmospheric research, operational forecasting
-    applications, and more recently, regional climate change projection
+    applications, and more recently, regional climate-change projection
     development, where it is used to downscale ESM outputs to a finer
     resolution, typically on the order of a few kilometers, to study
     regional climate features. This process allows for more detailed
@@ -367,7 +363,7 @@ that impact hydrologic systems.
 
     The WRF model serves a wide range of meteorological applications
     across scales from tens of meters to thousands of kilometers. The
-    effort to develop WRF began in the latter 1990's and was a
+    effort to develop WRF began in the latter 1990s and was a
     collaborative partnership of the National Center for Atmospheric
     Research (NCAR), the National Oceanic and Atmospheric Administration
     (represented by the National Centers for Environmental Prediction
@@ -375,11 +371,11 @@ that impact hydrologic systems.
     the Naval Research Laboratory, the University of Oklahoma, and the
     Federal Aviation Administration (FAA).
 
-    For researchers, WRF can produce simulations based on actual
+    WRF can produce simulations based on actual
     atmospheric conditions (i.e., from observations and analyses),
-    idealized conditions, and future climate projections driven by ESM’s.
+    idealized conditions, and future climate projections driven by ESMs.
     WRF offers operational forecasting a flexible and
-    computationally-efficient platform, while reflecting recent advances
+    computationally efficient platform, while reflecting recent advances
     in physics, numerics, and data assimilation contributed by developers
     from the expansive research community. WRF is currently in
     operational use at NCEP and other national meteorological centers as
@@ -387,7 +383,7 @@ that impact hydrologic systems.
     universities, and companies. WRF has a large worldwide community of
     registered users (a cumulative total of over 57,800 in over 160
     countries as of 2021), and NCAR provides regular workshops and
-    tutorials on it.
+    tutorials on its use.
 
     |image3|
 
@@ -404,11 +400,11 @@ that impact hydrologic systems.
 
 Similar to statistical downscaling, many institutions provide publicly
 available dynamically downscaled products. However, these products often
-have limitations regarding the number of years, scenarios, regions, and
+have limitations on the number of years, scenarios, regions, and
 variables they cover. The Coordinated Regional Climate Downscaling
-Experiment (CORDEX) has produced such products, designed to evaluate
-regional climate model performance through a series of experiments,
-including generating regional climate projections (Giorgi & Gutowski,
+Experiment (CORDEX) produced such products, designed to evaluate
+regional climate-model performance through a series of experiments,
+including generating regional climate projections (Giorgi & Gutowski
 2015). Over North America, the NA-CORDEX archive includes many
 dynamically downscaled projections (http://www.na-cordex.org). Although
 CORDEX data are readily accessible, its primary focus on model
@@ -424,10 +420,10 @@ Intermediate Complexity Models
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Fully dynamical Global and Regional Climate models are expensive to run,
-as they have a substantial computation requirement for simulating both
+because they require substantial computation for simulating both
 past and future climate. A novel alternative to the full physics models
-are what is known are intermediate complexity models, One such model is
-NSF NCAR’s Intermediate Complexity Atmospheric Research (ICAR) model-
+is what is known as the suite of intermediate complexity models. One such model is
+NSF NCAR’s Intermediate Complexity Atmospheric Research (ICAR) model
 which is a simplified atmospheric model designed primarily for climate
 downscaling and atmospheric sensitivity testing (Gutmann et al. 2016).
 ICAR is a quasi-dynamical downscaling approach that uses simplified wind
@@ -441,19 +437,19 @@ Pseudo Global Warming
 ^^^^^^^^^^^^^^^^^^^^^
 
 The PGW approach involves modifying historical weather data with future
-climate change signals derived from global climate models (GCMs) to
+climate-change signals derived from global climate models (GCMs) to
 simulate specific weather events to represent future climate conditions.
-This method allows researchers to isolate the effects of climate change
+This method allows researchers to isolate the influence of climate change
 on weather events by comparing the outcomes of the modified
 (pseudo-warmed) simulations against the original historical data with a
 shorter simulation time period. However, this method does not permit the
-model to project changes in the frequency of large scale weather
+model to project changes in the frequency of large-scale weather
 patterns such as atmospheric rivers or tropical cyclones. The PGW
 approach can be considered a type of “narrative, what-if, or storyline”
 approach, where the climate of the past is assumed to repeat in the
-future, but the meteorological fields are perturbed to reflect a, for
-example, ‘warmer and moisture environment’ (Rhoades et al. 2023). Some
-recent tools that can be used to develop PGW datasets are available,
+future, but the meteorological fields are perturbed to reflect, for
+example, a "warmer and moister environment" (Rhoades et al. 2023). Some
+recently innovated tools that can be used to develop PGW datasets are available,
 such as those from `Brogli et al. (2023) <https://github.com/Potopoles/PGW4ERA5>`_.
 
 An example of a PGW dataset, which has been developed as a collaboration
@@ -461,7 +457,7 @@ between NCAR and USGS Water Mission Area is the CONUS404 (Rasmussen et
 al. 2023); a unique, high-resolution hydro-climate dataset appropriate
 for forcing hydrological models and conducting meteorological analysis
 over the conterminous United States. CONUS404, so named because it
-covers the CONterminous United States for over 40 years at 4 km
+covers the CONterminous United States for over 40 years at 4-km
 resolution, was produced by the Weather Research and Forecasting (WRF)
 model simulations run by NCAR. The CONUS404 includes 42 years of data
 (water years 1980-2021) and the spatial domain extends into Canada and
@@ -483,9 +479,9 @@ mountainous regions, or areas prone to extreme weather, without
 excessively increasing the overall computational cost.
 
 An example of such a model is the U.S. Department of Energy’s, Energy
-Exascale Earth System Model (E3SM; Zhang et al. 2024) model, a
+Exascale Earth System Model ([E3SM] Zhang et al. 2024) model, a
 state-of-the-art Earth system model designed to run on exascale
-supercomputers. The E3SM model integrates various components of the
+supercomputers. The E3SM model integrates components of the
 Earth system, including the atmosphere, ocean, sea ice, and land, to
 provide a comprehensive understanding of climate interactions and
 feedbacks.
@@ -496,12 +492,12 @@ feedbacks.
 Bias Correction
 ^^^^^^^^^^^^^^^
 
-A reality of both GCMs and RCMs is the fact that both are prone to
+A reality of both GCMs and RCMs is that both are prone to
 biases due to our limited ability to represent the true state of the
-climate system, as our representation of model physics,
-parameterizations, and initial conditions are imperfect . These biases
+climate system because our representation of model physics,
+parameterizations and initial conditions are imperfect. These biases
 can significantly affect the accuracy and reliability of the downscaled
-climate projections. To address this, bias correction techniques are
+climate projections. To address this, bias-correction techniques are
 often employed (Teutschbein and Seibert 2012; Mendez et al. 2020). Bias
 correction involves adjusting the model outputs to better match observed
 data. There are two primary stages at which bias correction can be
@@ -525,8 +521,7 @@ process**. This involves adjusting the outputs of the GCMs before they
 are used as boundary conditions for the RCMs. The advantage of pre-bias
 correction is that it ensures the inputs fed into the RCMs are already
 adjusted for biases, which can lead to more accurate boundary conditions
-and potentially more accurate downscaled outputs. This method helps in
-aligning the large-scale drivers with observed data, which can be
+and potentially more accurate downscaled outputs. This method helps align the large-scale drivers with observed data, which can be
 particularly beneficial in regions where the RCMs' performance is highly
 sensitive to the accuracy of the boundary conditions. For example, many
 GCMs have too much moisture along the west coast of North America. This
@@ -543,28 +538,28 @@ can not be simulated accurately without removing the large scale biases
 in wind shear and atmospheric stability (Akhter et al. 2023).
 
 **Post-bias correction is applied after the dynamical downscaling
-process**. This method involves adjusting the outputs of the GCNs and
+process**. This method adjusts the outputs of the GCNs and
 RCMs to match observed data. The main advantage of post-bias correction
 is that it directly targets the biases in the high-resolution climate
 projections produced by the GCMs and RCMs (Chen et al. 2021). This
 approach allows for the correction of biases introduced at both the GCM
 and RCM stages. Post-bias correction can be more flexible and targeted,
-as it deals directly with the final outputs that are used for impact
-studies and decision-making. Many end-users of climate change data will
-directly compare the observed climate to the modeled climate, without
+as it deals directly with the final outputs used for impact
+studies and decision-making. Many end-users of climate-change data will 
+compare the observed climate to the modeled climate without
 removing biases. Such comparisons reveal the bias in the model instead
-of the changes of interest. Similarly, threshold dependent metrics (e.g.
-the number of days with heat index greater than 100°F) are extremely
+of the changes of interest. Similarly, threshold-dependent metrics (e.g.,
+the number of days with a heat index greater than 100°F) are extremely
 sensitive to small biases in the underlying dataset. Finally, if there
-is a need to run impact models, such as hydrologic modes which are often
-been carefully calibrated to a given observational dataset, it is
-important to bias-correct the downscaled data in order to retain the
-underlying statistical properties, to maintain consistency with the
+is a need to run impact models, such as hydrologic modes which are often 
+carefully calibrated to a given observational dataset, it is
+important to bias-correct the downscaled data to retain the
+underlying statistical properties to maintain consistency with the
 hydrologic model calibration. A common approach to bias correction is
 quantile mapping, which is a statistical technique used to correct
 biases in climate model output by aligning the statistical distribution
 of model-simulated variables with observed data. The approach involves
-the following steps:
+the following steps.
 
 -  Cumulative Distribution Functions (CDFs): The CDF of the climate
    model output is compared to the CDF of the observational data for a
@@ -576,7 +571,7 @@ the following steps:
    can be applied to model projections to correct biases in future
    climate scenarios.
 
--  Application: The correction is applied to future climate model
+-  Application: The correction is applied to future climate-model
    simulations by transforming the model outputs using the mapping
    function derived from the historical period.
 
@@ -612,6 +607,8 @@ Brogli, R., Heim, C., Mensch, J., Sørland, S. L., & Schär, C.
 (2023). The pseudo-global-warming (PGW) approach: methodology, software
 package PGW4ERA5 v1. 1, validation, and sensitivity analyses.
 Geoscientific Model Development, 16(3), 907-926.
+
+Brown, C., Weatherly, J., Mearns, L., Steinschneider, S., Wi, S., Case, M., Hayden, T., Koster, A., Bukovsky, M. and McCrary, R., 2016. Decision-Scaling: A decision framework for DoD climate risk assessment and adaptation planning. Strategic Environmental Research and Development Program (SERDP).
 
 Buster, G., Benton, B. N., Glaws, A., & King, R. N. (2024).
 High-resolution meteorology with climate change impacts from global
