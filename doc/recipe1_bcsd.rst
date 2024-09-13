@@ -1183,8 +1183,9 @@ The outcome of this section will be a set of climate change
 scenarios and a determination of which climate projections will be used
 to inform these scenarios.
 
-Central Tendency, Spread, and Simulation Mean
------------------------------------------------
+
+Central TEndency, Spread, and Simulation Mean
+----------------------------------------------------------
 
 |image65|
 
@@ -1264,23 +1265,14 @@ of each line represents the sign and magnitude of the period change in
 temperature for that specific projection.
 
 Exercise: Quantify Period Change
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------------
 
 For each projection, 1 through 5, the sign, negative or positive,
 and magnitude of the period temperature change are as follows:
 
-Projection Number Period Change (change in 30-year Mean
-Temperature)
-
-1 +3.5degC
-
-2 +5.0degC
-
-3 +1.0degC
-
-4 +1.5degC
-
-5 +2.5degC
+.. csv-table::
+   :file: _files/table2_wt.csv
+   :header-rows: 1
 
 These values, then, are the computed period change for each
 projection, which shows the changes in mean temperature between the two
@@ -1291,18 +1283,9 @@ varies.
 Ordering the values by magnitude, as shown below, allows us to
 draw a few conclusions:
 
-Projection Number Period Change (change in 30-year Mean
-Temperature)
-
-3 +1.0degC
-
-4 +1.5degC
-
-5 +2.5degC
-
-1 +3.5degC
-
-2 +5.0degC
+.. csv-table::
+   :file: _files/table3_wt.csv
+   :header-rows: 1
 
 -  Projection #5 represents the central tendency for the period
    change in the 30-year mean temperature, with 2.5degC warmer
@@ -1318,7 +1301,7 @@ projections and sometimes the spread ranges from negative to positive
 change values.
 
 Time Steps: Monthly vs. Annual
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------------
 
 Now let's take the concepts of central tendency and spread and
 apply those to the two sets of climate change data that were introduced
@@ -1396,7 +1379,7 @@ central tendency and spread with mean annual temperature and mean annual
 precipitation derived from the BCSD data set.
 
 Examine Climate Simulations: Oklahoma/Texas Case
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------------
 
 |image76|
 
@@ -1406,7 +1389,7 @@ bias-corrected and downscaled mean annual temperature projections from
 1950–2099.
 
 Temperature Time Series Trends
-''''''''''''''''''''''''''''''
+----------------------------------------------------------
 
 |image77|
 
@@ -1429,7 +1412,7 @@ following:
    with time.
 
 Precipitation Time Series Trends
-''''''''''''''''''''''''''''''''
+----------------------------------------------------------
 
 Here are the projections of bias-corrected, downscaled annual
 precipitation for this same area for 1950-2099.
@@ -1442,7 +1425,7 @@ possibilities, or spread, with time. There is more spread in the
 precipitation projections than in the temperature projections.
 
 Combined Time Series Trends
-'''''''''''''''''''''''''''
+----------------------------------------------------------
 
 |image79|
 
@@ -1452,7 +1435,7 @@ Uncertainty in future annual precipitation is even greater than that for
 temperature with no well-defined trend toward either wetter or drier.
 
 Evaluate Based on Period Change
-'''''''''''''''''''''''''''''''
+----------------------------------------------------------
 
 |image80|
 
@@ -1506,7 +1489,7 @@ tendency and spread of the change between the two periods.
 -  Used to determine central tendency and spread of the change
 
 Identify Climate Change Scenarios: California Case
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------------
 
 |image84|
 
@@ -1517,7 +1500,7 @@ Step 2 of our process. We will select the central tendency and spread
 and use those to determine our climate change scenarios.
 
 Identify Central Tendency and Spread
-''''''''''''''''''''''''''''''''''''
+----------------------------------------------------------
 
 |image85|
 
