@@ -309,7 +309,9 @@ value—rank number 1—is 5. The corresponding observed value is 3.
 The bias correction factor would be 0.6 for the simulated value
 for rank number 1.
 
-TABLE1
+.. csv-table:: Table 1
+   :file: doc/media/recipe1_bcsd/Table1.csv  
+   :header-rows: 1
 
 The bias correction factor is the observed over the simulated
 value, in this case 3 over 5, or 0.60. When the simulated value of 5 is
