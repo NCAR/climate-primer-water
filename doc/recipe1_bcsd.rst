@@ -1982,7 +1982,7 @@ scenario.
 -  Merged with model-based climate change trends
 
 Climate-adjusted Weather, Sequencing, and Climate Projections
--------------------------------------------------------------
+--------------------------------------------------------------------
 
 |image103|
 
@@ -2124,7 +2124,7 @@ sequencing depicted in the observations are both preserved in the
 future.
 
 The Change Factor
-^^^^^^^^^^^^^^^^^
+----------------------------------
 
 |image111|
 
@@ -2157,7 +2157,7 @@ embodies the climate change trend while reflecting the historical period
 sequencing.
 
 Monthly Sequencing
-^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 |image115|
 
@@ -2215,7 +2215,9 @@ observations.
 
 **December Precipitation**
 
-TABLE4
+.. csv-table::
+   :file: _files/table6_wt.csv
+   :header-rows: 1
 
 Again, as with the hypothetical example that we just did, we will
 use total monthly precipitation for December only. However, this time we
@@ -2229,7 +2231,9 @@ each climate change scenario.
 
 **December Monthly Precipitation**
 
-TABLE5
+.. csv-table::
+   :file: _files/table7_wt.csv
+   :header-rows: 1
 
 -  10 sets of climate weather inputs for December precipitation
    (5 climate change scenarios x 2 methods)
@@ -2250,7 +2254,7 @@ to produce a time series that can represent conditions with future
 climate trends.
 
 Capturing Observed Variability
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 |image122|
 
@@ -2278,7 +2282,7 @@ values in the 30-inch range that we saw in the time series plot are
 shown here in the upper end on the right side of the distribution.
 
 Simulating the Historical Period
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 |image124|
 
@@ -2321,7 +2325,7 @@ the simulations are at the finer 1/8° grid resolution. The downscaling
 reintroduces some bias.
 
 Simulating the Future
-^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 |image125|
 
@@ -2369,7 +2373,7 @@ Remember that these are all annual changes. Any specific month
 within the year may show values that differ.
 
 Obtaining Specific Monthly Change Factors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------------------------
 
 Change factor
 
@@ -2462,7 +2466,7 @@ drier scenario to 1.10 for the hotter/wetter scenario, and 1.23 for the
 warmer/wetter scenario.
 
 Obtaining Specific Month Climate-Adjusted Precipitation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------------------------
 
 |image136|
 
@@ -2482,7 +2486,7 @@ warmer/drier scenario would result in the corresponding climate change
 December precipitation of 16.2 inches.
 
 December Climate-adjusted Weather, All Scenarios
-''''''''''''''''''''''''''''''''''''''''''''''''
+--------------------------------------------------------------------
 
 |image138|
 
@@ -2519,7 +2523,7 @@ allow us to focus more on the general trend, which is sometimes called
 the climate change signal.
 
 Change Factors: All Months
-''''''''''''''''''''''''''
+----------------------------------
 
 |image139|
 
