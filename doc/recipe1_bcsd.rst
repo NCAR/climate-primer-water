@@ -1528,27 +1528,9 @@ change in mean annual temperature is positive, or warmer, by 1.7°C
 confirming what we see visually, that there is little or no mean
 tendency toward drier or wetter with time.
 
-Percent Change in Annual Precipitation shown by Ten Projections
-
-1.  +30%\*
-
-2.  +10% (90th)
-
-3.  +5%
-
-4.  +1%
-
-5.  -2%
-
-6.  -2%
-
-7.  -5%
-
-8.  -10%
-
-9.  -15% (10th)
-
-10. -35%\*
+.. csv-table::
+   :file: _files/table4_wt.csv
+   :header-rows: 1
 
 But for planning purposes we may be very interested in the
 possible outcomes that differ from the central tendency. Let's use
@@ -1738,7 +1720,9 @@ will be used to define the hotter and wetter scenario.
 
 **Climate Projections that will Inform Climate Change Scenario**
 
-TABLE 3
+.. csv-table::
+   :file: _files/table5_wt.csv
+   :header-rows: 1
 
 Projection #35 comes from a Russian climate model using the
 middle emissions scenario A1B` [1]_. These are the five
