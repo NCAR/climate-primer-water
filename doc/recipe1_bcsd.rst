@@ -310,7 +310,7 @@ The bias correction factor would be 0.6 for the simulated value
 for rank number 1.
 
 .. csv-table::
-   :file: _files/ch4_takeawaytable.csv
+   :file: _files/table1_wt.csv
    :header-rows: 1
 
 The bias correction factor is the observed over the simulated
