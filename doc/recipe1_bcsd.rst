@@ -310,7 +310,7 @@ The bias correction factor would be 0.6 for the simulated value
 for rank number 1.
 
 .. csv-table:: Table 1
-   :file: doc/media/recipe1_bcsd/Table1.csv  
+   :file:  _files/Table1.csv  
    :header-rows: 1
 
 The bias correction factor is the observed over the simulated
