@@ -762,8 +762,7 @@ probability of zero, is < 1 inch (< 25 mm) precipitation.
 What would be the median value? The median, corresponding to a
 non-exceedance probability of 0.50 is ˜5-6 inches, or ˜125-150 mm.
 
-Interpret CDF 2
-^^^^^^^^^^^^^^^
+**Interpret CDF 2**
 
 |image39|
 
@@ -1185,7 +1184,7 @@ scenarios and a determination of which climate projections will be used
 to inform these scenarios.
 
 Central Tendency, Spread, and Simulation Mean
----------------------------------------------
+-----------------------------------------------
 
 |image65|
 
