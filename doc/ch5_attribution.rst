@@ -576,20 +576,20 @@ from the uneven distribution of energy across the planet at any given
 time (Lehner and Deser, 2023). A primary source of internal variability
 is the atmospheric general circulation with its day-to-day and
 week-to-week weather fluctuations with limits to their predictability
-past a couple of weeks, and can be termed random- or stochastic
+past a couple of weeks, and can be termed random or stochastic
 processes past those limits. In general, the climate system is highly
-variable at regional scales, and that such internally-generated
-variability is irregular in time and carries limited predictability.
+variable at regional scales, and this internally-generated
+variability is irregular in time and exhibits limited predictability.
 Processes arising from the coupling between the ocean and atmosphere are
 also important sources of internally generated variability that give
 rise to distinctive patterns (or “modes”) of variability on interannual
-and longer timescales (Deser and Phillips, 2023). Examples include the
+and longer timescales (Deser and Phillips 2023). Examples include the
 interannual events of El Niño Southern Oscillation (ENSO); and the
 Pacific Decadal Oscillation (PDO) and the Atlantic Multidecadal
 Oscillation (AMO) patterns which can influence regional climate
 conditions, such as droughts or cooling periods. It is a central
 scientific challenge to identify anthropogenic influences on weather and
-climate amidst this background of internal variability (Deser et al.,
+climate amidst this background of internal variability (Deser et al.
 2020).
 
 .. dropdown:: Semiregular climate cycles`
@@ -605,11 +605,11 @@ climate amidst this background of internal variability (Deser et al.,
     precipitation and temperature in many regions of the world in a cycle
     that recurs roughly every 3-4 years.
 
-    In the contiguous United States, the ENSO cycle can have large
-    influences on precipitation distribution, especially in the cool season.
+    In the contiguous United States, the ENSO cycle can significantly
+    influence precipitation distribution, especially in the cool season.
 
     Below we see the typical impacts of El Niño versus La Niña on both the
-    sea surface temperature anomalies of the tropical Pacific Ocean, and the
+    sea-surface temperature anomalies of the tropical Pacific Ocean, and the
     November through March precipitation in the contiguous United States.
     The difference can be very important for snowpack and the potential for
     regional floods and drought. There are differences from one cycle to the
@@ -657,7 +657,7 @@ long-term trends.
 
 The case study in the pop-out below of surface temperature
 changes over time provides a visualization of natural variability and
-its sensitivity to spatial- and temporal-scales, along with sensitivity
+its sensitivity to spatial and temporal scales, along with sensitivity
 and detection of secular anomalies and trends.
 
 .. dropdown:: Natural variability case study
@@ -665,10 +665,9 @@ and detection of secular anomalies and trends.
     **Natural Variability Case Study**
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    This case study provides a visual sense for the natural variability in long-term temperature trends across time-scales and
-    spatial-scales, and the discernment of significant changes outside of
-    this natural variability. Shown in the two figures below are the surface
-    temperature trends since 1880 comparing the observed temperature record
+    This case study provides a visual sense for the natural variability in long-term temperature trends across time scales and
+    spatial scales, and the discernment of significant changes outside of
+    this natural variability. Shown in the two figures below are the surface-temperature trends since 1880 comparing the observed temperature record
     of two domains: 1) “Global: Land + Ocean” (first figure) and, 2)
     “Global: Land Only” (second figure). The blue line in the graph depicts
     the global mean annual temperature anomalies from 1880 to 2014. An
@@ -693,7 +692,7 @@ and detection of secular anomalies and trends.
     Ocean” trend shows a little less than a +0.5°C departure. Due to the
     oceans' ability to store heat, the global warming trend is a bit slower
     when they are included. This, then, also highlights the dependence of
-    land temperature variability on its proximity to large water bodies.
+    land-temperature variability on its proximity to large water bodies.
 
     Below we highlight the dependence on the variability to (smaller)
     spatial scale, showing the trend for the Contiguous United States.
@@ -721,17 +720,17 @@ and detection of secular anomalies and trends.
     mechanisms for this year-by-year, decadal-by-decadal trend variability
     and the motivation to “smooth over” this variability is one reason why
     both the World Meteorological Organization (WMO) and the National
-    Oceanic and Atmospheric Administration (NOAA) represent 30 years as the
+    Oceanic and Atmospheric Administration (NOAA) accept 30 years as the
     period of time used to define a climate station’s “climate normals”.
-    Note that one of the “climate normal” periods is shown below covering
+    Note that one of the “climate-normal” periods is shown below covering
     1938-1967.
 
     |image14|
 
     Interestingly, during this 30-year period (1938-1967) the global
     surface temperature actually decreased by about 0.1°C, and was caused by
-    the backscattering to space of sulfate particles from the increased
-    burning of fossil fuels, and was thus a cooling anthropogenic climate
+    sulfate particles from the increased
+    burning of fossil fuels backspattering to space, and was thus a cooling anthropogenic climate
     driver. However, this trend stopped once the United States and other
     countries began to lower sulfur emissions in the 1970s to reduce acid
     rain and respiratory illnesses (since 1975, the average global
