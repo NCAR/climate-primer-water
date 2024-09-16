@@ -39,13 +39,13 @@ Corporation for Atmospheric Research. All Rights Reserved.
 
 **Chapter 5 Key Takeaways**
 
-Detection  is about identifying a significant change in the climate system (temperature, precipitation, wind patterns, shifts in seasonal cycles, etc.) that is above and beyond the natural internal variability of the system.
+Detection  is the identification of a significant change in the climate system (temperature, precipitation, wind patterns, shifts in seasonal cycles, etc.) that is above and beyond the natural internal variability of the system.
 
 Climate attribution deals with determining the causes of detected changes in the climate. This involves assessing the various natural and anthropogenic (human-induced) factors that could have led to the observed changes.
 
-Attribution of observed changes is not possible without some kind of model of the relationship between external climate drivers and observable variables, given that we cannot observe a world in which either anthropogenic or natural forcing is absent. 
+Attribution of observed changes is not possible without some kind of model of the relationship between external climate drivers and observable variables, given that we cannot observe a world in which neither anthropogenic or natural forcing exist. 
 
-  - Such models may be very simple (e.g. a set of statistical assumptions) or very complex (e.g. coupled Earth System Model)
+  - Such models may be very simple (e.g., a set of statistical assumptions) or very complex (e.g., coupled Earth System Model)
 
 A more recent approach in climate modeling for detection and attribution is to run a “Large Ensemble” of historical (and future) simulations, where each member of the ensemble is subject to natural+anthropogenic external forcings, but starts from a slightly different initial condition, which results in a different trajectory of internal variability once the memory of the initial state is lost.
 
@@ -56,7 +56,7 @@ The following observed and/or projected trends have an impact on planning for wa
 
   - Short-term natural cycles of increased warming interspersed with cooling (or slower warming) will be superimposed on the overall long-term warming
 
-  - Average snow cover and snowpack in the United States is likely to decrease through the 21st century
+  - Average snow cover and snowpack in the United States are likely to decrease through the 21st century
 
   - Precipitation extremes (wet and dry) are likely to continue increasing through the 21st century, with some regional trends toward either more wet or more dry
 
@@ -68,7 +68,7 @@ The following observed and/or projected trends have an impact on planning for wa
 5.1 Introduction
 -------------------------------------------------
 
-In this chapter we discuss the concept of the baseline natural variability  of a system under study, and ways to detect and potentially attribute the contribution of observed changes to natural and anthropogenic factors. Because climate change is a phenomenon that is typically characterized by slow changes through time, and that anthropogenic-induced climate change predominantly began in the mid-19th century (when atmospheric concentrations of CO2 began to show a marked increase correlating with industrial activities), significant changes may be detected through examination of the historical record, depending on the study area. At the same time, detection depends on how large the “natural variability” of the system of interest is. The Earth's climate systems exhibit natural variability due to a range of factors. These include variations in solar radiation (e.g. solar cycles), volcanic activity, ocean currents, atmospheric circulation patterns such as El Niño and La Niña, and geological processes like the shifting of tectonic plates (at time-scales of millions of years). Additionally, feedback mechanisms within the Earth's climate system can amplify or dampen these variations, leading to fluctuations in temperature, precipitation patterns, and other climatic parameters over different timescales, from years to centuries and beyond. The figure below from the Intergovernmental Panel on Climate Change (IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1) shows on the left panel the increase in the global surface temperature through time, while the panel at the right shows estimates of how much these temperature changes have been attributed to total human influence; solar and volcanic drivers; and internal climate variability. Although at the global scale, human impacts are the dominant contributor to these changes, natural variability generally becomes relatively a much larger contributor to observed changes as the spatial region of interest gets smaller, and as the timescales of interest also decrease.
+In this chapter we discuss the concept of the baseline natural variability  of a system under study, and ways to detect and potentially attribute the contribution of observed changes to natural and anthropogenic factors. Because climate change is a phenomenon that is typically characterized by slow changes through time, and that anthropogenic-induced climate change predominantly began in the mid-19th century (when atmospheric concentrations of CO2 began to show a marked increase correlating with industrial activities), significant changes may be detected through examination of the historical record, depending on the study area. At the same time, detection depends on how large the “natural variability” of the system of interest is. The Earth's climate systems exhibit natural variability due to a range of factors. These include variations in solar radiation (e.g., solar cycles), volcanic activity, ocean currents, atmospheric circulation patterns such as El Niño and La Niña, and geological processes like the shifting of tectonic plates (at time-scales of millions of years). Additionally, feedback mechanisms within the Earth's climate system can amplify or dampen these variations, leading to fluctuations in temperature, precipitation patterns, and other climatic parameters over different timescales, from years to centuries and beyond. The figure below from the Intergovernmental Panel on Climate Change (IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1) shows (on the left panel) the increase in the global surface temperature through time, while the panel at the right shows estimates of how much these temperature changes have been attributed to total human influence; solar and volcanic drivers; and internal climate variability. Although at the global scale, human impacts are the dominant contributor to these changes, natural variability generally becomes relatively a much larger contributor to observed changes as the spatial region of interest gets smaller, and as the timescales of interest also decrease.
 
 |image_intro2|
 
@@ -83,9 +83,9 @@ IPCC: https://www.ipcc.ch/report/ar6/syr/figures/figure-2-1.*
 
 We start with a brief overview of what these different types of variability are, where they have already been observed, then discuss methods that can be more generally applied to a particular region to discern these different types of variability. 
 
-As background, we provide introductory background information: 
+Here we provide introductory background information. 
 
-The pop-out below discusses the distinction of weather and climate (i.e. differences in what are often termed “time scales of interest”).
+The pop-out below discusses the distinction of weather and climate (i.e., differences in what are often termed “time scales of interest”).
 
 .. dropdown:: **Weather vs Climate**
 
@@ -99,7 +99,7 @@ The pop-out below discusses the distinction of weather and climate (i.e. differe
 
     |image_intro_popout_weather1|
 
-    **A weather prediction, or forecast,** describes the near-term likelihood of a weather event such as a specific occurrence of rain or snow and/or the expected change in temperature. A weather forecast, for example, might read, "colder with a 70% chance of snow this afternoon."
+    **A weather prediction, or forecast,** describes the near-term likelihood of a weather event such as a specific occurrence of rain or snow and/or the expected change in temperature. A weather forecast, for example, might read "colder with a 70% chance of snow this afternoon."
 
     **A climate prediction,** on the other hand, might call for below-average precipitation and near-average temperature over the next 30 days.`
 
@@ -127,7 +127,7 @@ The pop-out below provides a description of the natural factors that influence o
 
     [Click to open a drifting continents & ocean currents animation.](https://www.meted.ucar.edu/broadcastmet/climate/media/video/continents_currents.mp4)
 
-    Drifting continents make a big difference in climate over millions of years by changing ice caps at the poles and by steering ocean currents, which transport heat and cold throughout the ocean depths. These currents in turn influence atmospheric processes. Snow and ice on Earth also affect climate because they reflect more solar energy than darker land cover or open water.
+    Drifting continents make a big difference in climate over millions of years by changing ice caps at the poles and by steering ocean currents, which transport heat and cold throughout the ocean depths. In turn, these currents influence atmospheric processes. Snow and ice on Earth also affect climate because they reflect more solar energy than darker land cover or open water.
 
     |Global average surface temperature change with volcanic eruptions|
 
@@ -170,7 +170,7 @@ The pop-out below provides background information on the Earth’s energy balanc
     |still|
 
     The Earth is in a delicate equilibrium of solar energy (mainly shortwave
-    ultraviolet) coming in and longwave energy (mainly infrared) going out.
+    ultraviolet) entering and longwave energy (mainly infrared) leaving.
     Slight alterations to this balance impact weather and climate. These can
     be caused by the natural cycles of climate variability, such as volcanic
     eruptions, that temporarily reduce the amount of solar energy reaching
@@ -182,10 +182,10 @@ The pop-out below provides background information on the Earth’s energy balanc
     driving recent trends in global temperature.
 
     The diagram below of the energy cycle shows the amount of energy, in
-    Watts per square meter, that comes into the Earth-atmosphere-ocean
-    system, stays within it, and leaves. Notice that about one third of the
+    Watts per square meter, that enter the Earth-atmosphere-ocean
+    system, remains within it, and leaves. Notice that about one third of the
     342 W/m2 of solar energy (the yellow arrows) is reflected back to space
-    by the atmosphere or surface, while about two thirds is absorbed. As
+    by the atmosphere or surface, while about two thirds are absorbed. As
     we’ve seen, the magnitude of solar energy reflected by aerosols
     sometimes increases temporarily after major volcanic eruptions, leading
     to temporary decreases in solar energy reaching Earth’s surface.
@@ -222,7 +222,7 @@ for streamflow, CO2 emissions, and global temperature anomalies.
 
     |Map of Colorado River Basin.|
 
-    To take one example, tree ring analysis can be used to reconstruct
+    For example, tree-ring analysis can be used to reconstruct
     streamflow in the rivers of the western United States. This has been
     done for rivers such as the Colorado River at Lee's Ferry, in the state
     of Arizona.
@@ -278,9 +278,9 @@ for streamflow, CO2 emissions, and global temperature anomalies.
 5.2 Climate variability
 -------------------------------------------------
 
-When accounting for climate change impacts on research in water and
+When accounting for climate-change impacts on research in water and
 environmental studies, it is important to differentiate between climate
-variability, for which the past can be a guide, and climate change,
+variability (for which the past can be a guide) and climate change,
 where the past is not necessarily a good predictor as climate change
 involves changes to this natural variability. Starting off this section,
 we will review some of the natural climate cycles and occurrences.
@@ -305,7 +305,7 @@ we will review some of the natural climate cycles and occurrences.
     The 2011 analysis shows large areas with above average snowpack in the
     central Rocky Mountain region and California Sierra Nevada Range in the
     United States. In 2012, these same areas had abnormally low snowpack,
-    reflecting a less productive snow season. Good research planning allows
+    reflecting a less abundant snow season. Good research planning allows
     for such variation. But will the expected range of snowpack change as
     the climate warms?
 
@@ -316,8 +316,8 @@ change encompasses both increases and decreases in temperature, as well
 as shifts in precipitation, changes in frequency and location of severe
 weather events, and changes to other features of the climate system.The
 principal natural drivers of climate change (which are also termed
-external natural forcings), include changes in incoming solar radiation
-(through solar cycles), volc:mark:`anic activity, orbital cycles, and
+"external natural forcings"), include changes in incoming solar radiation
+(through solar cycles), volcanic activity, orbital cycles, and
 changes in global biogeochemical cycles.`
 
 .. dropdown:: Irregular climate impacts
@@ -362,7 +362,7 @@ changes in global biogeochemical cycles.`
 
 Major anthropogenic drivers include atmospheric aerosols (fine
 solid particles or liquid droplets), land-use change, and CO2 and
-non-CO2 greenhouse gasses. The natural and anthropogenic drivers taken
+non-CO2 greenhouse gases. The natural and anthropogenic drivers taken
 together make up what are called climate forcings.
 
 .. dropdown:: Climate forcings
@@ -372,7 +372,7 @@ together make up what are called climate forcings.
 
     In this pop-out, we will examine how a number of forcings (both
     natural and anthropogenic) have influenced the energy balance between
-    the Earth and Sun from 1880 to 2014, determining if each forcing has had
+    the Earth and Sun from 1880 to 2014, determining whether each forcing has had
     a warming effect (in which case the forcing goes above the zero change
     line) or a cooling effect (in which case the forcing goes below the zero
     change line).
@@ -407,7 +407,7 @@ together make up what are called climate forcings.
     **Land Use**
     ~~~~~~~~~~~~~~~~~~~~
 
-    Now we'll look at the Land Use Forcings. What impact does land
+    Now we'll look at the Land-Use Forcings. What impact does land
     use have on the solar energy absorbed at the Earth’s surface?
 
     |image3|
@@ -417,7 +417,7 @@ together make up what are called climate forcings.
     forests with agricultural or urban land tends to increase the surface
     albedo and reflect more solar energy back to space.
 
-    **Climate Forcings – What is Albedo**
+    **Climate Forcings – What is Albedo?**
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     |California/Nevada January Snowcover Comparison: 2013 versus 2014|
@@ -431,7 +431,7 @@ together make up what are called climate forcings.
     sands have high albedo and show up as relatively bright in this visible
     satellite imagery.
 
-    Dark colored surfaces have low albedo and absorb solar energy. This
+    Dark-colored surfaces have low albedo and absorb solar energy. This
     impacts the solar energy absorbed by Earth. Forest areas appear dark on
     visible satellite images, and are more efficient at absorbing solar
     energy. Bodies of water appear very dark and have very low albedos.
@@ -469,7 +469,7 @@ together make up what are called climate forcings.
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Now we’ll look at the impact of Greenhouse Gases. All of the
-    greenhouse gases result in a warming trend. Well-mixed gases, such as
+    greenhouse gases result in a warming trend. Well mixed gases, such as
     carbon dioxide, methane, and nitrous oxide, have the greatest impact,
     and this impact is increasing with time.
 
