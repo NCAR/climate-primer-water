@@ -481,7 +481,7 @@ projection data include:
       projections.
 
 Spatial Downscaling
--------------------
+~~~~~~~~~~~~~~~~~~~~
 
 In addition to bias correction, spatial downscaling is often done
 to make climate simulations more regionally relevant. Downscaling allows
@@ -491,7 +491,7 @@ manifestations of climate patterns result from complex topography or
 coastal interfaces may find downscaling a necessity.
 
 **Statistical versus Dynamic Downscaling**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""
 
 Downscaling: Two classifications of methodologies
 
@@ -561,7 +561,7 @@ still feature their own simulation biases much like the ESMs feeding
 them input information.
 
 **Spatial Downscaling: Statistical**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""
 
 |image18|
 
@@ -657,7 +657,7 @@ important influence of elevation and elevation gradient on both the
 distribution of precipitation and whether it is rain or snow.
 
 **Bias Correction and Spatial Downscaling (BCSD) Method - REAL DATA**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 BCSD: Bias Correction and Spatial Downscaling methodology (Wood
 et al. 2002)
@@ -689,7 +689,7 @@ statistical downscaling approach, resulting in a higher spatial
 resolution.
 
 **BCSD, Part 1: Bias Correction**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""
 
 BCSD bias correction (here using older AR4 data, but AR6 data
 could use the same approach)
@@ -787,7 +787,7 @@ Projection #4 for the historical period:
 -  There is a magnitude dependent bias.
 
 General Bias: All Simulations
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The range of values associated with the projection is more narrow
 than the range associated with the observations. There is mainly a dry
@@ -834,7 +834,7 @@ of distribution-based bias corrections that were used in the historical
 period.
 
 Bias Correction of Values Outside Historical Range
---------------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The bias correction approach that we just illustrated is
 appropriate for data that does not have a distinct trend in the future
@@ -910,7 +910,7 @@ the low value would receive the same bias correction associated with the
 lowest simulated historical value.
 
 BCSD, Part 2: Spatial Downscaling - Real Data
----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BCSD Downscaling:`
 
@@ -1022,7 +1022,7 @@ downscaling. Next we will discuss why ensemble information may be
 beneficial.
 
 Using Climate Projection Ensembles
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image57|
 
@@ -1084,7 +1084,7 @@ future periods. One way is to use the past as guidance as we will
 demonstrate in a later example.
 
 BCSD Example: Using Ensembles
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We have discussed three important steps in using BCSD to prepare
 model projections for future periods:
@@ -1187,8 +1187,8 @@ scenarios and a determination of which climate projections will be used
 to inform these scenarios.
 
 
-Central TEndency, Spread, and Simulation Mean
-----------------------------------------------------------
+Central Tendency, Spread, and Simulation Mean
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image65|
 
@@ -1234,7 +1234,7 @@ simulation means will be the basis for quantifying how the variable
 changes from a historical period to a future period.
 
 **Define Period Change**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""
 
 |image70|
 
@@ -1268,7 +1268,7 @@ of each line represents the sign and magnitude of the period change in
 temperature for that specific projection.
 
 Exercise: Quantify Period Change
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For each projection, 1 through 5, the sign, negative or positive,
 and magnitude of the period temperature change are as follows:
@@ -1304,7 +1304,7 @@ projections and sometimes the spread ranges from negative to positive
 change values.
 
 Time Steps: Monthly vs. Annual
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now let's take the concepts of central tendency and spread and
 apply those to the two sets of climate change data that were introduced
@@ -1382,7 +1382,7 @@ central tendency and spread with mean annual temperature and mean annual
 precipitation derived from the BCSD data set.
 
 Examine Climate Simulations: Oklahoma/Texas Case
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image76|
 
@@ -1392,7 +1392,7 @@ bias-corrected and downscaled mean annual temperature projections from
 1950–2099.
 
 Temperature Time Series Trends
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image77|
 
@@ -1415,7 +1415,7 @@ following:
    with time.
 
 Precipitation Time Series Trends
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Here are the projections of bias-corrected, downscaled annual
 precipitation for this same area for 1950-2099.
@@ -1428,7 +1428,7 @@ possibilities, or spread, with time. There is more spread in the
 precipitation projections than in the temperature projections.
 
 Combined Time Series Trends
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image79|
 
@@ -1438,7 +1438,7 @@ Uncertainty in future annual precipitation is even greater than that for
 temperature with no well-defined trend toward either wetter or drier.
 
 Evaluate Based on Period Change
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 
 |image80|
 
@@ -1492,7 +1492,7 @@ tendency and spread of the change between the two periods.
 -  Used to determine central tendency and spread of the change
 
 Identify Climate Change Scenarios: California Case
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image84|
 
@@ -1503,7 +1503,7 @@ Step 2 of our process. We will select the central tendency and spread
 and use those to determine our climate change scenarios.
 
 Identify Central Tendency and Spread
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 
 |image85|
 
@@ -1795,7 +1795,7 @@ Advantages of using an ensemble of projections:
    to detect
 
 Period Change vs. Transient Method
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image99|
 
@@ -1841,7 +1841,7 @@ As ESMs become more sophisticated:
 -  Transient representation of time may be more appropriate
 
 **Step 3 Summary / Next Steps**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""
 
 In our description of step 3 of our hydro-climate inputs for
 climate change preparation process using the BCSD method, we have
@@ -1985,7 +1985,7 @@ scenario.
 -  Merged with model-based climate change trends
 
 Climate-adjusted Weather, Sequencing, and Climate Projections
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image103|
 
@@ -2127,7 +2127,7 @@ sequencing depicted in the observations are both preserved in the
 future.
 
 The Change Factor
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image111|
 
@@ -2160,7 +2160,7 @@ embodies the climate change trend while reflecting the historical period
 sequencing.
 
 Monthly Sequencing
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 |image115|
 
@@ -2257,7 +2257,7 @@ to produce a time series that can represent conditions with future
 climate trends.
 
 Capturing Observed Variability
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image122|
 
@@ -2285,7 +2285,7 @@ values in the 30-inch range that we saw in the time series plot are
 shown here in the upper end on the right side of the distribution.
 
 Simulating the Historical Period
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image124|
 
@@ -2328,7 +2328,7 @@ the simulations are at the finer 1/8° grid resolution. The downscaling
 reintroduces some bias.
 
 Simulating the Future
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image125|
 
@@ -2376,7 +2376,7 @@ Remember that these are all annual changes. Any specific month
 within the year may show values that differ.
 
 Obtaining Specific Monthly Change Factors
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Change factor
 
@@ -2469,7 +2469,7 @@ drier scenario to 1.10 for the hotter/wetter scenario, and 1.23 for the
 warmer/wetter scenario.
 
 Obtaining Specific Month Climate-Adjusted Precipitation
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image136|
 
@@ -2489,7 +2489,7 @@ warmer/drier scenario would result in the corresponding climate change
 December precipitation of 16.2 inches.
 
 December Climate-adjusted Weather, All Scenarios
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image138|
 
@@ -2526,7 +2526,7 @@ allow us to focus more on the general trend, which is sometimes called
 the climate change signal.
 
 Change Factors: All Months
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image139|
 
@@ -2585,7 +2585,7 @@ would be: the temperature observations, plus the change factor (which
 could be negative if there is a cooler climate change scenario).
 
 Develop Daily Climate Weather Inputs
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image140|
 
@@ -2718,7 +2718,7 @@ may change in unexpected ways that would not be captured simply by using
 the Delta or Ensemble-informed Delta method.
 
 References
-==========
+^^^^^^^^^^^
 
 SYMAP method (associated with BCSD spatial downscaling): Shepard,
 D.S. (1984) Computer mapping: The SYMAP interpolation algorithm, in
