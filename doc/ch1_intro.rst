@@ -84,7 +84,7 @@ guidance for understanding and using climate and climate-change data.
 
    -  How to evaluate datasets
 
-      -  Which datasets are good for past vs. future analysis?
+      -  Which datasets are good for `past <https://ncar.github.io/climate-primer-water/ch3_observations.html#observational-datasets-and-their-uncertainties>`_ vs. `future analysis <https://ncar.github.io/climate-primer-water/ch6_downscaling.html>`_?
 
       -  Are some datasets "better" than others and, if so, why?
 
