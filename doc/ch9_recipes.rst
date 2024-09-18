@@ -47,7 +47,7 @@ climate change impacts. There are a number of other methods, each with
 their own strengths and weaknesses.
 
 STEP 1. Climate Terms
-=====================
+^^^^^^^^^^^^^^^^^^^^^
 
 The terms and acronyms below will be important to understand as
 we go through this case study:
@@ -147,7 +147,7 @@ we go through this case study:
 -  IPCC – International Panel on Climate Change
 
 STEP 2. Develop Regionally Applicable Climate Projections
-=========================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image3|
 
@@ -1134,7 +1134,7 @@ The light blue lines in this case show the full set of ensemble
 traces.
 
 STEP 3. Determine climate change scenarios and select associated climate projections
-====================================================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image64|
 
@@ -1903,7 +1903,7 @@ can be used for modeling impacts on surface hydrology and crop
 irrigation water.
 
 STEP 4. Develop climate-adjusted weather for climate change scenarios
-=====================================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image100|
 
