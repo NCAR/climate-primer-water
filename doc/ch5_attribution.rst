@@ -1008,7 +1008,7 @@ to anthropogenic forcing*, and we refer the reader to Eyring et al.
 
 *Attribution Methods: Attribution of observed climate change to
 anthropogenic forcing –* Here, regional-scale attribution is the process
-of evaluating the relative contributions of multiple causal factors (or
+of evaluating the potential contributions of multiple causal factors (or
 drivers) to regional climate change. Specific regional conditions and
 responses may simplify or complicate attribution on those scales. In
 general, regional climate variations are larger than the global mean
@@ -1020,14 +1020,13 @@ factors of regional climate change may also include internal modes of
 variability in addition to external natural and anthropogenic forcing.
 Other complicating factors include an increased similarity among the
 responses to different external forcings leading to a more difficult
-discrimination of their effects, the importance at regional scale of
-some omitted forcings in global model simulations, and model biases
-related to the representation of small-scale phenomena (Zhai et al.,
+discrimination of their effects, the importance of
+some omitted forcings in global model simulations at regional scale, and model biases
+related to the representation of small-scale phenomena (Zhai et al.
 2018). These statistical limitations may be reduced by *process-based
 (or regional-scale) attribution*, focusing on the physical processes
 known to influence the response to external forcing and internal
-variability. We provide a summary of these attribution methodologies in
-what follows, after first noting that these methodologies rely upon the
+variability. We provide a summary of these attribution methodologies next, after first noting that these methodologies rely upon the
 availability of high-quality observational datasets as well as
 multi-model simulations of the historical period constrained by
 different external forcing combinations, including single-forcing
@@ -1035,7 +1034,7 @@ experiments and single-model initial-condition large ensembles (SMILEs).
 
 Standard approaches include *optimal fingerprinting* methods that are
 based on multivariate linear regression and assume that the observed
-change consists of a linear combination of externally forced signals
+change exhibits a linear combination of externally forced signals
 plus internal variability. The main goal is to determine the extent to
 which observed climate changes can be attributed to specific external
 forcings. The regressors are the expected space–time response patterns
@@ -1080,87 +1079,86 @@ include:
 
 Regional studies that have used this approach to detect multi-decadal
 precipitation changes due to anthropogenic forcing for several regions
-include: Ma et al., 2017; Song et al., 2014; Zhou et al., 2017; Tian et
-al., 2018; Delworth and Zeng (2014); and Dey et al., 2019a, b.
+include: Ma et al. 2017; Song et al. 2014; Zhou et al. 2017; Tian et
+al. 2018; Delworth and Zeng (2014); and Dey et al. 2019a, b.
 
 *Other Spatiotemporal Statistical Methods –* From Doblas-Reyes et al.
 (2021), The primary objective of any attribution method is to optimally
 separate the influences of external forcing and internal variability on
 a global or regional climate record. In a multi-model ensemble context,
-the estimation of the externally-forced climate response has been
+the estimation of the externally forced climate response has been
 typically performed by ensemble averaging of linear trends or regional
 domain spatial average, thus not taking into account the available and
-complete space and time covariance information. Methods using
+complete space-and-time covariance information. Methods using
 spatiotemporal information to improve the separation between external
 and internal drivers in multiple or single historical climate
 realizations performed by a given global model include pattern filtering
 methods such as signal-to-noise maximizing empirical orthogonal
-functions (Ting et al., 2009); dynamical adjustment to extract the
+functions (Ting et al. 2009); dynamical adjustment to extract the
 response to external forcing in an observed or simulated single
-realization (Smoliak et al., 2015; Deser et al., 2016; Sippel et al.,
-2019); time scale separation methods (DelSole et al., 2011; Wills et
-al., 2018, 2020); and the ensemble empirical mode decomposition method
-(Wu and Huang, 2009; Wilcox et al., 2013; Ji et al., 2014; Qian and
-Zhou, 2014), which decomposes data, such as time series of historical
+realization (Smoliak et al. 2015; Deser et al. 2016; Sippel et al.
+2019); time-scale separation methods (DelSole et al. 2011; Wills et
+al. 2018, 2020); and the ensemble empirical-mode decomposition method
+(Wu and Huang 2009; Wilcox et al. 2013; Ji et al. 2014; Qian and
+Zhou 2014), which decomposes data, such as time series of historical
 temperature and precipitation, into independent oscillatory modes of
-decreasing frequency..
+decreasing frequency.
 
 *Attribution Methods: Attribution of weather and climate events to
 anthropogenic forcing –* Here with reference to Hope et al. (2021) and
-Seneviratne, et al. (2021), we discuss methods to attribute the change
+Seneviratne et al. (2021), we discuss methods to attribute the change
 in likelihood or characteristics of weather or climate events or classes
 of events to underlying drivers, where typically, historical changes,
 simulated under observed forcings, are compared to a counterfactual
 climate simulated in the absence of anthropogenic forcing.
 
 The outcome of event attribution is dependent on the definition of the
-event (Leach et al., 2020), as well as the framing (Otto et al., 2016;
-Christidis et al., 2018; Jézéquel et al., 2018) and uncertainties in
+event (Leach et al. 2020), as well as the framing (Otto et al. 2016;
+Christidis et al. 2018; Jézéquel et al. 2018) and uncertainties in
 observations and modeling. Attribution statements are also dependent on
-the spatial (Uhe et al., 2016; Cattiaux and Ribes, 2018;
-Kirchmeier-Young et al., 2019) and temporal (Harrington, 2017; Leach et
-al., 2020) extent of event definitions, as events of different scales
-involve different processes (Zhang et al., 2020) and large-scale
+the spatial (Uhe et al. 2016; Cattiaux and Ribes 2018;
+Kirchmeier-Young et al. 2019) and temporal (Harrington 2017; Leach et
+al. 2020) extent of event definitions, as events of different scales
+comprise different processes (Zhang et al. 2020) and large-scale
 averages generally yield higher attributable changes in magnitude or
-probability due to the smoothing out of noise. In general, confidence in
-attribution statements for large-scale heat and lengthy extreme
-precipitation events have higher confidence than shorter and more
+probability due to noise smoothing. In general, confidence in
+attribution statements for large-scale heat and lengthy extreme-precipitation events have higher confidence than shorter and more
 localized events, such as extreme storms, an aspect also relevant for
 determining the emergence of signals in extremes or the confidence in
 projections (see also the tables of confidence in extremes for North
 America in the next section).
 
 Trend detection using optimal fingerprinting methods is a
-well-established field. However, there are specific challenges when
+well established field. However, there are specific challenges when
 applying optimal fingerprinting to the detection and attribution of
-trends in extremes and on regional scales where the lower signal-
-to-noise ratio is a challenge.
+trends in extremes and on regional scales where there exists a lower signal-
+to-noise ratio.
 
 Apart from the detection and attribution of trends in extremes, new
 approaches have been developed to answer the question of whether, and to
 what extent, external drivers have altered the probability and intensity
-of an individual extreme event (NASEM, 2016). A commonly used approach –
+of a given extreme event (NASEM 2016). A commonly used approach –
 often called the risk-based approach in the literature, and referred to
-here as the ‘probability-based approach’ – produces statements such as
-‘anthropogenic climate change made this event type twice as likely’ or
-‘anthropogenic climate change made this event 15% more intense’. This is
+here as the "probability-based approach" – produces statements such as
+"anthropogenic climate change made this event type twice as likely" or
+"anthropogenic climate change made this event 15% more intense." This is
 done by estimating probability distributions of the index characterizing
 the event in today’s climate, as well as in a counterfactual climate,
 and either comparing intensities for a given occurrence probability
 (e.g., 1-in-100-year event) or probabilities for a given magnitude.
 There are a number of different analytical methods encompassed in the
 probability-based approach, building on observations and statistical
-analyses (e.g., van Oldenborgh et al., 2012), optimal fingerprint
-methods (Sun et al., 2014), regional climate and weather forecast models
-(e.g., Schaller et al., 2016), global climate models (GCMs) (e.g., Lewis
-and Karoly, 2013), and large ensembles of atmosphere-only GCMs (e.g.,
-Lott et al., 2013).
+analyses (e.g., van Oldenborgh et al. 2012), optimal fingerprint
+methods (Sun et al. 2014), regional climate and weather forecast models
+(e.g., Schaller et al. 2016), global climate models (GCMs) (e.g., Lewis
+and Karoly 2013), and large ensembles of atmosphere-only GCMs (e.g.,
+Lott et al. 2013).
 
 Another approach examines facets of the weather and thermodynamic status
-of an event through process-based attribution (Hauser et al., 2016;
-Shepherd et al., 2018; Grose et al., 2018). Using these techniques,
+of an event through process-based attribution (Hauser et al. 2016;
+Shepherd et al. 2018; Grose et al. 2018). Using these techniques,
 attributable human influence has been found for heavy precipitation, and
-certain types of droughts and tropical cyclones (e.g., Herring et al.,
+certain types of droughts and tropical cyclones (e.g., Herring et al.
 2021).
 
 
@@ -1170,7 +1168,7 @@ certain types of droughts and tropical cyclones (e.g., Herring et al.,
 |image18|
 
 **What are we certain about?** On a global scale we know that sea
-and land ice volume are decreasing as average temperature, evaporation,
+and land ice volume is decreasing as average temperature, evaporation,
 and atmospheric water vapor are increasing.
 
 **What are we pretty sure about?** There are likely to be some
@@ -1196,17 +1194,17 @@ research and resources planning.
 
     - Global average temperature has been warming and will continue to warm through the 21st century
 
-    - Short-term natural cycles of increased warming interspersed with cooling (or slower warming) will be superimposed on the overall long-term warming
+    - Short-term natural cycles of increased warming interspersed with cooling (or slower warming) will be superimposed on overall long-term warming
 
     - Average snow cover and snowpack in the United States is likely to decrease through the 21st century
 
     - Precipitation extremes (wet and dry) are likely to continue increasing through the 21st century, with some regional trends toward either more wet or more dry
 
-    These climate trends have, and will continue to have, impacts on water resources 
+    These climate trends have, and will continue to have, impacts on water resources. 
 
 
 The need for understanding the influence of climate change on the U.S.
-water sector, its impacts, and need for informed decision-making across
+water sector, its impacts, and imperative for informed decision-making across
 the U.S. is highlighted in The Fifth National Climate Assessment (NCA5;
 https://nca2023.globalchange.gov/; see Chapter 2 for more in-depth
 discussion) produced by the U.S. Global Change Research Program, with
@@ -1215,9 +1213,9 @@ are already far-reaching and worsening across every region of the United
 States.” In addition, the NCA5 states that, “Changes in multiple aspects
 of climate are apparent in every U.S. region … warming is apparent in
 every region … average annual precipitation is increasing in most
-regions, except in the Northwest, Southwest, and Hawai‘i, where
+regions, except in the Northwest, Southwest, and Hawai'i, where
 precipitation has decreased … heavy precipitation events are increasing
-everywhere except Hawai‘i and the US Caribbean” (see NCA5 for further
+everywhere except Hawai'i and the U.S. Caribbean” (see NCA5 for further
 information on how CC affects the U.S.’s physical Earth systems, current
 and future risks, and what can be done to reduce those risks, in each of
 the 10 NCA5-defined regions.
@@ -1230,13 +1228,13 @@ the 10 NCA5-defined regions.
 
 *The frequency and intensity of heavy precipitation events have
 increased across much of the United States, particularly the eastern
-part of the continental US, with implications for flood risk and
+part of the continental U.S., with implications for flood risk and
 infrastructure planning. Maps show observed changes in three measures of
 extreme precipitation: (a) total precipitation falling on the heaviest
 1% of days, (b) daily maximum precipitation in a 5-year period, and (c)
 the annual heaviest daily precipitation amount over 1958–2021. Numbers
 in black circles depict percent changes at the regional level. Data were
-not available for the US-Affiliated Pacific Islands and the US Virgin
+not available for the U.S.-Affiliated Pacific Islands and the U.S. Virgin
 Islands. Figure credits: from NCA5, (a) adapted from Easterling et al.
 2017; (b, c) NOAA NCEI and CISESS NC.*
 
@@ -1244,12 +1242,12 @@ Islands. Figure credits: from NCA5, (a) adapted from Easterling et al.
 
 *Over much of the country, the risk of warm nights has increased while
 the risk of cold days has decreased. The risk of hot days has also
-increased across the western US. This figure shows the observed change
+increased across the western U.S. This figure shows the observed change
 in the number of (a) hot days (days at or above 95°F), (b) cold days
 (days at or below 32°F), and (c) warm nights (nights at or above 70°F)
 over the period 2002–2021 relative to 1901–1960 (1951–1980 for Alaska
-and Hawai‘i and 1956–1980 for Puerto Rico). Data were not available for
-the US-Affiliated Pacific Islands and the US Virgin Islands. Figure
+and Hawai'i and 1956–1980 for Puerto Rico). Data were not available for
+the U.S.-Affiliated Pacific Islands and the U.S. Virgin Islands. Figure
 credit: from NCA5, Project Drawdown, Washington State University
 Vancouver, NOAA NCEI, and CISESS NC.*
 
@@ -1274,7 +1272,7 @@ from Karl et al. 2009).*
 
 Observations in the United States from 1958-2012 show that the amount of
 precipitation falling in the heaviest 1% of daily events is increasing
-in all states except Hawaii. The Northeast and upper Midwest have the
+in all states except Hawai'i. The Northeast and upper Midwest exhibit the
 most notable increase in intense precipitation. The interrelationships
 between precipitation and other climate variables are important to
 hydrology. Temperature affects the hydrological cycle due to its
@@ -1285,7 +1283,7 @@ and melting, among other things.
 
 In the western part of the contiguous United States, the observed trend
 in April 1st snowpack is decreasing in a majority of locations,
-especially the northern Rockies and Pacific Northwest.
+especially the northern Rocky Mountains and Pacific Northwest.
 
 |image24|
 
@@ -1298,7 +1296,7 @@ periods of both positive and negative annual precipitation anomalies
 rather than a long-term trend in precipitation amount. Because the
 warmer temperatures of recent decades can contribute to greater
 evapotranspiration, the negative precipitation anomalies may result in
-more severe drought compared to similar negative precipitation anomalies
+more severe dr   ought compared to similar negative precipitation anomalies
 of the early 20th century.
 
 *Trends in Extremes –* Observation-based studies show that natural
@@ -1315,8 +1313,8 @@ climate warms the global mean, the extremes associated with natural
 variability may reach magnitudes rarely or never before seen in the
 observed record.
 
-*Regional Information on Extremes –* The table below are taken from IPCC
-AR6 (Seneviratne et al., 2021) and provides summary regional assessments
+*Regional Information on Extremes –* The table below was taken from IPCC
+AR6 (Seneviratne et al. 2021) and provides summary regional assessments
 for hot extremes (HOT EXT.), heavy precipitation (HEAVY PRECIP.),
 agriculture and ecological droughts (AGR./ECOL. DROUGHT), and
 hydrological droughts (HYDR. DROUGHT). It shows the direction of change
@@ -1328,11 +1326,9 @@ for two different baseline periods: 1850–1900 (pre-industrial) and
 1.4.1 for more details). Direction of change is represented by an upward
 arrow (increase) and a downward arrow (decrease). Level of confidence is
 reported for LOW: low, MED.: medium, HIGH: high; levels of likelihood
-(only in cases of high confidence) include: L: likely , VL: very likely
-, EL: extremely likely , VC: virtual certain. Dark orange shading
-highlights high confidence (also including likely , very likely ,
-extremely likely and virtually certain changes) increases in hot
-temperature extremes, agricultural and ecological drought, or
+(only in cases of high confidence) include: L: likely, VL: very likely, EL: extremely likely, VC: virtually certain. Dark-orange shading
+highlights high confidence (also including likely, very likely,
+extremely likely, and virtually certain changes) increases in hot-temperature extremes, agricultural and ecological drought, or
 hydrological droughts. Yellow indicates medium confidence increases in
 these extremes, and blue shadings indicate decreases in these extremes.
 High confidence increases in heavy precipitation are highlighted in dark
