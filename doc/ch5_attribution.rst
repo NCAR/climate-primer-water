@@ -784,17 +784,17 @@ a level of significance) that a change has occurred, and provides the
 basis for attributing these changes to specific causes, such as human
 activities. Because of the presence of natural variability and other
 noise in the data under study, distinguishing a climate-change induced
-signal is more often a statistical process (e.g. a detectable observed
-change is one which is determined to be highly unlikely to occur – say,
+signal is more often a statistical process (e.g., a detectable observed
+change is one that is determined to be highly unlikely to occur – say,
 less than about a 10% chance – due to internal variability alone).
 
-The popout below provides an overview of the changes in climate variable
+The popout below provides an overview of the changes in climate-variable
 statistical distributions that could result from climate change. In
 context of detection, there are a variety of statistical tests that can
 be used to test the significance of differences between distributions
-(e.g. the Kolmorgorav-Smirnov two sample test that two data samples come
-from the same distribution; NIST, 2023; Chakravart et al., 1967; Press
-et al., 1992).
+(e.g., the Kolmorgorav-Smirnov two-sample test that two data samples come
+from the same distribution; NIST 2023; Chakravart et al. 1967; Press
+et al. 1992).
 
 .. dropdown::  Climate change and extremes
 
@@ -803,9 +803,8 @@ et al., 1992).
 
     Just as changes in annual and seasonal mean temperature and
     precipitation are very important to water research and resources,
-    depending on the particular focus of the planning, changes in short
-    duration extremes can be very important too. Extremes can have direct
-    impacts on habitat, and pose risks to infrastructure. It is important to
+    depending on the particular focus of the planning, changes in short-duration extremes can be very important too. Extremes can directly
+    impact habitat, and pose risks to infrastructure. It is important to
     get a sense for what extremes represent from a statistical standpoint.
     Extreme weather is a bit relative. For example, a hot day in
     Wyoming would be considered a mild one in Arizona. And we don't
@@ -830,14 +829,14 @@ et al., 1992).
     both ends of the distribution. Or climate change could result in a
     combination of the two types of distributions. We don't *a priori* know
     exactly how the distributions of weather variables in each specific
-    location will be impacted.
+    location will be influenced.
 
     |Graphic depicting how a warmer climate affects extremes in temperature
     and precipitation|
 
     Precipitation curves have only one tail for the extreme precipitation
     events, as shown in the bottom panel of the figure above (with
-    the two-parameter gamma traditionally used; Ye et al., 2018). In a
+    the two-parameter gamma traditionally used; Ye et al. 2018). In a
     warmer climate with more atmospheric water vapor, generally, more
     intense precipitation events become more common. Recent observations
     back this up, with high-end precipitation events becoming less rare than
@@ -853,24 +852,24 @@ complex, interacting factors that can range in scales from molecular to
 global, seconds to millennia. Attribution studies can use statistical
 tests as well as climate models, to evaluate the relative contributions
 of various causes to climate change (along with an assignment of
-statistical confidence), like greenhouse gas emissions, solar radiation,
+statistical confidence), like greenhouse-gas emissions, solar radiation,
 and volcanic activity, with the latter (coupled climate models) being an
 especially powerful tool with potential to turn on and off factors in
 controlled numerical simulations of the areas and events of interest. A
 supporting concept is the idea of emergence of a climate change signal
-or trend, referring to when a change in climate (the ‘signal’) becomes
-larger than the amplitude of natural or internal variations (defining
-the ‘noise’) (AR6). This concept is often expressed as a
-‘signal-to-noise’ ratio (S/N) and emergence occurs at a defined
-threshold of this ratio (e.g., S/N >1 or 2) (Chen et al., 2021).
+or trend, referring to when a change in climate (the "signal") becomes
+greater than the amplitude of natural or internal variations (defining
+the "noise") (AR6). This concept is often expressed as a
+"signal-to-noise" ratio (S/N) and emergence occurs at a defined
+threshold of this ratio (e.g. S/N >1 or 2) (Chen et al. 2021).
 
 *Elements of a Detection and Attribution Study –* The AR6 Cross-Working
-Group Box on Attribution (Hope et al., 2021) provides a brief discussion
+Group Box on Attribution (Hope et al. 2021) provides a brief discussion
 and figure (reproduced below), on *Steps towards an attribution
 assessment*; and a similar discussion on four core elements to any
 detection and attribution study is also provided in AR5 WG1 (Bindoff et
-al., 2013: *10.2.1 The Context of Detection and Attribution*). Taken
-together the following general steps are identified: a) the unambiguous
+al. 2013: *10.2.1 The Context of Detection and Attribution*). Taken
+together, the following general steps are identified: a) the unambiguous
 framing of what changes are being attributed to; b) clearly define the
 indicators of the observed change or event, including observations of
 one or more climate variables, such as surface temperature, that are
@@ -883,7 +882,7 @@ the driver whose influence is being investigated (such as rising
 greenhouse gas levels) and potential confounding influences (such as
 solar activity); d) the development of a hypothesis or theory for the
 linkage with a quantitative physically based understanding, normally
-encapsulated in a model, of how these external drivers are thought to
+encapsulated in a model, of how these external drivers are believed to
 have affected these observed climate variables; e) and a system or
 method to test the hypothesis or theory, typically including an
 estimate, often but not always derived from a physically based model, of
@@ -910,9 +909,9 @@ test the hypothesis or theory, Bindoff et al. (2013) highlight that the
 attribution of observed changes is not possible without some kind of
 model of the relationship between external climate drivers and
 observable variables given that we cannot observe a world in which
-either anthropogenic or natural forcing is absent. Such models may be
-very simple (e.g. a set of statistical assumptions) or very complex
-(e.g. coupled Earth System Model), and that it is not necessary (or
+neither anthropogenic or natural forcing exist. Such models may be
+very simple (e.g., a set of statistical assumptions) or very complex
+(e.g., coupled Earth System Model), and that it is not necessary (or
 possible) for them to be correct in all respects, but they must provide
 a physically consistent representation of processes and scales relevant
 to the attribution problem in question.
@@ -921,16 +920,16 @@ Some of the most powerful tools in the attribution process are models of
 the system of interest that use “what if” approaches to isolate the
 impacts of anthropogenic (and other) factors that are hypothesized to be
 driving the changes in the observed record. It is to be noted with very
-high confidence (IPCC, 2021) that the CMIP6 model ensemble reproduces
+high confidence (IPCC 2021) that the CMIP6 model ensemble reproduces
 the observed historical global surface temperature trend and variability
 with biases small enough to support detection and attribution of
-human-induced warming (Eyring, et al., 2021), and that CMIP6 also
+human-induced warming (Eyring et al. 2021), and that CMIP6 also
 includes an extensive set of idealized and single forcing experiments
-for attribution (Eyring et al., 2016; Gillett et al., 2016), but with
+for attribution (Eyring et al. 2016; Gillett et al. 2016), but with
 the important caveat that numerical models, however complex, cannot be a
 perfect representation of the real world, and their use requires
 considering the limitations of each model simulation (see 1.5.4 in Chen
-et al., 2021). The figure below highlights an earlier effort that used
+et al. 2021). The figure below highlights an earlier effort that used
 the “what if” approach on a global scale, where the impacts of
 anthropogenic forcings are isolated through the use of NCAR’s coupled
 Earth System Model. Trajectories of past global mean temperatures have
@@ -957,7 +956,7 @@ condition, which results in a different trajectory of internal
 variability once the memory of the initial state is lost. One can
 estimate the forced component from the ensemble-average at any point in
 time, since the internal component is randomly phased across the
-different members of the ensemble. The figure below (Deser et al., 2020)
+different members of the ensemble. The figure below (Deser et al. 2020)
 illustrates how the random phasing of internal variability of 60-year
 trends over North America can obscure the forced trend at any given
 location. Note the regional differences in the spatial patterns of the
@@ -968,10 +967,10 @@ Such Large Ensembles, then, provide context for interpreting observed
 trends. In this context, the actual observed trajectory can be
 considered as one realization of many possible alternative worlds that
 experienced different weather. This can also be demonstrated by the
-construction of ‘observation-based large ensembles’, which are alternate
+construction of "observation-based large ensembles," which are alternate
 possible realizations of historical observations that retain the
-statistical properties of observed regional weather (e.g., McKinnon and
-Deser, 2018; Chen, et al., 2021). Referring back to the concept of
+statistical properties of observed regional weather (e.g. McKinnon and
+Deser 2018; Chen et al. 2021). Referring back to the concept of
 signal-to-noise and to the second panel of the figure, the ratio of the
 mean shift from zero of the distributions (forced signal) compared to
 (some metric of) their spread (internal variability “noise”) provides a
@@ -988,10 +987,10 @@ The maps show the associated patterns of temperature trends: top row,
 observed and the forced component (estimated by the ensemble mean) from
 two LEs (CESM1 in green and MPI in purple); bottom row, individual
 ensemble members from CESM1 (green) and MPI (purple) with the weakest
-(‘coldest’) and strongest (‘warmest’) trends. Note that the individual
+("coldest") and strongest ("warmest") trends. Note that the individual
 member maps show the total (forced-plus-internal) trends in the model
 LEs. Observed trends are analogous to an individual ensemble member in
-that they reflect forced and internal contributions. From: Deser et al.,
+that they reflect forced and internal contributions. From: Deser et al.
 2020, Nat. Clim. Chang., 10, 277-286, doi:10.1038/s41558-020-0731-2,
 Copyright 2020 Nature Climate Change.*
 
@@ -999,9 +998,9 @@ Generally, attribution methods are grouped into two categories:
 *Attribution of observed climate change to anthropogenic forcing* and
 *Attribution of weather and climate events to anthropogenic forcing*, as
 will the discussion that follows. Because the focus of this primer is on
-climate change impacts on North America water studies, the focus in what
+climate-change impacts on North America water studies, the focus in what
 follows will be on regional approaches to this topic, referencing
-Doblas-Reyes, et al. (2021) for the discussion of *Attribution of
+Doblas-Reyes et al. (2021) for the discussion of *Attribution of
 observed climate change to anthropogenic forcing*, referencing
 Seneviratne et al. (2021) for *Attribution of weather and climate events
 to anthropogenic forcing*, and we refer the reader to Eyring et al.
