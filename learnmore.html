@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn More… &mdash; Climate Primer alpha 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=abb643a6" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5760debf"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Additional Resources" href="resources.html" />
+    <link rel="prev" title="Chapter 9: Walk-thru Recipes" href="ch9_recipes.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html">
+            
+              <img src="_static/climate_primer_small.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ch1_intro.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch2_climatewater.html">Chapter 2: Climate and Water Availability Assessments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch3_observations.html">Chapter 3: Characterize baseline quantities of interest, uncertainties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch4_gcms.html">Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch5_attribution.html">Chapter 5: Baseline natural variability and attribution of observed changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch6_downscaling.html">Chapter 6: Place-Based Climate Projections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch7_uncertainty.html">Chapter 7: Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch8_casestudies.html">Chapter 8: Example Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch9_recipes.html">Chapter 9: Walk-thru Recipes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Learn More…</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction-to-climate-models"><strong>Introduction to Climate Models</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#predictability-of-weather-and-climate">Predictability of Weather and Climate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#building-a-climate-system-model">Building a Climate System Model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#model-tuning">Model Tuning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#testing-climate-system-models">Testing Climate System Models</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bias-in-model-means">Bias in Model Means</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#natural-variability">Natural Variability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#future-directions">Future Directions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#summary">Summary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#earth-system-climate-modeling-historical-perspective"><strong>Earth-system climate modeling – historical perspective</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gcm-future-climate-datasets"><strong>GCM future climate datasets</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgements.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Climate Primer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Learn More…</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NCAR/climate-primer-water/blob/main/doc/learnmore.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="learn-more">
+<h1>Learn More…<a class="headerlink" href="#learn-more" title="Link to this heading"></a></h1>
+<section id="introduction-to-climate-models">
+<h2><strong>Introduction to Climate Models</strong><a class="headerlink" href="#introduction-to-climate-models" title="Link to this heading"></a></h2>
+<section id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h3>
+<p><a class="reference internal" href="_images/image91.jpg"><img alt="CCSM3 Simulation of Water Vapor (white) and Precipitation (orange) for April" src="_images/image91.jpg" style="width: 5.72917in; height: 3.125in;" /></a></p>
+<p>Weather forecasters depend on numerical weather prediction (NWP) models
+to produce timely, accurate forecasts. We depend on these forecasts to
+make all manner of decisions from recreation choice to emergency
+response. As a community, weather forecasters understand the strengths
+and weaknesses of NWP models better than just about any other group.
+Every forecaster knows, for example, that model skill drops sharply with
+time and that NWP models struggle to produce accurate and precise
+forecasts more than a week into the future.</p>
+<p>Climate models share a common heritage with NWP models. For example,
+this animation shows water vapor and precipitation for a period of
+several days. We see the same weather patterns produced by NWP models
+and observed in satellite images. In a climate simulation, the model
+would run for decades or centuries, rather than days. As a result,
+forecasters frequently wonder how a climate model can produce an
+accurate projection decades or centuries in the future, when NWP models
+cannot produce an accurate forecast at 10 days. The answer lies in the
+questions the respective models seek to address.</p>
+<p>This module explains how climate models work. We explain not only how,
+but why climate models differ from weather models.</p>
+<p>We have attempted to restrict the scope of this module to climate
+models, rather than climate science. We do however, draw upon climate
+science to illuminate the questions that climate models answer and to
+illustrate concepts with data from models and observations. For example,
+we do not attempt to explain the mechanics of El Nino-Southern
+Oscillation (ENSO), but we show examples of observations and model
+simulations of ENSO phenomena.</p>
+<p><strong>Why Model the Earth System?</strong></p>
+<p><a class="reference internal" href="_images/image32.jpg"><img alt="Satellite imagery of the great flood of the Mississippi River, 1993 in the area around St. Louis, MO comparing August 1991 and 1993." src="_images/image32.jpg" style="width: 3.77083in; height: 4.6875in;" /></a></p>
+<p><strong>Why do we model the climate system?</strong></p>
+<p>Since the start of the Industrial Revolution, greenhouse gases,
+principally carbon dioxide, have increased substantially in the
+atmosphere. The past several decades have seen a significant rise in
+global surface temperatures. The climate change associated with this
+warming may have profound impacts for society. For example, the
+frequency of extreme events, like the flooding that struck the midwest
+in 1993, may increase with a high toll on society.</p>
+<p><a class="reference internal" href="_images/image18.jpg"><img alt="Observed Surface Winds, Ocean Temperatures, and Currents across the Equatorial Pacific, Oct 2006 to Sep 2011" src="_images/image18.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Understanding how climate changes in response to changes in the
+composition of the atmosphere and other factors drives climate research.
+Climate models provide a tool to understand how processes work and
+interact with each other. For example, El Nino/Southern Oscillation
+(ENSO) is a mode of climate variability that strongly influences weather
+in North America and beyond. It results from a complex interaction of
+atmosphere and ocean. This animation shows observed winds, ocean
+temperatures, and currents across the Equatorial Pacific through five
+years of an ENSO cycle. Successfully modeling the complex interactions
+that result in ENSO allows researchers to understand the roles of the
+processes involved and how they interact.</p>
+<p><a class="reference internal" href="_images/image301.jpg"><img alt="Photo of the Shasta Dam" src="_images/image301.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>We also use models as a tool to look into the future, just as we use
+weather forecast models to make predictions. Both weather and climate
+models provide information for societal needs. For example, planning for
+future water and hydrologic needs requires looking far into the future.
+Building a dam, like the Shasta Dam shown here, requires a long lead
+time.</p>
+<p><strong>Global Energy Flows</strong></p>
+<p><a class="reference internal" href="_images/image2.jpg"><img alt="Global Energy Flows (W/m2)" src="_images/image2.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>Solar energy drives the Earth’s climate system. Based on measurements
+from satellites and other instruments, we can trace the flow of energy
+through the climate system. Note that the numbers are best estimates in
+Watts per square meter as of 2009. We can expect these numbers to change
+as our observations and understanding improve.</p>
+<p>Energy comes into the climate system as shortwave solar radiation. Some
+of that energy reflects off clouds and the atmosphere back to space.
+Some more is absorbed by the atmosphere.</p>
+<p>The rest makes its way to the surface, where most is absorbed but some
+is also reflected. The difference between the incoming and the reflected
+energy is the total available to the Earth’s climate system. About
+two-thirds of that is absorbed by the surface, while the rest is
+absorbed by the atmosphere.</p>
+<p>Solar energy absorbed at the surface warms the surface, which radiates
+thermal, or longwave, radiation.</p>
+<p>Some of that radiation makes it directly out to space through the
+so-called atmospheric window and some more is absorbed by clouds. There
+are also greenhouse gases in the atmosphere, particularly water vapor
+and carbon dioxide, that very efficiently absorb longwave radiation and
+radiate it.</p>
+<p>Greenhouse gases radiate in all directions so that some radiated energy
+is directed upward toward space, with the remainder directed downward
+toward the surface.</p>
+<p>Radiative transfer isn’t the only way that energy moves between the
+surface and the atmosphere. The surface also loses energy through
+evapotranspiration from plants and wet surfaces (latent heat), and
+through conduction (sensible heat).</p>
+<p>Climate models need to account for all the processes that modulate this
+flow of energy. For example, clouds reflect, absorb, and radiate energy.
+Therefore, the cloud processes need to be accurately simulated in
+climate models. Similarly, vegetation strongly modulates energy flow by
+affecting albedo and evapotranspiration.</p>
+<p><strong>Earth’s Atmospheric Dynamics</strong></p>
+<p><a class="reference internal" href="_images/image101.jpg"><img alt="The Tropics defined by upward motion, low pressure, surface winds, and net surface heating" src="_images/image101.jpg" style="width: 6.5in; height: 4.875in;" /></a></p>
+<p>Incoming solar radiation is much stronger near the equator than near the
+poles. Atmospheric circulations develop in response to this unequal
+distribution. These circulations attempt to equalize this distribution
+by moving heat from warmer to colder regions. Climate models have to
+account for these large-scale circulations, such as Hadley cells, and
+the convective heating shown in this figure.</p>
+<p><strong>Storm Systems</strong></p>
+<p><a class="reference internal" href="_images/image110.jpg"><img alt="Composite IR Satellite Image Loop 00 UTC 17 Mar 2012 to 12 UTC 20 Mar 2012" src="_images/image110.jpg" style="width: 6.25in; height: 3.75in;" /></a></p>
+<p>Furthermore, embedded within these planetary scale circulations are
+smaller-scale features that we call storm systems. They transport
+significant amounts of heat and energy around the planet. This loop of
+composite infrared satellite images shows storm systems pinwheeling
+across the globe at high latitudes. Note how the storms draw warm,
+moist, tropical air toward the poles.</p>
+<p><a class="reference external" href="https://www.meted.ucar.edu/nwp/climate_models/print.htm#header">Top of
+page</a></p>
+<p><strong>Earth’s Heat Transport</strong></p>
+<p><a class="reference internal" href="_images/image43.jpg"><img alt="Meridional Atmosphere and Ocean Heat Transports" src="_images/image43.jpg" style="width: 5.20833in; height: 4.16667in;" /></a></p>
+<p>The result of long-term climatological circulation and short-term storm
+systems is the net transport of heat from low latitudes to high
+latitudes. This figure, based on observations, shows the total amount of
+energy (in petawatts or quadrillions of watts) that’s transported toward
+both poles by the atmosphere, shown in green, and by the ocean, shown in
+red. While the atmosphere transports most of the heat out of the tropics
+and toward the poles, the ocean also plays a significant role. Thus
+climate models need to simulate oceanic processes in addition to
+atmospheric ones.</p>
+</section>
+<section id="predictability-of-weather-and-climate">
+<h3>Predictability of Weather and Climate<a class="headerlink" href="#predictability-of-weather-and-climate" title="Link to this heading"></a></h3>
+<p><strong>Weather versus Climate</strong></p>
+<p>The key difference between weather and climate is really a matter of
+time scale.</p>
+<ul class="simple">
+<li><p>Weather is what we experience over the course of hours, days, and
+weeks.</p></li>
+<li><p>Climate is the average of weather over years, decades, and longer.</p></li>
+</ul>
+<p>Or, as the old adage goes: climate is what you expect, weather is what
+you get.</p>
+<p>Forecast models are used to predict specific weather events. To do that,
+they start with the initial conditions and simulate how those conditions
+will evolve with time. Getting the initial conditions right turns out to
+be very important in forecasting weather events. The goal of those who
+develop and use these weather forecast models is to predict weather with
+enough accuracy to help those who may be affected by it.</p>
+<p>On the other hand, climate models are used to generate the statistics
+(such as the mean and variability) of weather phenomena, not predict the
+time and place at which the phenomena will occur. So, while climate
+models simulate weather phenomena, they are not dependent on initial
+atmospheric conditions to the extent that weather forecast models are.
+Initial ocean conditions can affect the simulated climate over the
+course of several years (eg. El Nino/La Nina) to a decade or more.</p>
+<p><strong>Initial Condition vs Boundary Condition</strong></p>
+<p>-<a class="reference internal" href="_images/image48.jpg"><img alt="Schamatic animation illustrating the difference between initial condition problem (ensemble drift and spread) and boundary condition problem (seasonality)" src="_images/image48.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>In modeling terms, the difference between weather and climate is what we
+call an initial condition problem versus a boundary condition problem.
+Initial conditions are the starting point, the initial state of
+variables like wind, temperatures, pressure, and moisture. Boundary
+conditions, in contrast, are values prescribed by the modeler. Examples
+include the intensity of solar radiation and composition of the
+atmosphere. Weather depends on initial conditions, while climate on
+decadal and longer time scales depends primarily on boundary conditions.</p>
+<p>Imagine we are looking at two forecast model runs starting from the same
+initial value, representative of the spring or fall season in either the
+Northern or Southern Hemisphere: Let’s force one set of forecasts with
+summer incoming solar radiation. The result is a prediction of
+temperature that oscillates up and down and gradually warms.</p>
+<p>Now take that model and run it several more times with summer solar
+forcing, starting each run with slightly different initial conditions,
+just like weather forecasters do with model ensembles. The forecasts
+diverge with time, but stay within some gradually warming forecast
+envelope. The details of the forecast, just like weather, depend
+critically upon the initial conditions of the model run.</p>
+<p>Next, repeat the process, but use winter solar forcing. It quickly
+becomes clear that the summer state is significantly warmer than the
+winter state.</p>
+<p>The variance within the summer and winter ensembles results from slight
+changes in the initial conditions.</p>
+<p>The difference between the summer and winter forecasts, or seasonality,
+results from a difference in boundary conditions.</p>
+<p><a class="reference internal" href="_images/image22.jpg"><img alt="animation of Earth orbiting Sun to explain seasons" src="_images/image22.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>If this were a location in the U.S., we know that it will be warmer in
+the summer, on average, than in the winter. The boundary condition that
+differs from summer to winter is the intensity and daily amount of
+incoming solar radiation reaching the Earth’s surface, which is directly
+related to the tilt of the Earth with respect to the sun. Seasonality is
+a boundary condition. The Northern Hemisphere gets more sunlight in
+summer than in winter.</p>
+<p><a class="reference internal" href="_images/image81.jpg"><img alt="Evolution of a model variable and forecast error during model integration" src="_images/image81.jpg" style="width: 6.25in; height: 3.17708in;" /></a></p>
+<p>On the other hand, the drift and spread between different forecasts
+within the summer and winter ensembles reflects a difference in initial
+conditions. This graphic illustrates how model forecasts continually
+drift away from the true state of the atmosphere. As a result,
+forecasters frequently re-initialize weather models to better match
+current observations, typically several times per day.</p>
+<p>For climate models, it’s the boundary conditions that matter.
+Initialization does not affect the long-term statistics that the models
+are designed to generate for periods of decades to centuries.</p>
+<p><strong>Prediction vs Projection</strong></p>
+<p>Another way to look at weather versus climate is looking at it as a
+forecast challenge.</p>
+<p><a class="reference internal" href="_images/image271.jpg"><img alt="Schematic diagram illustrating the difference between weather prediction and climate projection" src="_images/image271.jpg" style="width: 6.25in; height: 2.70833in;" /></a></p>
+<p>Weather forecasters have a strong grasp of the fundamental mechanics of
+their task. If you know the initial conditions, you can predict how the
+weather is going to evolve for some time going forward. This is why so
+much effort is expended obtaining and assimilating observations for
+numerical weather prediction. And by extension, a crucial step in the
+forecast process is to evaluate the model initialization by comparing
+the model analysis against current observations.</p>
+<p>Making an ENSO forecast or a seasonal outlook of precipitation is
+structurally no different than making a daily weather forecast. Why?
+Because they both assume you have a good understanding of how the basic
+system works. And because you know how it works, if you know the initial
+conditions, you can predict how it’s going to vary going forward for
+some time into the future. Whether that’s a 24-hr forecast or a seasonal
+outlook, it’s structurally the same. The objective of such a forecast is
+the same, too: to produce a prediction for a given location for a given
+time period.</p>
+<p>But there’s a limit to predictability. You’ve undoubtedly heard of
+Lorenz’s Butterfly: the allegory of how the flap of the butterfly’s
+wings over Brazil leads to a thunderstorm a week later. Small
+differences in the initial conditions, things we can’t even measure,
+will grow and contaminate the solution for a forecast. As a result,
+forecasters can’t predict if there will be snow on New Year’s day or
+rain on the summer solstice next year. That’s not because the weather
+model is no good, or we don’t understand the physics well enough. It’s
+due to the chaotic nature of the system.</p>
+<p>When it comes to longer-term climate problems, those determined over
+decades to centuries, it’s a different challenge. We’re not interested
+whether in the year 2083 we’re going to have El Nino or La Nina, so the
+initial conditions don’t concern us. We’re interested in how the
+statistics of the climate system will change in response to changing
+boundary conditions.</p>
+<p>Using our knowledge of how the climate system works, we want to know how
+factors that change the flow of energy will change the climate
+statistics. If the sun gets brighter, incoming energy increases. If the
+amount of carbon dioxide in the atmosphere increases, it changes how the
+atmosphere absorbs infrared radiation and, hence, changes the flow of
+energy through the system. If forest, which is dark, is replaced by
+crops and pastures that are brighter, the surface albedo changes. These
+are all examples of changes in boundary conditions. The physics are the
+same as those in weather prediction, but we’re solving a different
+problem.</p>
+<p>To distinguish between the questions addressed by weather and climate
+models, scientists use different terms. Projection refers to how the
+statistics of the climate system will change in response to changing
+boundary conditions. Prediction refers to the short-term evolution of
+the climate system from an initial state under constant boundary
+conditions.</p>
+<p><strong>Boundary Conditions</strong></p>
+<p>Boundary conditions in climate models all affect the way that energy is
+absorbed or exchanged in the climate system. Boundary conditions are not
+predicted by the model and must be specified. Some boundary conditions
+are natural, and others are influenced by human activities.</p>
+<p>What are the boundary conditions in climate models?</p>
+<p><a class="reference internal" href="_images/image311.jpg"><img alt="Global Volcanic and Solar Forcing 1850-2000 Used in the Third Paleoclimate Model Intercomparison Project (PMIP3)" src="_images/image311.jpg" style="width: 6.25in; height: 3.125in;" /></a></p>
+<p>Natural boundary conditions include solar radiation and volcanic
+aerosols. Total solar insolation, observed at the top of the atmosphere,
+has varied by about 2 W/m2 around an average of about 1361 W/m2 over the
+past 1150 years. Large volcanic eruptions episodically inject large
+quantities of aerosols into the atmosphere, which reflects incoming
+solar radiation.</p>
+<p><strong>Natural forcing: How do we know?</strong></p>
+<p><a class="reference internal" href="_images/image251.jpg"><img alt="Photo of Antarctic Ice Core with Prominent Ash Layer" src="_images/image251.jpg" style="width: 6.25in; height: 3.125in;" /></a></p>
+<p>Records of volcanic activity used to model past climate come from ice
+cores in the Arctic and Antarctic. For example, Gao et al. (2008)
+developed an index based on volcanic deposits in 54 ice core records.
+Based on the spatial distribution of the deposits and knowledge of
+stratospheric transport, they produced a volcanic forcing dataset as a
+function of month, latitude, and altitude for the past 1500 years.</p>
+<p>The primary source of information on solar activity (before direct
+measurements were made) comes from concentrations of carbon-14, which is
+formed in the atmosphere by the collision of nitrogen-14 and cosmic rays
+from the sun. The carbon-14 is incorporated into plant material, where
+it slowly decays back to nitrogen-14. By measuring the carbon-14
+concentration in trees that are well dated through their tree rings, and
+then accounting for the radioactive decay of carbon-14, we can determine
+the past concentration of carbon-14 in the atmosphere. From this, we can
+deduce the solar irradiance over time.</p>
+<p><a class="reference internal" href="_images/image121.jpg"><img alt="Global Land Use Forcing 1850-2000 Used in the Third Paleoclimate Model Intercomparison Project (PMIP3)" src="_images/image121.jpg" style="width: 6.25in; height: 2.08333in;" /></a></p>
+<p>Human-influenced boundary conditions include changes at the surface and
+changes in the atmosphere. At the surface, cutting forest for pasture
+and crops changes surface reflectivity and moisture, heat, and momentum
+exchanges between land and atmosphere.</p>
+<p><strong>Land use: How do we know?</strong></p>
+<p><a class="reference internal" href="_images/image421.jpg"><img alt="Global historical cropland area (% of grid cell)" src="_images/image421.jpg" style="width: 4.6875in; height: 3.125in;" /></a></p>
+<p>Land use reconstructions for times prior to the 20th century are based
+on population estimates and historical relationships of land use for
+different population densities. The calculations are done
+country-by-country to account for regional differences like crop types,
+farming technology, and diet. All the reconstruction methods largely
+rely on the similar historical population estimates. The results are
+gridded maps of land use through time.</p>
+<p><a class="reference internal" href="_images/image161.jpg"><img alt="Global Greenhouse Gas Forcing 1850-2000 Used in the Third Paleoclimate Model Intercomparison Project (PMIP3)" src="_images/image161.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>In the atmosphere, the most important changes are those that affect
+greenhouse gases. Greenhouse gases, principally water vapor and carbon
+dioxide, keep Earth habitable by absorbing enough long-wave radiation to
+keep surface temperatures tens of degrees Celsius warmer than they would
+be otherwise. These graphs show a rapid rise in different greenhouse
+gases over the past 2 centuries, primarily due to burning of fossil
+fuels.</p>
+<p>Human emissions of atmospheric aerosols also alter the Earth’s energy
+balance. Depending on the composition of the aerosols and where they
+are, they contribute to both warming and cooling of the climate.
+Overall, aerosols are thought to contribute a cooling effect equal to
+about half of the warming caused by greenhouse gases when averaged over
+the globe.</p>
+<p><strong>Greenhouse gases: How do we know?</strong></p>
+<p><a class="reference internal" href="_images/image191.jpg"><img alt="Photo of ice core section with bubbles" src="_images/image191.jpg" style="width: 6.25in; height: 2.5in;" /></a></p>
+<p>The concentration of greenhouse gases for climate reconstructions is
+based on measurements of the composition of air bubbles preserved in
+glacial ice in Antarctica. This photograph shows air bubbles trapped
+from an ice core from Antarctica. The prolonged darkness in winter and
+prolonged sunlight in summer leads to easily recognized and counted
+annual layers in the ice, yielding a high-resolution record of changes
+in atmospheric composition.</p>
+</section>
+<section id="building-a-climate-system-model">
+<h3>Building a Climate System Model<a class="headerlink" href="#building-a-climate-system-model" title="Link to this heading"></a></h3>
+<p><strong>Physical Basis of Weather and Climate Models</strong></p>
+<p><a class="reference internal" href="_images/image61.jpg"><img alt="Portraits of Sir Issac Newton, Rudolf Clausius, Arthur Schuster, Lewis Richardson, Vilhelm Bjerknes, John von Neumann" src="_images/image61.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>The modeling of both weather and climate share a deep history and common
+pedigree based on fundamental laws of physics whose discovery goes back,
+in some cases, hundreds of years. The equations and calculation methods
+used in the models can be traced back to the work of giants in the field
+and direct applications of the fundamental laws of physics, such as</p>
+<ul class="simple">
+<li><p>Sir Isaac Newton’s laws of motion,</p></li>
+<li><p>Rudolf Clausius’ 1st law of thermodynamics, and</p></li>
+<li><p>Arthur Schuster’s governing equations of radiative transfer.</p></li>
+</ul>
+<p>These scientists deduced the basic laws of physics that are the basis of
+any good climate and weather model.</p>
+<p>In the 20th century, scientists applied these fundamental laws to the
+atmosphere:</p>
+<ul class="simple">
+<li><p>Vilhelm Bjerknes, who wrote the equations that we use to forecast the
+wind in weather and climate models,</p></li>
+<li><p>Lewis Richardson, the father of numerical weather forecasting, and</p></li>
+<li><p>John von Neumann, who led the first team of scientists that
+successfully ran a numerical forecast model on a computer.</p></li>
+</ul>
+<p>From this lineage we can see how weather and climate models developed
+from a common heritage, rooted in fundamental physics. Some people, when
+they hear the word “model”, believe that the equations used to describe
+physical processes are loosely constrained and can be easily “tweaked”
+to get whatever answer the modeler wants. That is not the case.</p>
+<p><strong>Resolved Dynamical Processes</strong></p>
+<p><a class="reference internal" href="_images/image51.jpg"><img alt="Gridded globe with zoomed in section" src="_images/image51.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>To directly simulate processes in Earth’s climate system, we need to
+create a set of equations using the fundamental laws of physics. These
+are called the equations of motion or primitive equations, and are used
+by both climate and NWP models. These equations balance forces acting in
+three dimensions, conserve mass, and track the temperature of each grid
+box. There are also equations that track the amount of moisture and
+other trace products that move in and out of grid boxes.</p>
+<p>To solve these equations for Earth, we create a grid structure on which
+to make the calculations. This structure involves vertical columns of
+air sliced into horizontal layers over the full Earth for global models,
+or a portion of it for regional models. Finally, we solve the equations
+at the center point of each model grid box, at fixed, predetermined time
+intervals.</p>
+<p>Early climate and weather models had grid cells that measured 300-400 km
+on a side. As of 2012, the NWP models have grid boxes as small as 1.5 km
+on a side or even a little less. Climate models are now run at a
+resolution as high as about 50 km.</p>
+<p><strong>Sub-grid Scale Processes and Parameterization</strong></p>
+<p>Even in high resolution models, some weather and climate processes are
+too small in scale to be calculated directly, and always will be, even
+though their impacts are important to weather and climate systems. These
+sub-grid scale processes, such as cumulus convection and radiative
+transfer of solar and longwave radiation, indirectly affect the climate
+and weather variables (the “resolved” variables) calculated on the grid.
+These indirect effects are determined by what is called
+“parameterization”.</p>
+<p><a class="reference internal" href="_images/image391.jpg"><img alt="Graph showing growth by condensation growth and collision-coalescence growth plus Animation of collision-coalescence" src="_images/image391.jpg" style="width: 5.20833in; height: 3.125in;" /></a></p>
+<p>Parameterizations are designed using observations and the laws of
+physics; they are not a “best guess”. Take the example of a model
+representation of cloud microphysics. Conservation laws dictate the mass
+of water going in and out of a grid box. Vapor in the model condenses
+according to observationally based thresholds of relative humidity,
+forming “clouds”. Physical processes lead from clouds to the formation
+of droplets that then fall to grid boxes below as rain or snow, also
+based on observational evidence from within clouds.</p>
+<p>Thus, the parameterization of clouds, although subject to many unknowns,
+is based on a combination of the conservation of mass and energy and an
+empirical understanding of cloud formation, grounded in observations.
+Using those properties, modelers create parameterizations for cloud
+processes that operate within model grid layers when appropriate
+environmental conditions are met.</p>
+<p>Parameterizations do bring with them uncertainty. Some processes are
+better understood than others. But this is true of all model processes.
+Even the numerical representation of the laws of motion comes with
+uncertainty. There is no unique way to write the numerical solutions for
+resolved processes, like motion, and they all have some error associated
+with them. This is equally true for both weather models and climate
+models. Even so, uncertainty in weather and climate models is decreasing
+as our understanding of climate and weather processes further improves
+and computing power continues to increase.</p>
+<p id="section-1"><strong>Climate Model Evolution</strong></p>
+<p><a class="reference internal" href="_images/image341.jpg"><img alt="Loop of schematic images showing the Evolution of Climate Models" src="_images/image341.jpg" style="width: 6.5in; height: 4.06944in;" /></a></p>
+<p>With the development of digital computers in the 1950s, it became
+theoretically possible to develop weather and climate models.
+Forecasting short-range weather with NWP models got attention first.
+Scientists only began to develop computerized climate models (also known
+as general circulation models or GCMs) in the late 1960s to early 1970s,
+but used the same equations as in NWP models.</p>
+<p>Many details in early climate models (for example, sea surface
+temperatures and land/sea ice) had to be set to fixed or seasonal values
+because they could not be calculated: computational resources were
+insufficient and/or the processes involved were not well understood.</p>
+<p>As our physical understanding of ocean, land, and ice processes advanced
+and computing power increased, scientists were able to add more climate
+processes and improve existing ones. For instance, models that
+realistically simulate overturning ocean circulation and its interaction
+with the atmosphere replaced prescribed ocean surfaces. Realistic land
+surface models replaced simple “bucket” models to better simulate
+vegetation effects on moisture, momentum, and heat transfer between the
+land and the atmosphere. The effect of aerosols, both natural and those
+generated by human activities, was also added. The inclusion of aerosols
+resulted in climate models capturing the temporary halt to increasing
+average global temperature during the mid-20th century, an effect that
+was not previously simulated.</p>
+<p>More recently, scientists have added processes with long time scales or
+complicated physics and chemistry. These include the carbon cycle,
+atmospheric chemistry, and a biosphere capable of responding to model
+climate change (for example, vegetation cover changing from tundra to
+forest in response to predicted warming). Scientists have also added
+interactions between land and sea ice and the rest of the climate model.</p>
+<p>Some of the processes included in climate models are relatively
+straightforward, while the impact of others needs to be more crudely
+estimated because of their characteristic time or space scales. In the
+next section, we will talk about how these processes are included in
+climate models.</p>
+<p id="section-2"><strong>Model components</strong></p>
+<p><a class="reference internal" href="_images/image371.jpg"><img alt="Schamatic animation illustrating the climate model coupler" src="_images/image371.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>The components that go into a climate model include an atmosphere model,
+ocean model, land model (including snow and land ice), and sea ice
+model. A coupler manages the interactions between the different
+components, accommodating different grids, resolution, and time steps.</p>
+<p>In contrast, NWP models mostly include just the atmosphere. The ocean,
+land, and ice are prescribed quantities with values derived from current
+satellite observations, climatology, or a mix of both. These values do
+not change much over the course of a weather forecast period, so they
+can be fixed.</p>
+<p id="section-3"><strong>Atmospheric Model</strong></p>
+<p><a class="reference internal" href="_images/image441.jpg"><img alt="Illustration of all processes and physical model elements that are parameterized in numerical weather prediction models. Includes 20 different items, such as topography, deep convection, longwave radiation absorption and emission, microphysical processes, land surface processes and land use types, soil and vegetation processes, snow/water/ice at the earth surface, atmospheric radiation transfer, etc." src="_images/image441.jpg" style="width: 5.83333in; height: 5.72917in;" /></a></p>
+<p>The atmospheric component of the climate model is very similar to a
+numerical weather prediction model. The model solves for both resolved
+processes, like motion, and parameterized processes, like cloud physics.</p>
+<p>The model numerically solves the equations of motion at each grid point.
+In other words, the model directly simulates motion in the atmosphere
+between grid layers by balancing the pressure gradient force, Coriolis
+effect, and forces resulting from curvature in the flow.</p>
+<p>There are also parameterized dynamics for aspects of atmospheric flow
+too small to resolve, such as gravity wave drag. We know from theory and
+observations that mountains generate gravity waves that propagate up
+into the atmosphere and transport momentum from the surface up into the
+atmosphere. This affects elements of the larger-scale flow such as the
+placement of the jet stream and storm tracks and the location and
+strength of planetary scale atmospheric waves.</p>
+<p>Most physical processes must be parameterized. These include the
+following:</p>
+<ul class="simple">
+<li><p>Radiative transfer, or how sunlight and long-wave radiation propagate
+up and down through the atmosphere.</p></li>
+<li><p>Processes related to cloud formation resulting from both large-scale
+(resolved) lifting and from sub-grid scale convective processes.
+Traditionally, these processes have been hardest to parameterize.</p></li>
+<li><p>Boundary layer and surface exchange processes that occur on scales
+much smaller than a typical grid box.</p></li>
+<li><p>Dissipation of kinetic energy or momentum away from the boundary
+layer.</p></li>
+</ul>
+<p>None of these processes are unique to climate models. Every weather
+forecast model includes them, too. If you look “under the hood” of any
+weather model, this is what you’re going to find.</p>
+<p id="section-4"><strong>Ocean Model</strong></p>
+<p><a class="reference internal" href="_images/image261.jpg"><img alt="Processes Simulated by the Parallel Ocean Program" src="_images/image261.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>In order to adequately simulate climate, models must include the ocean.
+After all, most of the heat in the climate system is stored in the
+ocean. Furthermore, much of the natural variability in the climate
+system is controlled by oscillations in the ocean that are closely
+coupled to the atmosphere.</p>
+<p>In contrast, NWP models use set ocean conditions, typically using
+satellite observations of sea surface temperatures, which are held
+constant through the course of a model run.</p>
+<p>There are several important differences between the ocean and atmosphere
+that affect climate modeling:</p>
+<ul class="simple">
+<li><p>Ocean processes operate over much longer time scales when compared to
+atmospheric processes. Complete mixing of the ocean takes centuries,
+and thus changes in forcing can take decades to appear in the ocean.</p></li>
+<li><p>Ocean observations are sparse, which makes verification of model
+results more difficult. While satellites provide many observations of
+the surface, deep profiles come largely from drifting buoys that
+yield only about 300 profiles per day from the top 750 meters.</p></li>
+</ul>
+<p>In many respects, ocean models are quite similar to atmospheric models;
+the equations of motion are largely the same. There are, however, some
+notable exceptions:</p>
+<ul class="simple">
+<li><p>Ocean models are forced entirely at the surface</p></li>
+<li><p>Ocean models need to account for salinity, which plays a large role
+in determining density</p></li>
+<li><p>Surface currents are largely wind driven</p></li>
+</ul>
+<p>Current climate models may now include an ocean ecosystem model. This
+model can be used as a component of the global carbon cycle model. It
+also enables a feedback from biogeochemistry to the ocean physics
+whereby the calculated chlorophyll content impacts the absorption of
+solar radiation in the ocean.</p>
+<p id="section-5"><strong>Land Model</strong></p>
+<p><a class="reference internal" href="_images/image401.jpg"><img alt="Processes Simulated by the Community Land Model 4.0" src="_images/image401.jpg" style="width: 6.25in; height: 3.125in;" /></a></p>
+<p>Climate models also need to account for what’s happening on land that
+influences climate. Land processes play an important role in exchanges
+of energy, moisture, and carbon with the atmosphere and ocean.</p>
+<p>Land models have become far more sophisticated over the last 20 years.
+In the “old days,” just 20 or 30 years ago, models accounted for things
+like energy exchange between the atmosphere and land in very simple
+ways. Land model developers have replaced these simple schemes with more
+detailed simulations. Among other things, these simulations now account
+for</p>
+<ul class="simple">
+<li><p>Energy and water exchange between different types of vegetation,</p></li>
+<li><p>Vegetation effects on wind flow,</p></li>
+<li><p>Interactive ecosystems that evolve with changing climate conditions,</p></li>
+<li><p>A complete water cycle with infiltration, aquifers, groundwater, and
+surface flow,</p></li>
+<li><p>Water, carbon, and nitrogen exchanges between soil, plants, and
+atmosphere, and</p></li>
+<li><p>Freshwater runoff into the ocean, which affects salinity, which can
+then affect circulation.</p></li>
+</ul>
+<p id="section-6"><strong>Ice Models</strong></p>
+<p><a class="reference internal" href="_images/image171.jpg"><img alt="Processes Simulated by the Community Ice CodE" src="_images/image171.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Ice plays an important role in the climate system due to its high
+albedo. Ice-covered areas reflect a very high percentage of incoming
+shortwave radiation. Thus the presence or absence of ice tends to have
+an inordinately large effect on climate with large feedbacks in coupled
+systems.</p>
+<p>Sea ice forms from the freezing of seawater. Its presence or absence
+strongly impacts climate, both globally and locally. In addition to the
+albedo feedback described above, sea ice also acts as a barrier between
+the liquid ocean and the atmosphere and thus strongly alters the
+moisture flux, as well as latent and sensible heat fluxes. The formation
+of sea ice also plays a crucial role in the formation of the cold,
+saline water that drives deep ocean circulation.</p>
+<p>In addition to the heat flux that results in freezing and melting, sea
+ice models simulate features including sea ice motion, formation of
+ridges and leads, melt ponds, and aerosol deposition.</p>
+<p><a class="reference internal" href="_images/image131.jpg"><img alt="Processes Simulated by the Community Ice Sheet Model" src="_images/image131.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Dynamical ice sheet models simulate the mass and movement of ice that
+forms on land. Land ice has proven more difficult to model than other
+aspects of the climate system. While ice generally moves slowly,
+glaciers and ice shelves can react swiftly under some circumstances.
+Understanding what can trigger these rapid changes is crucial to
+projections of sea level. If all the ice in Greenland and Antarctica
+melted, sea level could rise about 70 meters. The resulting influx of
+fresh water would likely disturb ocean circulation, further changing
+climate.</p>
+</section>
+<section id="model-tuning">
+<span id="section-7"></span><h3>Model Tuning<a class="headerlink" href="#model-tuning" title="Link to this heading"></a></h3>
+<p><strong>Why We Tune Models</strong></p>
+<p><a class="reference internal" href="_images/image411.jpg"><img alt="Interactive graphic showing relationship between radiative balance and cloud cover" src="_images/image411.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>When we simulate the climate system, we often want to run models for a
+very long time. For meaningful results, we want no intrinsic drift in
+global climate. In other words, with constant boundary conditions, the
+simulated atmosphere/ocean/land system should neither warm nor cool over
+a long period (except for internal variability). If the amount of energy
+coming in equals that going out globally, there will be no tendency for
+the model to drift, to warm or cool. It will be in a steady state,
+resulting in a stable global control climate.</p>
+<p>In a process akin to calibrating laboratory instruments to reduce
+measurement errors, modelers “tune” the model to achieve a steady state
+under constant boundary conditions. Once a stable control is
+established, only then can they design experiments to answer questions
+about the effects of changing those boundary conditions.</p>
+<p>This interactive figure shows one way in which climate models can be
+tuned to achieve a stable climate. Adjusting the relative humidity
+threshold for cloud formation, one can increase or decrease the incoming
+solar radiation that is reflected back to space. If there is too little
+cloud cover, less incoming solar radiation will be reflected back to
+space, allowing too much solar radiation reaching the surface. As a
+result, the model climate will warm. With a long enough simulation, that
+system will eventually reach a new balance, but the resulting climate
+will be very warm.</p>
+<p>NWP modelers investigating new operational NWP models also test, tune,
+and retest the models until the skill score of a new model is the same
+as or better than that of the old model.</p>
+<p id="section-8"><strong>How We Tune Models</strong></p>
+<p><a class="reference internal" href="_images/image331.jpg"><img alt="Summary of the principal components of the radiative forcing of climate change" src="_images/image331.jpg" style="width: 4.6875in; height: 4.6875in;" /></a></p>
+<p>How do we balance the incoming and outgoing radiation to achieve a
+stable control climate? Usually modelers find a parameterization that
+has a large effect on the energy budget within the range of
+observational uncertainty. For example, this graphic shows the change in
+magnitude of different forcing mechanisms since the start of the
+industrial era, along with their associated uncertainty.</p>
+<p>More typically, modelers choose a parameterization associated with cloud
+cover. Because clouds reflect solar radiation back to space, the amount
+of cloud cover strongly regulates the global energy budget. More clouds
+reflect more sunlight, cooling the Earth. Less clouds allows more
+sunlight to reach the surface, warming the Earth. We only have rough
+estimates of the amount of liquid and ice in clouds, the rate at which
+cloud particles are converted to precipitation, and the impact of clouds
+on short- and longwave radiative transfer. This allows some latitude in
+tuning the cloud parameterization to maintain energy balance for a fixed
+climate model system.</p>
+<p>Within the range of uncertainty, parameters within the cloud scheme are
+adjusted to yield a more realistic energy budget. For example, the rate
+at which water vapor is converted to cloud water or ice and eventually
+to rain is not well-understood, with significant uncertainty. If less
+vapor is eventually converted to rain, then more vapor remains in the
+atmosphere contributing to cloud formation. Alternatively, more vapor
+converted to rain tends to dry out the atmosphere, resulting in fewer
+clouds overall.</p>
+<p>Several important points need to be stressed about model tuning:</p>
+<ol class="arabic simple">
+<li><p>Tuning is done only within the statistical, physical, or dynamical
+uncertainty of the parameter. As our understanding of atmospheric
+processes increases, the uncertainty in parameterizations decreases,
+making it more difficult to tune models.</p></li>
+<li><p>Tuning is done to achieve a stable control climate, not to reduce
+biases in model simulations. We reduce model bias by improving
+parameterization schemes and/or increasing model resolution.</p></li>
+<li><p>Tuning is not confined to climate models. Weather forecast models are
+also tuned, though in a different way.</p></li>
+</ol>
+<p>With weather forecast models, energy balance will have little effect
+over the short duration of a forecast period. Instead, forecasters may
+find that the timing or spatial distribution of a specific event is
+poorly simulated. It could be rainfall amounts or frontal passage
+associated with storm systems. So, in contrast with climate modelers,
+forecasters tune weather models to reduce known biases. This is done by
+experimenting with different parameterizations to identify the source of
+the bias. For example, model developers may find that the convection
+parameterization is biased. By changing parameters in the convection
+scheme, or even replacing the convection scheme altogether, the model
+may do a better job of simulating a specific type of event.</p>
+<p>Both the climate and weather forecasting communities tune their models.
+They’re tuning them to improve them, and the tuning is done within the
+range of uncertainty that exists in the observations.</p>
+</section>
+<section id="testing-climate-system-models">
+<span id="section-9"></span><h3>Testing Climate System Models<a class="headerlink" href="#testing-climate-system-models" title="Link to this heading"></a></h3>
+<p><strong>Model Skill</strong></p>
+<p><a class="reference internal" href="_images/image281.jpg"><img alt="Time series (1981-2006) of Anomaly Correlation of ECMWF 500 hPa Height Forecasts" src="_images/image281.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Once a climate model is tuned and running, it can be tested and
+evaluated, much as weather models are. In both cases, model results are
+compared to observations. And, in both cases, model skill has improved
+significantly over the past thirty years.</p>
+<p>Looking first at weather models, this figure from the European Centre
+for Medium-Range Forecasts (ECMWF) shows forecast skill for their
+medium-range NWP model since 1981. It depicts skill (measured by the
+anomaly correlation) of the 500-mb height forecast for 3, 5, 7, and
+10-days in advance. The top line in each color band is skill in the
+Northern Hemisphere, and the bottom line is skill in the Southern
+Hemisphere.</p>
+<p>Two things are immediately apparent in the graph:</p>
+<ol class="arabic simple">
+<li><p>Model skill has increased over the years. For example, if you look at
+a 5-day forecast, model skill has improved from about 0.60 to about
+0.87 (where 1.0 is perfect correlation) over 30 years.</p></li>
+<li><p>The model has until recently, been much more skillful in the Northern
+Hemisphere.</p></li>
+</ol>
+<p>This difference in model skill resulted from better initial conditions
+for weather forecasts in the Northern Hemisphere than the Southern
+Hemisphere. Until recently, there were more observations in the Northern
+Hemisphere. Now, satellite data is optimized and the initial conditions
+have the same quality.</p>
+<p>Note that while forecast skill has improved over the last 30 years, the
+trend has flattened out since about 2003. This could be due to a variety
+of reasons, including uncertainties in the initial conditions,
+parameterization biases, and inherent weather predictability issues
+resulting from internal atmospheric dynamics (i.e., chaos).</p>
+<p><a class="reference internal" href="_images/image151.jpg"><img alt="Climate Skill Score for Each Version of CCM and CAM, Based on NMSE [normalized mean square error, right] and SVR [scaled variance ratio, left] for the 200-mb Height Field" src="_images/image151.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>Climate models have skill scores similar to those for weather models.</p>
+<p>This graphic shows a skill score for successive generations of the
+atmospheric model component at NCAR over the past 30 years. It is based
+on the 200-mb height field for the Northern Hemisphere and calculated as
+one (1) minus the mean square error normalized to the variance of the
+analyzed observations. The data show that skill has climbed steadily
+from the very low skill score of the original Community Climate Model
+(CCM0) in the early 1980s. But, similar to weather forecast models, the
+skill score for climate models also seems to be flattening out. It is
+possible that we may reaching some kind of limit on how skillful these
+kinds of models can be.</p>
+</section>
+<section id="bias-in-model-means">
+<h3>Bias in Model Means<a class="headerlink" href="#bias-in-model-means" title="Link to this heading"></a></h3>
+<p><strong>SST</strong></p>
+<p><a class="reference internal" href="_images/image211.jpg"><img alt="Difference between the SST in observations and (top) 2° run and (bottom) 0.5° run of CCSM4 for 1990-1999" src="_images/image211.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>Another way we can test climate models is to look at the spatial
+distribution of bias in the mean model fields. These plots show the bias
+in simulated sea surface temperatures from a fully coupled model, the
+Community Climate System Model compared to the observed SST climatology.
+The top plot is for a coupled system where the atmospheric model is run
+at a nominally 2 degree resolution, about two hundred kilometers. The
+bottom plot is for the same system, but we have increased the
+atmospheric model resolution to 0.5 degree, including the winds forcing
+the ocean model. The dynamics and physical parameterizations remain
+unchanged.</p>
+<p>Why?</p>
+<p>Higher horizontal resolution increased temperature gradients, which
+increased the strength of winds in these regions. This increased
+upwelling of cold water to the surface, reducing the warm temperature
+bias.</p>
+<p>Note the large cold bias in the North Atlantic. It’s still there even in
+the 0.5 degree model.</p>
+<p>Why?</p>
+<p>Because it appears that this bias isn’t sensitive to the resolution of
+the atmospheric model, it is likely due to ocean processes. Preliminary
+experiments have shown that a much higher resolution ocean model would
+allow the ocean model to simulate a turnaround of the Gulf Stream as it
+approaches Greenland. With this turn, the Gulf Stream warms these
+regions, eliminating the cold bias.</p>
+<p id="section-10"><strong>Sea Ice</strong></p>
+<p><a class="reference internal" href="_images/image20.jpg"><img alt="Sea Ice Concentration (%) for 1981-2005. Top (a-b): Observed Climatology from SSM/I/SSMR Satellites. Bottom (c-d): Ensemble Mean from CCSM4 Model. Black Line is the Ice Edge from SSM/I/SSMR Data." src="_images/image20.jpg" style="width: 5.20833in; height: 5.20833in;" /></a></p>
+<p>The Arctic is an interesting place to examine model biases because the
+climate exhibits strong feedback due to the high albedo of snow and ice.
+These plots show sea ice concentration and extent from satellite
+observations and the CCSM4 climate model for the period 1981-2005. The
+annual sea ice maximum typically occurs in March, while the annual sea
+ice minimum typically occurs in September.</p>
+<p id="section-11"><strong>Precipitation</strong></p>
+<p><a class="reference internal" href="_images/image7.jpg"><img alt="Global Mean Precipitation and Precipitation Bias in 1-degree and 2-degree CCSM4 Simulations" src="_images/image7.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Biases still remain in climate models. One in particular is the
+so-called double Intertropical Convergence Zone, or ITCZ, bias in
+precipitation. In general, coupled climate models show excessive
+tropical precipitation, which through ocean-atmosphere coupling, leads
+to less precipitation in the equatorial Pacific. A drier equatorial bias
+splits the wetter tropical Pacific into northern and southern bands,
+giving rise to the apparent double ITCZ.</p>
+<p>Comparing the bias for the 1-degree and 2-degree versions of the model,
+we can see that increasing the model resolution has only a small effect
+on the bias. Biases like the double ITCZ motivate researchers to improve
+the parameterization schemes that lead to excessive tropical
+precipitation.</p>
+<p><a class="reference internal" href="_images/image29.jpg"><img alt="Precipitation Bias for GFS 96-120 hr Forecasts, June-August 2010, Relative to CAM-OPI Precipitation from Rain Gauge Observations and Satellite Estimates" src="_images/image29.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>Note that NWP models produce similar biases. This graphic shows biases
+produced by GFS 4-5 day forecasts for June through August, 2010. Even
+over this brief period, a double ITCZ is apparent, along with excess
+precipitation in the Himalaya. These and other features are similar to
+those we saw in long-term simulations by climate models.</p>
+<p id="section-12"><strong>Biases in Initialized Climate Models</strong></p>
+<p><a class="reference internal" href="_images/image241.jpg"><img alt="ISCCP Mean Annual Frequency of Cloud Occurrence with Location of Cross Section" src="_images/image241.jpg" style="width: 6.25in; height: 4.6875in;" /></a></p>
+<p>Another way to examine climate model bias is to run the model as a
+forecast model. This has been done by initializing the climate model,
+not from observations, but rather from re-analysis products. After
+running the model for several days, researchers can examine how biases
+develop as the simulation drifts away from the observed climatology
+toward the model’s steady-state climate.</p>
+<p>In these simulations, researchers were looking at the bias in
+tropospheric moisture and temperature over a transect from San Francisco
+out to the Equatorial Pacific. Along this transect, the cloud regime
+goes from low marine stratus near the California Coast to deep
+convection near the Equator. Thus, this transect provides a way to
+examine biases in a variety of cloud processes.</p>
+<p>Note: ISCCP = International Satellite Cloud Climatology Project</p>
+<p><a class="reference internal" href="_images/image23.jpg"><img alt="Forecast Error of Temperature and Specific Humidity Showing Rapid Drift Toward Model Climatology" src="_images/image23.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>The results are startling. These plots are vertical cross sections of
+model bias relative to observed climatology for 1 day (left), 5 days
+(center), and the long-term climate model mean (right). The top row of
+plots shows temperature, while the bottom row shows moisture.</p>
+<p>What you see, is that bias starts to build immediately and within 5 days
+the forecast bias in temperature looks very similar to the long-term
+climate bias. Similarly, the dry bias seen in the climatology near the
+coast in the lower troposphere shows up in the forecast after 5 days.</p>
+<p>This experiment provides researchers with a very powerful tool for
+research. Why?</p>
+<p>It takes a lot of computer time to run climate models for 10, 20, or
+100s of years to look at biases. If the same bias shows up in a 5-day
+initialized forecast, it enables us to very quickly analyze biases due
+to physical parameterizations. We no longer have to run the model for
+decades or centuries to look at some of the biases related to different
+physical parameterizations. Rather, we track down the source of the bias
+using a series of 5-day forecasts!</p>
+<p>This experiment also very clearly shows how weather forecast models will
+drift if they aren’t re-initialized frequently to keep pulling them back
+to observations. Model simulations drift very quickly into their own
+biased state. Weather forecasters know this from looking at longer runs
+of weather forecast models.</p>
+</section>
+<section id="natural-variability">
+<span id="section-13"></span><h3>Natural Variability<a class="headerlink" href="#natural-variability" title="Link to this heading"></a></h3>
+<p><strong>North Atlantic Oscillation</strong></p>
+<p><a class="reference internal" href="_images/image321.jpg"><img alt="North Atlantic Oscillation" src="_images/image321.jpg" style="width: 6.25in; height: 3.125in;" /></a></p>
+<p>Climate statistics encompass more than just the mean state for climate.
+They also include measures of natural variability, including the
+location, timing, and strength of oscillations within the climate
+system. For example, fully coupled models generate variability on the
+same time and spatial scales as ENSO, the North Atlantic Oscillation
+(NAO), and Pacific Decadal variability, among others.</p>
+<p>This is a plot of one mode of variability found in the climate system,
+the North Atlantic Oscillation (NAO), which is a pressure oscillation
+between the Arctic region and the subtropics. The plot on the left shows
+the annual mean NAO in the real atmosphere from 1900 to 2008, while the
+plot on the right shows the annual mean NAO in a fully coupled model
+over a 109-year period. The results are strikingly similar.</p>
+<p><a class="reference internal" href="_images/image141.jpg"><img alt="Positive and negative phases of the wintertime North Atlantic Oscillation (NAO)." src="_images/image141.jpg" style="width: 6.14583in; height: 5in;" /></a></p>
+<p>It’s important to note that this variability is not externally forced.
+This is a natural mode of variability of the Earth’s climate system that
+happens to play a very important role for seasonal weather. Here we see
+typical global weather patterns associated with positive and negative
+modes of NAO.</p>
+<p><a class="reference internal" href="_images/image36.jpg"><img alt="Photo of Snow in Barcelona, Spain" src="_images/image36.jpg" style="width: 6.25in; height: 4.16667in;" /></a></p>
+<p>From 2008 to 2011, a tendency toward a strongly negative phase of NAO
+resulted in extremely cold winters in Europe. Having a climate model
+generate this sort of variability is important because that variability
+goes into the statistics of weather that comprise climate for the
+Northern Hemisphere.</p>
+<p id="section-14"><strong>ENSO</strong></p>
+<p><a class="reference internal" href="_images/image111.jpg"><img alt="Sea-Surface Temperature Anomalies for the NiÃ±o 3.4 Region in Observations, CCSM4 (1Â°), and CCSM3 (T85)." src="_images/image111.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>A similar argument can be made for ENSO. We know that ENSO plays a very
+important role in seasonal weather phenomena, especially in tropical
+regions and some extratropical regions, especially in the cold season.
+Therefore, getting a good simulation of ENSO leads to a more realistic
+climate simulation and more robust climate statistics. This plot of SST
+anomalies shows the improvement in both the magnitude and periodicity of
+ENSO variability between the older CCSM3 and newer CCSM4 simulations.</p>
+<p>Overall, it’s very important to get a climate model that is not just
+simulating mean temperature and moisture distribution, but also
+simulating these various modes of variability.</p>
+</section>
+<section id="future-directions">
+<span id="section-15"></span><h3>Future Directions<a class="headerlink" href="#future-directions" title="Link to this heading"></a></h3>
+<p><strong>Increased Model Complexity</strong></p>
+<p><a class="reference internal" href="_images/image351.jpg"><img alt="Conceptual Model of Earth System Processes Operating on Timescales of Decades to Centuries" src="_images/image351.jpg" style="width: 6.25in; height: 4.6875in;" /></a></p>
+<p>About 30 years ago, Francis Bretherton developed this system flow chart
+of the Earth’s climate and biospheric cycles, which has forever become
+known as the Bretherton diagram. When seeing this diagram for the first
+time, the first reaction of many people is laughter: the diagram is so
+very complex. It’s got everything. It’s got human impacts, it’s got
+volcanism, it’s got space physics, it’s got deep sea sediment cores, and
+the solar system. Bretherton put everything in. This diagram could be
+seen as a model roadmap; Bretherton’s grand view of where models would
+need to evolve. Indeed, they have been evolving in this direction over
+the last 20 years.</p>
+<p>One of the more significant additions from early efforts has been the
+inclusion of ecosystem models. This includes a terrestrial ecosystem
+component in the land model along with a marine ecosystem component in
+the ocean model.</p>
+<p>Why include ecosystems?</p>
+<p>Most of the climate models of the last 20 years have specified the
+amount of carbon dioxide in the atmosphere, not predicted it. It was
+prescribed based on very good measurements of carbon dioxide, but there
+has always been a goal to make carbon dioxide a predicted quantity. To
+do that, models need to simulate the carbon cycle. Now many models are
+being run that do not prescribe the amount of carbon dioxide in the
+atmosphere. Instead, only emissions of carbon dioxide due to the burning
+of fossil fuel are set. Then the model calculates how much carbon
+dioxide remains in the atmosphere.</p>
+<p>In addition to simulating the processes that make up the carbon cycle,
+models now include chemistry that impacts atmospheric gas composition,
+as well as aerosols and clouds. Adding complexity to models, like
+atmospheric chemistry, ecosystems, and the carbon cycle, lets the model
+do what the real climate system is doing: exchanging not only moisture
+and energy between the surface and the atmosphere, but also carbon
+dioxide.</p>
+<p id="section-16"><strong>Increased Model Resolution</strong></p>
+<p><a class="reference internal" href="_images/image381.jpg"><img alt="Average Precipitation Rate (mm/day) for North America 1996-2005 from Willmott-Matsuura Climatology and 0.25-degree Resolution CCSM4" src="_images/image381.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p>The other revolution in climate simulation is increased model
+resolution. As computers have gotten more and more powerful, models are
+able to be run at higher and higher resolution. These plots show mean
+annual precipitation for North America in mm/day. The top plot comes
+from an observational data set over a 10-year period. The bottom plot
+shows results from an atmospheric model run at a quarter-degree grid
+spacing, using actual SSTs to capture the model response to processes
+like ENSO. That’s equivalent to about a 25-km grid box size, the same as
+many weather forecast models. We can now run global models over decades
+to centuries at the same spatial resolution as forecast models. And as
+we can see here, models are beginning to capture not just the large,
+general features of precipitation, but even details down to small
+scales.</p>
+<p>And models have been run down to even finer resolution. One of these
+images is the result of a climate model initialized with observations,
+like a forecast model, and run at 5-km resolution to simulate a
+particular storm system. The other image is the satellite observation of
+the actual storm system.</p>
+<p>So not only are models getting more complex, but there is a
+parallel path wherein models are being run with increasing horizontal
+resolution, in both the atmosphere and the ocean. In general, the more
+we increase resolution, the more improvement we see in the model
+simulations. However, not all model fields are improving with increased
+resolution, and increasing resolution further may not yield significant
+improvement. Biases still remain, but many are now clearly related to
+parameterization schemes.</p>
+<p id="section-17"><strong>The Goal</strong></p>
+<p>Eventually climate and weather modelers would like to merge
+increased resolution and added complexity and run the most complete
+models at 10 to 20 km resolution with the most accurate parameterization
+schemes.</p>
+<p>There are still biases in models. There will always be biases in
+models. But the models are grounded in basic physics and they’re tested
+against multiple data sets of observations, in terms of both the mean
+and the variability. Thirty years ago atmosphere-only models were run
+with prescribed sea surface temperatures. Now we’re running fully
+coupled Earth system models for thousands of years, and the models keep
+getting better.</p>
+</section>
+<section id="summary">
+<span id="section-18"></span><h3>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h3>
+<p>The modeling of both weather and climate share a deep history and
+common pedigree based on fundamental laws of physics. The key difference
+between climate and weather models lies not in the models themselves,
+but in the questions they seek to answer. Weather models predict how
+weather will evolve from an initial state for a particular place and
+time. Climate models project how the statistics of the climate system
+will respond to changes in external forcing (i.e., boundary
+conditions).</p>
+<p>For the climate system to be in a steady state, the long-term
+average energy coming in must balance the long-term energy going out.
+Boundary conditions in climate models affect the way that energy is
+absorbed or exchanged in the climate system. Boundary conditions are not
+predicted by the model and must be specified. Boundary conditions
+include solar radiation, atmospheric composition, and land use.</p>
+<p>Atmospheric and oceanic circulation develops in response to the
+unequal distribution of incoming solar energy across the globe. Climate
+models have to account for these circulations. To directly simulate
+processes in Earth’s climate system, models use a set of equations that
+balance forces acting in three dimensions and conserve mass and track
+the temperature of each grid layer. These are the resolved processes.</p>
+<p>Processes that operate on a scale smaller than the model grid
+must be parameterized. That is, their effect over the entire grid cell
+is given by a single value. Examples include the latent heating due to
+cumulus convection or the radiative transfer of solar and longwave
+radiation.</p>
+<p>The components that go into a climate model include an atmosphere
+model, ocean model, land model (including snow and land ice), and sea
+ice model. A coupler manages the interactions between the different
+components, accommodating different grids, resolution, and time steps.</p>
+<p>When we simulate the climate system, we want no intrinsic climate
+drift in the model. In a process akin to calibrating laboratory
+instruments, modelers “tune” the model to achieve a steady-state. To
+tune a climate model, modelers vary a parameterization that has a large
+effect on the energy budget within the range of observational
+uncertainty.</p>
+<p>Climate models can be tested in several ways.</p>
+<ol class="arabic simple">
+<li><p>We can develop skill scores, which reduce model biases to a
+single number.</p></li>
+<li><p>We can examine the spatial and temporal distribution of biases
+in model means.</p></li>
+<li><p>We can compare the natural variability in the simulated
+climate with that in the observed climate.</p></li>
+</ol>
+<p>In the future we expect that increasing computational
+capabilities will allow models to be run at increased resolution and
+complexity. As model complexity increases, more parameters become
+predicted, rather than prescribed. The eventual goal of climate and
+weather modelers is to run the most complete models at high resolution
+with the most accurate parameterization schemes.</p>
+</section>
+<section id="references">
+<span id="section-19"></span><h3>References<a class="headerlink" href="#references" title="Link to this heading"></a></h3>
+<p>Climate Change 2007: The Physical Science Basis. Working Group I
+Contribution to the Fourth Assessment Report of the Intergovernmental
+Panel on Climate Change, Figure SPM.2. Cambridge University Press.</p>
+<p>Hannay, C., D. Williamson, J. Olson, J. Hack and J. Kiehl, R.
+Neale and C. Bretherton (2007), Sensitivity to the CAM candidate schemes
+in climate and forecast runs along the Pacific Cross-section, CCSM
+Atmosphere Model Working Group (AMWG) Meeting, 29-31 January 2007, NCAR,
+Boulder, Colorado
+<a class="reference external" href="https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf">www.cgd.ucar.edu/cms/hannay/publications/AMWG2007.pdf</a></p>
+<p>Hannay, C., R. Neale, and J. Bacmeister (2012), High Resolution
+Climate Simulations with the Community Atmospheric Model (CAM), AMS 92th
+meeting, New Orleans, 22-26 January 2012.
+<a class="reference external" href="https://www.meted.ucar.edu/nwp/climate_models/www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf">www.cgd.ucar.edu/cms/hannay/publications/AMS2012.pdf</a></p>
+<p>Jahn, A., and Coauthors, 2012: Late-Twentieth-Century Simulation
+of Arctic Sea Ice and Ocean Properties in the CCSM4. <em>J. Climate</em>,
+<strong>25</strong>, 1431–1452.
+<a class="reference external" href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-11-00201.1">http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-11-00201.1</a></p>
+<p>Landrum, L., B. L. Otto-Bliesner, A. Conley, P. Lawrence, N.
+Rosenbloom, and H. Teng.
+Last Millennium Climate and Its Variability in CCSM4.
+<a href="#id1"><span class="problematic" id="id2">*</span></a>Journal of Climate Special Issue Collection on CCSM4
+<a href="#id3"><span class="problematic" id="id4">*</span></a><a class="reference external" href="http://www.cesm.ucar.edu/publications/jclim10/docs/landrum.ccsm4.last_millennium.pdf">http://www.cesm.ucar.edu/publications/jclim10/docs/landrum.ccsm4.last_millennium.pdf</a></p>
+<p>Lawrence, D.M., K.W. Oleson, M.G. Flanner, P.E. Thornton, S.C.
+Swenson, P.J. Lawrence, X. Zeng, Z.-L. Yang, S. Levis, K. Sakaguchi,
+G.B. Bonan, and A.G. Slater, 2011: Parameterization improvements and
+functional and structural advances in version 4 of the Community Land
+Model. <em>J. Adv. Model. Earth Sys</em>., <strong>3</strong>, DOI: 10.1029/2011MS000045.
+<a class="reference external" href="http://james.agu.org/index.php/JAMES/article/view/v3n1">http://james.agu.org/index.php/JAMES/article/view/v3n1</a></p>
+<p>Neale, R. B., J. Richter, S. Park, P. H. Lauritzen, S. J. Vavrus,
+P. J. Rasch, and M. Zhang.
+The Mean Climate of the Community Atmosphere Model (CAM4) in Forced SST
+and Fully Coupled Experiments. <em>J. Climate</em>, in press.
+<a class="reference external" href="http://www.cesm.ucar.edu/publications/jclim10/docs/ccsm4.html">http://www.cesm.ucar.edu/publications/jclim10/docs/ccsm4.html</a></p>
+<p>Pongratz, J., C. Reick, T. Raddatz, and M. Claussen (2008), A
+reconstruction of global agricultural areas and land cover for the last
+millennium, <em>Global Biogeochem. Cycles</em>, <strong>22</strong>, GB3018.
+<a class="reference external" href="http://www.agu.org/journals/gb/gb0803/2007GB003153">http://www.agu.org/journals/gb/gb0803/2007GB003153</a></p>
+<p>Teixeira, J., and Coauthors, 2011: Tropical and Subtropical Cloud
+Transitions in Weather and Climate Prediction Models: The GCSS/WGNE
+Pacific Cross-Section Intercomparison (GPCI). <em>J. Climate</em>, <strong>24</strong>,
+5223–5256.
+<a class="reference external" href="http://journals.ametsoc.org/doi/abs/10.1175/2011JCLI3672.1">http://journals.ametsoc.org/doi/abs/10.1175/2011JCLI3672.1</a></p>
+<p>Trenberth, K.E., J.T. Fasullo, J. Kiehl, 2009: Earth’s global
+energy budget. <em>Bull. Amer. Meteor. Soc.</em>, <strong>90</strong>, 311–323.
+<a class="reference external" href="http://journals.ametsoc.org/doi/abs/10.1175/2008BAMS2634.1">http://journals.ametsoc.org/doi/abs/10.1175/2008BAMS2634.1</a></p>
+<p>Trenberth, K.E., J.M. Caron, 2001: Estimates of meridional
+atmosphere and ocean heat transports. <em>J. Climate</em>, <strong>14</strong>, 3433–3443.
+<a class="reference external" href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282001%29014%3C3433%3AEOMAAO%3E2.0.CO%3B2">http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282001%29014%3C3433%3AEOMAAO%3E2.0.CO%3B2</a></p>
+<p>Willis, J. K., D. Roemmich, and B. Cornuelle (2004), Interannual
+variability in upper ocean heat content, temperature, and thermosteric
+expansion on global scales, <em>J. Geophys. Res.</em>, <strong>109</strong>, C12036,
+doi:10.1029/2003JC002260.
+http://www.agu.org/pubs/crossref/2004/2003JC002260.shtml</p>
+</section>
+</section>
+<section id="earth-system-climate-modeling-historical-perspective">
+<h2><strong>Earth-system climate modeling – historical perspective</strong><a class="headerlink" href="#earth-system-climate-modeling-historical-perspective" title="Link to this heading"></a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Modeling of the Earth’s climate system has and continues to evolve and innovate.</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">During the mid to late 1990s, the representation of a coupled atmosphere-ocean system without flux corrections <a href="#id9"><span class="problematic" id="id5">[2]_</span></a> was a key achievement that could be used to study consequences of evolving greenhouse-gas concentrations. This was followed by the introduction of aerosols (primarily sulfate and later others), allowing for the evaluation of the spatial climate footprint imposed by these emissions. In the early 2000s, the objectives moved to the proper representation of the seasonal cycles, followed by a focus on the power spectrum of internal variability <a href="#id10"><span class="problematic" id="id6">[3]_</span></a>, and especially of El Niño-Southern Oscillation fluctuations. More recently, climate-modeling efforts have focused on processes with more significant regional or local impacts. For example, there has been an emphasis on understanding the nature of extreme rainfall, as well the processes linking the middle atmosphere to the lower atmosphere. These processes affect the variability in storm tracks, allowing for the application of these models for more time-dependent problems, such as forecasts at sub-seasonal, to seasonal, to decadal timescales (Towler and Yates 2021).</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>The need for accounting for more interactions between the climate and the Earth system has led to the incorporation of additional complex components.</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">For example: New polar ice-sheet models simulate ice dynamics and their potentially important links to sea level. Beyond transporting aerosols and including their radiative effects, new atmospheric physics and chemistry modules simulate the formation and removal of aerosols as well as their interactions with clouds and precipitation, which represents some of the most complex physical challenges. The global carbon cycle can now be simulated so that atmospheric greenhouse-gas concentrations no longer have to be prescribed but rather are predicted by the models based on emission time series and the coupled system’s response. These new developments reflect a greater level of maturity in modeling that now more closely reflects the integration of processes and their uncertainties, and can better reflect the attributes of the shared socioeconomic pathways (SSPs, discussed in 4.B) and the response of the whole Earth system to societal development scenarios. For exploring these complex scenarios, sophisticated Earth-system models coupling all of these processes together have become the prerequisite.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>However, the scales at which this information is offered typically requires further processing for many practical applications on the ground.</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">While scientific advances and computational power have allowed the models to include more complex components, their spatial resolution has not significantly advanced over the past decade, still largely constrained by computation limitations. Every time the spatial resolution of a climate model is increased, the demand for more computational resources grows significantly. Thus, the global models have generally remained at horizontal resolutions of around 100 km. This deficiency in properly representing important local factors, such as topography, the land-sea interface, etc. still requires downscaling approaches, either in dynamical form (see CMIP’s CORDEX effort in section 4.A.; Giorgi and Gutowski 2015), through statistical means, or some hybrid form. Most recently, even Machine Learning (ML) has been employed to achieve higher resolutions (Watson-Parris 2021). While ML and Artificial Intelligence (AI) techniques will quite likely revolutionize the overall enterprise of modeling (replacing parameterizations, offering higher-resolution ensembles, etc.), the need for a physics-based core that more faithfully can represent the non-linear interactions and evolution of the system will probably remain (e.g., O’Gorman and Dwyer 2018; Huntingford et al. 2019).</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Nevertheless, these modeling developments strengthen confidence in the understanding of climate-change processes and contribute to reducing uncertainty.</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">They now provide a robust foundation to offer projections of possible future changes, with increasing and direct relevance for society in planning and decision-making. These projections (see below: drivers of change) fit into the current understanding of the evolving climate over past centuries, millennia, and back millions of years both in magnitude as well as key determined characteristics of change, again, confirming the increasingly robust scientific “partnership” between observations, theory/modeling, and paleoclimate reconstructions (geologic records).</p>
+</div>
+</details></section>
+<section id="gcm-future-climate-datasets">
+<h2><strong>GCM future climate datasets</strong><a class="headerlink" href="#gcm-future-climate-datasets" title="Link to this heading"></a></h2>
+<p>Note that the IPCC’s goals, as stated above in this chapter, do not
+explicitly include the mandate of providing future change model outputs
+and data sets that would be useful, say, for this primer’s user audience
+(aka needed to drive more local scale impact models). However, with this
+said, both the IPCC’s <a class="reference external" href="https://www.ipcc-data.org/">Data Distribution
+Centre</a> (DDC) and CMIP’s <a href="#id7"><span class="problematic" id="id8">``</span></a>Program
+for Climate Model Diagnosis and
+Intercomparison &lt;<a class="reference external" href="https://pcmdi.llnl.gov/">https://pcmdi.llnl.gov/</a>&gt;`__ (PCMDI) at Lawrence
+Livermore National Laboratory have been supporting access to data sets
+that would be useful for the audience, with the <a class="reference external" href="https://aims2.llnl.gov/search">PCMDI ESGF
+Portal</a> being a well-used portal for
+acquiring dynamical downscaling data sets. Also, NCAR also has its CMIP
+Analysis Platform
+(<a class="reference external" href="https://www.cisl.ucar.edu/computing-data/data/cmip-analysis-platform">https://www.cisl.ucar.edu/computing-data/data/cmip-analysis-platform</a>)
+that gives researchers convenient access to climate data from CMIP,
+along with direct access to other related NCAR model data dealing with
+climate change. Two examples are the CESM Large Ensemble Community
+Project (LENS; <a class="reference external" href="https://www.cesm.ucar.edu/community-projects/lens">https://www.cesm.ucar.edu/community-projects/lens</a>) and
+the follow-on LENS2
+(<a class="reference external" href="https://www.cesm.ucar.edu/community-projects/lens2">https://www.cesm.ucar.edu/community-projects/lens2</a>),`publicly
+available sets of climate model simulations intended for advancing
+understanding of internal climate variability and climate change through
+the generation of many ensembles starting from initial starting points
+in the atmosphere (LENS and LENS2) and ocean (just LENS2). This
+initialization design is intended to enable an assessment of oceanic and
+atmospheric contributions to ensemble spread (i.e. the natural
+variability of the Earth system), and the impact of initial-condition
+memory on the global Earth system.</p>
+<p>One word of caution: the historic period GCM CMIP6 outputs to these
+models are provided so that researchers can assess the GCM skill at
+reproducing the general statistical behavior of the Earth system,
+including trends and potential biases in this behavior. However these
+data are not designed to be compared with specific historic events (e.g.
+a specific year’s and region’s heat wave or flooding event), since the
+models’ states are started from an observed initial state, but then are
+free to internally equilibrate, with only certain historic forcings
+providing the models with further constraints as they run forward over
+the historic period. The constraining forcings are:</p>
+<ul class="simple">
+<li><p><strong>Greenhouse Gases:</strong> Concentrations of CO2, CH4, N2O, and other
+greenhouse gases.</p></li>
+<li><p><strong>Aerosols and Ozone:</strong> Historical data on aerosols (such as sulfate,
+black carbon, organic carbon) and ozone concentrations.</p></li>
+<li><p><strong>Land Use Changes:</strong> Historical land use and land cover changes,
+including deforestation, urbanization, and agricultural practices.</p></li>
+<li><p><strong>Solar and Volcanic Activity:</strong> Variations in solar irradiance and
+major volcanic eruptions.</p></li>
+</ul>
+<p>Note that this lack of constraints on the GCMs over the historic period
+is in contrast to how these same GCMs might be used to produce
+reanalysis data sets over the historic period, where model states are
+continually brought back to be consistent to observations collected over
+the period.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ch9_recipes.html" class="btn btn-neutral float-left" title="Chapter 9: Walk-thru Recipes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="resources.html" class="btn btn-neutral float-right" title="Additional Resources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, NCAR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

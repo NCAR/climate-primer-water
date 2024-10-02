@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I. Introduction » What is Precipitation Estimation (QPE)? &mdash; Climate Primer alpha 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=abb643a6" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5760debf"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/climate_primer_small.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../ch1_intro.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch2_climatewater.html">Chapter 2: Climate and Water Availability Assessments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch3_observations.html">Chapter 3: Characterize baseline quantities of interest, uncertainties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch4_gcms.html">Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch5_attribution.html">Chapter 5: Baseline natural variability and attribution of observed changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch6_downscaling.html">Chapter 6: Place-Based Climate Projections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch7_uncertainty.html">Chapter 7: Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch8_casestudies.html">Chapter 8: Example Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch9_recipes.html">Chapter 9: Walk-thru Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learnmore.html">Learn More…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acknowledgements.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Climate Primer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><strong>I. Introduction » What is Precipitation Estimation (QPE)?</strong></li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NCAR/climate-primer-water/blob/main/doc/drafts/ch3_obs_popout_radarqpe.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="i-introduction-what-is-precipitation-estimation-qpe">
+<h1><strong>I. Introduction » What is Precipitation Estimation (QPE)?</strong><a class="headerlink" href="#i-introduction-what-is-precipitation-estimation-qpe" title="Link to this heading"></a></h1>
+<p>The term Quantitative Precipitation Estimation, or QPE, refers to the
+estimation of observed precipitation.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe16.jpg"><img alt="24h QPE" src="drafts/media/ch3/image_obs_popout_radarqpe16.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>This is different than a forecast of precipitation which is referred to
+as a Quantitative Precipitation Forecast, or QPF.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe35.jpg"><img alt="48 h QPE" src="drafts/media/ch3/image_obs_popout_radarqpe35.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>You may wonder why precipitation is only an estimate if it is
+“observed.” Observed precipitation is only an estimate because the tools
+used provide inexact approximations of the actual magnitude and
+distribution of precipitation.</p>
+</section>
+<section id="i-introduction-qpe-methods-and-tools">
+<h1><strong>I. Introduction » QPE Methods and Tools</strong><a class="headerlink" href="#i-introduction-qpe-methods-and-tools" title="Link to this heading"></a></h1>
+<p>Radar is a remote sensing QPE tool with excellent spatial and temporal
+resolution. However, radar coverage may be inconsistent from place to
+place and from storm to storm.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe13.jpg"><img alt="Illustration of radar, satellite and rain gauges sensing a convective cloud system." src="drafts/media/ch3/image_obs_popout_radarqpe13.jpg" style="width: 6.02778in; height: 4.125in;" /></a></p>
+<p>Satellite is another remote sensing QPE tool, but with much coarser
+resolution than radar.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe21.jpg"><img alt="image1" src="drafts/media/ch3/image_obs_popout_radarqpe21.jpg" style="width: 6.02778in; height: 4.125in;" /></a></p>
+<p>Even rain gauges, which are ground-based measurements, are subject to
+errors and cannot resolve the spatial detail of precipitation patterns.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe34.jpg"><img alt="image2" src="drafts/media/ch3/image_obs_popout_radarqpe34.jpg" style="width: 6.02778in; height: 4.125in;" /></a></p>
+<p>A precipitation climatology is sometimes used to augment the estimates
+of observed precipitation. This can be very useful in regions where
+precipitation distribution, and the ability to observe it, is greatly
+affected by terrain features.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe">
+<h1><strong>II. Remote Sensing of QPE</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe" title="Link to this heading"></a></h1>
+<p>Precipitation accumulation is routinely derived from radar and satellite
+observations. Despite the inconsistencies in radar-derived precipitation
+from location to location and from season to season, radar guidance is
+considered superior to satellite guidance of QPE in many areas. This is
+mainly due to the superior resolution in both space and time and often
+better quantitative guidance.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe36.jpg"><img alt="Radar-derived Total Accumulation" src="drafts/media/ch3/image_obs_popout_radarqpe36.jpg" style="width: 5in; height: 6.04167in;" /></a></p>
+<p>Topics in this section include the relationship between drop size
+distribution, the Z-R relationship, and derived rainfall; the impact of
+snow on radar-derived estimates, the potential QPE improvement with
+polarimetric radar, radar coverage issues, and the concept of radar
+climatology. A brief summary of issues regarding satellite-derived QPE
+will follow the radar sections.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-reflectivity-rainfall-rate-z-r-and-drop-size-distribution-dsd">
+<h1><strong>II. Remote Sensing of QPE » Reflectivity-Rainfall Rate (Z-R) and Drop Size Distribution (DSD)</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-reflectivity-rainfall-rate-z-r-and-drop-size-distribution-dsd" title="Link to this heading"></a></h1>
+<p>Radar reflectivity (Z), expressed in units of dBZ, is used to compute
+rainfall rates (R) in mm/h using a reflectivity to rainfall rate
+relationship. This is known as the Z-R relationship. Rainfall rates then
+get integrated over time to produce accumulation for various time
+periods.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe28.jpg"><img alt="Hybrid Reflectivity near LaCrosse, WS 0057 UTC 19 Aug 2007" src="drafts/media/ch3/image_obs_popout_radarqpe28.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe26.jpg"><img alt="Instantaneous Radar-derived Rainfall Rate near LaCrosse, WS at 0057 UTC 19 Aug 2007" src="drafts/media/ch3/image_obs_popout_radarqpe26.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe8.jpg"><img alt="Storm Total Radar-Derived Rainfall Accumulation near LaCrosse, WS 0057 UTC 19 Aug 2007" src="drafts/media/ch3/image_obs_popout_radarqpe8.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p>The relationship between reflectivity and rainfall rate, and thus the
+Z-R relationship, varies with time, location, and season. Hydrometeor
+properties that influence the Z-R relationship include size,
+concentration, and phase. Accuracy of derived rainfall rates is further
+impacted by the presence of non-hydrometeors, and whether the radar is
+sampling a region that is representative of precipitation reaching the
+ground.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe31.jpg"><img alt="Convective storm illustration with close up of hydrometeor sizes" src="drafts/media/ch3/image_obs_popout_radarqpe31.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe30.jpg"><img alt="Convective storm illustration with close up of hydrometeor concentration" src="drafts/media/ch3/image_obs_popout_radarqpe30.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe6.jpg"><img alt="Convective storm illustration with close up of hydrometeor phases" src="drafts/media/ch3/image_obs_popout_radarqpe6.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe18.jpg"><img alt="Convective storm illustration with close up of non-hydrometeors" src="drafts/media/ch3/image_obs_popout_radarqpe18.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe11.jpg"><img alt="Convective storm illustration with hydrometeor sampling by radar" src="drafts/media/ch3/image_obs_popout_radarqpe11.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p>Hydrometeor shape, which is related to hydrometeor size and phase, is
+also important information for understanding the relationship between
+reflectivity and precipitation rates. Large liquid drops are more oblate
+in shape than smaller ones. For horizontally-polarized radars like the
+WSR88-D, greater horizontal diameters reflect more energy back to the
+radar. This results in greater derived rainfall rates.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe32.jpg"><img alt="Drop shapes as a function of size" src="drafts/media/ch3/image_obs_popout_radarqpe32.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>Even relatively small 13-mm (half-inch) diameter hailstones contribute
+greatly to radar reflectivity. That’s why the presence of hail results
+in anomalously high derived-rainfall rates. This anomaly is typically
+minimized through use of rainfall rate thresholds.</p>
+<section id="in-depth-reflectivity-factor-z">
+<h2><strong>In Depth: Reflectivity Factor, Z</strong><a class="headerlink" href="#in-depth-reflectivity-factor-z" title="Link to this heading"></a></h2>
+</section>
+<section id="z-n-d-d6-dd">
+<h2><strong>Z = ∫ N(D) D6 dD</strong><a class="headerlink" href="#z-n-d-d6-dd" title="Link to this heading"></a></h2>
+<div class="line-block">
+<div class="line"><strong>Z</strong> = reflectivity factor</div>
+<div class="line"><strong>D</strong> = drop diameter</div>
+<div class="line"><strong>N(D)</strong> = number of drops of given diameter per cubic meter</div>
+</div>
+<p>This equation is presented to explain the sensitivity of reflectivity
+factor, Z, to drop diameter. Because the drop diameter is raised to the
+6th power, small changes in drop diameter result in very large changes
+to Z. And large changes to Z result in large changes to derived rainfall
+rates.</p>
+<p>Drop size distribution (DSD) refers to the size and concentration of
+drops in a volume, say a cubic meter. Here we show two DSDs.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe10.jpg"><img alt="DSDs with equivalent reflectivity but different rainfall rates" src="drafts/media/ch3/image_obs_popout_radarqpe10.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>The radar is more sensitive to the horizontal diameter of the
+hydrometeors than it is to the concentration of hydrometeors. Therefore,
+a small number of large hydrometeors can result in the same reflectivity
+value as a very large number of smaller drops. But the DSD on the right
+is producing greater rainfall rates. The two DSDs should therefore be
+represented by different Z-R relationships.</p>
+<p>The DSD can vary significantly and quickly in both space and time. This
+means that it may be appropriate to have more than one Z-R relationship
+in effect at the same time. As of this writing, the NOAA National Mosaic
+and Multisensor QPE (NMQ) radar precipitation product can utilize
+numerous Z-R relationships based on atmospheric conditions.</p>
+<p>Here we have a region with a squall line that most likely has a DSD
+consistent with convective rainfall. Nearby stratiform precipitation
+will exhibit a different DSD and should be associated with a different
+Z-R relationship than the convective area. As the precipitation system
+moves, the Z-R relationship at any one location should change with time.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe9.jpg"><img alt="Reflectivity Image at 2126 UTC 15 November 2008" src="drafts/media/ch3/image_obs_popout_radarqpe9.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+</section>
+</section>
+<section id="ii-remote-sensing-of-qpe-reflectivity-and-snow">
+<h1><strong>II. Remote Sensing of QPE » Reflectivity and Snow</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-reflectivity-and-snow" title="Link to this heading"></a></h1>
+<p>As snowflakes begin to melt, a coating of water can make them “appear”
+as very large raindrops to the radar. This can cause very high
+reflectivity and overestimated rainfall rates at the ground below where
+the radar is sampling the melting layer aloft.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe17.jpg"><img alt="Radar and melting snow" src="drafts/media/ch3/image_obs_popout_radarqpe17.jpg" style="width: 5.51389in; height: 4.44444in;" /></a></p>
+<p>Pure snowflakes and crystals violate the assumption of liquid
+hydrometeors that go into the Z-R equation. However, several research
+institutions are working on radar-derived snowfall including Z-S, or
+reflectivity snowfall rate relationships.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-precipitation-estimates-with-dual-polarimetric-radar">
+<h1><strong>II. Remote Sensing of QPE » Precipitation Estimates with Dual Polarimetric Radar</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-precipitation-estimates-with-dual-polarimetric-radar" title="Link to this heading"></a></h1>
+<p>Advances are made in radar technology every year. As this lesson is
+being developed the most promising with respect to precipitation is dual
+polarized radar, or polarimetric radar.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe3.jpg"><img alt="Sample data from dual-polarimetric Radar" src="drafts/media/ch3/image_obs_popout_radarqpe3.jpg" style="width: 6.04167in; height: 4.69444in;" /></a></p>
+<p>A network of polarimetric radars promises to alleviate some of the
+errors associated with the phase, size, and distribution of
+hydrometeors. Ultimately, this means the problems associated with
+inappropriate Z-R conversions should be minimized.</p>
+<p>Excellent training on precipitation measurement using polarimetric radar
+is available from NOAA’s WDTD. We will not repeat those lessons here,
+but we strongly encourage you to review them:
+<a class="reference external" href="http://www.wdtb.noaa.gov/courses/dualpol/Outreach/">http://www.wdtb.noaa.gov/courses/dualpol/Outreach/</a>.</p>
+<p>The basic premise behind polarimetric radar is that in addition to
+reflectivity estimates that we are familiar with, it estimates the
+shapes of hydrometeors. This is accomplished by using both a
+horizontally and a vertically polarized radar beam. By measuring the
+different returns from these two polarizations, one can estimate the
+shape and the effects from different hydrometeor shapes.</p>
+<p>For example, we can determine if the prominent reflectors are large
+raindrops, which tend to be oblate with a large horizontal axis. We can
+also determine if the hydrometeors are more spherical, consistent with
+small raindrops. Or we can measure if the hydrometeors are highly
+reflective and generally spherical, consistent with hail. Other measures
+can be used to estimate the presence of snow, insects, or ground
+targets.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe4.jpg"><img alt="Reflector shape is a function of its size, phase, and type" src="drafts/media/ch3/image_obs_popout_radarqpe4.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+</section>
+<section id="ii-remote-sensing-of-qpe-radar-sampling-of-precipitation">
+<h1><strong>II. Remote Sensing of QPE » Radar Sampling of Precipitation</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-radar-sampling-of-precipitation" title="Link to this heading"></a></h1>
+<p>Most of the discussion so far is applicable for areas with good radar
+coverage. Good radar coverage is determined by three main factors:</p>
+<ol class="arabic simple">
+<li><p>There are no obstructions of the low-level radar beam from terrain
+features or other ground targets like buildings.</p></li>
+<li><p>Precipitation systems extend through a deep portion of the
+troposphere, as we see with convective storms.</p></li>
+<li><p>The density of radar sites is sufficient. In other words, the radars
+are close enough to each other so that all radar sampling is
+occurring in the low levels of the atmosphere.</p></li>
+</ol>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe29.jpg"><img alt="Influences on radar coverage - mountains" src="drafts/media/ch3/image_obs_popout_radarqpe29.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe5.jpg"><img alt="Influences on radar coverge - deep convection" src="drafts/media/ch3/image_obs_popout_radarqpe5.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe2.jpg"><img alt="Influences on radar coverage - low level sampling" src="drafts/media/ch3/image_obs_popout_radarqpe2.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p>The radar beam gets higher in the atmosphere with distance from the
+radar. Even a low tilt angle like 0.5° is ~1.5 km (5,000 ft) above the
+ground at 100 km from the radar, and 5.2 km (17,000 ft) high at 230 km.
+Therefore, to sample the low-level precipitation, which is most likely
+to be representative of the precipitation reaching the ground, radars
+need to be close to each other.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe22.jpg"><img alt="Height above the ground of radar sample as a function of range" src="drafts/media/ch3/image_obs_popout_radarqpe22.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>For stratiform precipitation it is best to sample the lowest 1 km of the
+atmosphere, which typically occurs within 50 km of the radar. Beyond 50
+km the radar sample may be questionable. This range can be limited
+further by terrain blocking of the radar beam. Sampling of stratiform
+precipitation is almost always poor beyond 100 km from the radar.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe7.jpg"><img alt="Radar coverage of precipitation with range - assuming no beam blocking" src="drafts/media/ch3/image_obs_popout_radarqpe7.jpg" style="width: 6.04167in; height: 4.15278in;" /></a></p>
+<p>Convective precipitation is distributed over a much deeper layer of the
+atmosphere than stratiform precipitation. Therefore, in seasons and
+locations where convection is common and terrain is minimal, the radar
+may be able to sample precipitation well at long distance from the
+radar, perhaps beyond 150 km. Shallow convection may be undersampled by
+the radar at closer ranges than 150 km. Range coverage is worse for
+snow.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-radar-coverage">
+<h1><strong>II. Remote Sensing of QPE » Radar Coverage</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-radar-coverage" title="Link to this heading"></a></h1>
+<p>Here are the NWS radar locations with the ideal 230-km range shown with
+yellow circles. The density of weather radars is generally lower in the
+western United States and Alaska than in other parts of the country.
+These maps do not account for terrain features that can greatly reduce
+the radar coverage.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe37.jpg"><img alt="Locations of WSR-88D radars with the idealized 230-km coverge areas" src="drafts/media/ch3/image_obs_popout_radarqpe37.jpg" style="width: 6.04167in; height: 4.69444in;" /></a></p>
+<p>For many locations and precipitation regimes, it’s unrealistic to expect
+good precipitation estimates with the ideal 230-km coverage shown here.
+A more realistic radius of 100 or 150-km would show bigger and more
+numerous gaps, especially in the Western United States. In the winter,
+the range of realistic coverage may shrink to less than a 100 km radius.</p>
+<p>A more realistic coverage is shown here with a map of the height above
+ground level (AGL) of the radar sampling. It is for November 10th, 2008.
+Although this map can change depending on weather conditions and radar
+operations, the basic pattern will be the same.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe1.jpg"><img alt="Height above ground level of radar coverage, 1755 UTC 10 Nov 2008 CONUS" src="drafts/media/ch3/image_obs_popout_radarqpe1.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>The light blues show where there is good coverage of the low levels. The
+best low level coverage is obviously in areas with relatively flat
+terrain and good radar density. Recall that for stratiform
+precipitation, radar coverage can be significantly impacted if the radar
+sampling is 1 km or more above the ground, as shown in the dark blue,
+greens, yellows, and reds. Even in the central and eastern U.S.,
+stratiform precipitation may be significantly underestimated in places.
+In the West, radar sampling can be more than 3 km above the ground in
+large areas. This results in completely missing precipitation systems,
+especially stratiform. This is also a problem in Alaska. As an example
+let’s look more closely at radar coverage in the northwestern portion of
+the contiguous United States.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-radar-climatology">
+<h1><strong>II. Remote Sensing of QPE » Radar Climatology</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-radar-climatology" title="Link to this heading"></a></h1>
+<p>To account for the geographic and seasonal variability, the NWS has
+radar coverage maps. Here we see the warm-season effective radar
+coverage for the Northwest. The color-shaded areas are where radar
+climatology shows good coverage from at least one radar. The individual
+colors depict which radar the “good” coverage will come from. For
+example, the white area shows where radar estimates would come from the
+radar at Boise, Idaho, KCBX.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe15.jpg"><img alt="Warm season radar coverage for the northwest river forecast center area" src="drafts/media/ch3/image_obs_popout_radarqpe15.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>KCBX is considered good here because 1) that radar is able to sample
+precipitation, and 2) in areas of overlap with neighboring radars, KCBX
+is sampling from a lower elevation. The jagged appearance is caused by
+mountains preventing uniform good coverage throughout the entire 230-km
+radius.</p>
+<p>These are produced by the NWS radar climatology program, RADCLIM. We
+will briefly demonstrate radar climatology based on frequency of
+occurrence of precipitation for Boise, Idaho.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe14.jpg"><img alt="Radar climatology analysis and display (Radclim)" src="drafts/media/ch3/image_obs_popout_radarqpe14.jpg" style="width: 6.04167in; height: 5.09722in;" /></a></p>
+<p>The precipitation frequency of occurrence starts with a precipitation
+threshold for defining what we will consider precipitation. Let’s use a
+threshold of 0.0 mm which means that any time there is more than 0.0 mm
+detected by the radar, we have a precipitation event. We could choose a
+higher threshold if we want to filter out light events.</p>
+<p>The frequency of precipitation, for each radar bin, is the number of
+times more than 0.0 mm was observed divided by all of the radar
+observations in the data set. We get this image for the Boise radar. The
+radar is in the center of the 230-km radius of ideal radar coverage.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe20.jpg"><img alt="Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season" src="drafts/media/ch3/image_obs_popout_radarqpe20.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>The different colors show the different frequencies of occurrence. As
+distance increases from the radar the frequency of precipitation
+decreases, indicated by blue and black colors. Note the large areas with
+very low frequencies of occurrence, seen as black. These do not
+represent natural precipitation distribution. Rather, it shows where the
+radar sampling is greatly inhibited by terrain blocking.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-radar-coverage-map">
+<h1><strong>II. Remote Sensing of QPE » Radar Coverage Map</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-radar-coverage-map" title="Link to this heading"></a></h1>
+<p>So now we want to choose a precipitation frequency threshold to
+represent effective radar coverage. In other words, we will say, “only
+when precipitation occurred at least this often, will we trust the radar
+estimates.”</p>
+<p>In this example, a frequency of occurrence of 0.006 was chosen. This
+means that we will only consider radar bins where greater than 0.0 mm
+occurred at least 0.006, or 0.6% of the time according to the radar
+climatology.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe20.jpg"><img alt="Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season" src="drafts/media/ch3/image_obs_popout_radarqpe20.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>This is all non-black shaded areas shown on the radar coverage map as
+white shading. So the white shading is where we assume good radar
+coverage. We should assume bad coverage in the black areas. In the black
+areas, precipitation estimates should come from other radars or other
+sources such as rain gauges and satellite.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe33.jpg"><img alt="Warm season effective radar coverage for Boise, ID (KCBX)" src="drafts/media/ch3/image_obs_popout_radarqpe33.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>The choice of frequency threshold is somewhat subjective, based on
+forecaster experience regarding what produces the most useful guidance.</p>
+<p>Radar climatologies are generated for specific months or seasons. Let’s
+go back to the summer season radar coverage for the northwestern portion
+of the contiguous United States. All of the non-black areas are where we
+can assume good radar coverage. Again, here is the Boise coverage area
+that we just talked about. So the white shading is where we can assume
+good coverage.</p>
+<p>In the cool season, there is more low level precipitation and thus the
+effects of terrain and distance on radar precipitation estimates are
+more severe. Note the sharp decrease in good radar coverage in the radar
+coverage map for the Northwest in the cool season.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe19.jpg"><img alt="image3" src="drafts/media/ch3/image_obs_popout_radarqpe19.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe12.jpg"><img alt="Cool season radar coverage for the northwest river forecast center" src="drafts/media/ch3/image_obs_popout_radarqpe12.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p>These types of radar coverage maps, based on radar climatology, are used
+in MPE to determine where radar-derived data should be used.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-satellite-qpe">
+<h1><strong>II. Remote Sensing of QPE » Satellite QPE</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-satellite-qpe" title="Link to this heading"></a></h1>
+<p>Satellite estimation of precipitation is potentially useful in areas
+with poor coverage from radars and rain gauges. Although satellite
+sampling is more consistent from place to place than radar sampling,
+satellite-derived precipitation is lower resolution and generally less
+accurate than radar-derived precipitation. It is therefore considered a
+supplement, not a replacement for the radar products.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe25.jpg"><img alt="1 hr satellite estimated precip as of 1515 UTC 17 Apr 2009" src="drafts/media/ch3/image_obs_popout_radarqpe25.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>Satellite-derived rainfall products perform best in the tropics and in
+the middle latitudes during the warm season. In other words it verifies
+best when the wind shear is relatively low and precipitation is
+dominated by convection. These are not the conditions in the
+radar-sparse western United States during the wintertime wet season.</p>
+<p>This NOAA product known as the hydro-estimator applies a terrain factor
+to the precipitation estimate using 700 mb winds. This helps with
+resolving the spatial distribution of the precipitation. Other
+improvements to precipitation rates may be achieved by applying factors
+related to cloud, moisture, and stability characteristics.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe24.jpg"><img alt="24 hr satellite estimated precip as of 1200 UTC 5 Jan 2008" src="drafts/media/ch3/image_obs_popout_radarqpe24.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>For satellite Hydro-Estimator rainfall products:
+<a class="reference external" href="http://www.star.nesdis.noaa.gov/smcd/emb/ff/HydroEst.php">http://www.star.nesdis.noaa.gov/smcd/emb/ff/HydroEst.php</a></p>
+<p>In addition to adjustments based on both measured and modeled
+environmental properties, there is increasing use of additional sensor
+capabilities such as microwave satellite sensing and lightning
+detection. Passive microwave observations allow detection of water and
+ice within the cloud for derivation of more accurate rainfall rates.
+However, because microwave sensing capabilities are specific to
+polar-orbiting satellites, the temporal frequency is much less than that
+of the hydro-estimator products based on geostationary satellites.</p>
+<p>The SCaMPR product, (which stands for Self-Calibrating Multivariate
+Precipitation Retrieval) is an example of combining the temporal
+resolution of geostationary satellites with the more accurate estimation
+of rainfall rates of polar orbiters, and previews the next generation of
+operational satellite-based precipitation estimation tools.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_radarqpe23.jpg"><img alt="SCaMPR 24 hr estimated precip at 1200 UTC 13 Apr 2009" src="drafts/media/ch3/image_obs_popout_radarqpe23.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>For more information on efforts pertaining to real time satellite-based
+precipitation estimation at NOAA, please see:
+<a class="reference external" href="http://www.star.nesdis.noaa.gov/smcd/emb/ff/index.html">http://www.star.nesdis.noaa.gov/smcd/emb/ff/index.html</a>.</p>
+<p>Multi-satellite precipitation products have also greatly benefited from
+the new constellation of polar-orbiting satellites, known as the GPM, or
+Global Precipitation Measurement mission.</p>
+</section>
+<section id="ii-remote-sensing-of-qpe-remote-sensing-qpe-key-points">
+<h1><strong>II. Remote Sensing of QPE » Remote Sensing QPE Key Points</strong><a class="headerlink" href="#ii-remote-sensing-of-qpe-remote-sensing-qpe-key-points" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>Radar data, where available, provide the best resolution in space and
+time.</p></li>
+<li><p>The best radar coverage occurs with convective precipitation, liquid
+precipitation, and in regions with minimal terrain features.</p></li>
+<li><p>Errors in radar-derived precipitation are associated with variations
+in drop size distributions, precipitation phase, and lack of
+low-level information.</p></li>
+<li><p>Dual-polarized radars estimate hydrometeor shapes, and should assist
+with developing more accurate precipitation products.</p></li>
+<li><p>Satellite-derived precipitation is a supplement in regions with poor
+radar and rain gauge coverage.</p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, NCAR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

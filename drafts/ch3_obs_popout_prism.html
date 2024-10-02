@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IV. Precipitation Climatology/PRISM &mdash; Climate Primer alpha 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=abb643a6" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5760debf"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/climate_primer_small.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../ch1_intro.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch2_climatewater.html">Chapter 2: Climate and Water Availability Assessments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch3_observations.html">Chapter 3: Characterize baseline quantities of interest, uncertainties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch4_gcms.html">Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch5_attribution.html">Chapter 5: Baseline natural variability and attribution of observed changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch6_downscaling.html">Chapter 6: Place-Based Climate Projections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch7_uncertainty.html">Chapter 7: Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch8_casestudies.html">Chapter 8: Example Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch9_recipes.html">Chapter 9: Walk-thru Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learnmore.html">Learn More…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acknowledgements.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Climate Primer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><strong>IV. Precipitation Climatology/PRISM</strong></li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NCAR/climate-primer-water/blob/main/doc/drafts/ch3_obs_popout_prism.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="iv-precipitation-climatology-prism">
+<h1><strong>IV. Precipitation Climatology/PRISM</strong><a class="headerlink" href="#iv-precipitation-climatology-prism" title="Link to this heading"></a></h1>
+<p>Precipitation climatology guidance can be used to help fill in the gaps
+where estimates of observed precipitation are poor. The most widely used
+precipitation climatology tool in the United States as of 2009 is the
+Parameter-elevation Regressions on an Independent Slopes Model, or
+PRISM. Prior to its use in multiple-sensor precipitation estimation
+(MPE), PRISM was used extensively in several River Forecast Centers in
+the western United States.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism11.jpg"><img alt="Prism precipitation maps" src="drafts/media/ch3/image_obs_popout_prism11.jpg" style="width: 4.48611in; height: 3.65278in;" /></a></p>
+<p>Topics in this section include the rationale for PRISM, the use of PRISM
+data, and limitations of using precipitation climatology for QPE.</p>
+</section>
+<section id="iv-precipitation-climatology-prism-prism">
+<h1><strong>IV. Precipitation Climatology/PRISM » PRISM</strong><a class="headerlink" href="#iv-precipitation-climatology-prism-prism" title="Link to this heading"></a></h1>
+<p>Developed at Oregon State University, PRISM climatology products include
+precipitation climatology guidance for the contiguous United States…</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism1.jpg"><img alt="PRISM precipitation: annual climatology for the CONUS 1971-2000" src="drafts/media/ch3/image_obs_popout_prism1.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>…the Hawaiian Islands, Puerto Rico, Guam, and…</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism9.jpg"><img alt="PRISM Precipitation annual climatology for Hawaii" src="drafts/media/ch3/image_obs_popout_prism9.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>…Alaska, along with portions of neighboring Canadian provinces.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism12.jpg"><img alt="PRISM Precipitation Annual climatology for Alaska and the Yukon" src="drafts/media/ch3/image_obs_popout_prism12.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p>Products and detailed presentations about deriving those products are
+available for download from the PRISM group at Oregon State University:
+<a class="reference external" href="http://www.prism.oregonstate.edu/">http://www.prism.oregonstate.edu/</a>.</p>
+<p>PRISM precipitation climatologies are based on the historic record of
+measured precipitation at point locations, geographic input, especially
+terrain information, and in some cases, the prevailing wind direction.
+Streamflow discharge measurements are used to correlate basin
+precipitation climatology with runoff climatology and thus provide a
+rough validation check on the precipitation amount.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism13.jpg"><img alt="Gauge locations and topography of Olympic peninsula" src="drafts/media/ch3/image_obs_popout_prism13.jpg" style="width: 6.04167in; height: 4.55556in;" /></a></p>
+<p>Point observations are rarely sufficient to represent spatial patterns
+of precipitation. This is especially true in regions with sharp changes
+in elevation and/or nearby large bodies of water. PRISM uses the known
+relationships of precipitation with geographic features. An automated
+statistical approach is used for efficiency, but this is guided by human
+expertise.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism3.jpg"><img alt="PRISM annual precip climatology with rain gauge locations for the Olympic peninsula" src="drafts/media/ch3/image_obs_popout_prism3.jpg" style="width: 6.04167in; height: 4.79167in;" /></a></p>
+</section>
+<section id="iv-precipitation-climatology-prism-basic-use-of-prism">
+<h1><strong>IV. Precipitation Climatology/PRISM » Basic Use of PRISM</strong><a class="headerlink" href="#iv-precipitation-climatology-prism-basic-use-of-prism" title="Link to this heading"></a></h1>
+<p>PRISM precipitation climatology may be used for both observed
+precipitation (QPE) and forecast precipitation (QPF).</p>
+<p>Deriving QPE from PRISM precipitation climatology starts with point
+values, such as reading from a rain gauge. From there we derive the
+ratio of the point value to the PRISM value.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism5.jpg"><img alt="Using gauge reports and PRISM to get QPE 2" src="drafts/media/ch3/image_obs_popout_prism5.jpg" style="width: 5.18056in; height: 4.52778in;" /></a></p>
+<p>In this example we assume the gauge reading is 40 mm (1.57 in) and the
+PRISM value at that point is 20 mm (0.79 in). The ratio of 40 over 20 is
+2.0. Now, we apply that ratio to other PRISM values.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism10.jpg"><img alt="Using gauge reports and PRISM to get QPE 3" src="drafts/media/ch3/image_obs_popout_prism10.jpg" style="width: 5.27778in; height: 4.51389in;" /></a></p>
+<p>This adjusts the areal precipitation estimate by the ratio of 2.0 but it
+preserves the gradients and the relative magnitudes that we see in the
+PRISM data.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism2.jpg"><img alt="Using gauge reports and PRISM to get QPE 4" src="drafts/media/ch3/image_obs_popout_prism2.jpg" style="width: 5.09722in; height: 4.51389in;" /></a></p>
+<p>Of course this process is done for numerous gauge locations using
+distance-weighting schemes.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism8.jpg"><img alt="24-hr precip accumulation from daily QC program as of 1200 UTC 23 Jan 2008" src="drafts/media/ch3/image_obs_popout_prism8.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p>This approach using gauge and terrain data is considered the
+3-dimensional (3-D) approach. This can be very useful in
+terrain-affected areas. The areas that are within 100 km of the green
+shading on this map are where PRISM uses the 3-D approach for QPE. This
+would also include all of the Hawaiian Islands and most of Alaska. In
+the white areas on this map, PRISM uses a 2-D process. This is basically
+a distance-weighted gauge analysis.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism6.jpg"><img alt="PRISM effective terrain areas" src="drafts/media/ch3/image_obs_popout_prism6.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+</section>
+<section id="iv-precipitation-climatology-prism-limitations-of-precipitation-climatology">
+<h1><strong>IV. Precipitation Climatology/PRISM » Limitations of Precipitation Climatology</strong><a class="headerlink" href="#iv-precipitation-climatology-prism-limitations-of-precipitation-climatology" title="Link to this heading"></a></h1>
+<p>As with any climatological data, there are limitations. Climatology
+averages the individual events in a data set. Individual precipitation
+events may show large departures from climatology, especially in the
+locations of extreme and sharp gradients. However, even with these
+limitations, there are regions that will likely benefit somewhat from
+climatological tools.</p>
+<p>Individual events will often be closer to climatology in regions with
+large orographic influences.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism4.jpg"><img alt="Salt lake city" src="drafts/media/ch3/image_obs_popout_prism4.jpg" style="width: 6.25in; height: 4.15278in;" /></a></p>
+<p>In addition, regions that tend to receive widespread, stratiform
+precipitation will be closer to climatology than areas dominated by
+convection.</p>
+<p><a class="reference internal" href="drafts/media/ch3/image_obs_popout_prism7.jpg"><img alt="Strat clounds rainy road with cars" src="drafts/media/ch3/image_obs_popout_prism7.jpg" style="width: 5.73611in; height: 4.13889in;" /></a></p>
+<p>So the western coasts of North America may be the areas that can benefit
+most from climatological adjustments to QPE. Keep in mind that
+departures from climatological norms will likely have greater impacts as
+one looks at smaller basins.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, NCAR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

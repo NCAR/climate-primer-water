@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 3: Characterize baseline quantities of interest, uncertainties &mdash; Climate Primer alpha 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=abb643a6" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5760debf"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations" href="ch4_gcms.html" />
+    <link rel="prev" title="Chapter 2: Climate and Water Availability Assessments" href="ch2_climatewater.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html">
+            
+              <img src="_static/climate_primer_small.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ch1_intro.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch2_climatewater.html">Chapter 2: Climate and Water Availability Assessments</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Chapter 3: Characterize baseline quantities of interest, uncertainties</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">3.1 Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#observational-datasets-and-their-uncertainties">3.2 Observational datasets and their uncertainties</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ideal-local-datasets">3.2.1 <strong>Ideal local datasets.</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#beyond-gauges-alternative-precipitation-datasets">3.2.2 <strong>Beyond gauges - alternative precipitation datasets</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#weather-climatologies">3.2.3 <strong>Weather climatologies</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reanalysis">3.2.4 <strong>Reanalysis</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#blending-multiple-sensors-and-data-products">3.2.5 <strong>Blending multiple sensors and data products</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#broader-climate-variable-observation-resources">3.2.6 <strong>Broader climate variable observation resources</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#further-resources">3.2.7 <strong>Further Resources</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ch4_gcms.html">Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch5_attribution.html">Chapter 5: Baseline natural variability and attribution of observed changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch6_downscaling.html">Chapter 6: Place-Based Climate Projections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch7_uncertainty.html">Chapter 7: Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch8_casestudies.html">Chapter 8: Example Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch9_recipes.html">Chapter 9: Walk-thru Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="learnmore.html">Learn More…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgements.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Climate Primer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Chapter 3: Characterize baseline quantities of interest, uncertainties</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NCAR/climate-primer-water/blob/main/doc/ch3_observations.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chapter-3-characterize-baseline-quantities-of-interest-uncertainties">
+<h1>Chapter 3: Characterize baseline quantities of interest, uncertainties<a class="headerlink" href="#chapter-3-characterize-baseline-quantities-of-interest-uncertainties" title="Link to this heading"></a></h1>
+<p>This Chapter provides an overview and guidance on the following topics:</p>
+<ul class="simple">
+<li><p>Observation-based water-cycle datasets for North America and their
+strengths and weaknesses</p></li>
+</ul>
+<p><strong>Table of Contents</strong></p>
+<ul class="simple">
+<li><p>Key takeaways from the chapter</p></li>
+<li><p>Introduction</p></li>
+<li><p>Observational datasets and their strengths and weaknesses</p></li>
+<li><p>References</p></li>
+</ul>
+<p><strong>Attribution</strong></p>
+<p>Much of the material and images used in this chapter are derived
+from the following MetEd Lessons: Understanding the Hydrologic Cycle;
+Precipitation Estimates, Part 1: Measurement; Precipitation Estimates,
+Part 2: Analysis. The source of this material is the
+COMET® Website at <a class="reference external" href="http://meted.ucar.edu/">http://meted.ucar.edu/</a> of the University Corporation
+for Atmospheric Research (UCAR), sponsored in part through cooperative
+agreement(s) with the National Oceanic and Atmospheric Administration
+(NOAA), U.S. Department of Commerce (DOC). ©1997-2024 University
+Corporation for Atmospheric Research. All Rights Reserved.</p>
+<p><strong>Chapter 3 Key Takeaways</strong></p>
+<p>We need observational datasets to:</p>
+<ul>
+<li><p>Understand the natural variability of the system of interest</p></li>
+<li><p>Provide a baseline reference useful for future model projections in:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Removing biases</p></li>
+<li><p>Downscaling</p></li>
+<li><p>Making the results physically-realistic (e.g.incorporating temporal and spatial sequencing)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>When assessing observational datasets it is important to consider their spatial, temporal and distributional climate-data characteristics as this will impact their ability to capture local-impact phenomena.</p>
+<p>An alternative to strictly observational-based datasets are climate reanalyses which is often used to reconstruct past climate conditions by combining historical observational data with modern climate models.</p>
+<p>As a general rule of thumb, datasets are more useful if they:</p>
+<ul class="simple">
+<li><p>Provide estimates of their uncertainty</p></li>
+<li><p>Are derived from multiple data sets, sensors, algorithms, since their errors can partially cancel, making them more robust</p></li>
+</ul>
+<p>For climate change analyses, data sets that accurately capture the distributional characteristics of the system under study are more important than those that capture specific historic events and their sequencing in time and space</p>
+<section id="introduction">
+<h2>3.1 Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<p>In any study on future impacts of climate change, it is essential to first
+characterize and quantify the baseline or starting point of the study area
+of interest, which includes understanding the natural variability of the
+water system being studied, independent of anthropogenic impacts (e.g. due
+to, say, changes in radiative forcing due to changes in CO2 emissions,
+land-use changes, etc.). In addition, when using future numerical-based
+climate modeling outputs, some form of bias correction using local
+observations is also essential for making the results physically-relevant,
+as well as making the climate model outputs applicable as inputs into local
+impact models. This chapter discusses observational data sources that would
+be relevant for both of these topics. Note that our coverage of climate
+variables in this primer is primarily on the atmospheric “flux” terms into
+and out of the surface (see figure below) of the hydrologic cycle
+components: precipitation and the climate variables that impact
+evapotranspiration (temperature, solar insolation, long wave radiation,
+wind speed, relative humidity); this is in contrast to those variables that
+are subsurface variables, and those that are more “point-based” and
+diagnosed through local impact model research (e.g. streamflow, sediment
+transport, storage, etc.).</p>
+<p><a class="reference internal" href="_images/image_intro1.jpg"><img alt="image_intro1" src="_images/image_intro1.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><em>The components of the hydrologic cycle</em></p>
+</section>
+<section id="observational-datasets-and-their-uncertainties">
+<h2>3.2 Observational datasets and their uncertainties<a class="headerlink" href="#observational-datasets-and-their-uncertainties" title="Link to this heading"></a></h2>
+<p>Climate-sensitive terrestrial water-related research and impact studies
+can take many forms, often examining very specific, localized
+phenomena (e.g.,climate impacts on seasonal lake mixing). The intent of
+this section is to offer guidance on data sources of larger spatial-scale atmospheric flux terms that can provide what are termed hydrologic
+cycle “forcings” to more localized impact models, divided in the context
+of this chapter into precipitation and components of evapotranspiration.
+In this section, we begin by discussing the theoretical ideal for
+obtaining a “localized,” dense observational dataset, along with
+practical needs and considerations. We follow this with a discussion of
+considerations for supplementing these datasets with larger
+spatial-scale and longer temporal-scale datasets, concluding this
+section by providing links to useful observational datasets and
+resources.</p>
+<p>Before we begin this discussion, it is helpful to keep some questions in
+mind related to the spatial, temporal, and distributional climate-data
+attributes required to capture the local-impact phenomena being studied,
+and when assessing the adequacy of observational datasets.</p>
+<ul class="simple">
+<li><p>Is the phenomenon highly variable in space such that only localized
+sampling is sufficient (e.g.,often occurring in regions of strong
+topographical gradients)?</p></li>
+<li><p>Is the phenomenon more likely related to specific weather events or
+year-by-year changes in climate averages?</p></li>
+<li><p>Are temporal averages of the variables sufficient (e.g., monthly,
+daily, hourly, etc.) and/or is the phenomenon critically dependent on
+extremes in intensity, frequency, and duration?</p></li>
+<li><p>If extremes are the primary focus, are there historical
+records long enough to capture these extremes at sufficient temporal/spatial
+resolution to drive local impact models?</p></li>
+</ul>
+<p><a class="reference internal" href="_images/image_obs2.png"><img alt="image_obs2" src="_images/image_obs2.png" style="width: 5.38263in; height: 3.77339in;" /></a></p>
+<p><em>Figure: one of the most monitored attributes of local rainfall are
+changes in its Intensity-Duration-Frequency (IDF) relationship.</em></p>
+<p>These questions often highlight the need for datasets developed from a
+combination of different data sources and meteorological tools and
+approaches to ensure a comprehensive understanding of the weather and
+climatological conditions of interest, which we talk about next.</p>
+<section id="ideal-local-datasets">
+<h3>3.2.1 <strong>Ideal local datasets.</strong><a class="headerlink" href="#ideal-local-datasets" title="Link to this heading"></a></h3>
+<p>Arguably the ideal data for researchers who are interested in obtaining
+variables and datasets that can then provide or force detailed and
+localized ecosystem and impact models (e.g., storage, surface water
+flows, stream temperatures, etc.) would be to have <strong>gauge-derived
+instrumented measurements</strong> of all climate variables of interest at high
+enough density, sampling frequency, and historical record to capture all
+dominant scales of spatial and temporal heterogeneity across the study
+domain of interest, which are more often than not, unattainable. In this context,
+weather gauges are often considered the best source of truthful weather
+information for several reasons. <strong>Accuracy and precision</strong>: if properly
+calibrated and maintained, weather gauges provide accurate and precise
+measurements of temperature, precipitation, wind speed, humidity; fluxes
+of energy, momentum, and moisture; and long- and shortwave radiation.
+<strong>Direct measurement:</strong> Unlike other methods that might rely on indirect
+indicators or modeled inputs, weather gauges collect direct, empirical
+data from the environment. <strong>Localized information:</strong> These instruments
+provide data specific to their location, particularly useful for
+research purposes where understanding microclimates or specific local
+phenomena is crucial. <strong>Extremes:</strong> As opposed to other measurement
+techniques and approaches that often implicitly represent spatial or
+temporal averages, gauges are point-based in nature, allowing them to
+capture the widest range of temporal and spatial variability, given sufficient spatial and temporal resolution.
+<strong>Long-term data collection, standardization and calibration:</strong> Many
+gauging approaches have remained consistent for many decades (or can be
+easily cross-compared to modernized techniques), along with
+universally accepted and consistent standardization and calibration
+approaches, means weather gauges are often resource for long-term
+archives of meteorological data, essential for studying climate change,
+weather patterns, and long-term trends. <strong>Sufficient for
+climatologies</strong>: even if sparsely-located gauges may be insufficient to
+represent a time-series of weather across a region, they may be
+sufficient to represent the long-term climatology if the region is
+largely homogenous in its weather patterns (note: a weather
+climatology refers to the statistical representation of the long-term
+weather conditions at a particular location or over a specific region,
+typically involving the analysis of weather data over extended periods,
+typically 30 years or more, to understand the typical weather patterns
+and variations of an area).</p>
+<p>However, weather gauges also have certain drawbacks.
+<strong>Representativeness:</strong> Point observations are rarely sufficient
+to represent spatial patterns of precipitation; this is especially true
+in regions with sharp changes in elevation and/or nearby large bodies of
+water. <strong>Wind and turbulence-dependent errors for precipitation
+gauges:</strong> The wind over and around raised gauges can distort the
+measurement of the flux of hydrometeors falling to the ground. Typically, the higher the wind speed, the higher the distortion.
+<strong>Susceptibility to local interferences:</strong> Weather gauges can be
+affected by local environmental factors such as buildings, trees, and
+other obstructions that can alter wind patterns or create microclimates.
+This can lead to data that may not accurately represent broader weather
+conditions. <strong>Maintenance and calibration needs:</strong> These instruments
+require regular maintenance and calibration to ensure accuracy. This can
+lead to data gaps that degrade the reliability of any dataset based on
+consistent measurements. Ideally, quality-control records would be kept
+and available for quality confirmation. <strong>Limited range:</strong> A single
+weather gauge provides data only for its immediate location. While this
+is also considered a strength, it does require siting of multiple
+gauges to obtain a comprehensive view of weather over a larger area, if
+required. See figure below of the density of rain gauges used for
+observation quality control of the U.S. National Centers for
+Environmental Prediction Multi-Radar Multi-Sensor (MRMS) system (Zhang
+et al., 2016).</p>
+<p><a class="reference internal" href="_images/image_obs7.png"><img alt="image_obs7" src="_images/image_obs7.png" style="width: 6.5in; height: 4.40278in;" /></a></p>
+<p><em>Figure: the MRMS locations of rain gauge sites, with the white plus
+signs indicating locations of the ~7000 hourly gauges. (Source: Zhang et
+al., 2016)</em></p>
+<p>Even where these local data may not in and of
+themselves be sufficient to cover project needs and provide a sufficient
+observational baseline, they can still provide an important (local)
+evaluation of the supplemental (larger scale) datasets that are being
+used.</p>
+<p><strong>Further resources</strong></p>
+<ul class="simple">
+<li><p>Further information on the strengths and limitations of snow
+measurements can be found under (“How Well Are We Measuring Snow
+Post-SPICE?”, Kochendorfer et al., 2022)
+<a class="reference external" href="https://doi.org/10.1175/BAMS-D-20-0228.1">https://doi.org/10.1175/BAMS-D-20-0228.1</a>.</p></li>
+<li><p>Also more detailed information on the estimation of precipitation and
+the strengths and deficiencies of rain gauges is found in the
+following pop-out:</p></li>
+</ul>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Rain gauge QPE</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">As long as humans have kept weather records, there has been a need to capture precipitation in some sort of collection device.</p>
+<p class="sd-card-text">Today’s precipitation gauges, hereafter referred to as rain gauges, are the current version of those collection devices.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe1.jpg"><img alt="Automated tipping bucket gauge" src="_images/image_obs_popout_gaugeqpe1.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">Rain gauges come in a variety of styles, both manual and automated…</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe3.jpg"><img alt="All weather precip accumulation gauge (AWPAG)" src="_images/image_obs_popout_gaugeqpe3.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">and are used to measure rain as well as the liquid equivalent of frozen precipitation.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe7.jpg"><img alt="Rooftop optical recording gauge" src="_images/image_obs_popout_gaugeqpe7.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">In this section we will discuss the reality of the term “ground truth.” By doing so, we will discuss the impact on gauge measurement, or “gauge catch,” from wind, the physical characteristics and location of the gauge, and the characteristics of the precipitation. We will offer some perspective on these issues with respect to whether the gauge is automated or manual.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Are they really ground truth?</strong></p>
+<p class="sd-card-text">Often referred to as “ground truth,” rain gauges are subject to errors from a variety of sources. Although gauges often provide excellent point measurements, at times the error in those measurements can be quite large. Sources of error include the construction and exposure of the gauge itself, the characteristics of the precipitation, and the weather conditions.</p>
+<p class="sd-card-text">Even a perfectly accurate rain-gauge network, if such a thing exists, may not be representative of the areal variations in the precipitation accumulation. Because they are point measurements, gauges are only representative of the immediate vicinity where they are located.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe32.jpg"><img alt="Gauge locations on radar precip accumulation image" src="_images/image_obs_popout_gaugeqpe32.jpg" style="width: 4.54167in; height: 4.73611in;" /></a></p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Exercise: Gauges, Wind, and Fall Angle</strong></p>
+<p class="sd-card-text">In still air the hydrometeors that make up precipitation fall vertically downward to the gauge.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe27.jpg"><img alt="Heavy rainfall falling vertically" src="_images/image_obs_popout_gaugeqpe27.jpg" style="width: 5.83333in; height: 4.375in;" /></a></p>
+<p class="sd-card-text">Wind causes precipitation to fall at an angle with respect to the vertical. In addition, the gauge itself presents an obstacle to the flow. This results in altered wind patterns near the gauge.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe24.jpg"><img alt="Rainfall in hurricane falling at an angle" src="_images/image_obs_popout_gaugeqpe24.jpg" style="width: 5.83333in; height: 4.375in;" /></a></p>
+<p class="sd-card-text">The effects of the wind will vary depending on hydrometeor phase and size.</p>
+<ul class="simple">
+<li><p class="sd-card-text">No wind: precipitation falls vertically downward</p></li>
+<li><p class="sd-card-text">Wind causes precipitation to fall at an angle</p></li>
+<li><p class="sd-card-text">Wind causes altered wind patterns near gauge</p></li>
+<li><p class="sd-card-text">Wind effects vary with hydrometeor phase and size</p></li>
+</ul>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe6.jpg"><img alt="image_obs_popout_gaugeqpe6" src="_images/image_obs_popout_gaugeqpe6.jpg" style="width: 3.64583in; height: 3.02083in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text">In this exercise we will consider typical 2-mm-diameter raindrop. We will take the perspective of 2-mm drops falling toward the gauge opening. Consider a 0° fall angle to be that of rain falling perfectly vertical, and a 90° fall angle is rain blowing perpendicular to the gauge.</p>
+<p class="sd-card-text">Compare how the fall angle changes in the following figures, along with the effective collection area of the gauge, as wind speed changes. For each wind speed, you can compare the ideal catch area of the gauge with the effective catch area that is determined by the fall angle. When you are ready, answer the questions provided.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe14.jpg"><img alt="Fall angle and gauge catch for 2-mm diameter raindrops at 0 m/s wind speed" src="_images/image_obs_popout_gaugeqpe14.jpg" style="width: 6.04167in; height: 5.10417in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe11.jpg"><img alt="Fall angle and gauge catch for 2-mm diameter raindrops at 5 m/s wind speed" src="_images/image_obs_popout_gaugeqpe11.jpg" style="width: 6.04167in; height: 5.10417in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe5.jpg"><img alt="Fall angle and gauge catch for 2-mm diameter raindrops at 10 m/s wind speed" src="_images/image_obs_popout_gaugeqpe5.jpg" style="width: 6.04167in; height: 5.10417in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe10.jpg"><img alt="Fall angle and gauge catch for 2-mm diameter raindrops at 15 m/s wind speed" src="_images/image_obs_popout_gaugeqpe10.jpg" style="width: 6.04167in; height: 5.10417in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe28.jpg"><img alt="Fall angle and gauge catch for 2-mm diameter raindrops at 20 m/s wind speed" src="_images/image_obs_popout_gaugeqpe28.jpg" style="width: 6.04167in; height: 5.10417in;" /></a></p>
+<p class="sd-card-text">Of course there is a great deal of variability controlling the fall angle. Influences on the angle include the steadiness of the wind, disruption to
+the flow, and very importantly, the size and phase of the hydrometeor.</p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Gauges, Wind, and Turbulence</strong></p>
+<p class="sd-card-text">The exercise that you just completed showed a simplified view of the impact of wind on gauge catch. The fall-angle considerations represent a worst-case scenario. But in addition to fall-angle considerations, turbulence in the flow may influence the trajectory of hydrometeors. This may partially offset errors caused by the wind. Spacing between hydrometeors may also change due to wind effects, possibly offsetting some of the wind-induced errors.</p>
+<p class="sd-card-text">Here we see an increase in wind speed over the gauge, but we also see turbulence-induced downward motion. Note from the trajectories that this may increase catch, although sometimes the primary gauge-induced downward motion may be downwind of the gauge.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe18.jpg"><img alt="image_obs_popout_gaugeqpe18" src="_images/image_obs_popout_gaugeqpe18.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text">Ground-induced turbulence in the vicinity of the gauge may be much more important for improving gauge catch than turbulence induced by the gauge itself.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe17.jpg"><img alt="Effects of wind turbulence near the ground on precipitation and gauge catch" src="_images/image_obs_popout_gaugeqpe17.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">As long as the ground objects are not tall enough to intercept incoming precipitation, the turbulence-induced downward motion has the effect of steering the hydrometeors vertically toward the ground.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe31.jpg"><img alt="Effects of wind turbulence near the ground on precipitation and gauge catch - wind blockage by trees" src="_images/image_obs_popout_gaugeqpe31.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">Elevated gauges are less likely to benefit from ground-induced turbulence.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe4.jpg"><img alt="Effects of wind turbulence near the ground on precipitation and gauge catch - tree blockage and elevated gauge" src="_images/image_obs_popout_gaugeqpe4.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">A clearing within the trees may provide the best balance between reducing wind speed but not altering precipitation distribution too much. Remember that the effects from deciduous trees are seasonal.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe2.jpg"><img alt="SNOTEL site Idaho" src="_images/image_obs_popout_gaugeqpe2.jpg" style="width: 5.47222in; height: 4.09722in;" /></a></p>
+<p class="sd-card-text">(Note: This measurement station also includes a snow pillow used to measure the weight of accumulated snow. Snow pillows will be discussed in more detail later. )</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe9.jpg"><img alt="SNOTEL site" src="_images/image_obs_popout_gaugeqpe9.jpg" style="width: 5.47222in; height: 4.09722in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe33.jpg"><img alt="image_obs_popout_gaugeqpe33" src="_images/image_obs_popout_gaugeqpe33.jpg" style="width: 5.47222in; height: 4.09722in;" /></a></p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Rain, Gauge Catch, and Wind</strong></p>
+<p class="sd-card-text">In summary, gauge catching rain is influenced by both the fall angle and the turbulence in the vicinity of the gauge.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe4.jpg"><img alt="Effects of wind turbulence near the ground on precipitation and gauge catch - tree blockage and elevated gauge" src="_images/image_obs_popout_gaugeqpe4.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">Fall angles that depart from the verical will result in a reduction of the gauge’s effective collection area. Turbulence partially offsets this problem by inducing downward motion around the gauge.</p>
+<p class="sd-card-text">This graphic shows the generalized relationship between wind speed and gauge catch for liquid hydrometeors. The gauge catch is expressed as the ratio of the gauge measurement to what actually fell, so values less than 1.0 are measures of underestimation by the gauge.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe25.jpg"><img alt="Relationship between wind speed and gauge measurement for liquid hydrometeors" src="_images/image_obs_popout_gaugeqpe25.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">For a typical size raindrop of 2-2.5 mm, a general rule of thumb is to expect a 1% loss of precipitation for every 1 mph increment in wind speed. This converts to 2.2% for every 1 m/s.</p>
+<p class="sd-card-text">Therefore, a 9 m/s (20 mph) wind speed may be expected to result in an underestimation factor of 0.80, or a 20% underestimation of the rainfall.</p>
+<p class="sd-card-text">There is a large envelope of uncertainty due to the variability in drop sizes, the steadiness of the wind, and the gauge location. Here are a few main points to remember. The best measurements in windy conditions will be in situations with large raindrops, gauges near ground level, and shielded gauges. The poorest measurements will be with small raindrops and drizzle drops, and when gauges are directly exposed to the wind.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Snow, Gauge Catch, and Wind</strong></p>
+<p class="sd-card-text">As demonstrated in the exercise, snow is more severely impacted by wind.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe37.jpg"><img alt="Photo of snow blowing around rain gauge" src="_images/image_obs_popout_gaugeqpe37.jpg" style="width: 3.64583in; height: 3.02083in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text">This photograph shows the typical collection of snow in a rain gauge with relatively light winds of 5 m/s (11 mph). The snow is drifted up on one side illustrating that only a portion of the opening, on the downwind side, was effectively collecting the snow.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe13.jpg"><img alt="Photo of snow blown in gauge on side" src="_images/image_obs_popout_gaugeqpe13.jpg" style="width: 4.16667in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">A 5 m/s (11 mph) wind will result in gauge undercatch for snowflakes on the order of tens of percent. The studies plotted on this graph show that at a wind speed of 7 m/s (15 mph) the gauge may be catching only 10-50% of what actually falls! Even in the two studies where the gauge catch was improved through use of wind shields, the gauge catch at 7 m/s is still 50% or less. The magnitude of the problem will vary with snowflake characteristics. Denser crystals will have fewer gauge catch errors than low density crystals.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe36.gif"><img alt="Plot of studies gauge catch ratio to wind speed for various gauges" src="_images/image_obs_popout_gaugeqpe36.gif" style="width: 4.16667in; height: 3.125in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe26.gif"><img alt="image_obs_popout_gaugeqpe26" src="_images/image_obs_popout_gaugeqpe26.gif" style="width: 4.16667in; height: 3.125in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe38.gif"><img alt="image_obs_popout_gaugeqpe38" src="_images/image_obs_popout_gaugeqpe38.gif" style="width: 4.16667in; height: 3.125in;" /></a></p>
+<p class="sd-card-text">Snow pillows are a technology used at SNOTEL sites in the western United States. These weigh the snow on the ground to get a liquid equivalent. Users in the NWS generally find that these data are superior to those provided by automated gauges.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe23.jpg"><img alt="image_obs_popout_gaugeqpe23" src="_images/image_obs_popout_gaugeqpe23.jpg" style="width: 4.09722in; height: 5.47222in;" /></a></p>
+<p class="sd-card-text">More information can be found at the United States Department of Agriculture, Natural Resources Conservation Service (NRCS) site: <a class="reference external" href="http://www.wcc.nrcs.usda.gov/snow/">http://www.wcc.nrcs.usda.gov/snow/</a>.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Effects from Gauge Characteristics</strong></p>
+<p class="sd-card-text">A gauge aperture of at least 102 mm (4 in) in diameter is desirable. These NOAA-approved clear plastic gauges have 4-inch diameter apertures. Smaller openings will increase the likelihood of under catch.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe30.jpg"><img alt="4 inch rain gauge" src="_images/image_obs_popout_gaugeqpe30.jpg" style="width: 5.20833in; height: 3.90278in;" /></a></p>
+<p class="sd-card-text">The NWS cooperative climate station manual gauges have a 203-mm (8-inch) aperture.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe34.jpg"><img alt="8 inch rain gauge" src="_images/image_obs_popout_gaugeqpe34.jpg" style="width: 5.20833in; height: 3.90278in;" /></a></p>
+<p class="sd-card-text">As mentioned earlier, gauge catch is sometimes improved when nearby vegetation disrupts the wind. A good location may be a forest clearing where the trees are not close enough to directly intercept the precipitation.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe12.jpg"><img alt="Elevated gauge in a forest clearing" src="_images/image_obs_popout_gaugeqpe12.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">The reason to elevate gauges or place them on rooftops is often driven by security concerns rather than science. This increases the likelihood of wind-induced errors.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Measurements from Automated Gauges</strong></p>
+<p class="sd-card-text">Automated rain gauges are preferred by many professional users such as the NWS. Automation allows for the assimilation of numerous reports from remote regions.</p>
+<p class="sd-card-text">A widely used type of automated gauge in the United States is the tipping bucket style. These allow for high temporal resolution.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe20.jpg"><img alt="Inner workings of a tipping bucket rain gauge" src="_images/image_obs_popout_gaugeqpe20.jpg" style="width: 6.04167in; height: 4.47917in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text">Problems associated with automated gauge measurements are often a function of precipitation rate and precipitation phase.</p>
+<p class="sd-card-text">Precipitation phase refers to whether the hydrometeors are liquid, liquid, and below freezing such as freezing rain, or frozen, such as hail or snow.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe16.jpg"><img alt="image_obs_popout_gaugeqpe16" src="_images/image_obs_popout_gaugeqpe16.jpg" style="width: 6.04167in; height: 4.47917in;" /></a></p>
+<p class="sd-card-text"><em>Download Video</em></p>
+<p class="sd-card-text">Freezing and frozen precipitation present a difficult problem for gauge measurement. This is particularly true for the popular automated tipping bucket gauge. To obtain a liquid-equivalent measurement, the gauge must be heated to melt the frozen precipitation. This can and often does lead to sublimation or evaporation of precipitation without measuring it, resulting in underestimates. In addition, if the snowfall rate is very great, the melting will not occur fast enough to prevent gauge overflow, again leading to underestimation.</p>
+<p class="sd-card-text">Precipitation rate can also impact the accuracy of the gauge measurement. Although this varies with gauge design, the problem has been primarily with the tipping-bucket-style gauge as described in the rain-gauge webcast referred to earlier.</p>
+<p class="sd-card-text">The NWS is testing an automated “weighing” gauge known as the all weather precipitation accumulation gauge (AWPAG). There is still some heating of the rim to help direct snow into the gauge where a weight will determine the liquid equivalent. However, the heated area is not nearly as large as that in the tipping bucket gauges used by the NWS. Therefore, the errors with evaporation and sublimation should be reduced.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe3.jpg"><img alt="All weather precip accumulation gauge (AWPAG)" src="_images/image_obs_popout_gaugeqpe3.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">Initial testing showed disappointing results in snow, perhaps due mainly to wind effects.</p>
+<p class="sd-card-text">A new double wind shield version of the AWPAG gauge being deployed may help reduce the problems with measuring snow.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe29.jpg"><img alt="All weather precipitation accumulation gauge (AWPAG) with double-structure wind shield" src="_images/image_obs_popout_gaugeqpe29.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">As mentioned earlier, “snow pillow” estimates at SNOTEL sites are often used instead of gauges where they are available.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Measurements from Manual Gauges</strong></p>
+<p class="sd-card-text">Manual gauge reports suffer from the lack of high temporal resolution. This makes manual reports less suitable for software programs that need fast access to high-resolution gauge reports.</p>
+<p class="sd-card-text">However, manual gauges are visited routinely and therefore problems that affect gauge measurement may be identified more promptly. These problems can include insect or bird nests, leakage, overflow, blockage from rapidly growing vegetation, and vandalism.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe15.jpg"><img alt="Rain gauge in snow" src="_images/image_obs_popout_gaugeqpe15.jpg" style="width: 4.16667in; height: 3.125in;" /></a></p>
+<p class="sd-card-text">Provided that gauge overflow does not occur during intense hail or snowfall, manual gauges may allow more accurate liquid-equivalent measurements with frozen precipitation. Snow and hail are melted and measured manually.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe22.jpg"><img alt="Checking a rain gauge in snow conditions" src="_images/image_obs_popout_gaugeqpe22.jpg" style="width: 4.16667in; height: 5.55556in;" /></a></p>
+<p class="sd-card-text">In addition, the observer may collect a “core” measurement of snow from the ground if they determine that this will provide a more representative sample than the snow that was collected by the gauge. Core measurements are intended to minimize the errors caused by the wind. A well trained observer may therefore provide improved liquid-equivalent readings.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe21.jpg"><img alt="Taking a snow core sample" src="_images/image_obs_popout_gaugeqpe21.jpg" style="width: 5.73611in; height: 4.27778in;" /></a></p>
+<p class="sd-card-text">There are numerous manual gauge networks. Two well known ones are the cooperative observing network and the Community Collaborative Rain, Hail, and Snow observing network (CoCoRaHS).</p>
+<p class="sd-card-text">The cooperative observing network, which is sponsored by NOAA’s National Weather Service, has observers in every state. Roughly 80% of the network still uses manual gauges.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_gaugeqpe19.gif"><img alt="Map of coop rain gauge locations in the U.S." src="_images/image_obs_popout_gaugeqpe19.gif" style="width: 6.5in; height: 4.34722in;" /></a></p>
+<p class="sd-card-text">The CoCoRaHS network is nationwide in the United States: <a class="reference external" href="http://www.cocorahs.org/">http://www.cocorahs.org/</a>.</p>
+<p class="sd-card-text"><strong>Rain Gauge QPE » Rain Gauge QPE Key Points</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Rain gauges can provide excellent information if they are well maintained, optimally located, and the wind is light.</p></li>
+<li><p class="sd-card-text">Rain gauges are point estimates and will not necessarily provide good spatial resolution.</p></li>
+<li><p class="sd-card-text">Wind causes significant errors in the gauge catch resulting in underestimation errors. These errors are greatest in strong wind, for exposed gauges, and for snowflakes and small liquid drops.</p></li>
+<li><p class="sd-card-text">Wind-induced fall angles reduce the effective catch area of the gauge. Turbulence can induce downward motion that partially offsets the fall angle problem.</p></li>
+<li><p class="sd-card-text">In situations where good radar coverage exists, radar may incur less uncertainty in high-wind situations than the gauges. A user of multiple precipitation sensors may want to consider the possibility that under such conditions it may not be wise to adjust the radar with the rain gauge data.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Reference</strong>
+<a class="reference external" href="https://www.meted.ucar.edu/hydro/precip_est/part1_measurement/">https://www.meted.ucar.edu/hydro/precip_est/part1_measurement/</a></p>
+</div>
+</details></section>
+<section id="beyond-gauges-alternative-precipitation-datasets">
+<h3>3.2.2 <strong>Beyond gauges - alternative precipitation datasets</strong><a class="headerlink" href="#beyond-gauges-alternative-precipitation-datasets" title="Link to this heading"></a></h3>
+<p>Given the spatial coverage limitations of rain-gauge networks (including wind-speed sampling error, etc., see popout above for
+details), a primary source for alternative precipitation estimates are
+gauge-adjusted radar estimates, in regions where radar-beam coverage is
+sufficient. The strengths of these derived estimates are as follows.
+<strong>High spatial resolution:</strong> outside of point-based rain gauges, radar
+systems provide some of the highest-resolution data on precipitation
+patterns, allowing for detailed mapping of rainfall and storm structures
+while still providing coverage over broad areas. <strong>Wide coverage:</strong>
+Radar can cover large geographical areas that might be difficult to
+monitor using ground-based instruments alone. This wide coverage is
+particularly useful in remote or inaccessible regions (as long as there
+is no beam-blockage). <strong>Detection of precipitation type:</strong> Advanced
+radar systems can differentiate between types of precipitation (rain,
+snow, hail).</p>
+<p>However, gauge-adjusted radar estimates also have the following
+limitations. <strong>Attenuation:</strong> Radar signals can be attenuated by heavy
+precipitation, especially in convective storms. This attenuation can
+lead to underestimations of rainfall intensity at greater distances from
+the radar site. <strong>Ground (or other) clutter:</strong> Objects on or near the
+ground (buildings, hills, trees) can reflect radar signals, resulting in
+ground clutter that obscures or mimics precipitation signals, leading to
+inaccuracies. Most operational radar systems including the WSR-88D effectively filter out the ground echoes, limiting the impact of stationary clutter. However non-stationary clutter including vehicle and train traffic, sea-surface clutter and clutter from wind farms cannot be filtered effectively leading to errors.
+It is important to note that above-ground flying insects, birds, and bats can also cause
+similar problems. <strong>Elevation angle limitations:</strong> The radar beam
+travels in a nearly straight line (it is typically refracted slightly towards the surface by the atmosphere), while the Earth curves away from it. At
+longer distances, this can cause the radar to overshoot lower-altitude
+precipitation, leading to errors in estimated rainfall close to the
+ground due to evaporation and the horizontal advection of the measured precipitation. Also, at long ranges, part or all of the radar beam may be located above the 0 deg C level, so it is measuring the ice or melting ice above the rain and not the rain itself. <strong>Range degradation:</strong> The quality and accuracy of radar data
+decrease with distance due to the spreading of the radar beam and
+increasing altitude of observation. This makes long-range precipitation
+estimates less reliable. <strong>Dependence on reflectivity:</strong> Radar traditionally estimates
+precipitation by measuring the reflectivity of water particles in the
+air. This method assumes a relationship between the size and type of
+particles and the intensity of precipitation, which has its own
+inaccuracies. The introduction of dual-polarization measurements has reduced, but not eliminated, these issues. <strong>Calibration and maintenance:</strong> Radar systems require
+regular calibration and maintenance to ensure their accuracy.
+Calibration must often be adjusted locally to account for regional climatic and
+environmental conditions, adding complexity to their operation.
+<strong>Spatial representation:</strong> radar beams are a certain width, and as
+such, the measurements implicitly are a type of representative average
+over the region of coverage. This can be a strength or a weakness
+depending on whether the implicit sampling area corresponds to that of the
+researcher’s interest. Note that this spatial discretization also dampens extremes that would be captured through point-based
+gauge measurements. <strong>Length of historical record and changes in
+estimation quality through time:</strong> some of the most significant radar
+technologies did not become operational until the 1990s or later (with
+dual-polarization and doppler capabilities), so care should be taken
+when using radar-based precision estimates preceding this time
+period. However, note that over the U.S. it is possible to assess the
+level of uncertainty in derived radar-precipitation estimates for a
+given location, as shown in the figure below of the Radar Quality Index
+(RQI), which shows the impact of non-uniform coverage of radar related to the elevation of the radar sample, distance from the
+radar, and the impact of mountains.</p>
+<p><a class="reference internal" href="_images/image_obs6.png"><img alt="image_obs6" src="_images/image_obs6.png" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p><em>Figure: the Radar Quality Index (RQI) provides a measure for how useful
+radar might be for precipitation estimates based on the amount of
+unblocked radar sampling below the freezing level. The scale is 0 to
+100%, with the high end indicating good radar coverage, and the low end
+indicating poor coverage, typically due to terrain blocking or increasing
+distance from the radar. This image is from February. The distance that
+high RQI values extend from the radar is typically better during summer
+when there is more convective precipitation and higher freezing levels.</em></p>
+<p>Taken together, gauge-adjusted radar estimates provide some of the most
+dependable and accurate estimates of precipitation over the contiguous
+U.S. (CONUS) with the following caveats: use outside of CONUS (e.g.
+insufficient radar coverage), in mountainous areas (e.g.,beam blockage),
+variability in the quality of the estimates in space (e.g.,range
+degradation) and time (e.g.,changes in coverage and technologies used
+over the last 60 years).</p>
+<p>Below we provide a brief overview of some of the changes in radar
+estimates since their first operational use by the National Weather Service in
+1957.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Radar technology changes</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Radar technology and coverage used for precipitation observations has evolved significantly since its inception. Here are key milestones and changes in radar’s use for weather observation:</p>
+<p class="sd-card-text"><strong>Early Developments and WSR-57 (1950s)</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Initial Use</strong>: Radar technology that was initially developed for military purposes during World War II was adapted for weather observation.</p></li>
+<li><p class="sd-card-text"><strong>WSR-57</strong>: The first dedicated weather-radar network, Weather Surveillance Radar-1957 (WSR-57), was deployed. It provided basic reflectivity data, showing areas of precipitation.</p></li>
+</ul>
+<p class="sd-card-text"><strong>WSR-74 (1970s)</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Improved Technology</strong>: The WSR-74 was an upgraded version of the WSR-57, with better resolution and reliability.</p></li>
+<li><p class="sd-card-text"><strong>Increased Coverage</strong>: More radar units were installed across the United States, providing broader national coverage.</p></li>
+</ul>
+<p class="sd-card-text"><strong>NEXRAD (WSR-88D) (1990s)</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Next Generation Radar (NEXRAD)</strong>: The WSR-88D, implemented in the early 1990s, marked a significant leap forward. It provided Doppler capabilities, enabling the measurement of precipitation velocity (indicating wind speeds and direction within storms).  The WSR-88Ds were also double the wavelength (10 cm S-band versus 5 cm C-band) resulting in dramatically reduced attenuation.</p></li>
+<li><p class="sd-card-text"><strong>Dual Polarization</strong>: In the 2010s, NEXRAD radars were upgraded with dual-polarization technology, which sends out both horizontally and vertically polarized pulses. This enhancement allowed for better differentiation between types of precipitation (rain, snow, hail) and improved estimates of precipitation rates and quantities.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Phased Array Radar (2000s - Present)</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Phased-Array Technology</strong>: Research and development into phased-array radar technology, which allows for faster and more flexible scanning of the atmosphere, began. Phased-array radars can rapidly switch between different observation modes and provide more timely data.</p></li>
+<li><p class="sd-card-text"><strong>Enhanced Detection</strong>: This technology offers potential improvements in detecting severe weather phenomena, such as tornadoes and microbursts, more quickly and accurately.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Advances in Data-Processing and Integration</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Improved Algorithms</strong>: Advances in data-processing algorithms have led to more accurate and detailed precipitation estimates and forecasts. For example the automated detection and removal of ground clutter and transmitting advanced waveforms that are used to extend the unambiguous range.</p></li>
+<li><p class="sd-card-text"><strong>Integration with Other Data Sources</strong>: Modern systems integrate data from radars, satellites, weather stations, and other sensors, providing a more comprehensive understanding of weather systems.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Future Developments</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Continued Innovation</strong>: Ongoing research aims to further enhance radar technology with even faster data acquisition, higher resolution, and better predictive capabilities.</p></li>
+</ul>
+<p class="sd-card-text">These advancements have greatly enhanced the accuracy, reliability, and detail of precipitation observations, significantly improving weather and precipitation estimation and severe-weather warning systems.</p>
+</div>
+</details><p>Below we provide additional introductory details on the derivation, strengths, and limitations of quantitative precipitation estimates (QPE) derived from radar, including limits due to beam blockage and mountainous regions (which also pose problems for gauges), quality-control methods, and a brief discussion of satellite-derived QPE.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Radar QPE</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<blockquote>
+<div><p class="sd-card-text"><strong>I. Introduction » What is Quantitative Precipitation Estimation (QPE)?</strong></p>
+<p class="sd-card-text">The term Quantitative Precipitation Estimation, or QPE, refers to the estimation of observed precipitation.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe16.jpg"><img alt="24h QPE" src="_images/image_obs_popout_radarqpe16.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">This is different than a forecast of precipitation which is referred to as a Quantitative Precipitation Forecast, or QPF.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe35.jpg"><img alt="48 h QPE" src="_images/image_obs_popout_radarqpe35.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">You may wonder why precipitation is only an estimate if it is “observed.” Observed precipitation is only an estimate because the tools used provide inexact approximations of the actual magnitude and distribution of precipitation.</p>
+<p class="sd-card-text"><strong>I. Introduction » QPE Methods and Tools</strong></p>
+<p class="sd-card-text">Radar is a remote-sensing QPE tool with excellent spatial and temporal resolution. However, radar coverage may be inconsistent from place to place and from storm to storm.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe13.jpg"><img alt="Illustration of radar, satellite and rain gauges sensing a convective cloud system." src="_images/image_obs_popout_radarqpe13.jpg" style="width: 6.02778in; height: 4.125in;" /></a></p>
+<p class="sd-card-text">Satellite is another remote sensing QPE tool, but with much coarser resolution than radar.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe21.jpg"><img alt="image_obs_popout_radarqpe21" src="_images/image_obs_popout_radarqpe21.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">Even rain gauges, which are ground-based measurements, are subject to errors and cannot resolve the spatial detail of precipitation patterns.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe34.jpg"><img alt="image_obs_popout_radarqpe34" src="_images/image_obs_popout_radarqpe34.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">A precipitation climatology is sometimes used to augment the estimates of observed precipitation. This can be very useful in regions where precipitation distribution, and the ability to observe it, is greatly affected by terrain features.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE</strong></p>
+<p class="sd-card-text">Precipitation accumulation is routinely derived from radar and satellite observations. Despite the inconsistencies in radar-derived precipitation from location to location and from season to season, radar guidance is considered superior to satellite guidance of QPE in many areas. This is mainly due to the superior resolution in both space and time and often better quantitative guidance.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe36.jpg"><img alt="Radar-derived Total Accumulation" src="_images/image_obs_popout_radarqpe36.jpg" style="width: 5in; height: 6.04167in;" /></a></p>
+<p class="sd-card-text">Topics in this section include the relationship between drop-size distribution, the Z-R relationship, and derived rainfall; the impact of snow on radar-derived estimates, the potential QPE improvement with polarimetric radar, radar coverage issues, and the concept of radar climatology. A brief summary of issues regarding satellite-derived QPE will follow the radar sections.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Reflectivity-Rainfall Rate (Z-R) and Drop Size Distribution (DSD)</strong></p>
+<p class="sd-card-text">Radar reflectivity (Z), expressed in units of dBZ, is used to compute rainfall rates (R) in mm/h using a reflectivity to rainfall rate relationship. This is known as the Z-R relationship. Rainfall rates then get integrated over time to produce accumulation for various time periods.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe28.jpg"><img alt="Hybrid Reflectivity near LaCrosse, WS 0057 UTC 19 Aug 2007" src="_images/image_obs_popout_radarqpe28.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe26.jpg"><img alt="Instantaneous Radar-derived Rainfall Rate near LaCrosse, WS at 0057 UTC 19 Aug 2007" src="_images/image_obs_popout_radarqpe26.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe8.jpg"><img alt="Storm Total Radar-Derived Rainfall Accumulation near LaCrosse, WS 0057 UTC 19 Aug 2007" src="_images/image_obs_popout_radarqpe8.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p class="sd-card-text">The relationship between reflectivity and rainfall rate, and thus the Z-R relationship, varies with time, location, and season. Hydrometeor properties that influence the Z-R relationship include size, concentration, and phase. Accuracy of derived rainfall rates is further impacted by the presence of non-hydrometeors, and whether the radar is sampling a region that is representative of precipitation reaching the ground.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe31.jpg"><img alt="Convective storm illustration with close up of hydrometeor sizes" src="_images/image_obs_popout_radarqpe31.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe30.jpg"><img alt="Convective storm illustration with close up of hydrometeor concentration" src="_images/image_obs_popout_radarqpe30.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe6.jpg"><img alt="Convective storm illustration with close up of hydrometeor phases" src="_images/image_obs_popout_radarqpe6.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe18.jpg"><img alt="Convective storm illustration with close up of non-hydrometeors" src="_images/image_obs_popout_radarqpe18.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe11.jpg"><img alt="Convective storm illustration with hydrometeor sampling by radar" src="_images/image_obs_popout_radarqpe11.jpg" style="width: 6.02778in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text">Hydrometeor shape, which is related to hydrometeor size and phase, is also important information for understanding the relationship between reflectivity and precipitation rates. Large liquid drops are more oblate in shape than smaller ones. For horizontally-polarized radars like the WSR88-D, greater horizontal diameters reflect more energy back to the radar. This results in greater derived rainfall rates.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe32.jpg"><img alt="Drop shapes as a function of size" src="_images/image_obs_popout_radarqpe32.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">Even relatively small 13-mm- (half-inch) diameter hailstones contribute greatly to radar reflectivity. That’s why the presence of hail results in anomalously high derived-rainfall rates. This anomaly is typically minimized through use of rainfall-rate thresholds.</p>
+<p class="sd-card-text"><strong>In Depth: Reflectivity Factor, Z</strong></p>
+<p class="sd-card-text"><strong>Z = ∫ N(D) D6 dD</strong></p>
+<div class="line-block">
+<div class="line"><strong>Z</strong> = reflectivity factor</div>
+<div class="line"><strong>D</strong> = drop diameter</div>
+<div class="line"><strong>N(D)</strong> = number of drops of given diameter per cubic meter</div>
+</div>
+<p class="sd-card-text">This equation is presented to explain the sensitivity of reflectivity factor, Z, to drop diameter. Because the drop diameter is raised to the 6th power, small changes in drop diameter result in very large changes to Z. And large changes to Z result in large changes to derived rainfall rates.</p>
+<p class="sd-card-text">Drop size distribution (DSD) refers to the size and concentration of drops in a volume, say a cubic meter. Here we show two DSDs.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe10.jpg"><img alt="DSDs with equivalent reflectivity but different rainfall rates" src="_images/image_obs_popout_radarqpe10.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">The radar is more sensitive to the horizontal diameter of the hydrometeors than it is to the concentration of hydrometeors. Therefore, a small number of large hydrometeors can result in the same reflectivity value as a very large number of smaller drops. But the DSD on the right is producing greater rainfall rates. The two DSDs should therefore be represented by different Z-R relationships.</p>
+<p class="sd-card-text">The DSD can vary significantly and quickly in both space and time. This means that it may be appropriate to have more than one Z-R relationship in effect at the same time. As of this writing, the NOAA National Mosaic and Multisensor QPE (NMQ) radar precipitation product can utilize numerous Z-R relationships based on atmospheric conditions.</p>
+<p class="sd-card-text">Here we have a region with a squall line that most likely has a DSD consistent with convective rainfall. Nearby stratiform precipitation will exhibit a different DSD and should be associated with a different Z-R relationship than the convective area. As the precipitation system moves, the Z-R relationship at any one location should change with time.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe9.jpg"><img alt="Reflectivity Image at 2126 UTC 15 November 2008" src="_images/image_obs_popout_radarqpe9.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Reflectivity and Snow</strong></p>
+<p class="sd-card-text">As snowflakes begin to melt, a coating of water can make them “appear” as very large raindrops to the radar. This can cause very high reflectivity and overestimated rainfall rates at the ground below where the radar is sampling the melting layer aloft.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe17.jpg"><img alt="Radar and melting snow" src="_images/image_obs_popout_radarqpe17.jpg" style="width: 5.51389in; height: 4.44444in;" /></a></p>
+<p class="sd-card-text">Pure snowflakes and crystals violate the assumption of liquid hydrometeors that go into the Z-R equation. However, several research institutions are working on radar-derived snowfall including Z-S, or reflectivity snowfall rate relationships.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Precipitation Estimates with Dual Polarimetric Radar</strong></p>
+<p class="sd-card-text">Advances are made in radar technology every year. As this lesson is being developed, dual polarized radar, or polarimetric radar, is the most impactful with respect to precipitation.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe3.jpg"><img alt="Sample data from dual-polarimetric Radar" src="_images/image_obs_popout_radarqpe3.jpg" style="width: 6.04167in; height: 4.69444in;" /></a></p>
+<p class="sd-card-text">Since the WSR-88D radar network was upgraded to dual-polarization capabilities in about 2010 and 2011, many of the ambiguities associated with the phase, size, and distribution of hydrometeors have been greatly reduced. Further, the overall data quality has been improved with the addition of dual-polarization data. For example, ground clutter, bright-band and biological echoes are difficult to reliably identify and remove with traditional radars. But with dual-polarization radars these sources of contamination are readily identified by automated algorithms. Although errors from DSD variations, bright-band contamination and clutter remain ongoing issues for the WSR-88D radar data, the errors associated with them have been substantially reduced with the addition of dual-polarization capability.</p>
+<p class="sd-card-text">Excellent training resources on precipitation measurement using polarimetric radar is available from NOAA’s WDTD. We will not repeat those lessons here, but we strongly encourage you to review them: <a class="reference external" href="http://www.wdtb.noaa.gov/courses/dualpol/Outreach/">http://www.wdtb.noaa.gov/courses/dualpol/Outreach/</a>.</p>
+<p class="sd-card-text">In addition to reflectivity estimates that we are familiar with, dual-polarization radar allows for estimates of the average shapes of hydrometeors within the resolution volume and whether or not differently shaped hydrometeors are collocated, i.e., mixed phase. This is accomplished by transmitting and receiving both a horizontally and a vertically polarized radar beam. By measuring the different returns from these two polarizations, one can estimate the shape and the effects from different hydrometeor shapes, which increase the accuracy of precipitation estimates and hydrometeor type classification.</p>
+<p class="sd-card-text">For example, we can determine if the prominent reflectors are large raindrops, which tend to be oblate with a large horizontal axis. We can also determine if the hydrometeors are more spherical, which is consistent with small raindrops. Or we can discern whether the hydrometeors are highly reflective and generally spherical, consistent with hail. Other measures can be used to estimate the presence of snow, insects, or ground targets.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe4.jpg"><img alt="Reflector shape is a function of its size, phase, and type" src="_images/image_obs_popout_radarqpe4.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Radar Sampling of Precipitation</strong></p>
+<p class="sd-card-text">Most of the discussion so far is applicable for areas with good radar coverage. Good radar coverage is determined by three main factors.</p>
+<ol class="arabic simple">
+<li><p class="sd-card-text">There are no obstructions of the low-level radar beam from terrain features or other ground targets like buildings.</p></li>
+<li><p class="sd-card-text">Precipitation systems extend through a deep portion of the troposphere, as we see with convective storms.</p></li>
+<li><p class="sd-card-text">The density of radar sites is sufficient. In other words, the radars are close enough to each other so that all radar sampling is occurring in the low levels of the atmosphere.</p></li>
+</ol>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe29.jpg"><img alt="Influences on radar coverage - mountains" src="_images/image_obs_popout_radarqpe29.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe5.jpg"><img alt="Influences on radar coverge - deep convection" src="_images/image_obs_popout_radarqpe5.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe2.jpg"><img alt="Influences on radar coverage - low level sampling" src="_images/image_obs_popout_radarqpe2.jpg" style="width: 6.05556in; height: 4.13889in;" /></a></p>
+<p class="sd-card-text">The radar beam gets higher in the atmosphere with distance from the radar. Even a low tilt angle like 0.5° is ~1.5 km (5,000 ft) above the ground at 100 km from the radar, and 5.2 km (17,000 ft) high at 230 km. Therefore, to sample the low-level precipitation, which is most likely to be representative of the precipitation reaching the ground, radars need to be positioned close to each other.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe22.jpg"><img alt="Height above the ground of radar sample as a function of range" src="_images/image_obs_popout_radarqpe22.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">For stratiform precipitation, it is best to sample the lowest 1 km of the atmosphere, which typically occurs within 50 km of the radar. Beyond 50 km, the radar sample may be questionable. This range can be further limited by terrain blocking of the radar beam. Sampling of stratiform precipitation is almost always poor beyond 100 km from the radar.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe7.jpg"><img alt="Radar coverage of precipitation with range - assuming no beam blocking" src="_images/image_obs_popout_radarqpe7.jpg" style="width: 6.04167in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text">Convective precipitation is distributed over a much deeper layer of the atmosphere than stratiform precipitation. Therefore, in seasons and locations where convection is common and terrain is minimal, the radar may be able to sample precipitation well at long distances from the radar, perhaps beyond 150 km. Shallow convection may be undersampled by the radar at ranges closer than 150 km. Range coverage is worse for snow.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Radar Coverage</strong></p>
+<p class="sd-card-text">Here are the NWS radar locations with the ideal 230-km range shown with yellow circles. The density of weather radars is generally lower in the Western United States and Alaska than in other parts of the country. These maps do not account for terrain features that can greatly reduce the radar coverage.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe37.jpg"><img alt="Locations of WSR-88D radars with the idealized 230-km coverge areas" src="_images/image_obs_popout_radarqpe37.jpg" style="width: 6.04167in; height: 4.69444in;" /></a></p>
+<p class="sd-card-text">For many locations and precipitation regimes, it’s unrealistic to expect good precipitation estimates with the idealized 230-km coverage shown here. A more realistic radius of 100 or 150 km would show greater and more numerous gaps, especially in the Western United States. In the winter, the range of realistic coverage may shrink to less than a 100-km radius.</p>
+<p class="sd-card-text">A more realistic coverage is shown here with a map of the height above ground level (AGL) of the radar sampling. It is for November 10th, 2008. Although this map can change depending on weather conditions and radar operations, the basic pattern will be the same.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe1.jpg"><img alt="Height above ground level of radar coverage, 1755 UTC 10 Nov 2008 CONUS" src="_images/image_obs_popout_radarqpe1.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">The light blues show where there is good coverage of the low levels. The best low-level coverage is obviously in areas with relatively flat terrain and good radar density. Recall that for stratiform precipitation, radar coverage can be significantly impacted if the radar sampling is 1 km or more above the ground, as shown in the dark blue, greens, yellows, and reds. Even in the Central and Eastern U.S., stratiform precipitation may be significantly underestimated in places. In the West, radar sampling can be more than 3 km above the ground in large areas. This results in completely missed precipitation systems, especially stratiform. This is also a problem in Alaska. As an example, let’s look more closely at radar coverage in the northwestern portion of the contiguous United States.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Radar Climatology</strong></p>
+<p class="sd-card-text">To account for the geographic and seasonal variability, the NWS has radar coverage maps. Here we see the warm-season effective radar coverage for the Northwest. The color-shaded areas are where radar climatology shows good coverage from at least one radar. The individual colors depict which radar the “good” coverage will come from. For example, the white area shows where radar estimates would come from the radar at Boise, Idaho, KCBX.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe15.jpg"><img alt="Warm season radar coverage for the northwest river forecast center area" src="_images/image_obs_popout_radarqpe15.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">KCBX is considered good here because 1) this radar is able to sample precipitation, and 2) in areas of overlap with neighboring radars, KCBX is sampling from a lower elevation. The jagged appearance is caused by mountains preventing uniformly good coverage throughout the entire 230-km radius.</p>
+<p class="sd-card-text">These are produced by the NWS radar climatology program, RADCLIM. We will briefly demonstrate radar climatology based on frequency of occurrence of precipitation for Boise, Idaho.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe14.jpg"><img alt="Radar climatology analysis and display (Radclim)" src="_images/image_obs_popout_radarqpe14.jpg" style="width: 6.04167in; height: 5.09722in;" /></a></p>
+<p class="sd-card-text">The precipitation frequency of occurrence starts with a precipitation threshold for defining what we will consider precipitation. Let’s use a threshold of 0.0 mm which means that any time there is more than 0.0 mm detected by the radar, we have a precipitation event. We could choose a higher threshold if we wanted to filter out light events.</p>
+<p class="sd-card-text">The frequency of precipitation, for each radar bin, is the number of times more than 0.0 mm was observed divided by all of the radar observations in the dataset. We get this image for the Boise radar. The radar is in the center of the 230-km radius of ideal radar coverage.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe20.jpg"><img alt="Frequency of occurrence of non-zero radar-derived precipitation at the Boise, ID (KCBX): Warm season" src="_images/image_obs_popout_radarqpe20.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">The different colors show the different frequencies of occurrence. As distance increases from the radar, the frequency of precipitation decreases, indicated by blue and black colors. Note the large areas with very low frequencies of occurrence, are shown as black. These do not represent natural precipitation distribution. Rather, it shows where the radar sampling is greatly inhibited by terrain blocking.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Radar Coverage Map</strong></p>
+<p class="sd-card-text">So now we want to choose a precipitation frequency threshold to represent effective radar coverage. In other words, we will say, “only when precipitation occurred at least this often, will we trust the radar estimates.”</p>
+<p class="sd-card-text">In this example, a frequency of occurrence of 0.006 was chosen. This means that we will only consider radar bins where greater than 0.0 mm occurred at least 0.006, or 0.6% of the time according to the radar climatology.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe33.jpg"><img alt="Warm season effective radar coverage for Boise, ID (KCBX)" src="_images/image_obs_popout_radarqpe33.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">This figure shows all non-black shaded areas shown on the radar coverage map as white shading. So the white shading is where we assume there is good radar coverage. We should assume bad coverage in the black areas. In the black areas, precipitation estimates should come from other radars or other sources such as rain gauges and satellite.</p>
+<p class="sd-card-text">The choice of frequency threshold is somewhat subjective, based on forecaster experience regarding what produces the most useful guidance.</p>
+<p class="sd-card-text">Radar climatologies are generated for specific months or seasons. Let’s go back to the summer season radar coverage for the northwestern portion of the contiguous United States. All of the non-black areas are where we can assume there is good radar coverage.</p>
+<p class="sd-card-text">In the cool season, there is more low-level precipitation and thus the effects of terrain and distance on radar precipitation estimates are more severe. Note the sharp decrease in good radar coverage in the radar coverage map for the Northwest in the cool season.</p>
+</div></blockquote>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe19.jpg"><img alt="image_obs_popout_radarqpe19" src="_images/image_obs_popout_radarqpe19.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<blockquote>
+<div><p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe12.jpg"><img alt="Cool season radar coverage for the northwest river forecast center" src="_images/image_obs_popout_radarqpe12.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text">These types of radar coverage maps, based on radar climatology, are used in MPE to determine where radar-derived data should be used.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Satellite QPE</strong></p>
+<p class="sd-card-text">Satellite estimation of precipitation is potentially useful in areas with poor coverage from radars and rain gauges. Although satellite sampling is more consistent from place to place than radar sampling, satellite-derived precipitation is lower resolution and generally less accurate than radar-derived precipitation. It is therefore considered a supplement, not a replacement for the radar products.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe25.jpg"><img alt="1 hr satellite estimated precip as of 1515 UTC 17 Apr 2009" src="_images/image_obs_popout_radarqpe25.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">Satellite-derived rainfall products perform best in the tropics and in the middle latitudes during the warm season. In other words, it verifies best when the wind shear is relatively low and precipitation is dominated by convection. These are not the conditions in the radar-sparse Western United States during the wintertime wet season.</p>
+<p class="sd-card-text">This NOAA product, known as the hydro-estimator, applies a terrain factor to the precipitation estimate using 700 mb winds. This helps to resolve the spatial distribution of the precipitation. Other improvements to precipitation rates may be achieved by applying factors related to cloud, moisture, and stability characteristics.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe24.jpg"><img alt="24 hr satellite estimated precip as of 1200 UTC 5 Jan 2008" src="_images/image_obs_popout_radarqpe24.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">For satellite Hydro-Estimator rainfall products:
+<a class="reference external" href="http://www.star.nesdis.noaa.gov/smcd/emb/ff/HydroEst.php">http://www.star.nesdis.noaa.gov/smcd/emb/ff/HydroEst.php</a></p>
+<p class="sd-card-text">In addition to adjustments based on both measured and modeled environmental properties, there is increasing use of additional sensor capabilities such as microwave satellite sensing and lightning detection. Passive microwave observations allow detection of water and ice within the cloud to derive more accurate rainfall rates. However, because microwave-sensing capabilities are specific to polar-orbiting satellites, the temporal frequency is much less than that of the hydro-estimator products based on geostationary satellites.</p>
+<p class="sd-card-text">The Self-Calibrating Multivariate Precipitation Retrieval product, (SCaMPR) is an example of combining the temporal resolution of geostationary satellites with the more accurate estimation of rainfall rates of polar orbiters, and previews the next generation of operational satellite-based precipitation estimation tools.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_radarqpe23.jpg"><img alt="SCaMPR 24 hr estimated precip at 1200 UTC 13 Apr 2009" src="_images/image_obs_popout_radarqpe23.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">For more information on efforts pertaining to real time satellite-based precipitation estimation at NOAA, please see:
+<a class="reference external" href="http://www.star.nesdis.noaa.gov/smcd/emb/ff/index.html">http://www.star.nesdis.noaa.gov/smcd/emb/ff/index.html</a>.</p>
+<p class="sd-card-text">Multi-satellite precipitation products have also greatly benefited from the new constellation of polar-orbiting satellites, known as the GPM, or Global Precipitation Measurement mission.</p>
+<p class="sd-card-text"><strong>II. Remote Sensing of QPE » Remote Sensing QPE Key Points</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Radar data, where available, provide the best resolution in space and time.</p></li>
+<li><p class="sd-card-text">The best radar coverage occurs with convective precipitation, liquid precipitation, and in regions with minimal terrain features.</p></li>
+<li><p class="sd-card-text">Errors in radar-derived precipitation are associated with variations in drop size distributions, precipitation phase, and lack of low-level information.</p></li>
+<li><p class="sd-card-text">Dual-polarized radars estimate hydrometeor shapes, and have generated more accurate precipitation products.</p></li>
+<li><p class="sd-card-text">Satellite-derived precipitation is a supplement in regions with poor radar and rain-gauge coverage.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</details></section>
+<section id="weather-climatologies">
+<h3>3.2.3 <strong>Weather climatologies</strong><a class="headerlink" href="#weather-climatologies" title="Link to this heading"></a></h3>
+<p>A weather climatology is sometimes used to augment weather-variable
+estimates. These climatologies are especially useful in regions with
+limited capacity for measurements or rapidly changing terrain features,
+the latter causing weather-variable dependence on this topographic
+variability (e.g.,sharp changes in elevation and/or nearby large
+bodies of water) as well as potentially limiting the ability for direct
+observation (such as in cases of radar-beam blockage as discussed in the
+previous section). Some of the more commonly used climatologies (which
+can include a variety of weather variables, and may have daily weather
+estimates for some products) are the Parameter-elevation
+Regressions on an Independent Slopes Model, or PRISM from Oregon State
+(for more information on precipitation climatology guidance from PRISM
+see: <a class="reference external" href="http://www.prism.oregonstate.edu/">http://www.prism.oregonstate.edu/</a>); Daymet daily surface weather
+and climatological summaries from Oak Ridge National Laboratory
+(<a class="reference external" href="https://daymet.ornl.gov/">https://daymet.ornl.gov/</a>); gridMET from the Climatology Lab of the
+University of California-Merced
+(<a class="reference external" href="https://www.climatologylab.org/gridmet.html">https://www.climatologylab.org/gridmet.html</a>); and the Livneh datasets
+from the University of Colorado
+(<a class="reference external" href="https://ciresgroups.colorado.edu/livneh/data">https://ciresgroups.colorado.edu/livneh/data</a>).`</p>
+<p><a class="reference internal" href="_images/image_obs5.jpg"><img alt="PRISM Precipitation Annual Climatology for the U.S." src="_images/image_obs5.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p><em>Figure: The Parameter-elevation Regressions on an Independent Slopes
+Model (PRISM) is a commonly-used precipitation climatology
+tool. For more information on precipitation climatology guidance from
+Parameter-elevation Regressions on an Independent Slopes Model (PRISM),
+see:</em> <a class="reference external" href="http://www.prism.oregonstate.edu/">http://www.prism.oregonstate.edu/</a><em>.</em></p>
+<p>The approach used by PRISM using gauge and terrain data is
+considered the 3-dimensional (3-D) approach. This can be very useful in
+terrain-affected areas (see figures below). The areas that are within
+100 km of the green shading on this map are where PRISM uses the 3-D
+approach for QPE. This would also include all of the Hawaiian Islands
+and most of Alaska. For the white areas on this map, PRISM uses a 2-D
+process. This is basically a distance-weighted gauge analysis.</p>
+<p><a class="reference internal" href="_images/image_obs3.jpg"><img alt="PRISM effective terrain areas" src="_images/image_obs3.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p><em>Figure: Effective terrain grid for the U.S. Shaded areas denote terrain features that are expected to produce significant terrain-induced (3D) precipitation patterns. Unshaded grid cells as far as 100 km away from the shaded areas may also be considered 3D; see text for discussion. Grid resolution is 2.5 minutes (~ 4 km). (Source: https://prism.oregonstate.edu/documents/pubs/2002_influenceTerrain_daly.pdf)</em></p>
+<p>Below we provide more  information on the PRISM
+approach.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>PRISM</strong>
+<strong>Precipitation Climatology/PRISM</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Precipitation climatology guidance can be used to help fill in the gaps where estimates of observed precipitation are poor. The most widely used precipitation climatology tool in the United States as of 2009 is the PRISM model. Prior to its use in multiple-sensor precipitation estimation (MPE), PRISM was used extensively in several River Forecast Centers in the Western United States.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism11.jpg"><img alt="Prism precipitation maps" src="_images/image_obs_popout_prism11.jpg" style="width: 4.48611in; height: 3.65278in;" /></a></p>
+<p class="sd-card-text">Topics in this section include the rationale for PRISM, the use of PRISM data, and limitations of using precipitation climatology for QPE.</p>
+<p class="sd-card-text"><strong>Precipitation Climatology/PRISM » PRISM</strong></p>
+<p class="sd-card-text">Developed at Oregon State University, PRISM climatology products include precipitation climatology guidance for the contiguous United States…</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism1.jpg"><img alt="PRISM precipitation: annual climatology for the CONUS 1971-2000" src="_images/image_obs_popout_prism1.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">…the Hawaiian Islands, Puerto Rico, Guam, and…</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism9.jpg"><img alt="PRISM Precipitation annual climatology for Hawaii" src="_images/image_obs_popout_prism9.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">…Alaska, along with portions of neighboring Canadian provinces.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism12.jpg"><img alt="PRISM Precipitation Annual climatology for Alaska and the Yukon" src="_images/image_obs_popout_prism12.jpg" style="width: 6.04167in; height: 4.58333in;" /></a></p>
+<p class="sd-card-text">Products and detailed presentations about deriving those products are available for download from the PRISM group at Oregon State University: <a class="reference external" href="http://www.prism.oregonstate.edu/">http://www.prism.oregonstate.edu/</a>.</p>
+<p class="sd-card-text">PRISM precipitation climatologies are based on the historic record of measured precipitation at point locations, geographic input, especially terrain information, and in some cases, the prevailing wind direction. Streamflow discharge measurements are used to correlate basin precipitation climatology with runoff climatology and thus provide a rough validation check on the precipitation amount.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism13.jpg"><img alt="Gauge locations and topography of Olympic peninsula" src="_images/image_obs_popout_prism13.jpg" style="width: 6.04167in; height: 4.55556in;" /></a></p>
+<p class="sd-card-text">Point observations are rarely sufficient to represent spatial patterns of precipitation. This is especially true in regions with sharp changes in elevation and/or nearby large bodies of water. PRISM uses the known relationships of precipitation with geographic features. An automated statistical approach is used for efficiency, but this is guided by human expertise.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism3.jpg"><img alt="image_obs_popout_prism3" src="_images/image_obs_popout_prism3.jpg" style="width: 6.04167in; height: 4.79167in;" /></a></p>
+<p class="sd-card-text"><strong>Precipitation Climatology/PRISM » Basic Use of PRISM</strong></p>
+<p class="sd-card-text">PRISM precipitation climatology may be used for both observed precipitation (QPE) and forecast precipitation (QPF).</p>
+<p class="sd-card-text">Deriving QPE from PRISM precipitation climatology starts with point values, such as reading from a rain gauge. From there we derive the ratio of the point value to the PRISM value.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism5.jpg"><img alt="Using gauge reports and PRISM to get QPE 2" src="_images/image_obs_popout_prism5.jpg" style="width: 5.18056in; height: 4.52778in;" /></a></p>
+<p class="sd-card-text">In this example we assume the gauge reading is 40 mm (1.57 in) and the PRISM value at that point is 20 mm (0.79 in). The ratio of 40 over 20 is 2.0. Now, we apply that ratio to other PRISM values.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism10.jpg"><img alt="Using gauge reports and PRISM to get QPE 3" src="_images/image_obs_popout_prism10.jpg" style="width: 5.27778in; height: 4.51389in;" /></a></p>
+<p class="sd-card-text">This adjusts the areal precipitation estimate by the ratio of 2.0 but it preserves the gradients and the relative magnitudes that we see in the PRISM data.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism2.jpg"><img alt="Using gauge reports and PRISM to get QPE 4" src="_images/image_obs_popout_prism2.jpg" style="width: 5.09722in; height: 4.51389in;" /></a></p>
+<p class="sd-card-text">Of course this process is done for numerous gauge locations using distance-weighting schemes.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism8.jpg"><img alt="24-hr precip accumulation from daily QC program as of 1200 UTC 23 Jan 2008" src="_images/image_obs_popout_prism8.jpg" style="width: 6.04167in; height: 5in;" /></a></p>
+<p class="sd-card-text">This approach using gauge and terrain data is considered the 3-dimensional (3-D) approach. This can be very useful in terrain-affected areas. The areas that are within 100 km of the green shading on this map are where PRISM uses the 3-D approach for QPE. This would also include all of the Hawaiian Islands and most of Alaska. In the white areas on this map, PRISM uses a 2-D process. This is basically a distance-weighted gauge analysis.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs3.jpg"><img alt="PRISM effective terrain areas" src="_images/image_obs3.jpg" style="width: 6.04167in; height: 4.16667in;" /></a></p>
+<p class="sd-card-text"><strong>Precipitation Climatology/PRISM » Limitations of Precipitation Climatology</strong></p>
+<p class="sd-card-text">As with any climatological data, there are limitations. Climatology averages the individual events in a dataset. Individual precipitation events may show large departures from climatology, especially in the locations of extreme and sharp gradients. However, even with these limitations, there are regions that will likely benefit somewhat from climatological tools.</p>
+<p class="sd-card-text">Individual events will often be closer to climatology in regions with large orographic influences.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism4.jpg"><img alt="Salt lake city" src="_images/image_obs_popout_prism4.jpg" style="width: 6.25in; height: 4.15278in;" /></a></p>
+<p class="sd-card-text">In addition, regions that tend to receive widespread, stratiform precipitation will be closer to climatology than areas dominated by convection.</p>
+<p class="sd-card-text"><a class="reference internal" href="_images/image_obs_popout_prism7.jpg"><img alt="Strat clounds rainy road with cars" src="_images/image_obs_popout_prism7.jpg" style="width: 5.73611in; height: 4.13889in;" /></a></p>
+<p class="sd-card-text">So the western coasts of North America may be the areas that can benefit most from climatological adjustments to QPE. Keep in mind that departures from climatological norms will likely have greater impacts as one looks at smaller basins.</p>
+</div>
+</details></section>
+<section id="reanalysis">
+<h3>3.2.4 <strong>Reanalysis</strong><a class="headerlink" href="#reanalysis" title="Link to this heading"></a></h3>
+<p>Climate reanalysis is a method used to reconstruct past climate
+conditions by combining historical observational data with modern
+climate models. This approach provides a comprehensive and consistent
+dataset of atmospheric, oceanic, and land-surface conditions over an
+extended period. The historical observational data can come from weather
+stations, satellites, ships, buoys, and other sources, and typically
+undergo rigorous quality control to correct errors and inconsistencies.
+The climate models used are often numerical weather prediction (NWP)
+models, sophisticated models that simulate the Earth’s atmosphere,
+oceans, and land surface based on physical laws. The integration of the
+observational data into the NWP models is done through a process called
+data assimilation. For a given period of interest and for a given (grid-)
+location, data assimilation systems use different mathematical
+methods (e.g.,4D-Var, Ensemble Kalman Filter, etc.) to combine often
+unevenly spatially-distributed observations with errors in a prescribed
+time-window of interest with a NWP-derived estimate constrained by
+previous observations on a regularly spaced grid to obtain what is
+called an optimal estimate of the state of the Earth system (i.e.
+estimates of atmospheric parameters such as air temperature, pressure
+and wind at different altitudes, and surface parameters such as
+rainfall, soil moisture content, ocean-wave height and sea-surface
+temperature, produced for all locations on earth) at the time of
+interest, and its time evolution constrained by physical laws. This
+combinatorial process is typically done by adjusting the NWP estimate in
+a physically consistent manner so that it matches the latest
+observations closely, while taking into account the relative
+uncertainties in the observations and the NWP estimates (somewhat
+mimicking the production of day-to-day weather forecasts, which use an
+analysis of the current state of the Earth system as their starting
+point).</p>
+<p><a class="reference internal" href="_images/image_obs1.jpg"><img alt="image_obs1" src="_images/image_obs1.jpg" style="width: 6.5in; height: 4.33333in;" /></a></p>
+<p><em>Figure: A schematic of the reanalysis process. (Source: ECMWF)</em></p>
+<p>Although reanalyses have proven to be quite useful in general, they have
+their limitations. Even though the reanalysis framework is consistently
+applied over long time frames that can extend back several decades or
+more, the one component that does vary are the sources and amount of the
+raw input data due to changing global observational networks. Due to
+this changing mix of observations, the reliability of the reanalysis can
+vary considerably depending on the location, time frame, and variable
+considered; and this changing mix, along with biases in observations and
+models, can also introduce spurious variability and trends into the
+output. Of particular importance to this primer, variables relating
+to the hydrological cycle such as precipitation (P) and evaporation (E)
+are derived quantities that are calculated from the primary variables
+(or differences in the primary variables) of the NWP model, and
+therefore not directly predicted by the model’s governing equations,
+making them especially sensitive to inaccuracies in the numerical
+modeling process. As such, reanalysis-derived hydrologic cycle variables
+need to be used with caution and and assessed for their physical
+reasonableness. Consider the figure below (from Trenberth et al. 2011),
+which compares two reanalysis products (NASA MERRA and ECMWF
+ERA-Interim) and shows how E-P is of different sign between the two
+products over central Africa (but noting this is an analysis from over a
+decade ago)! However, we note that just as reanalysis products continue
+to improve in accuracy and their ability to remove formerly known
+deficiencies, some products (e.g.,ERA5) also are providing information
+about uncertainty: data from areas or periods where observations
+are sparser are likely to be less certain.</p>
+<p><a class="reference internal" href="_images/image_obs4.png"><img alt="image_obs4" src="_images/image_obs4.png" style="width: 6.5in; height: 7.54167in;" /></a></p>
+<p><em>Figure: Evaporation minus Precipitation in MERRA (top) and ERA-Interim
+(bottom) based on Trenberth et al. (2011). (Contributed by J Fasullo and
+NCAR Climate Data Guide)</em></p>
+<p><strong>Further renalysis resources</strong></p>
+<ul class="simple">
+<li><p>NCAR Climate Data Guide:
+<a class="reference external" href="https://climatedataguide.ucar.edu/climate-data/atmospheric-reanalysis-overview-comparison-tables">https://climatedataguide.ucar.edu/climate-data/atmospheric-reanalysis-overview-comparison-tables</a></p></li>
+<li><p>ECMWF reanalysis description:
+<a class="reference external" href="https://www.ecmwf.int/en/research/climate-reanalysis">https://www.ecmwf.int/en/research/climate-reanalysis</a></p></li>
+<li><p>ECMWF Reanalysis fact sheet:
+<a class="reference external" href="https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis">https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis</a></p></li>
+</ul>
+</section>
+<section id="blending-multiple-sensors-and-data-products">
+<h3>3.2.5 <strong>Blending multiple sensors and data products</strong><a class="headerlink" href="#blending-multiple-sensors-and-data-products" title="Link to this heading"></a></h3>
+<p>Multiple sensors and data products are often employed, especially in the
+case of producing time-series of data, to compensate for deficiencies in
+each product alone. As an example, over-CONUS radar and rain-gauge networks have been the primary tools for precipitation analyses,
+but advances in satellite tools for precipitation analysis are showing
+great promise in areas with poor coverage from radar and rain-gauge
+networks, especially over Alaska. Particularly promising are tools that
+merge data from different satellites.</p>
+<p>One particular example of a blended time-series data product that
+employs multiple sensors is the NOAA Analysis Of Record for Calibration
+(AORC), a gridded record of near-surface weather conditions covering the
+continental United States and Alaska and their hydrologically
+contributing areas. Derived weather variables include hourly total
+precipitation, temperature, specific humidity, terrain-level pressure,
+downward longwave and shortwave radiation, and west-east and south-north
+wind components, with this suite of eight variables sufficient to drive
+most land-surface and hydrologic models and is used as input to the
+National Water Model (NWM) retrospective simulation. As an example of
+this blending process, consider that the AORC was assembled from over
+a dozen individual time-series and climatological datasets, not all of
+which were available through the entire period-of-record. The best
+available input dataset for each of the constituent elements was used at
+any given time and place. Some alternative time-series data (such as
+satellite data) were used to replace the input forcings at particular
+areas or used to temporally disaggregate higher-temporal resolution
+data. The climatological datasets were used to bias correct the time-series data (such as PRISM [Vose et al., 2014] and Livneh [Livneh et
+al., 2015] data), and were all developed based on ground-based gauge
+observations.</p>
+<p><strong>Further AORC details:</strong> see Analysis of Record for Calibration:
+Version 1.1, Sources, Methods, and Verification, National Weather
+Service, Office of Water Prediction, Oct. 2021.</p>
+</section>
+<section id="broader-climate-variable-observation-resources">
+<h3>3.2.6 <strong>Broader climate variable observation resources</strong><a class="headerlink" href="#broader-climate-variable-observation-resources" title="Link to this heading"></a></h3>
+<p>There continues to be a broad range of remotely sensed
+hydrologically-relevant data sources that continue to be made publically available
+and can help offset and supplement some of the datasets mentioned above
+(e.g.,GPM and SWOT), especially for regions with limited observed
+coverage, and the reader is encouraged to continue to monitor the
+availability of additional resources that could help with their
+hydrometeorological data needs. Examples:</p>
+<ul class="simple">
+<li><p>Global Precipitation Measurement: <a class="reference external" href="https://gpm.nasa.gov/missions/GPM">https://gpm.nasa.gov/missions/GPM</a></p></li>
+<li><p>Surface Water and Ocean Topography Mission:
+<a class="reference external" href="https://swot.jpl.nasa.gov/">https://swot.jpl.nasa.gov/</a></p></li>
+</ul>
+</section>
+<section id="further-resources">
+<h3>3.2.7 <strong>Further Resources</strong><a class="headerlink" href="#further-resources" title="Link to this heading"></a></h3>
+<p>For further resources and guidance on observational datasets, please
+see:</p>
+<ul class="simple">
+<li><p>the NSF NCAR Climate Data Guide: <a class="reference external" href="https://climatedataguide.ucar.edu/">https://climatedataguide.ucar.edu/</a></p></li>
+<li><p>IPCC AR6 WG1 Annex I Observational Products (filtered table of North
+American and water cycle focused provided below)
+<a class="reference external" href="https://www.ipcc.ch/report/ar6/wg1/">https://www.ipcc.ch/report/ar6/wg1/</a></p></li>
+<li><p>Data sources that were developed or referenced by the NOAA Technical
+Support Unit supporting the U.S. Fifth National Climate Assessment
+can be found here:</p>
+<ul>
+<li><p>NCA5 Atlas <a class="reference external" href="https://atlas.globalchange.gov/">https://atlas.globalchange.gov/</a></p></li>
+<li><p>Global Change Information System <a class="reference external" href="https://data.globalchange.gov/">https://data.globalchange.gov/</a></p></li>
+<li><p>NOAA’s nClimGrid monthly
+<a class="reference external" href="https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332">https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332</a></p></li>
+<li><p>NOAA’s nClimGrid daily
+<a class="reference external" href="https://www.ncei.noaa.gov/products/land-based-station/nclimgrid-daily">https://www.ncei.noaa.gov/products/land-based-station/nclimgrid-daily</a></p></li>
+<li><p>NOAA’s nClimDiv climate indices
+<a class="reference external" href="https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00005">https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00005</a></p></li>
+</ul>
+</li>
+<li><p>Below we provide a list of IPCC AR6-referenced climate variable
+observational products applicable to the U.S. and North America. The
+table lists observational datasets commonly used for climate studies
+that are considered well vetted by the scientific community. The
+table documents the details of the types and versions of datasets,
+the time frame they cover, and citations and (where available) web
+links to the data. Reanalysis data products are included. Datasets
+are sorted alphabetically according to the dataset name or, if there
+is no formal name, the name of the responsible institution or lead
+author.</p></li>
+</ul>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Table of Observational datasets</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Observational datasets</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Name</p></th>
+<th class="head"><p class="sd-card-text">Version</p></th>
+<th class="head"><p class="sd-card-text">Type</p></th>
+<th class="head"><p class="sd-card-text">Spatial Resolution</p></th>
+<th class="head"><p class="sd-card-text">Temporal Resolution</p></th>
+<th class="head"><p class="sd-card-text">TimePeriod</p></th>
+<th class="head"><p class="sd-card-text">Link</p></th>
+<th class="head"><p class="sd-card-text">Citation and DOI (Where Available)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">NOAA-CIRES 20th Century Reanalysis (20CR)</p></td>
+<td><p class="sd-card-text">2c</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">2deg x2deg, 24 vertical levels</p></td>
+<td><p class="sd-card-text">3-hourly</p></td>
+<td><p class="sd-card-text">1851-2014</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/20thC_Rean/</p></td>
+<td><p class="sd-card-text">Compo etal. (2011)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">NOAA-CIRES 20th Century Reanalysis (20CR)</p></td>
+<td><p class="sd-card-text">3</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">3-hourly</p></td>
+<td><p class="sd-card-text">1851-2020</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/20thC_Rean/</p></td>
+<td><p class="sd-card-text">Slivinski etal. (2019)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">AERONET AOD Level 2.0</p></td>
+<td><p class="sd-card-text">3</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1995-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://aeronet.gsfc.nasa.gov/data_push/">https://aeronet.gsfc.nasa.gov/data_push/</a><a href="#id2"><span class="problematic" id="id3">AOT_Level2_</span></a> Monthly.tar.gz</p></td>
+<td><p class="sd-card-text">Giles etal. (2019)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">AIRS specific humidity</p></td>
+<td><p class="sd-card-text">RetStd-v5</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2003-2010</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://esgf-node.llnl.gov/search/obs4mips/">https://esgf-node.llnl.gov/search/obs4mips/</a></p></td>
+<td><p class="sd-card-text">Susskind etal. (2006); Tian etal. (2013)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">AIRS-6 climate data products</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td></td>
+<td><p class="sd-card-text">Various</p></td>
+<td><p class="sd-card-text">2002-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://disc.sci.gsfc.nasa.gov/AIRS/data-holdings">http://disc.sci.gsfc.nasa.gov/AIRS/data-holdings</a></p></td>
+<td><p class="sd-card-text">Susskind etal. (2014)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">AMOC dataset</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ,reanalysis</p></td>
+<td><p class="sd-card-text">Regional</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2004-2017</p></td>
+<td></td>
+<td><p class="sd-card-text">Smeed etal. (2018)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Advanced Microwave, Scanning Radiometer 2(AMSR2)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td></td>
+<td><p class="sd-card-text">3-hourly</p></td>
+<td><p class="sd-card-text">2012-2019</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://lance.nsstc.nasa.gov/amsr2-science/data/level2/">https://lance.nsstc.nasa.gov/amsr2-science/data/level2/</a> rainocean/</p></td>
+<td><p class="sd-card-text">Kummerow etal. (2015)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Aquas Advanced Microwave Scanning Radiometer for Earth Observing System (AMSR-E)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">5.4-56km</p></td>
+<td></td>
+<td><p class="sd-card-text">2002-2011</p></td>
+<td></td>
+<td><p class="sd-card-text">Kawanishi etal. (2003)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Advanced Scatterometer (ASCAT)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">25km</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">2006-2016</p></td>
+<td></td>
+<td><p class="sd-card-text">Wagner etal. (1999)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Cross-calibrated multi-platform wind dataset (Atlas)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing, in situ</p></td>
+<td><p class="sd-card-text">25km</p></td>
+<td><p class="sd-card-text">6-hourly</p></td>
+<td><p class="sd-card-text">1987-2020</p></td>
+<td><p class="sd-card-text">www.remss.com/measurements/ccmp/</p></td>
+<td><p class="sd-card-text">Atlas etal. (2011)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Berkeley Earth surface air temperature</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">1deg x1deg(or equivalent equal-area grid)</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1750-2020</p></td>
+<td><p class="sd-card-text">www.berkeleyearth.org</p></td>
+<td><p class="sd-card-text">Rohde and Hausfather (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Boulder stratospheric water vapour</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">Profiles approx.monthly</p></td>
+<td><p class="sd-card-text">1980-2010</p></td>
+<td></td>
+<td><p class="sd-card-text">Hurst etal. (2011)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">NCEP Climate Forecast System Reanalysis (CFSR)</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">T382, approx. 38 km</p></td>
+<td><p class="sd-card-text">Hourly</p></td>
+<td><p class="sd-card-text">1979-2010</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://cfs.ncep.noaa.gov/cfsr/">https://cfs.ncep.noaa.gov/cfsr/</a></p></td>
+<td><p class="sd-card-text">Saha etal. (2010)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS)</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">Daily, monthly</p></td>
+<td><p class="sd-card-text">1981-2018</p></td>
+<td><p class="sd-card-text">www.chc.ucsb.edu/data/chirps</p></td>
+<td><p class="sd-card-text">Funk etal. (2015)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">CPC Merged Analysis ofPrecipitation (CMAP)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">2.5deg x2.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/gridded/data.cmap.html</p></td>
+<td><p class="sd-card-text">Xie etal. (2007a)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Climate Prediction Center (CPC) Nino indices</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Regional</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1950-2020</p></td>
+<td><p class="sd-card-text">www.cpc.ncep.noaa.gov/data/indices/</p></td>
+<td><p class="sd-card-text">Derived from ERSSTv5</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Climate Prediction Centre (CPC) Precipitation</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">2.0deg x 2.5deg (hourly); 0.25deg x 0.25deg (Daily)</p></td>
+<td><p class="sd-card-text">Hourly; Daily</p></td>
+<td><p class="sd-card-text">1948-2006</p></td>
+<td></td>
+<td><p class="sd-card-text">Higgins etal. (2000); Xie etal. (2007b); Chen etal. (2008)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">CPC teleconnection indices (AAO, AO, NAO, PNA)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Regional</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1950-2020; (1979-2019 for AAO)</p></td>
+<td><p class="sd-card-text">www.cpc.ncep.noaa.gov/products/precip/CWlink/<a href="#id4"><span class="problematic" id="id5">daily_</span></a> ao_index/teleconnections.shtml</p></td>
+<td><p class="sd-card-text">www.cpc.ncep.noaa.gov/products/precip/CWlink/<a href="#id6"><span class="problematic" id="id7">daily_</span></a> ao_index/teleconnections.shtml</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">CPC Unified GaugeBased Analysis of GlobalDaily Precipitation</p></td>
+<td></td>
+<td><p class="sd-card-text">RemoteSensing</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1979-2019</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html">https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html</a></p></td>
+<td><p class="sd-card-text">Xie etal. (2010)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">CloudSat CloudProfilingRadar (CPR)</p></td>
+<td></td>
+<td><p class="sd-card-text">RemoteSensing</p></td>
+<td><p class="sd-card-text">1.5km horizontal,0.5km vertical</p></td>
+<td></td>
+<td><p class="sd-card-text">2006-2019</p></td>
+<td></td>
+<td><p class="sd-card-text">Tanelli etal. (2008)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">CRU TS</p></td>
+<td><p class="sd-card-text">4.04</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1901-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.04/">https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.04/</a></p></td>
+<td><p class="sd-card-text">Harris etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">CRUTEM</p></td>
+<td><p class="sd-card-text">5</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">5deg x5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1850-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://crudata.uea.ac.uk/cru/data/temperature/">https://crudata.uea.ac.uk/cru/data/temperature/</a></p></td>
+<td><p class="sd-card-text">Osborn etal. (2021)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Mexican climate(Cuervo-Robayo)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">30 arcsec</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1910-2009</p></td>
+<td></td>
+<td><p class="sd-card-text">Cuervo-Robayo etal. (2014)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">3D-VAR regionalreanalysis(Dahlgren)</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.2deg x0.2deg</p></td>
+<td><p class="sd-card-text">6-hourly</p></td>
+<td><p class="sd-card-text">1989-2010</p></td>
+<td></td>
+<td><p class="sd-card-text">Dahlgren etal. (2016)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">ERA-5</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">30km, 137 vertical levels</p></td>
+<td><p class="sd-card-text">Hourly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.ecmwf.int/en/forecasts/datasets/reanalysis datasets/era5</p></td>
+<td><p class="sd-card-text">Hersbach etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">GHCN precipitation</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">5deg x5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1900-2014</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/gridded/data.ghcngridded.html</p></td>
+<td><p class="sd-card-text">Jones and Moberg (2003)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Global Historical Climatology Network (GHCN)- Monthly</p></td>
+<td><p class="sd-card-text">4</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1880-2020</p></td>
+<td><p class="sd-card-text">www.ncdc.noaa.gov/ghcnm/</p></td>
+<td><p class="sd-card-text">Menne etal. (2018)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">GISTEMP</p></td>
+<td><p class="sd-card-text">4</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">2deg x2deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1880-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://data.giss.nasa.gov/gistemp/">https://data.giss.nasa.gov/gistemp/</a></p></td>
+<td><p class="sd-card-text">Lenssen etal. (2019)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">GLDAS</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1951-2010</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/">https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/</a> GLDAS_NOAH10_M.2.0/</p></td>
+<td><p class="sd-card-text">Rodell etal. (2004)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Global Precipitation Climatology Centre (GPCC)</p></td>
+<td><p class="sd-card-text">8</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1981-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="ftp://ftp.dwd.de/pub/data/gpcc/html/">ftp://ftp.dwd.de/pub/data/gpcc/html/</a><a href="#id8"><span class="problematic" id="id9">fulldata-monthly_</span></a> v2018_doi_download.html</p></td>
+<td><p class="sd-card-text">Becker etal. (2013); Schneider etal. (2017)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Global Precipitation Climatology Project (GPCP)</p></td>
+<td><p class="sd-card-text">2.3</p></td>
+<td><p class="sd-card-text">RemoteSensing, in situ</p></td>
+<td><p class="sd-card-text">2.5deg x2.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html</p></td>
+<td><p class="sd-card-text">Adler etal. (2018)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Gravity Recovery andClimate Experiment (GRACE)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">400 m</p></td>
+<td><p class="sd-card-text">3 days</p></td>
+<td><p class="sd-card-text">2002-2017</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://gracefo.jpl.nasa.gov/data/grace-fo-data/">https://gracefo.jpl.nasa.gov/data/grace-fo-data/</a></p></td>
+<td><p class="sd-card-text">Tapley etal. (2004); Wouters etal. (2019)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">GRID-Sat</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">4km</p></td>
+<td><p class="sd-card-text">15-minute</p></td>
+<td><p class="sd-card-text">1994-2016</p></td>
+<td></td>
+<td><p class="sd-card-text">Inamdar and Knapp (2015)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Global StreamflowIndicesand MetadataArchive (GSIM)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1806-2016</p></td>
+<td></td>
+<td><p class="sd-card-text">Do etal. (2018)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">GSMaP</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.1deg</p></td>
+<td><p class="sd-card-text">Hourly</p></td>
+<td><p class="sd-card-text">2007-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Kubota etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">GEWEX Water Vapour Assessment (G-VAP)</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis,Remote Sensing</p></td>
+<td><p class="sd-card-text">2deg x2deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1988-2009</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://gewex-vap.org/">http://gewex-vap.org/</a></p></td>
+<td><p class="sd-card-text">Schroder etal. (2018)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Hawaii OceanTime-seriesData</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">1988-2018</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://hahana.soest.hawaii.edu/hot/hot-dogs/interface.html">http://hahana.soest.hawaii.edu/hot/hot-dogs/interface.html</a></p></td>
+<td><p class="sd-card-text">Dore etal. (2009)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Boulder stratosphericwatervapor (Hegglin)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td></td>
+<td></td>
+<td><p class="sd-card-text">1980-2010</p></td>
+<td></td>
+<td><p class="sd-card-text">Hegglin etal. (2014)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Integrated GlobalRadiosonde Archive (IGRA)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td></td>
+<td><p class="sd-card-text">Point-based</p></td>
+<td><p class="sd-card-text">1900-2019</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://data.noaa.gov/dataset/dataset/integrated-global">https://data.noaa.gov/dataset/dataset/integrated-global</a> radiosonde-archive-igra-version-2</p></td>
+<td><p class="sd-card-text">Durre etal. (2006)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">IPRC subsurface, temperaturedata</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2005-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://apdrc.soest.hawaii.edu/projects/Argo/data/gridded/">http://apdrc.soest.hawaii.edu/projects/Argo/data/gridded/</a> On_standard_levels/index-1.html</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://apdrc.soest.hawaii.edu/projects/Argo/data/gridded/">http://apdrc.soest.hawaii.edu/projects/Argo/data/gridded/</a> On_standard_levels/index-1.html</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Landsat Global Land Survey(GLS) database</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">Global images</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1972-2019</p></td>
+<td></td>
+<td><p class="sd-card-text">Gutman etal. (2013)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Combined satellite andstation data (Maidment)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing, in situ</p></td>
+<td><p class="sd-card-text">0.0375deg x0.0375deg</p></td>
+<td><p class="sd-card-text">10-day</p></td>
+<td><p class="sd-card-text">1983-2012</p></td>
+<td></td>
+<td><p class="sd-card-text">Maidment etal. (2014)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Marshall SAM index</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Regional means</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1957-2020</p></td>
+<td><p class="sd-card-text">www.nerc-bas.ac.uk/icd/gjma/sam.html</p></td>
+<td><p class="sd-card-text">Marshall (2003)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Princeton MEaSUREs</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis, remote sensing, in situ</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1950-2019</p></td>
+<td></td>
+<td><p class="sd-card-text">Pan etal. (2012)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Multivariate ENSO Index(MEI)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1977-2017</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/enso/mei/</p></td>
+<td><p class="sd-card-text">Wolter and Timlin (1998)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">MERRA-2 reanalysis</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.5 x0.66deg,72 vertical levels</p></td>
+<td><p class="sd-card-text">Hourly</p></td>
+<td><p class="sd-card-text">1980-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/">https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/</a></p></td>
+<td><p class="sd-card-text">Gelaro etal. (2017)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">MERRA-2 reanalysis- Land</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.5deg x0.66deg,72 vertical levels</p></td>
+<td><p class="sd-card-text">6-hourly</p></td>
+<td><p class="sd-card-text">1980-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://gmao.gsfc.nasa.gov/pubs/office_notes">http://gmao.gsfc.nasa.gov/pubs/office_notes</a></p></td>
+<td><p class="sd-card-text">Reichle (2012)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">MODIS Aerosol Optical Depth 550nm</p></td>
+<td><p class="sd-card-text">MYD08_M3</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2003-2011</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://ladsweb.modaps.eosdis.nasa.gov/search/order">https://ladsweb.modaps.eosdis.nasa.gov/search/order</a></p></td>
+<td><p class="sd-card-text">Platnick etal. (2003)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">MODIS NDVI/EVI vegetation greenness index</p></td>
+<td><p class="sd-card-text">6</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">1km</p></td>
+<td><p class="sd-card-text">16-day</p></td>
+<td><p class="sd-card-text">2000-2018</p></td>
+<td></td>
+<td><p class="sd-card-text">Myneni etal. (2015)doi:10.5067/MODIS/MCD15A2H.006</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Moderate Resolution Imaging Spectro-radiometer (MODIS)</p></td>
+<td><p class="sd-card-text">MCD12Q1</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">500 m</p></td>
+<td><p class="sd-card-text">Annual</p></td>
+<td><p class="sd-card-text">2001-2019</p></td>
+<td></td>
+<td><p class="sd-card-text">Loveland and Belward (1997)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Northern Hemisphere Blended Snow Cover Extent and Snow Mass Time Series (Mudryk)</p></td>
+<td></td>
+<td><p class="sd-card-text">RemoteSensing, in situ</p></td>
+<td></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1980-2018</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://data.ec.gc.ca/data/climate/scientificknowledge/">http://data.ec.gc.ca/data/climate/scientificknowledge/</a> climate-research-publication-based-data/northern hemisphere-blended-snow-extent-and-snow-mass time-series/</p></td>
+<td><p class="sd-card-text">Mudryk etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">NCEP-NCAR Reanalysis</p></td>
+<td></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">2.5deg x2.5deg</p></td>
+<td><p class="sd-card-text">Daily and monthly</p></td>
+<td><p class="sd-card-text">1980-2020</p></td>
+<td><p class="sd-card-text">www.esrl.noaa.gov/psd/data/gridded/data.ncep. reanalysis.html</p></td>
+<td><p class="sd-card-text">Kalnay etal. (1996)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">NOAA Global Temp</p></td>
+<td><p class="sd-card-text">5</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">5deg x5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1880-2020</p></td>
+<td><p class="sd-card-text">www.ncdc.noaa.gov/data-access/marineocean-data/ noaa-global-surface-temperature-noaaglobaltemp</p></td>
+<td><p class="sd-card-text">Huang etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">NOAA Global Temp- Interim</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">5deg x5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1850-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Vose etal. (2021)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">NOAA reconstructedsnowcover dataset</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing, in situ</p></td>
+<td><p class="sd-card-text">Hemispheric</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1915-1997</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://nsidc.org/data/g02131">https://nsidc.org/data/g02131</a></p></td>
+<td><p class="sd-card-text">Brown (2002); Brown and Robinson (2011)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">NOAA STAR satellitetemperature</p></td>
+<td><p class="sd-card-text">3</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">2.5deg x2.5deg,3 vertical layers</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.star.nesdis.noaa.gov/smcd/emb/mscat/</p></td>
+<td><p class="sd-card-text">Zou and Wang (2011)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">National Oceanography Centre (NOC) surface flux and meteorological dataset</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1973-2014</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="http://badc.nerc.ac.uk/data/nocs_flux/">http://badc.nerc.ac.uk/data/nocs_flux/</a></p></td>
+<td><p class="sd-card-text">Berry and Kent (2011)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">NASA Water Vapor Project MEaSUREs (NVAP-M)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">1deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1988-2008</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://public.satproj.klima.dwd.de/data/">https://public.satproj.klima.dwd.de/data/</a><a href="#id10"><span class="problematic" id="id11">GVAP_data_</span></a> archive/v1.0/TCWV/long/</p></td>
+<td><p class="sd-card-text">Vonder Haar etal. (2012)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">USA temperature (Oyler)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">30-arcsec</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1948-2012</p></td>
+<td></td>
+<td><p class="sd-card-text">Oyler etal. (2015)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">PERSIANN-CDR</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1982-2020</p></td>
+<td><p class="sd-card-text">www.ncdc.noaa.gov/cdr/atmospheric/precipitation persiann-cdr</p></td>
+<td><p class="sd-card-text">Ashouri etal. (2015)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Randolph Glacier Inventory</p></td>
+<td><p class="sd-card-text">6</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">Decametric shapefiles of glacieroutlines, global 0.5deg global grid of glacierized area</p></td>
+<td></td>
+<td><p class="sd-card-text">1955-2014</p></td>
+<td><p class="sd-card-text">www.glims.org/RGI/rgi60_dl.html</p></td>
+<td><p class="sd-card-text">Scherler etal. (2018)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">REGEN global precipitation</p></td>
+<td><p class="sd-card-text">1</p></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">1deg x1deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1950-2016</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://researchdata.ands.org.au/rainfall-estimates">https://researchdata.ands.org.au/rainfall-estimates</a> gridded-v1-2019/1408744</p></td>
+<td><p class="sd-card-text">Contractor etal. (2020)doi:10.25914/5ca4c380b0d44</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">MSG-based griddeddatasetsof clouds,precipitation and radiation (Roebeling andHolleman)</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.27deg x0.27deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">2005-2019</p></td>
+<td></td>
+<td><p class="sd-card-text">Roebeling and Holleman (2009)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">ROM SAF radio occultation climate data record</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">5deg latitude bins,200m vertical</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2001-2020</p></td>
+<td><p class="sd-card-text">www.romsaf.org</p></td>
+<td><p class="sd-card-text">Gleisner etal. (2020)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Arctic permafrost layertemperature (Romanovsky)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Site-based</p></td>
+<td><p class="sd-card-text">Annual</p></td>
+<td><p class="sd-card-text">1977-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Romanovsky etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Remote Sensing Systems (RSS) precipitation andwater vapour</p></td>
+<td><p class="sd-card-text">7</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">2 per day</p></td>
+<td><p class="sd-card-text">1987-2020</p></td>
+<td><p class="sd-card-text">www.remss.com/measurements/rain-rate/</p></td>
+<td><p class="sd-card-text">Wentz (2013)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Remote Sensing Systems RSSsatellite temperature</p></td>
+<td><p class="sd-card-text">4</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">2.5deg x2.5deg,5 vertical layers</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.remss.com/measurements/upper-air-temperature/</p></td>
+<td><p class="sd-card-text">Mears and Wentz (2017)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Rutgers University/NOAA snow cover extent dataset</p></td>
+<td><p class="sd-card-text">V01r01</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">100-200km</p></td>
+<td><p class="sd-card-text">Weekly</p></td>
+<td><p class="sd-card-text">1966-2020</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://climate.rutgers.edu/snowcover/">https://climate.rutgers.edu/snowcover/</a></p></td>
+<td><p class="sd-card-text">Estilow etal. (2015)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Southern OscillationIndex(SOI)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">Regional time series</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1876-2020</p></td>
+<td><p class="sd-card-text">www.bom.gov.au/climate/current/soihtm1.shtml</p></td>
+<td><p class="sd-card-text">Troup (1965)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">State University of New York (SUNY) radiosonde dataset</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">10deg x10deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1958-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Zhou etal. (2021)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">TRMM PrecipitationRadar3A25</p></td>
+<td><p class="sd-card-text">7</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1997-2014</p></td>
+<td></td>
+<td><p class="sd-card-text">Iguchi etal. (2000)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">TRMM GPOF</p></td>
+<td><p class="sd-card-text">GPOF</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1997-2015</p></td>
+<td></td>
+<td><p class="sd-card-text">Stocker etal. (2018)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">TRMM MicrowaveImager(TRMM TMI)</p></td>
+<td><p class="sd-card-text">TMI</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">3 day</p></td>
+<td><p class="sd-card-text">1997-2015</p></td>
+<td></td>
+<td><p class="sd-card-text">Wentz etal. (2001)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">TRMM Multi-Satellite Precipitation Analysis</p></td>
+<td><p class="sd-card-text">7</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.25deg x0.25deg</p></td>
+<td><p class="sd-card-text">3-hourly</p></td>
+<td><p class="sd-card-text">1997-2018</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/">https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/</a> summary</p></td>
+<td><p class="sd-card-text">Huffman etal. (2007); TRMM (2011); Z. Liu etal. (2012)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tropical Rainfall Measuring Mission Precipitation Radar (TRMM PR)</p></td>
+<td><p class="sd-card-text">PR</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1997-2015</p></td>
+<td></td>
+<td><p class="sd-card-text">Haddad etal. (1997)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">University of AlabamaatHuntsville (UAH) satellite temperature</p></td>
+<td><p class="sd-card-text">6</p></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">3 vertical layers</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2020</p></td>
+<td><p class="sd-card-text">www.nsstc.uah.edu/climate/</p></td>
+<td><p class="sd-card-text">Spencer etal. (2017)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">UCAR/ NOAA radio occultation data</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">5deg latitude bands</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2002-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Steiner etal. (2020)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Global temperaturedataset(Vaccaro)</p></td>
+<td></td>
+<td><p class="sd-card-text">In situ</p></td>
+<td><p class="sd-card-text">5deg x5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1850-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Vaccaro etal. (2021)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">W5E5 bias-adjustedreanalysis</p></td>
+<td><p class="sd-card-text">1</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Daily</p></td>
+<td><p class="sd-card-text">1979-2016</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://dataservices.gfz-potsdam.de/pik/showshort">https://dataservices.gfz-potsdam.de/pik/showshort</a>. php?id=escidoc:4855898</p></td>
+<td><p class="sd-card-text">Lange (2019)doi:10.5880/pik.2019.023</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Wegener Centre radiooccultation dataset</p></td>
+<td></td>
+<td><p class="sd-card-text">Remote Sensing</p></td>
+<td><p class="sd-card-text">0.1km vertical</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">2001-2020</p></td>
+<td></td>
+<td><p class="sd-card-text">Angerer etal. (2017)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Global Earth Observation for Integrated Water Resource Assessment (Earth2Observe) Water ResourcesReanalysisv2 (WRR2)</p></td>
+<td><p class="sd-card-text">2</p></td>
+<td><p class="sd-card-text">Reanalysis</p></td>
+<td><p class="sd-card-text">0.5deg x0.5deg</p></td>
+<td><p class="sd-card-text">Monthly</p></td>
+<td><p class="sd-card-text">1979-2012</p></td>
+<td></td>
+<td><p class="sd-card-text">Schellekens etal. (2017)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</details></section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ch2_climatewater.html" class="btn btn-neutral float-left" title="Chapter 2: Climate and Water Availability Assessments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ch4_gcms.html" class="btn btn-neutral float-right" title="Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, NCAR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

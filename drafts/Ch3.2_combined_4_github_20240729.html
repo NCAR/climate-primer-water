@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earth’s Energy Balance and the Greenhouse Effect &mdash; Climate Primer alpha 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=abb643a6" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5760debf"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/climate_primer_small.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../ch1_intro.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch2_climatewater.html">Chapter 2: Climate and Water Availability Assessments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch3_observations.html">Chapter 3: Characterize baseline quantities of interest, uncertainties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch4_gcms.html">Chapter 4: Understanding GCM climate change modeling and attributes, strengths, limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch5_attribution.html">Chapter 5: Baseline natural variability and attribution of observed changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch6_downscaling.html">Chapter 6: Place-Based Climate Projections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch7_uncertainty.html">Chapter 7: Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch8_casestudies.html">Chapter 8: Example Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ch9_recipes.html">Chapter 9: Walk-thru Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learnmore.html">Learn More…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acknowledgements.html">Acknowledgements</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Climate Primer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><strong>Earth’s Energy Balance and the Greenhouse Effect</strong></li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NCAR/climate-primer-water/blob/main/doc/drafts/Ch3.2_combined_4_github_20240729.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p>Ch3.2 Baseline natural variability and detection and attribution of
+observed changes</p>
+<p>This section provided an introduction to ways to understand and quantify
+the baseline or climate starting point of the study area of interest,
+and the natural variability of the system itself, outside of its
+evolution under climate change impacts, as well as how to define changes
+that have already been occurring due to climate change. We start with a
+brief overview of what these different types of variability are, where
+they have already been observed, then discuss methods that can be more
+generally applied to a particular region to discern these different
+types of variability.</p>
+<p>As background, the pop-out below provides background information on the
+Earth’s energy balance, the factors that influence it, and thus lead to
+climate variability and change.</p>
+<p>— start popout Ch3.2 Earth’s energy balance and the greenhouse effect</p>
+<section id="earths-energy-balance-and-the-greenhouse-effect">
+<h1><strong>Earth’s Energy Balance and the Greenhouse Effect</strong><a class="headerlink" href="#earths-energy-balance-and-the-greenhouse-effect" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="drafts/media/ch3_2/image16.jpg"><img alt="still" src="drafts/media/ch3_2/image16.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>The Earth is in a delicate equilibrium of solar energy (mainly shortwave
+ultraviolet) coming in and longwave energy (mainly infrared) going out.
+Slight alterations to this balance impact weather and climate. These can
+be caused by the natural cycles of climate variability, such as volcanic
+eruptions, that temporarily reduce the amount of solar energy reaching
+the Earth’s surface, thus disrupting the energy balance.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image30.jpg"><img alt="Volcanic eruption" src="drafts/media/ch3_2/image30.jpg" style="width: 6.5in; height: 4.875in;" /></a></p>
+<p>Small changes to the balance of energy between the Sun and Earth are
+driving recent trends in global temperature.</p>
+<p>The diagram below of the energy cycle shows the amount of energy, in
+Watts per square meter, that comes into the Earth-atmosphere-ocean
+system, stays within it, and leaves. Notice that about one third of the
+342 W/m2 of solar energy (the yellow arrows) is reflected back to space
+by the atmosphere or surface, while about two thirds is absorbed. As
+we’ve seen, the magnitude of solar energy reflected by aerosols
+sometimes increases temporarily after major volcanic eruptions, leading
+to temporary decreases in solar energy reaching Earth’s surface.</p>
+<p>On the right side of the diagram, the red arrows show the amount of
+terrestrial energy (mainly infrared) emitted by the Earth’s surface and
+atmosphere. Some is radiated back to space. But due to the presence of
+greenhouse gases, carbon dioxide, and water vapor in particular, a
+significant portion is absorbed by the atmosphere and re-radiated back
+to Earth. The “Back Radiation” portion of the diagram shows the heat
+energy radiated from the atmosphere to the surface. This is the
+<strong>Greenhouse Effect</strong>. Without naturally occurring greenhouse gases, the
+Earth would be an inhospitably cold and frozen planet.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image35.jpg"><img alt="The Earth-Sun Energy Balance" src="drafts/media/ch3_2/image35.jpg" style="width: 6.5in; height: 4.58333in;" /></a></p>
+<p>— stop popout Ch3.2 Earth’s energy balance and the greenhouse effect</p>
+<p><a href="#id1"><span class="problematic" id="id2">:mark:`And the pop-out below provides introductory information on
+natural climate variability versus anthropogenic climate change examples
+for streamflow, CO2 emissions, and global temperature anomalies.`</span></a></p>
+<p><a href="#id3"><span class="problematic" id="id4">:mark:`– start popout Ch3.2 Introductory information`</span></a></p>
+</section>
+<section id="natural-climate-variability-versus-climate-change">
+<h1><strong>Natural Climate Variability versus Climate Change</strong><a class="headerlink" href="#natural-climate-variability-versus-climate-change" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="drafts/media/ch3_2/image13.jpg"><img alt="Ice core from Antarctica" src="drafts/media/ch3_2/image13.jpg" style="width: 6.25in; height: 4.58333in;" /></a></p>
+<p>Scientists have explored past global temperature trends using proxy
+data—tree rings, ice cores, etc.—that show the Earth has had numerous
+and somewhat irregular swings in temperature over the past several
+hundred thousand years. Those swings in temperature contribute to
+variations in other natural phenomena such as streamflow.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image9.jpg"><img alt="Map of Colorado River Basin." src="drafts/media/ch3_2/image9.jpg" style="width: 6.25in; height: 4.58333in;" /></a></p>
+<p>To take one example, tree ring analysis can be used to reconstruct
+streamflow in the rivers of the western United States. This has been
+done for rivers such as the Colorado River at Lee’s Ferry, in the state
+of Arizona.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image4.jpg"><img alt="A reconstruction of streamflow for the Colorado River at Lees Ferry based on tree ring data." src="drafts/media/ch3_2/image4.jpg" style="width: 6.25in; height: 3.65278in;" /></a></p>
+<p>The reconstructed streamflow shows large swings in annual streamflow
+volume on the Colorado River. Multi-year periods of wet and dry can be
+seen in the 25-year running mean of the annual streamflow.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image40.jpg"><img alt="Graph of temperatures and CO2 concentrations for the past 800,000 years" src="drafts/media/ch3_2/image40.jpg" style="width: 6.45833in; height: 3.59722in;" /></a></p>
+<p>Ice cores, on the other hand, can provide a depiction of changes in
+global temperature and CO<sub>2</sub> levels over the past several hundred
+thousand years. This graphic shows that warmer periods coincide with
+higher levels of CO<sub>2</sub>.</p>
+<p>Carbon dioxide levels have naturally fluctuated between 180 parts per
+million (ppm) and 280 ppm. This is an example of a naturally occurring
+climate forcing. Human industrialization has been a major source of the
+increase in CO<sub>2</sub> in the most recent century, with average annual
+concentrations exceeding 420 ppm in 2024. This is an example of
+anthropogenic forcing. We can see how carbon dioxide concentration has
+continued to rise over the last decade, as seen in the black line in the
+figure below.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image45.jpg"><img alt="Red line shows annual fluctuation in CO2 Concentration from 2012-2016. Black line shows the smoothed upward trend." src="drafts/media/ch3_2/image45.jpg" style="width: 6.5in; height: 5.01389in;" /></a></p>
+<p>Trajectories of past global mean temperatures have been estimated using
+experiments conducted with Atmosphere-Ocean General Circulation Models
+(AOGCMs). Experiments that do not incorporate anthropogenic forcing
+produce the trajectory shown with the blue line and the light blue
+uncertainty bounds in the figure below.</p>
+<p>The black line shows the observed global mean temperatures. You can see
+that the experiments that do not include anthropogenic forcings fail to
+reproduce the warming that has been observed over the past half century.</p>
+<p>Experiments were also run that do include anthropogenic forcings. This
+trajectory is shown with the red line and pink uncertainty bounds. You
+can see that when anthropogenic forcings are included, the global
+climate models do produce results that very closely match the observed
+warming trends. This suggests that anthropogenic factors have emerged as
+a significant contributor to global warming.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image5.jpg"><img alt="Models of 20th century climate run with and without anthropogenic greenhouse gases" src="drafts/media/ch3_2/image5.jpg" style="width: 6.25in; height: 4.58333in;" /></a></p>
+<p><a href="#id5"><span class="problematic" id="id6">:mark:`– stop popout Ch3.2 Introductory information`</span></a></p>
+<p><strong>Climate variability</strong></p>
+<p>When accounting for climate change impacts on research in water and
+environmental studies, it is important to differentiate between climate
+variability, for which the past can be a guide, and climate change,
+where the past is not necessarily a good predictor as climate change
+involves changes to this natural variability. Starting off this section,
+we will review some of the natural climate cycles and occurrences.</p>
+<p><a href="#id7"><span class="problematic" id="id8">:mark:`– start popout Ch3.2 Regular climate cycle`</span></a></p>
+</section>
+<section id="regular-climate-cycle">
+<h1><strong>Regular Climate Cycle</strong><a class="headerlink" href="#regular-climate-cycle" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="drafts/media/ch3_2/image3.jpg"><img alt="image1" src="drafts/media/ch3_2/image3.jpg" style="width: 6.5in; height: 3.65278in;" /></a></p>
+<p>The most regular climate cycle is the change of seasons. The seasons
+determine the times of year when precipitation may be most abundant,
+evapotranspiration will peak, tropical cyclones are most likely to form,
+and snowpack accumulates and melts. Although the change of seasons is
+very dependable, there is often year-to-year variation.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image39.jpg"><img alt="before" src="drafts/media/ch3_2/image39.jpg" style="width: 5.17188in; height: 5.72399in;" /></a><a class="reference internal" href="drafts/media/ch3_2/image19.jpg"><img alt="after" src="drafts/media/ch3_2/image19.jpg" style="width: 5.58333in; height: 5.60938in;" /></a></p>
+<p>To illustrate natural season-to-season variability, here we see
+differences in snowpack on the first of April in two consecutive years.
+The 2011 analysis shows large areas with above average snowpack in the
+central Rocky Mountain region and California Sierra Nevada Range in the
+United States. In 2012, these same areas had abnormally low snowpack,
+reflecting a less productive snow season. Good research planning allows
+for such variation. But will the expected range of snowpack change as
+the climate warms?</p>
+<p><a href="#id9"><span class="problematic" id="id10">:mark:`– stop popout Ch3.2 Regular climate cycle`</span></a></p>
+<p>When speaking of climate change, we are referring to changes in average
+weather conditions that persist over multiple decades or longer. Climate
+change encompasses both increases and decreases in temperature, as well
+as shifts in precipitation, changes in frequency and location of severe
+weather events, and changes to other features of the climate system.The
+principal natural drivers of climate change (which are also termed
+external natural forcings), include changes in incoming solar radiation
+(through solar cycles), volc:mark:<cite>anic activity, orbital cycles, and
+changes in global biogeochemical cycles.</cite></p>
+<p><a href="#id11"><span class="problematic" id="id12">:mark:`– start popout Ch3.2 Irregular climate impacts`</span></a></p>
+</section>
+<section id="irregular-climate-impacts">
+<h1><strong>Irregular Climate Impacts</strong><a class="headerlink" href="#irregular-climate-impacts" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="drafts/media/ch3_2/image42.jpg"><img alt="Time series, observed, (1880-2000) of Global Temperature Change Relative to 1870-1899 Baseline with Five Major Volcanoes Indicated" src="drafts/media/ch3_2/image42.jpg" style="width: 6.5in; height: 2.33333in;" /></a></p>
+<p>Major volcanic eruptions are irregular natural climate events. In this
+global temperature time series, we can see how the sun-shielding
+properties of atmospheric aerosols from volcanic eruptions result in
+decreased global average temperatures. Notice how Mt. Pinatubo’s 1991
+eruption decreased global average temperatures for 1-2 years.</p>
+<p><a href="#id13"><span class="problematic" id="id14">:mark:`– stop popout Ch3.2 Irregular climate impacts`</span></a></p>
+<p><a href="#id15"><span class="problematic" id="id16">:mark:`– start popout Ch3.2 Very long-term climate variability`</span></a></p>
+</section>
+<section id="very-long-term-climate-variability">
+<h1><strong>Very Long-term Climate Variability</strong><a class="headerlink" href="#very-long-term-climate-variability" title="Link to this heading"></a></h1>
+<p>There are much longer climate variability cycles associated with changes
+in the Earth’s orbital eccentricity and its tilt with respect to the
+Sun.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image44.jpg"><img alt="Graphic showing Milankovitch cycles" src="drafts/media/ch3_2/image44.jpg" style="width: 6.5in; height: 4.875in;" /></a></p>
+<p>These cycles, known as the Milankovitch Cycles, lead to big changes in
+the amount and distribution of solar energy on the Earth’s surface. The
+global temperature during these long-duration cycles ranges from being
+much colder (the ice ages) to much warmer than the current global
+average temperature.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image40.jpg"><img alt="Graph of temperatures and CO2 concentrations for the past 800,000 years" src="drafts/media/ch3_2/image40.jpg" style="width: 6.45833in; height: 3.59722in;" /></a></p>
+<p>Milankovitch Cycles unfold on timescales much longer than a human life
+span, from tens to hundreds of thousands of years. The rate of change
+associated with the Milankovitch Cycles is so slow that it will not
+impact water research planning for the next century or so.</p>
+<p><a href="#id17"><span class="problematic" id="id18">:mark:`– stop popout Ch3.2 Very long-term climate variability`</span></a></p>
+<p><a href="#id19"><span class="problematic" id="id20">:mark:`Major anthropogenic drivers include atmospheric aerosols (fine
+solid particles or liquid droplets), land-use change, and CO2 and
+non-CO2 greenhouse gasses. The natural and anthropogenic drivers taken
+together make up what are called climate forcings.`</span></a></p>
+<p>— start popout Ch3.2 Climate forcings</p>
+</section>
+<section id="climate-forcings">
+<h1><strong>Climate Forcings</strong><a class="headerlink" href="#climate-forcings" title="Link to this heading"></a></h1>
+<p><a href="#id21"><span class="problematic" id="id22">:mark:`In this pop-out, we will examine how a number of forcings (both
+natural and anthropogenic) have influenced the energy balance between
+the Earth and Sun from 1880 to 2014, determining if each forcing has had
+a warming effect (in which case the forcing goes above the zero change
+line) or a cooling effect (in which case the forcing goes below the zero
+change line).`</span></a></p>
+</section>
+<section id="natural-factors">
+<h1><strong>Natural Factors</strong><a class="headerlink" href="#natural-factors" title="Link to this heading"></a></h1>
+<p>Solar irradiance leads to some cyclic warming, but has a very small
+magnitude.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image24.jpg"><img alt="Exploring the Impact of Climate Forcings on Global Energy Balance" src="drafts/media/ch3_2/image24.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p>Volcanic eruptions have a notable cooling impact due to increased
+atmospheric albedo triggered by reflective volcanic aerosols. The
+cooling from volcanoes in the period examined was temporary, never
+lasting more than a few years. And, they had no real impact on the
+long-term trend.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image25.jpg"><img alt="image2" src="drafts/media/ch3_2/image25.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id23"><span class="problematic" id="id24">:mark:`What effect does a typical large volcano have on carbon dioxide
+concentration compared to the effect from human activity? The diagram
+shows that in a typical year, the CO2 emissions from anthropogenic
+sources is 135 times greater than those from volcanoes, with some
+studies showing even greater differences. Even the 1991 eruption of Mt
+Pinatubo put roughly 1/500th of the 2010 emissions from anthropogenic
+activity into the atmosphere.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image15.jpg"><img alt="Comparison of the typical annual CO2 output from global volcanic activity versus human activity." src="drafts/media/ch3_2/image15.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+</section>
+<section id="mark-land-use">
+<h1><strong>:mark:`Land Use`</strong><a class="headerlink" href="#mark-land-use" title="Link to this heading"></a></h1>
+<p><a href="#id25"><span class="problematic" id="id26">:mark:`Now we'll look at the Land Use Forcings. What impact does land
+use have on the solar energy absorbed at the Earth’s surface?`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image38.jpg"><img alt="image3" src="drafts/media/ch3_2/image38.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id27"><span class="problematic" id="id28">:mark:`Land use leads to very small decreases in the energy absorbed at
+the surface, or small amounts of cooling. That’s because replacing
+forests with agricultural or urban land tends to increase the surface
+albedo and reflect more solar energy back to space.`</span></a></p>
+</section>
+<section id="climate-forcings-what-is-albedo">
+<h1><strong>Climate Forcings – What is Albedo</strong><a class="headerlink" href="#climate-forcings-what-is-albedo" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="drafts/media/ch3_2/image26.jpg"><img alt="California/Nevada January Snowcover Comparison: 2013 versus 2014" src="drafts/media/ch3_2/image26.jpg" style="width: 6.5in; height: 3.66667in;" /></a></p>
+<p>Albedo is a measure of how well a surface can reflect solar energy.
+Reflective surfaces, like snow, ice, and clouds, have high albedo and
+are efficient at reflecting solar energy back to space. In the satellite
+images centered on the Sierra Nevada, snow and clouds have very high
+albedo and appear white. You can see that there may be large
+year-to-year differences in snow cover and thus the albedo. Even desert
+sands have high albedo and show up as relatively bright in this visible
+satellite imagery.</p>
+<p>Dark colored surfaces have low albedo and absorb solar energy. This
+impacts the solar energy absorbed by Earth. Forest areas appear dark on
+visible satellite images, and are more efficient at absorbing solar
+energy. Bodies of water appear very dark and have very low albedos.</p>
+</section>
+<section id="mark-anthropogenic-aerosols">
+<h1><strong>:mark:`Anthropogenic Aerosols`</strong><a class="headerlink" href="#mark-anthropogenic-aerosols" title="Link to this heading"></a></h1>
+<p><a href="#id29"><span class="problematic" id="id30">:mark:`Now we’ll look at the impact of Anthropogenic Aerosols (those
+resulting from human activity). What kind of impacts are related to
+anthropogenic aerosols?`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image27.jpg"><img alt="image4" src="drafts/media/ch3_2/image27.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id31"><span class="problematic" id="id32">:mark:`Anthropogenic aerosols have both warming and cooling impacts.
+That's because different aerosols have opposite effects on albedo. Dark
+particulates, such as black carbon, decrease albedo and increase
+absorption of solar energy, resulting in a warming effect. This occurs
+in the atmosphere as a whole, but also when black carbon settles out on
+otherwise reflective surfaces, such as snow and ice.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image12.jpg"><img alt="image5" src="drafts/media/ch3_2/image12.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<section id="mark-other-aerosols-in-the-atmosphere-are-reflective-and-increase-atmospheric-albedo-this-can-occur-from-the-aerosols-themselves-reflecting-sunlight-back-to-space-or-from-aerosol-enhancement-of-cloud-development-an-indirect-effect-cloud-tops-have-high-albedo-and-reflect-solar-energy-back-to-space">
+<h2><a href="#id33"><span class="problematic" id="id34">:mark:`Other aerosols in the atmosphere are reflective and increase atmospheric albedo. This can occur from the aerosols themselves reflecting sunlight back to space, or from aerosol enhancement of cloud development (an indirect effect). Cloud tops have high albedo and reflect solar energy back to space.`</span></a><a class="headerlink" href="#mark-other-aerosols-in-the-atmosphere-are-reflective-and-increase-atmospheric-albedo-this-can-occur-from-the-aerosols-themselves-reflecting-sunlight-back-to-space-or-from-aerosol-enhancement-of-cloud-development-an-indirect-effect-cloud-tops-have-high-albedo-and-reflect-solar-energy-back-to-space" title="Link to this heading"></a></h2>
+<p><a href="#id35"><span class="problematic" id="id36">:mark:`What has the overall impact of anthropogenic aerosols been?`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image14.jpg"><img alt="image6" src="drafts/media/ch3_2/image14.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id37"><span class="problematic" id="id38">:mark:`The reflective anthropogenic aerosols dominate and thus the
+impact of all anthropogenic aerosols leads to climate cooling.`</span></a></p>
+</section>
+</section>
+<section id="mark-greenhouse-gases">
+<h1><strong>:mark:`Greenhouse Gases`</strong><a class="headerlink" href="#mark-greenhouse-gases" title="Link to this heading"></a></h1>
+<p><a href="#id39"><span class="problematic" id="id40">:mark:`Now we’ll look at the impact of Greenhouse Gases. All of the
+greenhouse gases result in a warming trend. Well-mixed gases, such as
+carbon dioxide, methane, and nitrous oxide, have the greatest impact,
+and this impact is increasing with time.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image34.jpg"><img alt="image7" src="drafts/media/ch3_2/image34.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id41"><span class="problematic" id="id42">:mark:`The magnitude of the warming from greenhouse gas forcing is
+greater than the notable cooling effect from reflective aerosols.`</span></a></p>
+</section>
+<section id="mark-all-forcings">
+<h1><strong>:mark:`All Forcings`</strong><a class="headerlink" href="#mark-all-forcings" title="Link to this heading"></a></h1>
+<p><a href="#id43"><span class="problematic" id="id44">:mark:`Now we’ll look at all forcings combined.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image17.jpg"><img alt="image8" src="drafts/media/ch3_2/image17.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id45"><span class="problematic" id="id46">:mark:`When all variables are included in one time series, the trend
+induced by greenhouse gas forcing is clear. Net climate forcing has
+increased by 1 to 2 Watts per square meter since pre-industrial times,
+leading to the warming of the Earth by 1ºC (1.8ºF) through 2015. The
+warming effect induced by greenhouse gases has been tempered by the
+overall cooling effect of anthropogenic aerosols, and occasional
+short-duration cooling from volcanic aerosols.`</span></a></p>
+</section>
+<section id="mark-climate-change-and-climate-forcings">
+<h1><strong>:mark:`Climate Change and Climate Forcings`</strong><a class="headerlink" href="#mark-climate-change-and-climate-forcings" title="Link to this heading"></a></h1>
+<p><a href="#id47"><span class="problematic" id="id48">:mark:`As we’ve seen, anthropogenic climate forcings result in a steady
+trend in global warming, with short-term variations caused by natural
+factors. Anthropogenic forcings have led to both global cooling (from
+reflective aerosols) and warming (from greenhouse gases) but the warming
+dominates over periods of multiple decades or longer.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image11.jpg"><img alt="Time series, observed and projected, (1880-2099) of Global Temperature Change Relative to 1870-1899 Baseline" src="drafts/media/ch3_2/image11.jpg" style="width: 6.5in; height: 2.04167in;" /></a></p>
+<p><a href="#id49"><span class="problematic" id="id50">:mark:`By the middle part of the 21st century, even the cooling impact
+from notable volcanoes like Krakatau and Pinatubo won’t be able to
+temporarily cool the average global temperature to average 20th-century
+levels according to climate model projections.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image40.jpg"><img alt="Graph of temperatures and CO2 concentrations for the past 800,000 years" src="drafts/media/ch3_2/image40.jpg" style="width: 6.45833in; height: 3.59722in;" /></a></p>
+<p><a href="#id51"><span class="problematic" id="id52">:mark:`When viewed in the context of Earth's average temperature over
+hundreds of thousands of years, the current warming is on par with some
+past epochs. But the increase in carbon dioxide, the most abundant
+anthropogenic greenhouse gas, is much greater than in past warm periods.
+This suggests that our very rapid warming--and it is very rapid on the
+geologic time scale--is just beginning. This greenhouse gas-induced
+warming is likely to dwarf the cooling factors as we move through the
+21st century.`</span></a></p>
+<p>— stop popout Ch3.2 Climate forcings</p>
+<p>The pop-out below discusses how the components of the energy cycle are
+expected to change over the next few decades based on anthropogenic
+changes to specific forcings.</p>
+<p>— start popout Ch3.2 Climate forcings impact on energy balance</p>
+</section>
+<section id="climate-forcings-impact-on-energy-balance">
+<h1><strong>Climate Forcings Impact on Energy Balance</strong><a class="headerlink" href="#climate-forcings-impact-on-energy-balance" title="Link to this heading"></a></h1>
+<p>In this pop-out we discuss how the components of the energy cycle are
+expected to change over the next few decades based on anthropogenic
+changes to specific forcings (discussed in previous pop-outs), while
+assuming continued emissions of greenhouse gases:</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image28.jpg"><img alt="The Earth-Sun Energy Balance, annotated for an exercise" src="drafts/media/ch3_2/image28.jpg" style="width: 6.5in; height: 4.58333in;" /></a></p>
+<ul class="simple">
+<li><p>Incoming solar radiation (1) should stay the same over the time
+period of decades.</p></li>
+<li><p>Total reflected solar radiation from Earth (2 and 4) is uncertain.
+Increases in reflected solar energy are likely given that reflective
+aerosols and/or cloud cover continue to increase. But the uncertainty
+is because surface albedo should decrease with the continued loss of
+snow and ice.</p></li>
+<li><p>The amount of solar energy absorbed at the ground is uncertain. Of
+the solar radiation that reaches the surface, a greater proportion is
+likely to be absorbed (3) due to the continued loss of snow and ice,
+but increases in reflective aerosols and clouds could reduce the
+amount of solar energy reaching the ground.</p></li>
+<li><p>As the global land and ocean surfaces (5) continue to warm on
+average, the radiative energy from the surface should continue to
+increase.</p></li>
+<li><p>Increasing greenhouse gases (6) will likely increase the amount of
+terrestrial radiation that is radiated back to the surface.</p></li>
+<li><p>The longwave radiation leaving the Earth (7) should decrease because
+more is being trapped by the atmosphere.</p></li>
+<li><p>It is important to note that the answers for all of the longwave
+fluxes could be different if rapid emissions reduction occurs.</p></li>
+</ul>
+<p>— stop popout Ch3.2 Climate forcings impact on energy balance</p>
+<p><a href="#id53"><span class="problematic" id="id54">:mark:`In addition to these secular changes to the climate, there is
+also variability that originates from natural processes within the
+coupled ocean-atmosphere-cryosphere-land-biosphere system that is
+generally termed internally generated variability, arising primarily
+from the uneven distribution of energy across the planet at any given
+time (Lehner and Deser, 2023). A primary source of internal variability
+is the atmospheric general circulation with its day-to-day and
+week-to-week weather fluctuations with limits to their predictability
+past a couple of weeks, and can be termed random- or stochastic
+processes past those limits. In general, the climate system is highly
+variable at regional scales, and that such internally-generated
+variability is irregular in time and carries limited predictability.
+Processes arising from the coupling between the ocean and atmosphere are
+also important sources of internally generated variability that give
+rise to distinctive patterns (or “modes”) of variability on interannual
+and longer timescales (Deser and Phillips, 2023). Examples include the
+interannual events of El Niño Southern Oscillation (ENSO); and the
+Pacific Decadal Oscillation (PDO) and the Atlantic Multidecadal
+Oscillation (AMO) patterns which can influence regional climate
+conditions, such as droughts or cooling periods. It is a central
+scientific challenge to identify anthropogenic influences on weather and
+climate amidst this background of internal variability (Deser et al.,
+2020).`</span></a></p>
+<p><a href="#id55"><span class="problematic" id="id56">:mark:`– start popout Ch3.2 Semiregular climate cycles`</span></a></p>
+</section>
+<section id="semiregular-climate-cycles">
+<h1><strong>Semiregular Climate Cycles</strong><a class="headerlink" href="#semiregular-climate-cycles" title="Link to this heading"></a></h1>
+<p>Recurring, but less regular, climate cycles often have a large influence
+on how the seasonal climate variations play out.</p>
+<p>A well known, semi-regular climate cycle is associated with the El Niño
+Southern Oscillation (ENSO). ENSO can have a significant impact on
+precipitation and temperature in many regions of the world in a cycle
+that recurs roughly every 3-4 years.</p>
+<p>In the contiguous United States, the ENSO cycle can have large
+influences on precipitation distribution, especially in the cool season.</p>
+<p>Below we see the typical impacts of El Niño versus La Niña on both the
+sea surface temperature anomalies of the tropical Pacific Ocean, and the
+November through March precipitation in the contiguous United States.
+The difference can be very important for snowpack and the potential for
+regional floods and drought. There are differences from one cycle to the
+next, but these composite maps provide guidance based on historic data.
+Note that La Niña typically results in a drier winter across a broader
+area than El Niño.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image31.jpg"><img alt="image9" src="drafts/media/ch3_2/image31.jpg" style="width: 5.85938in; height: 8.20313in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image41.jpg"><img alt="image10" src="drafts/media/ch3_2/image41.jpg" style="width: 6.40104in; height: 8.66756in;" /></a></p>
+<p>Like ENSO, there are other natural atmospheric and oceanic cycles that
+have regional impacts on precipitation and temperature, including the
+Pacific Decadal Oscillation (PDO), as seen below. And like ENSO, local
+research planning typically considers the range of variations that these
+cycles cause.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image10.jpg"><img alt="(a) Typical wintertime SST (colors), sea level pressure (contours), and surface windstress (arrows) anomaly during warm and cool phases of PDO. (b) Monthly PDO index from 1925 to Sep 2006" src="drafts/media/ch3_2/image10.jpg" style="width: 5.45833in; height: 5.69444in;" /></a></p>
+<p><a href="#id57"><span class="problematic" id="id58">:mark:`– stop popout Ch3.2 Semiregular climate cycles`</span></a></p>
+<p><a href="#id59"><span class="problematic" id="id60">:mark:`Natural climate variability can temporarily obscure or intensify
+anthropogenic climate change on decadal time scales, especially in
+regions with large internal interannual-to-decadal variability. Both the
+rate of long-term change and the amplitude of interannual (year-to-year)
+variability differ between global, regional and local scales, between
+regions and across climate variables, thus influencing when changes
+become apparent. As an example, tropical regions have experienced less
+warming than most others, but also exhibit smaller interannual
+variations in temperature. Accordingly, the signal of change is more
+apparent in tropical regions than in regions with greater warming but
+larger interannual variations (IPCC WG1).`</span></a></p>
+<p><a href="#id61"><span class="problematic" id="id62">:mark:`The relative influence of natural and anthropogenic-induced
+variability is also dependent on the spatial scale of the system being
+examined. In general, the signs of climate change are unequivocal at the
+global scale but are more difficult to discern on smaller spatial
+scales. Discernible changes also depend on the climate variable. For
+example, changes in average rainfall are becoming clear in some regions,
+but not in others, mainly because natural year-to-year variations in
+precipitation tend to be large relative to the magnitude of the
+long-term trends.`</span></a></p>
+<p><a href="#id63"><span class="problematic" id="id64">:mark:`The case study in the pop-out below of surface temperature
+changes over time provides a visualization of natural variability and
+its sensitivity to spatial- and temporal-scales, along with sensitivity
+and detection of secular anomalies and trends.`</span></a></p>
+<p>— start popout Ch3.2 Natural variability case study</p>
+</section>
+<section id="natural-variability-case-study">
+<h1><strong>Natural Variability Case Study</strong><a class="headerlink" href="#natural-variability-case-study" title="Link to this heading"></a></h1>
+<p><a href="#id65"><span class="problematic" id="id66">:mark:`This case study provides a visual sense for the natural
+variability in long-term temperature trends across time-scales and
+spatial-scales, and the discernment of significant changes outside of
+this natural variability. Shown in the two figures below are the surface
+temperature trends since 1880 comparing the observed temperature record
+of two domains: 1) “Global: Land + Ocean” (first figure) and, 2)
+“Global: Land Only” (second figure). The blue line in the graph depicts
+the global mean annual temperature anomalies from 1880 to 2014. An
+“anomaly” is simply the departure of a temperature from a baseline, in
+this case the average temperature. For example, if the average
+temperature for today is 15°C but the actual temperature is 18°C, then
+the temperature anomaly is +3°C. If the actual temperature was 12°C,
+then the anomaly would be -3°C. In these two times series, the anomalies
+are based on the 30-year average from 1951-1980. Therefore, the
+anomalies show the departure of each average annual temperature from
+that 30-year average. The red line represents the trend for the entire
+1880-2014 period. You can see year-to-year variability in the anomalies,
+as well as variability on the decadal time scale.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image33.jpg"><img alt="image11" src="drafts/media/ch3_2/image33.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image6.jpg"><img alt="image12" src="drafts/media/ch3_2/image6.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id67"><span class="problematic" id="id68">:mark:`The overall warming trend (red line) for “Global: Land Only” is a
+bit steeper than “Global: Land + Ocean”. The “Land Only” trend shows
+more than a +0.5°C departure from the mean by 2014, while the &quot;Land +
+Ocean” trend shows a little less than a +0.5°C departure. Due to the
+oceans' ability to store heat, the global warming trend is a bit slower
+when they are included. This, then, also highlights the dependence of
+land temperature variability on its proximity to large water bodies.`</span></a></p>
+<p><a href="#id69"><span class="problematic" id="id70">:mark:`Below we highlight the dependence on the variability to (smaller)
+spatial scale, showing the trend for the Contiguous United States.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image8.jpg"><img alt="image13" src="drafts/media/ch3_2/image8.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id71"><span class="problematic" id="id72">:mark:`The “Contiguous United States” trend shows a little less rapid
+warming than the “Global: Land Only&quot; areas, but the year-to-year
+variability is much greater. Generally, the variability will continue to
+increase as the spatial domain covered decreases. The 48 contiguous
+states make up only 1.6% of the global surface and are not, by
+themselves, a good measure of global trends.`</span></a></p>
+<p><a href="#id73"><span class="problematic" id="id74">:mark:`Next we focus on the dependence of trend on time period, and
+again examine the “Global: Land + Ocean” domain (shown below). If we
+were to fit 10-year trend lines over differing periods of this record,
+one would find 10-year periods with upward, downward, and no trend in
+temperature. For example, the decade of 1941-1950 shows distinct
+cooling, while the overlapping decade of 1933-1942 shows very distinct
+warming. Since the mid-20th century, 10-year temperature trends are
+mainly warming, although there are flat periods as well as year-to-year
+variation (noting that the last 10-year period shown in the graph below,
+2005-2014, has no trend but is warmer than every other 10-year period in
+the 20th century). Internal variability drivers are the predominant
+mechanisms for this year-by-year, decadal-by-decadal trend variability
+and the motivation to “smooth over” this variability is one reason why
+both the World Meteorological Organization (WMO) and the National
+Oceanic and Atmospheric Administration (NOAA) represent 30 years as the
+period of time used to define a climate station’s “climate normals”.
+Note that one of the “climate normal” periods is shown below covering
+1938-1967.`</span></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image37.jpg"><img alt="image14" src="drafts/media/ch3_2/image37.jpg" style="width: 6.5in; height: 3.05556in;" /></a></p>
+<p><a href="#id75"><span class="problematic" id="id76">:mark:`Interestingly, during this 30-year period (1938-1967) the global
+surface temperature actually decreased by about 0.1°C, and was caused by
+the backscattering to space of sulfate particles from the increased
+burning of fossil fuels, and was thus a cooling anthropogenic climate
+driver. However, this trend stopped once the United States and other
+countries began to lower sulfur emissions in the 1970s to reduce acid
+rain and respiratory illnesses (since 1975, the average global
+temperature has risen by about 0.15-0.2°C per decade). This observed
+cooling effect is one reason why the injection of sulfate aerosols into
+the upper atmosphere is actively being considered as one mechanism of
+geoengineering to limit global warming.`</span></a></p>
+<p>— stop popout Ch3.2 Natural variability case study</p>
+<p><strong>Detection and Attribution</strong></p>
+<p>Detection and Attribution is a complex scientific discipline, so below
+we provide only an overview of this field along with some of the more
+common detection and attribution approaches, and refer the reader to the
+following resources for more detailed information (the latter three from
+which we draw much of the material presented below):</p>
+<ul class="simple">
+<li><p>The International Detection and Attribution Group (IDAG;
+<a class="reference external" href="http://www.image.ucar.edu/idag/">http://www.image.ucar.edu/idag/</a> and
+<a class="reference external" href="http://www.clivar.org/clivar-panels/etccdi/idag/international-detection-attribution-group-idag">http://www.clivar.org/clivar-panels/etccdi/idag/international-detection-attribution-group-idag</a>),
+an international group of scientists who have collaborated since 1995
+on assessing and reducing uncertainties in the estimates of climate
+change.</p></li>
+<li><p>Contribution of Working Group I to the Sixth Assessment Report of the
+Intergovernmental Panel on Climate Change (IPCC, 2021), Chapter 1
+(Chen et al., 2021), Chapter 3 (Eyring et al., 2021), Chapter 10
+(Doblas-Reyes et al., 2021), and Chapter 11 (Seneviratne et al.,
+2021).</p></li>
+<li><p>The Fourth National Climate Assessment Volume I (USGCRP, 2017),
+Chapter 3 (Knutson et al., 2017) and Appendix C (Knutson, 2017).</p></li>
+<li><p>The National Academies of Sciences, Engineering, and Medicine. 2016.
+Attribution of Extreme Weather Events in the Context of Climate
+Change (NAS, 2016)</p></li>
+</ul>
+<p><em>Detection –</em> Detection and attribution are two important concepts in
+the field of climate science, particularly when studying climate change.
+Detection refers to the process of demonstrating that some aspect of
+climate has changed in some statistical sense, without providing a
+reason for that change. It is about identifying a significant change in
+the climate system (temperature, precipitation, wind patterns, shifts in
+seasonal cycles, etc.) that is above and beyond the natural internal
+variability of the system. Detection does not imply understanding the
+cause of changes; it’s about observing (or making a determination beyond
+a level of significance) that a change has occurred, and provides the
+basis for attributing these changes to specific causes, such as human
+activities. Because of the presence of natural variability and other
+noise in the data under study, distinguishing a climate-change induced
+signal is more often a statistical process (e.g. a detectable observed
+change is one which is determined to be highly unlikely to occur – say,
+less than about a 10% chance – due to internal variability alone).</p>
+<p>The popout below provides an overview of the changes in climate variable
+statistical distributions that could result from climate change. In
+context of detection, there are a variety of statistical tests that can
+be used to test the significance of differences between distributions
+(e.g. the Kolmorgorav-Smirnov two sample test that two data samples come
+from the same distribution; NIST, 2023; Chakravart et al., 1967; Press
+et al., 1992).</p>
+<p>– start popout 3.2 Climate change and extremes</p>
+</section>
+<section id="climate-change-and-extremes">
+<h1><strong>Climate Change and Extremes</strong><a class="headerlink" href="#climate-change-and-extremes" title="Link to this heading"></a></h1>
+<p>Just as changes in annual and seasonal mean temperature and
+precipitation are very important to water research and resources,
+depending on the particular focus of the planning, changes in short
+duration extremes can be very important too. Extremes can have direct
+impacts on habitat, and pose risks to infrastructure. It is important to
+get a sense for what extremes represent from a statistical standpoint.
+<a href="#id77"><span class="problematic" id="id78">:mark:`Extreme weather is a bit relative. For example, a hot day in
+Wyoming would be considered a mild one in Arizona. And we don't
+generally notice changes in climate because most weather falls within
+the range of what is expected. It is mainly the extreme events that get
+our attention—events that are outside our normal experience and that
+often inflict human suffering. So how might global warming affect
+climate extremes and extreme weather? There are several possible ways.`</span></a></p>
+<p>Temperature at a given location can be roughly represented with a bell
+curve or a normal distribution, similar to the top panel in the figure
+below, <a href="#id79"><span class="problematic" id="id80">:mark:`with the majority of the observations in the middle,`</span></a> hot
+and cold events in the tails of the curve, <a href="#id81"><span class="problematic" id="id82">:mark:`but with rare events
+of extremely cold or extremely warm temperatures at the ends.`</span></a>
+<a href="#id83"><span class="problematic" id="id84">:mark:`Global warming could shift the distribution to the right`</span></a> when
+the average temperature increases. Temperatures that used to be
+unusually high become more common, while heat levels not reached before
+become more probable. Cold extremes still occur, but become less common.
+Although not shown here, a:mark:<cite>nother possibility is that climate
+change increases the variance (or width) in the distribution of
+temperature—in other words, it increases the range of possibilities at
+both ends of the distribution. Or climate change could result in a
+combination of the two types of distributions. We don’t *a priori* know
+exactly how the distributions of weather variables in each specific
+location will be impacted.</cite></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image1.jpg"><img alt="Graphic depicting how a warmer climate affects extremes in temperature and precipitation" src="drafts/media/ch3_2/image1.jpg" style="width: 3.52778in; height: 3.90278in;" /></a></p>
+<p>Precipitation curves have only one tail for the extreme precipitation
+events, as shown in the bottom panel of the figure above <a href="#id85"><span class="problematic" id="id86">:mark:`(with
+the two-parameter gamma traditionally used; Ye et al., 2018)`</span></a>. In a
+warmer climate with more atmospheric water vapor, generally, more
+intense precipitation events become more common. Recent observations
+back this up, with high-end precipitation events becoming less rare than
+they have been, in general.</p>
+<p>– stop popout 3.2 Climate change and extremes</p>
+<p><em>Attribution –</em> On the other hand, attribution deals with determining
+the most likely causes for those detected changes in the climate. This
+involves assessing the various natural and anthropogenic (human-induced)
+factors that could have led to the observed changes, with these often
+complex, interacting factors that can range in scales from molecular to
+global, seconds to millennia. Attribution studies can use statistical
+tests as well as climate models, to evaluate the relative contributions
+of various causes to climate change (along with an assignment of
+statistical confidence), like greenhouse gas emissions, solar radiation,
+and volcanic activity, with the latter (coupled climate models) being an
+especially powerful tool with potential to turn on and off factors in
+controlled numerical simulations of the areas and events of interest. A
+supporting concept is the idea of emergence of a climate change signal
+or trend, referring to when a change in climate (the ‘signal’) becomes
+larger than the amplitude of natural or internal variations (defining
+the ‘noise’) (AR6). This concept is often expressed as a
+‘signal-to-noise’ ratio (S/N) and emergence occurs at a defined
+threshold of this ratio (e.g., S/N &gt;1 or 2) (Chen et al., 2021).</p>
+<p><em>Elements of a Detection and Attribution Study –</em> The AR6 Cross-Working
+Group Box on Attribution (Hope et al., 2021) provides a brief discussion
+and figure (reproduced below), on <em>Steps towards an attribution
+assessment</em>; and a similar discussion on four core elements to any
+detection and attribution study is also provided in AR5 WG1 (Bindoff et
+al., 2013: <em>10.2.1 The Context of Detection and Attribution</em>). Taken
+together the following general steps are identified: a) the unambiguous
+framing of what changes are being attributed to; b) clearly define the
+indicators of the observed change or event, including observations of
+one or more climate variables, such as surface temperature, that are
+understood, on physical grounds, to be relevant to the process in
+question, and note the quality of the observations; c) the
+identification of the possible and plausible drivers of change,
+including an estimate of how external drivers of climate change have
+evolved before and during the period under investigation, including both
+the driver whose influence is being investigated (such as rising
+greenhouse gas levels) and potential confounding influences (such as
+solar activity); d) the development of a hypothesis or theory for the
+linkage with a quantitative physically based understanding, normally
+encapsulated in a model, of how these external drivers are thought to
+have affected these observed climate variables; e) and a system or
+method to test the hypothesis or theory, typically including an
+estimate, often but not always derived from a physically based model, of
+the characteristics of variability expected in these observed climate
+variables due to random, quasi-periodic and chaotic fluctuations
+generated in the climate system that are not due to externally driven
+climate change.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image29.png"><img alt="image15" src="drafts/media/ch3_2/image29.png" style="width: 6.5in; height: 7.72222in;" /></a></p>
+<p><em>Figure: :mark:`Cross-Working Group Box: Attribution, Figure 1 |
+Schematic of the steps to develop an attribution assessment, and the
+purposes of such assessments. Methods and systems used to test the
+attribution hypothesis or theory include: model-based fingerprinting;
+other model-based methods; evidence-based fingerprinting; process-based
+approaches; empirical or decomposition methods; and the use of multiple
+lines of evidence. Many of the methods are based on the comparison of
+the observed state of a system to a hypothetical counterfactual world
+that does not include the driver of interest to help estimate the causes
+of the observed response.`</em></p>
+<p><em>Attribution Methods –</em> Concerning the attribution methods or system to
+test the hypothesis or theory, Bindoff et al. (2013) highlight that the
+attribution of observed changes is not possible without some kind of
+model of the relationship between external climate drivers and
+observable variables given that we cannot observe a world in which
+either anthropogenic or natural forcing is absent. Such models may be
+very simple (e.g. a set of statistical assumptions) or very complex
+(e.g. coupled Earth System Model), and that it is not necessary (or
+possible) for them to be correct in all respects, but they must provide
+a physically consistent representation of processes and scales relevant
+to the attribution problem in question.</p>
+<p>Some of the most powerful tools in the attribution process are models of
+the system of interest that use “what if” approaches to isolate the
+impacts of anthropogenic (and other) factors that are hypothesized to be
+driving the changes in the observed record. It is to be noted with very
+high confidence (IPCC, 2021) that the CMIP6 model ensemble reproduces
+the observed historical global surface temperature trend and variability
+with biases small enough to support detection and attribution of
+human-induced warming (Eyring, et al., 2021), and that CMIP6 also
+includes an extensive set of idealized and single forcing experiments
+for attribution (Eyring et al., 2016; Gillett et al., 2016), but with
+the important caveat that numerical models, however complex, cannot be a
+perfect representation of the real world, and their use requires
+considering the limitations of each model simulation (see 1.5.4 in Chen
+et al., 2021). The figure below highlights an earlier effort that used
+the “what if” approach on a global scale, where the impacts of
+anthropogenic forcings are isolated through the use of NCAR’s coupled
+Earth System Model. Trajectories of past global mean temperatures have
+been estimated using experiments that do not incorporate anthropogenic
+forcing produce the trajectory shown with the blue line and the light
+blue uncertainty bounds. The black line shows the observed global mean
+temperatures. You can see that the experiments that do not include
+anthropogenic forcings fail to reproduce the warming that has been
+observed over the past half century. Experiments were also run that do
+include anthropogenic forcings. This trajectory is shown with the red
+line and pink uncertainty bounds. You can see that when anthropogenic
+forcings are included, the global climate models do produce results that
+very closely match the observed warming trends. This suggests that
+anthropogenic factors have emerged as a significant contributor to
+global warming.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image5.jpg"><img alt="image16" src="drafts/media/ch3_2/image5.jpg" style="width: 6.5in; height: 4.47222in;" /></a></p>
+<p>A more recent approach in climate modeling for detection and attribution
+is to run a “Large Ensemble” of historical (and future) simulations,
+where each member of the ensemble is subject to natural+anthropogenic
+external forcings, but starts from a slightly different initial
+condition, which results in a different trajectory of internal
+variability once the memory of the initial state is lost. One can
+estimate the forced component from the ensemble-average at any point in
+time, since the internal component is randomly phased across the
+different members of the ensemble. The figure below (Deser et al., 2020)
+illustrates how the random phasing of internal variability of 60-year
+trends over North America can obscure the forced trend at any given
+location. Note the regional differences in the spatial patterns of the
+trends over this time period (comparing the coldest and warmest ensemble
+members for the same model on the bottom row); and by extension, how
+much greater the natural variability is at these smaller spatial scales.
+Such Large Ensembles, then, provide context for interpreting observed
+trends. In this context, the actual observed trajectory can be
+considered as one realization of many possible alternative worlds that
+experienced different weather. This can also be demonstrated by the
+construction of ‘observation-based large ensembles’, which are alternate
+possible realizations of historical observations that retain the
+statistical properties of observed regional weather (e.g., McKinnon and
+Deser, 2018; Chen, et al., 2021). Referring back to the concept of
+signal-to-noise and to the second panel of the figure, the ratio of the
+mean shift from zero of the distributions (forced signal) compared to
+(some metric of) their spread (internal variability “noise”) provides a
+degree of the emergence in the anthropogenically-forced North America
+heating trend.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image21.jpg"><img alt="image17" src="drafts/media/ch3_2/image21.jpg" style="width: 6.5in; height: 5.22222in;" /></a></p>
+<p><em>Figure: :mark:`The distribution of 60-yr annual temperature trends
+(1951–2010) over North America (24–72° N, 180–62° W) from seven ESM LEs
+(thin curves), 40 different CMIP5 models (grey shading), and
+observations (Berkeley Earth Surface Temperature; vertical black line).
+The maps show the associated patterns of temperature trends: top row,
+observed and the forced component (estimated by the ensemble mean) from
+two LEs (CESM1 in green and MPI in purple); bottom row, individual
+ensemble members from CESM1 (green) and MPI (purple) with the weakest
+(‘coldest’) and strongest (‘warmest’) trends. Note that the individual
+member maps show the total (forced-plus-internal) trends in the model
+LEs. Observed trends are analogous to an individual ensemble member in
+that they reflect forced and internal contributions. From: Deser et al.,
+2020, Nat. Clim. Chang.,` 10, 277-286, doi:10.1038/s41558-020-0731-2,
+Copyright 2020 Nature Climate Change.</em></p>
+<p>Generally, attribution methods are grouped into two categories:
+<em>Attribution of observed climate change to anthropogenic forcing</em> and
+<em>Attribution of weather and climate events to anthropogenic forcing</em>, as
+will the discussion that follows. Because the focus of this primer is on
+climate change impacts on North America water studies, the focus in what
+follows will be on regional approaches to this topic, referencing
+Doblas-Reyes, et al. (2021) for the discussion of <em>Attribution of
+observed climate change to anthropogenic forcing</em>, referencing
+Seneviratne et al. (2021) for <em>Attribution of weather and climate events
+to anthropogenic forcing</em>, and we refer the reader to Eyring et al.
+(2021) for a discussion of the methods used for global-scale studies.</p>
+<p><em>Attribution Methods: Attribution of observed climate change to
+anthropogenic forcing –</em> Here, regional-scale attribution is the process
+of evaluating the relative contributions of multiple causal factors (or
+drivers) to regional climate change. Specific regional conditions and
+responses may simplify or complicate attribution on those scales. In
+general, regional climate variations are larger than the global mean
+climate, adding additional uncertainty to attribution. In contrast with
+global-scale attribution methods where internal variability might be
+considered as a noise problem, the preliminary detection step is not
+always required to perform regional-scale attribution since causal
+factors of regional climate change may also include internal modes of
+variability in addition to external natural and anthropogenic forcing.
+Other complicating factors include an increased similarity among the
+responses to different external forcings leading to a more difficult
+discrimination of their effects, the importance at regional scale of
+some omitted forcings in global model simulations, and model biases
+related to the representation of small-scale phenomena (Zhai et al.,
+2018). These statistical limitations may be reduced by <em>process-based
+(or regional-scale) attribution</em>, focusing on the physical processes
+known to influence the response to external forcing and internal
+variability. We provide a summary of these attribution methodologies in
+what follows, after first noting that these methodologies rely upon the
+availability of high-quality observational datasets as well as
+multi-model simulations of the historical period constrained by
+different external forcing combinations, including single-forcing
+experiments and single-model initial-condition large ensembles (SMILEs).</p>
+<p>Standard approaches include <em>optimal fingerprinting</em> methods that are
+based on multivariate linear regression and assume that the observed
+change consists of a linear combination of externally forced signals
+plus internal variability. The main goal is to determine the extent to
+which observed climate changes can be attributed to specific external
+forcings. The regressors are the expected space–time response patterns
+to different climate forcings (fingerprints), and the residuals
+represent internal variability. Steps in <em>optimal fingerprinting</em>
+include:</p>
+<ol class="arabic simple">
+<li><p>Model Simulation:</p>
+<ul class="simple">
+<li><p>Control Runs: These simulations run climate models with no
+external forcings, representing natural variability.</p></li>
+<li><p>Forced Runs: These simulations include different external forcings
+(e.g., greenhouse gases, aerosols, solar radiation).</p></li>
+</ul>
+</li>
+<li><p>Fingerprint Identification:</p>
+<ul class="simple">
+<li><p>Pattern Recognition: Using climate models, scientists identify the
+spatial and temporal patterns of climate response (fingerprints)
+to each type of forcing.</p></li>
+<li><p>Signal Estimation: The patterns represent the expected climate
+response to specific forcings.</p></li>
+</ul>
+</li>
+<li><p>Statistical Analysis:</p>
+<ul class="simple">
+<li><p>Linear Regression: The observed climate data is expressed as a
+linear combination of the fingerprints plus a residual term
+representing natural variability.</p></li>
+<li><p>Estimation: The coefficients in the regression indicate the
+strength of each forcing’s contribution to the observed changes.</p></li>
+</ul>
+</li>
+<li><p>Optimal Filtering:</p>
+<ul class="simple">
+<li><p>Noise Reduction: Statistical techniques are used to filter out the
+noise (natural variability) from the signal (forced response).</p></li>
+<li><p>Weighting: Optimal weighting is applied to maximize the
+signal-to-noise ratio, enhancing the detection of the
+fingerprints.</p></li>
+</ul>
+</li>
+</ol>
+<p>Regional studies that have used this approach to detect multi-decadal
+precipitation changes due to anthropogenic forcing for several regions
+include: Ma et al., 2017; Song et al., 2014; Zhou et al., 2017; Tian et
+al., 2018; Delworth and Zeng (2014); and Dey et al., 2019a, b.</p>
+<p><em>Other Spatiotemporal Statistical Methods –</em> From Doblas-Reyes et al.
+(2021), The primary objective of any attribution method is to optimally
+separate the influences of external forcing and internal variability on
+a global or regional climate record. In a multi-model ensemble context,
+the estimation of the externally-forced climate response has been
+typically performed by ensemble averaging of linear trends or regional
+domain spatial average, thus not taking into account the available and
+complete space and time covariance information. Methods using
+spatiotemporal information to improve the separation between external
+and internal drivers in multiple or single historical climate
+realizations performed by a given global model include pattern filtering
+methods such as signal-to-noise maximizing empirical orthogonal
+functions (Ting et al., 2009); dynamical adjustment to extract the
+response to external forcing in an observed or simulated single
+realization (Smoliak et al., 2015; Deser et al., 2016; Sippel et al.,
+2019); time scale separation methods (DelSole et al., 2011; Wills et
+al., 2018, 2020); and the ensemble empirical mode decomposition method
+(Wu and Huang, 2009; Wilcox et al., 2013; Ji et al., 2014; Qian and
+Zhou, 2014), which decomposes data, such as time series of historical
+temperature and precipitation, into independent oscillatory modes of
+decreasing frequency..</p>
+<p><em>Attribution Methods: Attribution of weather and climate events to
+anthropogenic forcing –</em> Here with reference to Hope et al. (2021) and
+Seneviratne, et al. (2021), we discuss methods to attribute the change
+in likelihood or characteristics of weather or climate events or classes
+of events to underlying drivers, where typically, historical changes,
+simulated under observed forcings, are compared to a counterfactual
+climate simulated in the absence of anthropogenic forcing.</p>
+<p>The outcome of event attribution is dependent on the definition of the
+event (Leach et al., 2020), as well as the framing (Otto et al., 2016;
+Christidis et al., 2018; Jézéquel et al., 2018) and uncertainties in
+observations and modeling. Attribution statements are also dependent on
+the spatial (Uhe et al., 2016; Cattiaux and Ribes, 2018;
+Kirchmeier-Young et al., 2019) and temporal (Harrington, 2017; Leach et
+al., 2020) extent of event definitions, as events of different scales
+involve different processes (Zhang et al., 2020) and large-scale
+averages generally yield higher attributable changes in magnitude or
+probability due to the smoothing out of noise. In general, confidence in
+attribution statements for large-scale heat and lengthy extreme
+precipitation events have higher confidence than shorter and more
+localized events, such as extreme storms, an aspect also relevant for
+determining the emergence of signals in extremes or the confidence in
+projections (see also the tables of confidence in extremes for North
+America in the next section).</p>
+<p>Trend detection using optimal fingerprinting methods is a
+well-established field. However, there are specific challenges when
+applying optimal fingerprinting to the detection and attribution of
+trends in extremes and on regional scales where the lower signal-
+to-noise ratio is a challenge.</p>
+<p>Apart from the detection and attribution of trends in extremes, new
+approaches have been developed to answer the question of whether, and to
+what extent, external drivers have altered the probability and intensity
+of an individual extreme event (NASEM, 2016). A commonly used approach –
+often called the risk-based approach in the literature, and referred to
+here as the ‘probability-based approach’ – produces statements such as
+‘anthropogenic climate change made this event type twice as likely’ or
+‘anthropogenic climate change made this event 15% more intense’. This is
+done by estimating probability distributions of the index characterizing
+the event in today’s climate, as well as in a counterfactual climate,
+and either comparing intensities for a given occurrence probability
+(e.g., 1-in-100-year event) or probabilities for a given magnitude.
+There are a number of different analytical methods encompassed in the
+probability-based approach, building on observations and statistical
+analyses (e.g., van Oldenborgh et al., 2012), optimal fingerprint
+methods (Sun et al., 2014), regional climate and weather forecast models
+(e.g., Schaller et al., 2016), global climate models (GCMs) (e.g., Lewis
+and Karoly, 2013), and large ensembles of atmosphere-only GCMs (e.g.,
+Lott et al., 2013).</p>
+<p>Another approach examines facets of the weather and thermodynamic status
+of an event through process-based attribution (Hauser et al., 2016;
+Shepherd et al., 2018; Grose et al., 2018). Using these techniques,
+attributable human influence has been found for heavy precipitation, and
+certain types of droughts and tropical cyclones (e.g., Herring et al.,
+2021).</p>
+<p><strong>Observed Climate Impacts</strong></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image20.png"><img alt="image18" src="drafts/media/ch3_2/image20.png" style="width: 6.5in; height: 3.66667in;" /></a></p>
+<p><a href="#id87"><span class="problematic" id="id88">:mark:`**What are we certain about?** On a global scale we know that sea
+and land ice volume are decreasing as average temperature, evaporation,
+and atmospheric water vapor are increasing.`</span></a></p>
+<p><a href="#id89"><span class="problematic" id="id90">:mark:`**What are we pretty sure about?** There are likely to be some
+regional differences from the global averages, but most regions are
+likely to experience the following:`</span></a></p>
+<ul class="simple">
+<li><p><a href="#id91"><span class="problematic" id="id92">:mark:`more frequent wet and/or dry extremes brought about by warmer
+temperatures,`</span></a></p></li>
+<li><p><a href="#id93"><span class="problematic" id="id94">:mark:`increased evapotranspiration, and`</span></a></p></li>
+<li><p><a href="#id95"><span class="problematic" id="id96">:mark:`changes to precipitation intensity, distribution, and phase
+(liquid versus frozen).`</span></a></p></li>
+</ul>
+<p><a href="#id97"><span class="problematic" id="id98">:mark:`These changes may lie outside the range of observations in the
+period of record, and will need to be taken into account in water
+research and resources planning.`</span></a></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>TRENDS IMPACTING WATER AND ENVIRONMENTAL RESOURCES PLANNING</strong></p>
+<p>The following observed and/or projected trends have an impact on
+planning for water and environmental resources.</p>
+<ul class="simple">
+<li><p>Global average temperature has been warming and will continue to
+warm through the 21st century</p></li>
+<li><p>Short-term natural cycles of increased warming interspersed with
+cooling (or slower warming) will be superimposed on the overall
+long-term warming</p></li>
+<li><p>Average snow cover and snowpack in the United States is likely to
+decrease through the 21st century</p></li>
+<li><p>Precipitation extremes (wet and dry) are likely to continue
+increasing through the 21st century, with some regional trends
+toward either more wet or more dry</p></li>
+</ul>
+<p>These climate trends have, and will continue to have, impacts on
+water resources management, operations, and planning.</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+</tr>
+</tbody>
+</table>
+<p>The need for understanding the influence of climate change on the U.S.
+water sector, its impacts, and need for informed decision-making across
+the U.S. is highlighted in The Fifth National Climate Assessment (NCA5;
+<a class="reference external" href="https://nca2023.globalchange.gov/">https://nca2023.globalchange.gov/</a>; see Chapter 2 for more in-depth
+discussion) produced by the U.S. Global Change Research Program, with
+the following key message, “The effects of human-caused climate change
+are already far-reaching and worsening across every region of the United
+States.” In addition, the NCA5 states that, “Changes in multiple aspects
+of climate are apparent in every U.S. region … warming is apparent in
+every region … average annual precipitation is increasing in most
+regions, except in the Northwest, Southwest, and Hawai‘i, where
+precipitation has decreased … heavy precipitation events are increasing
+everywhere except Hawai‘i and the US Caribbean” (see NCA5 for further
+information on how CC affects the U.S.’s physical Earth systems, current
+and future risks, and what can be done to reduce those risks, in each of
+the 10 NCA5-defined regions.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image49.png"><img alt="image19" src="drafts/media/ch3_2/image49.png" style="width: 6.5in; height: 4.25in;" /></a></p>
+<p><em>From NCA5</em></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image47.jpg"><img alt="image20" src="drafts/media/ch3_2/image47.jpg" style="width: 6.5in; height: 2.88889in;" /></a></p>
+<p><em>The frequency and intensity of heavy precipitation events have
+increased across much of the United States, particularly the eastern
+part of the continental US, with implications for flood risk and
+infrastructure planning. Maps show observed changes in three measures of
+extreme precipitation: (a) total precipitation falling on the heaviest
+1% of days, (b) daily maximum precipitation in a 5-year period, and (c)
+the annual heaviest daily precipitation amount over 1958–2021. Numbers
+in black circles depict percent changes at the regional level. Data were
+not available for the US-Affiliated Pacific Islands and the US Virgin
+Islands. Figure credits: from NCA5, (a) adapted from Easterling et al.
+2017; (b, c) NOAA NCEI and CISESS NC.</em></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image46.jpg"><img alt="image21" src="drafts/media/ch3_2/image46.jpg" style="width: 6.5in; height: 2.88889in;" /></a></p>
+<p><em>Over much of the country, the risk of warm nights has increased while
+the risk of cold days has decreased. The risk of hot days has also
+increased across the western US. This figure shows the observed change
+in the number of (a) hot days (days at or above 95°F), (b) cold days
+(days at or below 32°F), and (c) warm nights (nights at or above 70°F)
+over the period 2002–2021 relative to 1901–1960 (1951–1980 for Alaska
+and Hawai‘i and 1956–1980 for Puerto Rico). Data were not available for
+the US-Affiliated Pacific Islands and the US Virgin Islands. Figure
+credit: from NCA5, Project Drawdown, Washington State University
+Vancouver, NOAA NCEI, and CISESS NC.</em></p>
+<p id="section-2"><span id="section-1"></span><em>Precipitation Variability and Trends –</em> Unlike temperature, it is much
+more difficult to detect a steady global trend in precipitation,
+although trends toward wetter or drier conditions exist in certain
+regions. A warmer atmosphere can hold more water vapor. This can lead to
+longer precipitation-free periods, but also more intense precipitation
+when it does rain or snow.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image32.png"><img alt="image22" src="drafts/media/ch3_2/image32.png" style="width: 6.5in; height: 5.86111in;" /></a></p>
+<p><em>Percent increases in the amount of precipitation falling in the
+heaviest 1% of all daily events (1958 to 2012) for different regions of
+the contiguous United States. The changes in the Southwest are likely
+masked by high natural variability. (Figure source: from NCA5, updated
+from Karl et al. 2009).</em></p>
+<p>Observations in the United States from 1958-2012 show that the amount of
+precipitation falling in the heaviest 1% of daily events is increasing
+in all states except Hawaii. The Northeast and upper Midwest have the
+most notable increase in intense precipitation. The interrelationships
+between precipitation and other climate variables are important to
+hydrology. Temperature affects the hydrological cycle due to its
+influence on evapotranspiration, water temperature, precipitation phase,
+and melting, among other things.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image36.png"><img alt="image23" src="drafts/media/ch3_2/image36.png" style="width: 4.47917in; height: 6.66667in;" /></a></p>
+<p>In the western part of the contiguous United States, the observed trend
+in April 1st snowpack is decreasing in a majority of locations,
+especially the northern Rockies and Pacific Northwest.</p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image2.png"><img alt="image24" src="drafts/media/ch3_2/image2.png" style="width: 6.5in; height: 3.98611in;" /></a></p>
+<p><em>:mark:`Water year precipitation of the Southwest U.S.A., 1894-2008.
+Multidecadal wet and dry episodes are labeled. Precipitation is
+expressed as mean deviation from individual station averages. USGS`</em></p>
+<p>Historic observations in the southwestern United States show multi-year
+periods of both positive and negative annual precipitation anomalies
+rather than a long-term trend in precipitation amount. Because the
+warmer temperatures of recent decades can contribute to greater
+evapotranspiration, the negative precipitation anomalies may result in
+more severe drought compared to similar negative precipitation anomalies
+of the early 20th century.</p>
+<p><em>Trends in Extremes –</em> Observation-based studies show that natural
+variability in temperature continues on the background of overall
+warming. Precipitation trends show a tendency for more extremes, both
+wet and dry, on a global scale, with some regional trends toward either
+wetter or drier overall.</p>
+<p>Typically, water research, resources planning, operations, and
+management already consider natural climate variability. As we move into
+the future, natural climate variability will continue, but it will be
+superimposed on a trend caused by climate change. As the “background”
+climate warms the global mean, the extremes associated with natural
+variability may reach magnitudes rarely or never before seen in the
+observed record.</p>
+<p><em>Regional Information on Extremes –</em> The table below are taken from IPCC
+AR6 (Seneviratne et al., 2021) and provides summary regional assessments
+for hot extremes (HOT EXT.), heavy precipitation (HEAVY PRECIP.),
+agriculture and ecological droughts (AGR./ECOL. DROUGHT), and
+hydrological droughts (HYDR. DROUGHT). It shows the direction of change
+and level of confidence in the observed trends (column OBS.), human
+contribution to observed trends (ATTR.), and projected changes at 1.5°C,
+2°C and 4°C of global warming for each AR6 region. Projections are shown
+for two different baseline periods: 1850–1900 (pre-industrial) and
+1995–2014 (modern or recent past) (see Seneviratne et al., 2021 Section
+1.4.1 for more details). Direction of change is represented by an upward
+arrow (increase) and a downward arrow (decrease). Level of confidence is
+reported for LOW: low, MED.: medium, HIGH: high; levels of likelihood
+(only in cases of high confidence) include: L: likely , VL: very likely
+, EL: extremely likely , VC: virtual certain. Dark orange shading
+highlights high confidence (also including likely , very likely ,
+extremely likely and virtually certain changes) increases in hot
+temperature extremes, agricultural and ecological drought, or
+hydrological droughts. Yellow indicates medium confidence increases in
+these extremes, and blue shadings indicate decreases in these extremes.
+High confidence increases in heavy precipitation are highlighted in dark
+blue, while medium confidence increases are highlighted in light blue.
+No assessment for changes in drought with respect to the 1995–2014
+baseline is provided, which is why the respective cells are
+empty.<a class="reference internal" href="drafts/media/ch3_2/image43.png"><img alt="image25" src="drafts/media/ch3_2/image43.png" style="width: 6.5in; height: 0.38889in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image48.png"><img alt="image26" src="drafts/media/ch3_2/image48.png" style="width: 6.5in; height: 4.44444in;" /></a></p>
+<p><a class="reference internal" href="drafts/media/ch3_2/image7.png"><img alt="image27" src="drafts/media/ch3_2/image7.png" style="width: 6.5in; height: 0.54167in;" /></a></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, NCAR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
