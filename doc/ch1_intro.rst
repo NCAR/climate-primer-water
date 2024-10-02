@@ -84,39 +84,39 @@ guidance for understanding and using climate and climate-change data.
 
    -  How to evaluate datasets
 
-      -  Which datasets are good for `past <https://ncar.github.io/climate-primer-water/ch3_observations.html#observational-datasets-and-their-uncertainties>`_ vs. `future analysis <https://ncar.github.io/climate-primer-water/ch6_downscaling.html>`_?
+      -  Which datasets are good for past `(Chapter 3) <https://ncar.github.io/climate-primer-water/ch3_observations.html#observational-datasets-and-their-uncertainties>`_ vs. future analysis `(Chapater 6) <https://ncar.github.io/climate-primer-water/ch6_downscaling.html>`_?
 
-      -  Are some datasets "better" than others and, if so, why?
+      -  Are some datasets "better" than others and, if so, why? `(Chapter 3 Key Takeaways) <https://ncar.github.io/climate-primer-water/ch3_observations.html>`_ `(Chapter 4 Key Takeaways) <https://ncar.github.io/climate-primer-water/ch4_gcms.html#chapter-4-key-takeaways>`_
 
    -  Where to obtain datasets, scripts to help with downloading and
-      converting datasets
+      converting datasets `(Chapter 3.2.7 Further Resources) <https://ncar.github.io/climate-primer-water/ch3_observations.html#further-resources>`_
 
-   -  Understanding downscaling
+   -  Understanding downscaling `(Chapter 6.2 Approaches to downscaling) <https://ncar.github.io/climate-primer-water/ch6_downscaling.html#approaches-to-downscaling>`_
 
-   -  Uncertainties, biases, limitations
+   -  Uncertainties, biases, limitations `(Chapter 7 Uncertainty) <https://ncar.github.io/climate-primer-water/ch7_uncertainty.html>`_
 
-      -  How to characterize and quantify uncertainties
+      -  How to characterize and quantify uncertainties `(Chapter 7 Uncertainty) <https://ncar.github.io/climate-primer-water/ch7_uncertainty.html>`_
 
-      -  Understand how biases impact results
+      -  Understand how biases impact results `(Chapter 9: Walk-thru Recipes) <https://ncar.github.io/climate-primer-water/ch9_recipes.html>`_ `(Chapter 6.2.4 Pre-and Post- Processing of Climate Models) <https://ncar.github.io/climate-primer-water/ch6_downscaling.html#pre-and-post-processing-of-climate-models>`_
 
--  Recommendations for good observational datasets
+-  Recommendations for good observational datasets `(Chapter 3.2.7 Further Resources) <https://ncar.github.io/climate-primer-water/ch3_observations.html#further-resources>`_
 
--  Provide a "standardized approach" for using climate and climate-change information
+-  Provide a "standardized approach" for using climate and climate-change information `(Chapter 6: Place-Based Climate Projections) <https://ncar.github.io/climate-primer-water/ch6_downscaling.html#>`_
 
-   -  How to go from observation to climate-change impacts
+   -  How to go from observation to climate-change impacts `(Chapter 9: Walk-thru Recipes) <https://ncar.github.io/climate-primer-water/ch9_recipes.html>`_
 
-   -  What to do if there are data gaps
+   -  What to do if there are data gaps `(Chapter 3.2.5: Blending multiple sensors and data products) <https://ncar.github.io/climate-primer-water/ch3_observations.html#blending-multiple-sensors-and-data-products>`_
 
 -  High-level overview to understand main issues
 
    -  How to decipher what is "real" and what to trust in the literature
 
-   -  Glossary of terms
+   -  Glossary of terms `(Glossary) <https://ncar.github.io/climate-primer-water/glossary.html>`_
 
 -  Guidelines on how to present outputs in a reasonable way
 
 -  Understanding of attribution (what was from climate vs. other
-   drivers)
+   drivers) `(Chapter 5.3 Detection and Attribution) <https://ncar.github.io/climate-primer-water/ch5_attribution.html#detection-and-attribution>`_
 
 -  How to combine multiple future projections of drivers, e.g.,
    future land use with future climate
